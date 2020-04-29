@@ -1,16 +1,16 @@
 ---
 aip: 1
 title: AIP Purpose and Guidelines
-status: Implemented
-author: David Truong (@daveytea)
-discussions-to: -
+status: WIP
+author: David Truong (@mrdavey)
+discussions: https://aave.com
 created: 2020-04-24
-updated: N/A
+updated: 2020-04-29
 ---
 
 ## What is an AIP?
 
-AIP stands for Aave Improvement Proposal. It has been heavily adapted from the SIP (Synthetix Improvement Proposal), which in turn was adapted from EIP (Ethereum Improvement Proposal). The purpose of this process is to ensure changes to Aave are transparent and well governed. An AIP is a design document providing information to the Aave community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
+AIP stands for Aave Improvement Proposal. It has been adapted from the SIP (Synthetix Improvement Proposal). The purpose of this process is to ensure changes to Aave are transparent and well governed. An AIP is a design document providing information to the Aave community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
 
 ## AIP Rationale
 
@@ -123,11 +123,11 @@ AIPs may include auxiliary files such as diagrams. Such files must be named AIP-
 
 The current AIP editors are
 
-` * David Truong (@daveytea)`
+` * David Truong (@mrdavey)`
 
-` * Jordan Lazaro Gustave (@JordanLzG)`
+` * Emilio Frangella (@The-3d)`
 
-` * Stani Kulechov (@StaniKulechov)`
+` * Ernesto Boado (@ernesto-usal)`
 
 ## AIP Editor Responsibilities
 

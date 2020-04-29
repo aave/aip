@@ -1,0 +1,62 @@
+{
+  "name": "aave-improvement-process",
+  "private": true,
+  "description": "Aave's Improvement Process",
+  "version": "1.0.0",
+  "license": "AGPLv3",
+  "author": "Aave",
+  "contributors": [
+    "David Truong <david@aave.com>"
+  ],
+  "dependencies": {
+    "gatsby": "^2.20.25",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-google-analytics": "^2.2.4",
+    "gatsby-plugin-manifest": "^2.3.5",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-plugin-typography": "^2.4.3",
+    "gatsby-remark-copy-linked-files": "^2.2.3",
+    "gatsby-remark-images": "^3.2.4",
+    "gatsby-remark-prismjs": "^3.4.3",
+    "gatsby-remark-responsive-iframe": "^2.3.3",
+    "gatsby-remark-smartypants": "^2.2.3",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-remark": "^2.7.3",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "moment": "^2.24.0",
+    "prismjs": "^1.19.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "react-typography": "^0.16.19",
+    "typeface-merriweather": "0.0.72",
+    "typeface-open-sans": "0.0.75",
+    "typography": "^0.16.19",
+    "typography-theme-github": "^0.16.19"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "prettier": "2.0.4"
+  },
+  "homepage": "https://github.com/aave/aip",
+  "keywords": [
+    "gatsby"
+  ],
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aave/aip"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  }
+}
