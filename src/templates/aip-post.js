@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 import m from "moment"
 
@@ -57,7 +57,9 @@ const AipPostTemplate = ({ data, pageContext, location }) => {
             <br />
             Created: {aip.frontmatter.created}{" "}
             {updated &&
-              `(Updated: ${m(aip.frontmatter.updated).format("MMMM DD, YYYY")})`}
+              `(Updated: ${m(aip.frontmatter.updated).format(
+                "MMMM DD, YYYY"
+              )})`}
             <br />
           </p>
         </header>
@@ -66,6 +68,11 @@ const AipPostTemplate = ({ data, pageContext, location }) => {
           style={{
             marginTop: rhythm(1),
             marginBottom: rhythm(1),
+          }}
+        />
+        <div
+          dangerouslySetInnerHTML={{
+            __html: `<script async src="https://comments.app/js/widget.js?2" data-comments-app-website="mZwb4f82" data-limit="5"></script>`,
           }}
         />
         <footer>
@@ -98,16 +105,18 @@ const AipPostTemplate = ({ data, pageContext, location }) => {
         >
           <li>
             {previous && (
-              <Link to={previous.fields.slug} rel="prev">
+              <a href={"/aip" + previous.fields.slug}>
+                {" "}
                 ← AIP {previous.frontmatter.aip}: {previous.frontmatter.title}
-              </Link>
+              </a>
             )}
           </li>
           <li>
             {next && (
-              <Link to={next.fields.slug} rel="next">
+              <a href={"/aip" + next.fields.slug}>
+                {" "}
                 AIP {next.frontmatter.aip}: {next.frontmatter.title} →
-              </Link>
+              </a>
             )}
           </li>
         </div>

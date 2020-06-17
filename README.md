@@ -1,14 +1,3 @@
-<p align="center">
-  <a href="https://aave.com" target="_blank">
-    <img alt="Gatsby" src="https://aave.com/static/media/ghostLogo.2eb73471.svg" width="80" />
-  </a>
-</p>
-<h1 align="center">
-  Aave Improvement Proposals
-</h1>
-
-Aave Improvement Proposals (AIPs) describe standards for the Aave Protocol, including core protocol specifications, client APIs, and contract standards.
-
 ## Contributing
 1. Review [AIP-1](./aip-1).
 2. Fork [this repository](https://github.com/aave/aip) by clicking 'Fork' in the top right.
@@ -29,4 +18,3 @@ When you believe your AIP is mature and ready to progress past the WIP phase, yo
 * **Approved** - an AIP that has been accepted for implementation by the Aave community.
 * **Implemented** - an AIP that has been released to mainnet.
 * **Rejected** - an AIP that has been rejected.
-

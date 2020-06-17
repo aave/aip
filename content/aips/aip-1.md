@@ -5,7 +5,7 @@ status: WIP
 author: David Truong (@mrdavey)
 discussions: https://aave.com
 created: 2020-04-24
-updated: 2020-04-29
+updated: 2020-05-05
 ---
 
 ## What is an AIP?
@@ -36,7 +36,7 @@ Each status change is requested by the AIP author and reviewed by the AIP editor
 
 * **Work in progress (WIP)** -- Once the champion has asked the Aave community whether an idea has any chance of support, they will write a draft AIP as a [pull request]. Consider including an implementation if this will aid people in studying the AIP.
 * **Proposed** If agreeable, AIP editor will assign the AIP a number (generally the issue or PR number related to the AIP) and merge your pull request. The AIP editor will not unreasonably deny an AIP. Proposed AIPs will be discussed in Discord. If there is a reasonable level of consensus around the change on Discord, the change will be moved to approved. If the change is contentious a vote of token holders may be held to resolve the issue or approval may be delayed until consensus is reached.
-* **Approved** -- This AIP has passed community governance and is now being prioritised for development.
+* **Approved** -- This AIP has passed community governance and is now being prioritised for development, to be proposed in a governance vote.
 * **Implemented** -- This AIP has been implemented and deployed to mainnet.
 
 ## What belongs in a successful AIP?
@@ -65,11 +65,11 @@ Each AIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style
 
 ` title:` <AIP title>
 
+` status:` < WIP | PROPOSED | APPROVED | IMPLEMENTED >
+
 ` author:` <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s). Details are below.>
 
-` * discussions-to:` \<a url pointing to the official discussion thread or Github issue\>
-
-` status:` < WIP | PROPOSED | APPROVED | IMPLEMENTED >
+` * discussions:` \<a url pointing to the official discussion thread or Github issue\>
 
 ` created:` <date created on>
 
@@ -99,9 +99,9 @@ if the email address or GitHub username is included, and
 
 if the email address is not given.
 
-#### `discussions-to` header
+#### `discussions` header
 
-While an AIP is in WIP or Proposed status, a `discussions-to` header will indicate the mailing list or URL where the AIP is being discussed.
+While an AIP is in WIP or Proposed status, a `discussions` header will indicate the discussion or URL where the AIP is being discussed.
 
 #### `created` header
 

@@ -5,6 +5,8 @@ import Image from "gatsby-image"
 import { rhythm } from "../utils/typography"
 import { createLink } from "./externalLink"
 
+import styles from './styles/layout.module.css'
+
 const Layout = ({ location, title, image, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   let header
@@ -50,20 +52,11 @@ const Layout = ({ location, title, image, children }) => {
   }
   return (
     <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(28),
-        padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-      }}
+      className={styles.container}
     >
       {header && <header>{header}</header>}
-      <main>{children}</main>
-      <footer
-        style={{
-          paddingTop: 150,
-        }}
-      >
+      <main className={styles.main}>{children}</main>
+      <footer className={styles.footer}>
         <hr />
         <p>
           <Link to={"/"} rel="home">

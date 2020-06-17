@@ -1,0 +1,18 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  align-items: left;
+  display: flex;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.footer {
+  padding-top: 150;
+  align-self: center;
+}
