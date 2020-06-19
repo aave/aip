@@ -33,6 +33,7 @@
     "react-typography": "^0.16.19",
     "typeface-merriweather": "0.0.72",
     "typeface-open-sans": "0.0.75",
+    "typeface-roboto": "0.0.75",
     "typography": "^0.16.19",
     "typography-theme-github": "^0.16.19"
   },

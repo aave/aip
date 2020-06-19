@@ -3,6 +3,7 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  font-family: Roboto;
 }
 
 .main {
@@ -10,9 +11,5 @@
   display: flex;
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.footer {
-  padding-top: 150;
-  align-self: center;
+  font-family: Roboto;
 }

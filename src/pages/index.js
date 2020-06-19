@@ -2,26 +2,19 @@ import React from "react"
 import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
-import Header from "../components/header"
-import Contents from '../components/contents'
 import SEO from "../components/seo"
 
-import styles from './index.module.css'
+import styles from '../styles/index.module.css'
 
-const AipIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata.title
-  const logoImage = data.avatar.childImageSharp.fixed
+const AipIndex = ({ data }) => {
   const readme = data.markdownRemark
+  const posts = data && data.allMarkdownRemark && data.allMarkdownRemark.edges
 
   return (
-    <>
-      <Header />
-      <Layout location={location} title={siteTitle} image={logoImage}>
-        <SEO title="Aave Improvement Proposals" />
-        <Contents posts={data.allMarkdownRemark.edges} />
-        <section className={styles.main} dangerouslySetInnerHTML={{ __html: readme.html }} />
-      </Layout>
-    </>
+    <Layout posts={posts}>
+      <SEO title="Aave Improvement Proposals" />
+      <section className={styles.main} dangerouslySetInnerHTML={{ __html: readme.html }} />
+    </Layout>
   )
 }
 

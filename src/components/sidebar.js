@@ -2,9 +2,9 @@ import React from "react"
 import { rhythm } from "../utils/typography"
 import { Link } from "gatsby"
 
-import styles from './styles/contents.module.css'
+import styles from '../styles/sidebar.module.css'
 
-const Contents = ({ posts }) => {
+const Sidebar = ({ posts }) => {
   let categories = {}
 
   posts.map(post => {
@@ -32,17 +32,13 @@ const Contents = ({ posts }) => {
     return (
       <div key={category}>
         <header>
-          <h2
-            style={{
-              marginBottom: rhythm(1 / 4),
-            }}
-          >
+          <h2 className={styles.h2}>
             {category}
           </h2>
         </header>
         {categories[category].map(aip => {
           return (
-            <article key={aip.aip}>
+            <article key={aip.aip} className={styles.aipLink}>
               {/* <Link style={{ boxShadow: `none` }} to={aip.slug}>
                 AIP {aip.aip}: {aip.title}
               </Link> */}
@@ -58,10 +54,12 @@ const Contents = ({ posts }) => {
 
   return (
     <div className={styles.toc}>
-      <h1>List of AIPs</h1>
-      {toc}
+      <div className={styles.title}>List of AIPs</div>
+      <div className={styles.box}>
+        {toc}
+      </div>
     </div>
   )
 }
 
-export default Contents
+export default Sidebar

@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  position: relative;
+  font-family: Roboto;
+  height: 100%;
+}
+
+.imageBanner {
+  position:absolute;
+  bottom:0;
+  top: 0;
+  width: 100%;
+  max-height: 360px;
+  min-height: 240px;
+  z-index: -1;
+}
+
+.content {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.links a {
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.credit {
+  padding: 35px;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  background-color: #ffffff;
+  vertical-align: middle;
+}

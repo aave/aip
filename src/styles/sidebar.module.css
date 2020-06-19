@@ -1,0 +1,46 @@
+.toc {
+  width: 300px;
+  height: auto;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  color: #707070;
+}
+
+.box {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.h2 {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  color: #b6509e;
+  line-height: 1.19;
+  padding-bottom: 12px;
+}
+
+.aipLink {
+  padding-bottom: 8px;
+}
+
+.aipLink a {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #2ebac6;
+}

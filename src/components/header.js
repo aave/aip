@@ -1,6 +1,6 @@
 import React from 'react'
 
-import headerStyles from './styles/header.module.css'
+import headerStyles from '../styles/header.module.css'
 
 import header from './images/header.png'
 import header2x from './images/header@2x.png'
@@ -14,10 +14,10 @@ const Header = () => {
     <div className={headerStyles.container}>
       <img
         src={header}
-        srcset={`${header2x} 2x, ${header3x} 3x`}
+        srcSet={`${header2x} 2x, ${header3x} 3x`}
         className={headerStyles.imageBanner}
       />
-        <img src={logo} srcSet={`${logo2x} 2x, ${logo3x} 3x`} className={headerStyles.logo} />
+      <img src={logo} srcSet={`${logo2x} 2x, ${logo3x} 3x`} className={headerStyles.logo} />
       <div className={headerStyles.titleContainer}>
         <div className={headerStyles.title}>Aave Improvement Proposals</div>
         <div className={headerStyles.subTitle}>

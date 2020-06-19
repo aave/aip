@@ -1,0 +1,95 @@
+.main {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  max-width: 1000px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.main h1 {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.17;
+  color: #b6509e;
+  padding-bottom: 12px;
+}
+
+.main h2 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.17;
+  color: #b6509e;
+  padding-bottom: 12px;
+}
+
+.main p {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707070;
+}
+
+.main em {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 19px;
+  color: #707070;
+}
+
+.main ol {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #707070;
+  margin-left: 1em;
+  padding-top: 12px;
+}
+
+.main ul {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5em;
+  color: #707070;
+  margin-left: 1em;
+  list-style-image: url("./bullet.svg");
+  padding-top: 12px;
+}
+
+.main a {
+  font-family: Roboto;
+  color: #2ebac6;
+  font-weight: bold;
+}
+
+.main code {
+  font-family: Roboto;
+  background:  #2ebac633;
+  font-size: 16px;
+}
+
+.aip_footer {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.aip_nav {
+  font-family: Roboto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  list-style: none;
+  color: #2ebac6;
+  font-weight: bold;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.aip_nav li a {
+  color: #2ebac6;
+}

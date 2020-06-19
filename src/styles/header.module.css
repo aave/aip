@@ -5,6 +5,7 @@
   flex-direction: column;
   position: relative;
   min-height: 240px;
+  font-family: Roboto;
 }
 
 .imageBanner {
