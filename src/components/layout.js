@@ -7,7 +7,7 @@ import Header from './header'
 import Sidebar from './sidebar'
 import Footer from "./footer"
 
-import styles from './styles/layout.module.css'
+import styles from '../styles/layout.module.css'
 
 const Layout = ({ posts, children }) => {
   return (
