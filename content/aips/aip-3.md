@@ -5,7 +5,6 @@ status: Implemented
 author: Ernesto Boado (@ernesto-usal)
 discussions: https://aave.com
 created: 2020-04-24
-updated: N/A
 ---
 
 ## Explainer of what this is about

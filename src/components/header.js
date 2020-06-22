@@ -1,6 +1,8 @@
 import React from 'react'
 
 import headerStyles from '../styles/header.module.css'
+import { Link } from 'gatsby'
+import { createLink } from '../components/externalLink'
 
 import header from './images/header.png'
 import header2x from './images/header@2x.png'
@@ -16,10 +18,25 @@ const Header = () => {
         src={header}
         srcSet={`${header2x} 2x, ${header3x} 3x`}
         className={headerStyles.imageBanner}
+        alt='header background'
       />
-      <img src={logo} srcSet={`${logo2x} 2x, ${logo3x} 3x`} className={headerStyles.logo} />
+      {createLink(
+        "",
+        "https://aave.com",
+        <img
+          src={logo}
+          srcSet={`${logo2x} 2x, ${logo3x} 3x`}
+          className={headerStyles.logo}
+          alt='aave logo'
+        />
+      )}
+
       <div className={headerStyles.titleContainer}>
-        <div className={headerStyles.title}>Aave Improvement Proposals</div>
+        <div className={headerStyles.title}>
+          <Link to={"/"} rel="home">
+            Aave Improvement Proposals
+          </Link>
+        </div>
         <div className={headerStyles.subTitle}>
           Aave Improvement Proposals (AIPs) describe standards for the Aave
           Protocol, including core protocol specifications, client APIs, and

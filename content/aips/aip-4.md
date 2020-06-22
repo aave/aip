@@ -5,7 +5,6 @@ status: Approved
 author: David Truong (@mrdavey)
 discussions: ""
 created: 2020-04-24
-updated: N/A
 ---
 
 ## What is an AIP?

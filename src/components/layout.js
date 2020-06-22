@@ -1,8 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-import Image from "gatsby-image"
 
-import { rhythm } from "../utils/typography"
 import Header from './header'
 import Sidebar from './sidebar'
 import Footer from "./footer"

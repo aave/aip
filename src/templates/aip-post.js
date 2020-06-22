@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React from "react"
 import { Link, graphql } from "gatsby"
 import m from "moment"
 
@@ -7,7 +7,6 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styles from "../styles/index.module.css"
 
-import { rhythm, scale } from "../utils/typography"
 import { createLink } from "../components/externalLink"
 
 const formatAuthorText = (text) => {
@@ -17,9 +16,7 @@ const formatAuthorText = (text) => {
 }
 
 const AipPostTemplate = ({ data, pageContext, location }) => {
-  const logoImage = data.avatar.childImageSharp.fixed
   const aip = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
   const posts = data && data.allMarkdownRemark && data.allMarkdownRemark.edges
 
   const { previous, next, slug } = pageContext

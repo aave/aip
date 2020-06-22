@@ -2,19 +2,23 @@
   display: flex;
   flex-direction: column;
   align-self: flex-end;
+  justify-content: flex-end;
   position: relative;
-  font-family: Roboto;
-  height: 100%;
+  font-family: Roboto, sans-serif;
+  height: 360px;
+  overflow: hidden;
 }
 
 .imageBanner {
-  position:absolute;
-  bottom:0;
+  position: absolute;
+  bottom: -5px;
   top: 0;
-  width: 100%;
-  max-height: 360px;
-  min-height: 240px;
+  left: -5px;
+  width: calc(100% + 20px);
+  max-width: calc(100% + 20px);
+  height: calc(100% + 5px);
   z-index: -1;
+  margin: 0;
 }
 
 .content {
@@ -42,7 +46,7 @@
 }
 
 .credit {
-  padding: 35px;
+  padding: 35px 0 30px;
   font-size: 12px;
   font-weight: normal;
   font-stretch: normal;
@@ -56,7 +60,7 @@
 .icon {
   width: 30px;
   height: 30px;
-  object-fit: contain;
-  background-color: #ffffff;
+  margin-right: 10px;
   vertical-align: middle;
+  margin-top: 10px;
 }

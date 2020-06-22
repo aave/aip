@@ -1,6 +1,4 @@
 import React from "react"
-import { rhythm } from "../utils/typography"
-import { Link } from "gatsby"
 
 import styles from '../styles/sidebar.module.css'
 

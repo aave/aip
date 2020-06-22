@@ -3,7 +3,7 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }
 
 .main {
@@ -11,5 +11,5 @@
   display: flex;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
 }

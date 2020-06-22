@@ -18,6 +18,7 @@ const Footer = () => {
         src={footer}
         srcSet={`${footer2x} 2x, ${footer3x} 3x`}
         className={styles.imageBanner}
+        alt='footer background'
       />
       <div className={styles.content}>
         <div className={styles.links}>
@@ -27,12 +28,17 @@ const Footer = () => {
           {createLink("AIPs on Github", "https://github.com/aave/aip")}
           {createLink("Aave Protocol", "https://aave.com")}
 
-          <img src={discord} className={styles.icon} />
-          {createLink("Discord", "https://aave.com/discord")}
+          {createLink(
+            "Discord",
+            "https://aave.com/discord",
+            <img src={discord} className={styles.icon} alt='discord' />
+          )}
 
-          <img src={twitter} className={styles.icon} />
-          {createLink("Twitter", "https://twitter.com/AaveAave/")}
-
+          {createLink(
+            "Twitter",
+            "https://twitter.com/AaveAave/",
+            <img src={twitter} className={styles.icon} alt='twitter' />
+          )}
         </div>
         <div className={styles.credit}>Copyright © 2020 Aave</div>
       </div>

@@ -5,7 +5,6 @@ status: Proposed
 author: Emilio Frangella (@The-3d)
 discussions: https://aave.com
 created: 2020-04-24
-updated: N/A
 ---
 
 ## What is multipools?

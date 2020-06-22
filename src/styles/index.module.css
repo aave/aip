@@ -10,7 +10,7 @@
 }
 
 .main h1 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 32px;
   font-weight: bold;
   line-height: 1.17;
@@ -19,7 +19,7 @@
 }
 
 .main h2 {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 24px;
   font-weight: bold;
   line-height: 1.17;
@@ -28,21 +28,21 @@
 }
 
 .main p {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: #707070;
 }
 
 .main em {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 19px;
   color: #707070;
 }
 
 .main ol {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.2em;
   color: #707070;
@@ -51,7 +51,7 @@
 }
 
 .main ul {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   line-height: 1.5em;
   color: #707070;
@@ -61,13 +61,13 @@
 }
 
 .main a {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   color: #2ebac6;
   font-weight: bold;
 }
 
 .main code {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   background:  #2ebac633;
   font-size: 16px;
 }
@@ -78,7 +78,7 @@
 }
 
 .aip_nav {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
