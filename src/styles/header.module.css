@@ -61,8 +61,21 @@
   padding-right: 20px;
 }
 
-a, a:active, a:focus, a:hover {
+.container a:hover {
   text-decoration: none;
-  outline: none;
+  font-family: Roboto, sans-serif;
+  opacity: 0.8;
+  transition: .25s ease;
+}
+
+.title a {
   color: #ffffff;
+}
+
+.title a:hover {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  opacity: 0.8;
+  color: #ffffff;
+  transition: .25s ease;
 }

@@ -45,6 +45,12 @@
   padding-right: 20px;
 }
 
+.links a:active, a:focus, a:hover {
+  font-family: Roboto, sans-serif;
+  opacity: 0.8;
+  transition: .25s ease;
+}
+
 .credit {
   padding: 35px 0 30px;
   font-size: 12px;
@@ -63,4 +69,10 @@
   margin-right: 10px;
   vertical-align: middle;
   margin-top: 10px;
+}
+
+.icon a:active, a:focus, a:hover {
+  font-family: Roboto, sans-serif;
+  opacity: 0.8;
+  transition: .25s ease;
 }

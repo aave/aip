@@ -52,7 +52,6 @@ const Sidebar = ({ posts }) => {
 
   return (
     <div className={styles.toc}>
-      <div className={styles.title}>List of AIPs</div>
       <div className={styles.box}>
         {toc}
       </div>

@@ -1,5 +1,6 @@
 .toc {
   width: 300px;
+  padding-top: 30px;
   height: auto;
 }
 
@@ -42,5 +43,12 @@
 .aipLink a {
   font-family: Roboto, sans-serif;
   font-size: 16px;
+  color: #707070;
+}
+
+.aipLink a:active, a:focus, a:hover {
+  font-family: Roboto, sans-serif;
+  text-decoration: none;
   color: #2ebac6;
+  transition: .25s ease;
 }
