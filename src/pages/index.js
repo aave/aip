@@ -13,7 +13,10 @@ const AipIndex = ({ data }) => {
   return (
     <Layout posts={posts}>
       <SEO title="Aave Improvement Proposals" />
-      <section className={styles.main} dangerouslySetInnerHTML={{ __html: readme.html }} />
+      <section
+        className={styles.main}
+        dangerouslySetInnerHTML={{ __html: readme.html }}
+      />
     </Layout>
   )
 }

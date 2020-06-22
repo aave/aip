@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Aave Improvement Proposals`,
     description: `Aave Improvement Proposals (AIPs) describe standards for the Aave Protocol, including core protocol specifications, client APIs, and contract standards.`,
-    siteUrl: `https://aips.aave.com`,
+    siteUrl: `https://aave.github.io/`,
     social: {
       twitter: `AaveAave`,
     },

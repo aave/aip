@@ -1,4 +1,5 @@
 import React from "react"
+import { Location } from "@reach/router"
 
 import styles from '../styles/sidebar.module.css'
 
@@ -30,20 +31,28 @@ const Sidebar = ({ posts }) => {
     return (
       <div key={category}>
         <header>
-          <h2 className={styles.h2}>
-            {category}
-          </h2>
+          <h2 className={styles.h2}>{category}</h2>
         </header>
         {categories[category].map(aip => {
           return (
-            <article key={aip.aip} className={styles.aipLink}>
-              {/* <Link style={{ boxShadow: `none` }} to={aip.slug}>
-                AIP {aip.aip}: {aip.title}
-              </Link> */}
-              <a href={"/aip" + aip.slug}>
-                AIP {aip.aip}: {aip.title}
-              </a>
-            </article>
+            <Location>
+              {({location}) => {
+                return (
+                  <article
+                    key={aip.aip}
+                    className={
+                      location.pathname.includes(aip.slug)
+                        ? styles.aipLinkCurrent
+                        : styles.aipLink
+                    }
+                  >
+                    <a href={"/aip" + aip.slug}>
+                      AIP {aip.aip}: {aip.title}
+                    </a>
+                  </article>
+                )
+              }}
+            </Location>
           )
         })}
       </div>
@@ -52,9 +61,7 @@ const Sidebar = ({ posts }) => {
 
   return (
     <div className={styles.toc}>
-      <div className={styles.box}>
-        {toc}
-      </div>
+      <div className={styles.box}>{toc}</div>
     </div>
   )
 }

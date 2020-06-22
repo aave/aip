@@ -70,6 +70,7 @@
 
 .title a {
   color: #ffffff;
+  font-size: 30px;
 }
 
 .title a:hover {
@@ -78,4 +79,5 @@
   opacity: 0.8;
   color: #ffffff;
   transition: .25s ease;
+  font-size: 30px;
 }

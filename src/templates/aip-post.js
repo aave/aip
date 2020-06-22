@@ -15,7 +15,7 @@ const formatAuthorText = (text) => {
   return createLink(text.replace(matches[0], ""), `https://github.com/${githubUser}`)
 }
 
-const AipPostTemplate = ({ data, pageContext, location }) => {
+const AipPostTemplate = ({ data, pageContext }) => {
   const aip = data.markdownRemark
   const posts = data && data.allMarkdownRemark && data.allMarkdownRemark.edges
 
