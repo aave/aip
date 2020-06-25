@@ -81,7 +81,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
           <ul className="AipPostTemplate__nav">
             <li>
               {previous && (
-                <a href={"/aip" + previous.fields.slug}>
+                <a href={"/aips" + previous.fields.slug}>
                   {" "}
                   ← AIP {previous.frontmatter.aip}: {previous.frontmatter.title}
                 </a>
@@ -89,7 +89,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
             </li>
             <li>
               {next && (
-                <a href={"/aip" + next.fields.slug}>
+                <a href={"/aips" + next.fields.slug}>
                   {" "}
                   AIP {next.frontmatter.aip}: {next.frontmatter.title} →
                 </a>

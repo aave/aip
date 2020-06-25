@@ -46,7 +46,7 @@ const Sidebar = ({ posts }) => {
                         : "Sidebar__link"
                     }
                   >
-                    <a href={"/aip" + aip.slug}>
+                    <a href={"/aips" + aip.slug}>
                       AIP {aip.aip}: {aip.title}
                     </a>
                   </article>
