@@ -1,0 +1,76 @@
+@import "src/_mixins/vars"
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+
+body
+  font-family: $defaultFont
+  min-width: 320px
+  font-size: 16px
+
+.Main
+  padding-left: 3rem
+  padding-right: 3rem
+  max-width: 1000px
+  h1
+    font-size: 32px
+    font-weight: bold
+    line-height: 1.17
+    color: $primary
+    padding-bottom: 12px
+
+  h2
+    font-size: 24px
+    font-weight: bold
+    line-height: 1.17
+    color: $primary
+    padding-bottom: 12px
+
+  p, em
+    line-height: 19px
+    color: $gray
+
+  ul
+    line-height: 1.5em
+    color: $gray
+    margin-left: 1em
+    list-style-image: url("../images/bullet.svg")
+    padding-top: 12px
+
+  ol, li
+    line-height: 1.2em
+    color: $gray
+    margin-left: 1em
+    padding-top: 12px
+
+  a
+    color: $secondary
+    font-weight: bold
+
+  code
+    background:  #2ebac633
+
+
+.Stack
+  display: flex
+  flex-direction: column
+
+.AipPostTemplate__footer
+  padding-top: 1em
+  padding-bottom: 1em
+
+.AipPostTemplate__nav
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  flex-direction: row
+  list-style: none
+  color: $secondary
+  font-weight: bold
+  padding-top: 2em
+  padding-bottom: 2em
+  li
+    a
+      color: $secondary

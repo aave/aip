@@ -1,0 +1,63 @@
+.Footer
+  display: flex
+  flex-direction: column
+  align-self: flex-end
+  justify-content: flex-end
+  position: relative
+  height: 360px
+  overflow: hidden
+
+  &__background
+    position: absolute
+    bottom: -5px
+    top: 0
+    left: -5px
+    width: calc(100% + 20px)
+    max-width: calc(100% + 20px)
+    height: calc(100% + 5px)
+    z-index: -1
+    margin: 0
+
+  &__content
+    font-size: 16px
+    font-weight: normal
+    font-stretch: normal
+    font-style: normal
+    line-height: 1.19
+    letter-spacing: normal
+    text-align: center
+    color: #ffffff
+
+  &__links
+    a
+      font-size: 16px
+      font-weight: normal
+      font-stretch: normal
+      font-style: normal
+      line-height: 1.19
+      letter-spacing: normal
+      text-align: center
+      color: #ffffff
+      padding-left: 20px
+      padding-right: 20px
+      &:focus, &:active, &:hover
+        opacity: 0.8
+        transition: .25s ease
+
+      img
+        width: 30px
+        height: 30px
+        margin-right: 10px
+        vertical-align: middle
+        margin-top: 10px
+
+  &__credit
+    padding: 35px 0 30px
+    font-size: 12px
+    font-weight: normal
+    font-stretch: normal
+    font-style: normal
+    line-height: 1.17
+    letter-spacing: normal
+    text-align: center
+    color: #ffffff

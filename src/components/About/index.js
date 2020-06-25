@@ -1,6 +1,7 @@
-
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
+
+import "./style.sass"
 
 const About = () => {
   const data = useStaticQuery(graphql`
@@ -18,14 +19,8 @@ const About = () => {
 
   const { description } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-      }}
-    >
-      <p>
-        {description}
-      </p>
+    <div className="About">
+      <p>{description}</p>
     </div>
   )
 }
