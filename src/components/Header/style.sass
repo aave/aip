@@ -1,0 +1,67 @@
+@import "src/_mixins/rem"
+@import "src/_mixins/screen-size"
+@import "src/_mixins/vars"
+
+.Header
+  align-items: center
+  display: flex
+  justify-content: center
+  flex-direction: column
+  position: relative
+  min-height: 240px
+  background: url("../../images/header@2x.png")
+  background-size: cover
+  background-position: bottom center
+  padding: 40px 0 90px
+  margin-bottom: 10px
+  @include respond-to(sm)
+    margin-bottom: 5px
+    padding: 100px 20px 40px
+    background-image: linear-gradient(231deg, $primary, $secondary)
+  a
+    &:hover
+      text-decoration: none
+      opacity: 0.8
+
+  &__logo
+    top: 20px
+    left: 20px
+    z-index: 2
+    position: absolute
+    width: 100px
+    height: 28px
+    @include respond-to(sm)
+      display: none
+
+  &__text-wrapper
+    align-items: center
+    display: flex
+    justify-content: center
+    flex-direction: column
+    text-align: center
+
+  &__title
+    font-size: rem(30px)
+    font-weight: bold
+    line-height: 1.17
+    color: #ffffff
+    padding: rem(20px)
+    @include respond-to(sm)
+      padding: 0
+      margin-bottom: 10px
+    a
+      color: #ffffff
+      font-size: rem(30px)
+      text-decoration: none
+      &:hover
+        opacity: 0.8
+        color: #ffffff
+
+  &__description
+    max-width: 600px
+    font-weight: normal
+    line-height: 1.19
+    color: #ffffff
+    padding: rem(0 20px)
+    @include respond-to(sm)
+      padding: 0

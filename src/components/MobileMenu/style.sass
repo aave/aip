@@ -1,0 +1,138 @@
+@import "src/_mixins/vars"
+@import "src/_mixins/screen-size"
+
+.MobileMenu
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  z-index: 20
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1)
+  background-color: #ffffff
+  display: flex
+  align-items: center
+  justify-content: space-between
+  height: 50px
+  &__overlay
+    position: fixed
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    background: rgba(#000, 0.5)
+    display: none
+  &__overlayVisible
+    z-index: 12
+    display: block
+
+  &__top-inner
+    width: 100%
+    padding-left: 20px
+    display: flex
+    align-items: center
+    justify-content: space-between
+    a
+      line-height: 0
+    img
+      width: 80px
+      height: 22px
+
+  &__open
+    display: flex
+    flex-direction: column
+    align-content: flex-end
+    justify-content: flex-end
+    padding: 14px 20px
+    span
+      display: inline-block
+      width: 20px
+      height: 2px
+      border-radius: 50px
+      margin-bottom: 7px
+      background: $primary
+      align-self: flex-end
+      &:nth-child(2)
+        opacity: 0.6
+      &:last-child
+        opacity: 0.3
+        margin-bottom: 0
+  &__close
+    position: relative
+    width: 26px
+    height: 26px
+    transition: all 0.2s ease
+    &:hover
+      opacity: 0.6
+    &:after, &:before
+      content: ''
+      height: 26px
+      border-left: 2px solid #fff
+      position: absolute
+      bottom: 0
+    &:after
+      transform: rotate(45deg)
+    &:before
+      transform: rotate(-45deg)
+      opacity: 0.5
+
+  &__inner
+    position: fixed
+    overflow: auto
+    z-index: 15
+    right: 0
+    top: 0
+    bottom: 0
+    width: 300px
+    box-shadow: 2px 0 6px 0 rgba(0, 0, 0, 0.16)
+    background-image: linear-gradient(193deg, $primary, $secondary)
+    transition: all .4s ease-in-out
+    transform: translateX(320px)
+  &__innerActive
+    transform: translateX(0)
+
+  &__top-line
+    display: flex
+    align-items: center
+    justify-content: space-between
+    padding: 12px 20px
+    position: relative
+    &:after
+      content: ''
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      height: 1px
+      opacity: 0.2
+      background-color: #fff
+    a.active
+      display: inline-block !important
+    .MobileMenu__logo
+      width: 79px
+      height: 22px
+
+  .Sidebar
+    display: flex
+    width: 100%
+    margin: 0
+  .Sidebar__wrapper
+    padding: 30px 20px
+    box-shadow: none
+  .Sidebar__category
+    margin-bottom: 10px
+  .Sidebar__caption
+    font-size: 20px
+    margin-bottom: 10px
+    padding: 0
+    color: #fff
+    &:after
+      display: none
+  .Sidebar__link a, .Sidebar__active-link a
+    color: #fff
+    font-weight: 300
+    padding-left: 20px
+    margin-bottom: 20px
+
+  .Sidebar__active-link a
+    font-weight: 600
+
