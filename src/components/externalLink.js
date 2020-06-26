@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react"
 
-export const createLink = (label, link, children) => {
+export const createLink = (label, link, children, className) => {
   return (
-    <a href={link} target="_blank" rel="noopener noreferrer">
-      {children}{label}
+    <a
+      className={className}
+      href={link}
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {children}
+      <span>{label}</span>
     </a>
   )
 }

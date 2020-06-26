@@ -1,7 +1,7 @@
 import React from "react"
 import { Location } from "@reach/router"
 
-import styles from '../styles/sidebar.module.css'
+import "./style.sass"
 
 const Sidebar = ({ posts }) => {
   let categories = {}
@@ -9,7 +9,6 @@ const Sidebar = ({ posts }) => {
   posts.map(post => {
     const status = post.node.frontmatter.status
     if (status === null || status === undefined) {
-      console.log(post.node)
       return null
     }
 
@@ -29,24 +28,25 @@ const Sidebar = ({ posts }) => {
 
   const toc = Object.keys(categories).map(category => {
     return (
-      <div key={category}>
+      <div className="Sidebar__category" key={category}>
         <header>
-          <h2 className={styles.h2}>{category}</h2>
+          <h2 className="Sidebar__caption">{category}</h2>
         </header>
-        {categories[category].map(aip => {
+
+        {categories[category].map((aip, index) => {
           return (
-            <Location>
-              {({location}) => {
+            <Location key={index}>
+              {({ location }) => {
                 return (
                   <article
                     key={aip.aip}
                     className={
                       location.pathname.includes(aip.slug)
-                        ? styles.aipLinkCurrent
-                        : styles.aipLink
+                        ? "Sidebar__active-link"
+                        : "Sidebar__link"
                     }
                   >
-                    <a href={"/aip" + aip.slug}>
+                    <a href={"/aips" + aip.slug}>
                       AIP {aip.aip}: {aip.title}
                     </a>
                   </article>
@@ -60,8 +60,8 @@ const Sidebar = ({ posts }) => {
   })
 
   return (
-    <div className={styles.toc}>
-      <div className={styles.box}>{toc}</div>
+    <div className="Sidebar">
+      <div className="Sidebar__wrapper">{toc}</div>
     </div>
   )
 }

@@ -1,0 +1,189 @@
+@import "src/_mixins/vars"
+@import "src/_mixins/rem"
+@import "src/_mixins/screen-size"
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+  &:after,
+  &:before
+    box-sizing: border-box
+
+html
+  @include rem-baseline
+
+body
+  font-family: $defaultFont
+  min-width: 320px
+  font-size: rem(16px)
+  line-height: 1.19
+  font-stretch: normal
+  font-style: normal
+  letter-spacing: normal
+
+a
+  transition: all 0.2s ease
+  outline: none
+  text-decoration: none
+  display: inline-block
+  font-family: $defaultFont
+  &:hover
+    text-decoration: none
+    outline: none
+
+  &:focus, &:active, &:hover
+    opacity: 0.8
+    transition: .25s ease
+
+strong, b
+  font-weight: 600
+
+button
+  outline: none !important
+  border: none
+  background: transparent
+
+.Main
+  display: flex
+  flex: 1
+  flex-direction: column
+  max-width: 1000px
+  padding: 0 30px
+  @include respond-to(md)
+    padding: 0 0 0 20px
+    width: calc(100% - 240px)
+  @include respond-to(sm)
+    padding: 0
+    width: 100%
+
+  h1, h2
+    font-weight: bold
+    line-height: 1.17
+    color: $primary
+    padding-bottom: 12px
+    margin-bottom: 12px
+    margin-top: 40px
+    position: relative
+    &:after
+      content: ''
+      background: $lightGray
+      opacity: 0.3
+      position: absolute
+      left: 0
+      bottom: 0
+      width: 100%
+      height: 1px
+
+  h1
+    font-size: rem(32px)
+    @include respond-to(sm)
+      font-size: rem(24px)
+
+  h2
+    font-size: rem(24px)
+    @include respond-to(sm)
+      font-size: 20px
+
+  h3
+    font-size: 18px
+    color: $primary
+    font-weight: 600
+    margin-bottom: 12px
+
+  h4
+    font-size: 16px
+    color: $primary
+    margin-bottom: 12px
+
+  p, em
+    line-height: 1.3
+    color: $gray
+
+  ul, ol
+    line-height: 1.5em
+    color: $gray
+    margin-bottom: 20px
+    padding-left: 20px
+  ol
+    list-style-type: decimal
+  ul
+    list-style-image: url("../images/bullet.svg")
+
+  li
+    line-height: 1.2em
+    color: $gray
+    margin-bottom: 12px
+    &:last-of-type
+      margin-bottom: 0
+
+  p
+    margin-bottom: 12px
+
+  a
+    color: $secondary
+    font-weight: bold
+
+  code
+    background:  #2ebac633
+    display: inline-block
+    margin-bottom: 12px
+    white-space: normal
+
+  header
+    p
+      display: flex
+      flex-direction: column
+      span
+        margin-bottom: 5px
+        &:last-of-type
+          margin-bottom: 0
+
+.AipPostTemplate__footer
+  margin: 15px 0
+
+.AipPostTemplate__nav
+  margin: 15px 0
+  padding: 0 !important
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  flex-direction: row
+  list-style-image: none !important
+  color: $secondary
+  font-weight: bold
+  width: 100%
+  @include respond-to(md)
+    flex-direction: column
+  li
+    list-style-type: none
+    &:first-of-type
+      @include respond-to(md)
+        margin-bottom: 15px
+        align-self: flex-start
+    &:last-of-type
+      @include respond-to(md)
+        align-self: flex-end
+    a
+      color: $secondary
+      display: flex
+      align-items: center
+      justify-content: center
+      .Arrow
+        position: relative
+        border: solid $secondary
+        border-width: 0 2px 2px 0
+        display: inline-block
+        padding: 4px
+      .Arrow__prev
+        transform: rotate(135deg)
+        margin-right: 7px
+        bottom: 1px
+      .Arrow__next
+        transform: rotate(-45deg)
+        margin-left: 7px
+
+
+.Body__mobileMenu-open
+  overflow: hidden
+

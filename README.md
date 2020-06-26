@@ -1,5 +1,6 @@
 ## Contributing
-1. Review [AIP-1](./aip-1).
+
+1. Review [AIP-1](./aips/aip-1/).
 2. Fork [this repository](https://github.com/aave/aip) by clicking 'Fork' in the top right.
 3. Add your AIP to your fork of the repository. Use the [AIP template](https://github.com/aave/aip/blob/master/aip-X.md).
 4. Submit a [Pull Request (PR) to Aave's AIP repository](https://github.com/aave/aip/pulls).
@@ -10,11 +11,10 @@ If your AIP requires images, the image files should be included in a subdirector
 
 When you believe your AIP is mature and ready to progress past the WIP phase, you should ask to have your issue added to the governance discord where it can be discussed for inclusion in a future platform upgrade. If the community agrees to include it, the AIP editors will update the state of your AIP to 'Approved'.
 
-
 ## AIP Statuses
 
-* **WIP** - an AIP that is still being developed.
-* **Proposed** - an AIP that is ready to be reviewed in a governance call.
-* **Approved** - an AIP that has been accepted for implementation by the Aave community.
-* **Implemented** - an AIP that has been released to mainnet.
-* **Rejected** - an AIP that has been rejected.
+- **WIP** - an AIP that is still being developed.
+- **Proposed** - an AIP that is ready to be reviewed in a governance call.
+- **Approved** - an AIP that has been accepted for implementation by the Aave community.
+- **Implemented** - an AIP that has been released to mainnet.
+- **Rejected** - an AIP that has been rejected.

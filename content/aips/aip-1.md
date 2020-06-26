@@ -22,7 +22,7 @@ An AIP must meet certain minimum criteria. It must be a clear and complete descr
 
 ## AIP Work Flow
 
-Parties involved in the process are the *author*, the [*AIP editors*](#AIP-editors), and the [Aave Team].
+Parties involved in the process are the _author_, the [_AIP editors_](#AIP-editors), and the [Aave Team].
 
 :warning: Before you begin, vet your idea, this will save you time. Ask the Aave community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intend effect. The appropriate public forum to gauge interest around your AIP is the [the Aave Discord].
 
@@ -34,10 +34,10 @@ Your role as the champion is to write the AIP using the style and format describ
 
 Each status change is requested by the AIP author and reviewed by the AIP editors. Use a pull request to update the status. Please include a link to where people should continue discussing your AIP. The AIP editors will process these requests as per the conditions below.
 
-* **Work in progress (WIP)** -- Once the champion has asked the Aave community whether an idea has any chance of support, they will write a draft AIP as a [pull request]. Consider including an implementation if this will aid people in studying the AIP.
-* **Proposed** If agreeable, AIP editor will assign the AIP a number (generally the issue or PR number related to the AIP) and merge your pull request. The AIP editor will not unreasonably deny an AIP. Proposed AIPs will be discussed in Discord. If there is a reasonable level of consensus around the change on Discord, the change will be moved to approved. If the change is contentious a vote of token holders may be held to resolve the issue or approval may be delayed until consensus is reached.
-* **Approved** -- This AIP has passed community governance and is now being prioritised for development, to be proposed in a governance vote.
-* **Implemented** -- This AIP has been implemented and deployed to mainnet.
+- **Work in progress (WIP)** -- Once the champion has asked the Aave community whether an idea has any chance of support, they will write a draft AIP as a [pull request]. Consider including an implementation if this will aid people in studying the AIP.
+- **Proposed** If agreeable, AIP editor will assign the AIP a number (generally the issue or PR number related to the AIP) and merge your pull request. The AIP editor will not unreasonably deny an AIP. Proposed AIPs will be discussed in Discord. If there is a reasonable level of consensus around the change on Discord, the change will be moved to approved. If the change is contentious a vote of token holders may be held to resolve the issue or approval may be delayed until consensus is reached.
+- **Approved** -- This AIP has passed community governance and is now being prioritised for development, to be proposed in a governance vote.
+- **Implemented** -- This AIP has been implemented and deployed to mainnet.
 
 ## What belongs in a successful AIP?
 
@@ -46,7 +46,7 @@ Each AIP should have the following parts:
 - Preamble - RFC 822 style headers containing metadata about the AIP, including the AIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details.
 - Simple Summary - “If you can’t explain it simply, you don’t understand it well enough.” Provide a simplified and layman-accessible explanation of the AIP.
 - Abstract - a short (~200 word) description of the technical issue being addressed.
-- Motivation (*optional) - The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.
+- Motivation (\*optional) - The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.
 - Specification - The technical specification should describe the syntax and semantics of any new feature.
 - Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
 - Test Cases - Test cases may be added during the implementation phase but are required before implementation.
@@ -59,25 +59,25 @@ Image files should be included in a subdirectory of the `assets` folder for that
 
 ## AIP Header Preamble
 
-Each AIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style header preamble, preceded and followed by three hyphens (`---`). This header is also termed ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
+Each AIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style header preamble, preceded and followed by three hyphens (`---`). This header is also termed ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). The headers must appear in the following order. Headers marked with "\*" are optional and are described below. All other headers are required.
 
-` AIP:` <AIP number> (this is determined by the AIP editor)
+`AIP:` <AIP number> (this is determined by the AIP editor)
 
-` title:` <AIP title>
+`title:` <AIP title>
 
-` status:` < WIP | PROPOSED | APPROVED | IMPLEMENTED >
+`status:` < WIP | PROPOSED | APPROVED | IMPLEMENTED >
 
-` author:` <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s). Details are below.>
+`author:` <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s). Details are below.>
 
-` * discussions:` \<a url pointing to the official discussion thread or Github issue\>
+`* discussions:` \<a url pointing to the official discussion thread or Github issue\>
 
-` created:` <date created on>
+`created:` <date created on>
 
-` * updated:` <comma separated list of dates>
+`* updated:` <comma separated list of dates>
 
-` * requires:` <AIP number(s)>
+`* requires:` <AIP number(s)>
 
-` * resolution:` \<a url pointing to the resolution of this AIP\>
+`* resolution:` \<a url pointing to the resolution of this AIP\>
 
 Headers that permit lists must separate elements with commas.
 
@@ -123,11 +123,11 @@ AIPs may include auxiliary files such as diagrams. Such files must be named AIP-
 
 The current AIP editors are
 
-` * David Truong (@mrdavey)`
+`* David Truong (@mrdavey)`
 
-` * Emilio Frangella (@The-3d)`
+`* Emilio Frangella (@The-3d)`
 
-` * Ernesto Boado (@ernesto-usal)`
+`* Ernesto Boado (@ernesto-usal)`
 
 ## AIP Editor Responsibilities
 
@@ -155,22 +155,21 @@ The editors don't pass judgment on AIPs. We merely do the administrative & edito
 
 The AIP document was derived heavily from the SIP Synthetix Improvement Proposal, which was derived heavily from the EIP Ethereum Improvement Proposal document. In many places text was simply copied and modified. Any comments about the AIP document should be directed to the AIP editors. The history of the SIP and EIP is quoted below from the SIP document for context:
 
-* *"The SIP document was derived heavily from the EIP Ethereum Improvement Proposal document in many places text was simply copied and modified. Any comments about the SIP document should be directed to the SIP editors. The history of the EIP is quoted below from the EIP document for context:"* *
-* *"This document (EIP) was derived heavily from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use..."* *
+- _"The SIP document was derived heavily from the EIP Ethereum Improvement Proposal document in many places text was simply copied and modified. Any comments about the SIP document should be directed to the SIP editors. The history of the EIP is quoted below from the EIP document for context:"_ \*
+- _"This document (EIP) was derived heavily from [Bitcoin's BIP-0001] written by Amir Taaki which in turn was derived from [Python's PEP-0001]. In many places text was simply copied and modified. Although the PEP-0001 text was written by Barry Warsaw, Jeremy Hylton, and David Goodger, they are not responsible for its use..."_ \*
 
 April 24, 2020: AIP-1 has been drafted.
-
 
 See [the revision history for further details](https://github.com/aave/aip/), which is also available by clicking on the History button in the top right of the AIP.
 
 ### Bibliography
 
-[the Aave Discord]: https://discord.gg/fVaDMqT
+[the aave discord]: https://discord.gg/fVaDMqT
 [pull request]: https://github.com/aave/aip/pulls
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-[Bitcoin's BIP-0001]: https://github.com/bitcoin/bips
-[Python's PEP-0001]: https://www.python.org/dev/peps/
-[Aave Team]: https://aave.com/about
+[bitcoin's bip-0001]: https://github.com/bitcoin/bips
+[python's pep-0001]: https://www.python.org/dev/peps/
+[aave team]: https://aave.com/about
 
 ## Copyright
 
