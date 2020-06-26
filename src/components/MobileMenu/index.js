@@ -28,13 +28,17 @@ const MobileMenu = ({ posts }) => {
   }, [sm])
 
   if (visible) {
-    document
-      .getElementsByTagName("html")[0]
-      .classList.add("Body__mobileMenu-open")
+    if (typeof window !== `undefined`) {
+      document
+        .getElementsByTagName("html")[0]
+        .classList.add("Body__mobileMenu-open")
+    }
   } else {
-    document
-      .getElementsByTagName("html")[0]
-      .classList.remove("Body__mobileMenu-open")
+    if (typeof window !== `undefined`) {
+      document
+        .getElementsByTagName("html")[0]
+        .classList.remove("Body__mobileMenu-open")
+    }
   }
 
   return (

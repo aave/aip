@@ -7,7 +7,7 @@ module.exports = {
       twitter: `AaveAave`,
     },
   },
-  pathPrefix: "/aip",
+  pathPrefix: "/aips",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -42,9 +42,6 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
@@ -68,6 +65,21 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: './static/favicon.ico',
+      },
+    },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
