@@ -37,13 +37,13 @@ const AipPostTemplate = ({ data, pageContext }) => {
             <p>
               <span>Author: {formatAuthorText(aip.frontmatter.author)}</span>
               <span>
-                Status: <strong>{aip.frontmatter.status}</strong> -{" "}
+                Status: <strong>{aip.frontmatter.status}</strong>
               </span>
               <span>
-                {createLink("Discussions", aip.frontmatter.discussions)}
+                - {createLink("Discussions", aip.frontmatter.discussions)}
               </span>
-              {" - "}
               <span>
+                -{" "}
                 {createLink(
                   "Raw",
                   `https://github.com/aave/aip/blob/master${slug.slice(
@@ -52,9 +52,8 @@ const AipPostTemplate = ({ data, pageContext }) => {
                   )}.md`
                 )}
               </span>
-              <span>Created: {aip.frontmatter.created} </span>
               <span>
-                {" "}
+                Created: {aip.frontmatter.created}{" "}
                 {updated &&
                   `(Updated: ${m(aip.frontmatter.updated).format(
                     "MMMM DD, YYYY"
@@ -83,7 +82,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
               {previous && (
                 <a href={"/aips" + previous.fields.slug}>
                   {" "}
-                  ← AIP {previous.frontmatter.aip}: {previous.frontmatter.title}
+                  <span className="Arrow Arrow__prev" /> AIP {previous.frontmatter.aip}: {previous.frontmatter.title}
                 </a>
               )}
             </li>
@@ -91,7 +90,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
               {next && (
                 <a href={"/aips" + next.fields.slug}>
                   {" "}
-                  AIP {next.frontmatter.aip}: {next.frontmatter.title} →
+                  AIP {next.frontmatter.aip}: {next.frontmatter.title} <span className="Arrow Arrow__next" />
                 </a>
               )}
             </li>

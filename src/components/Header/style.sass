@@ -1,3 +1,7 @@
+@import "src/_mixins/rem"
+@import "src/_mixins/screen-size"
+@import "src/_mixins/vars"
+
 .Header
   align-items: center
   display: flex
@@ -5,65 +9,63 @@
   flex-direction: column
   position: relative
   min-height: 240px
+  background: url("../../images/header@2x.png")
+  background-size: cover
+  background-position: bottom center
+  padding: 40px 0 90px
+  margin-bottom: 10px
+  @include respond-to(sm)
+    margin-bottom: 30px
+    padding: 50px 20px 40px
+    background-image: linear-gradient(231deg, $primary, $secondary)
   a
     &:hover
       text-decoration: none
       opacity: 0.8
-      transition: .25s ease
-
-  &__background
-    display: flex
-    width: 100%
-    max-height: 240px
-    min-height: 240px
-    height: auto
-    top: 0
-    position: absolute
-    z-index: -1
 
   &__logo
-    top: 0
-    left: 0
+    top: 20px
+    left: 20px
+    z-index: 2
     position: absolute
-    padding: 20px 20px
+    width: 100px
+    height: 28px
+    @include respond-to(sm)
+      width: 120px
+      height: 33px
+      padding: 0
+      position: static
+      margin: 0 auto 50px
 
-  &__title-wrapper
+  &__text-wrapper
     align-items: center
     display: flex
     justify-content: center
     flex-direction: column
-    padding-top: 3em
-    padding-bottom: 3em
+    text-align: center
 
   &__title
-    font-size: 30px
+    font-size: rem(30px)
     font-weight: bold
-    font-stretch: normal
-    font-style: normal
     line-height: 1.17
-    letter-spacing: normal
-    text-align: left
     color: #ffffff
-    padding: 20px 20px
+    padding: rem(20px)
+    @include respond-to(sm)
+      padding: 0
+      margin-bottom: 10px
     a
       color: #ffffff
-      font-size: 30px
+      font-size: rem(30px)
+      text-decoration: none
       &:hover
-        text-decoration: none
         opacity: 0.8
         color: #ffffff
-        transition: .25s ease
-        font-size: 30px
 
   &__description
     max-width: 600px
-    font-size: 16px
     font-weight: normal
-    font-stretch: normal
-    font-style: normal
     line-height: 1.19
-    letter-spacing: normal
-    text-align: center
     color: #ffffff
-    padding-left: 20px
-    padding-right: 20px
+    padding: rem(0 20px)
+    @include respond-to(sm)
+      padding: 0

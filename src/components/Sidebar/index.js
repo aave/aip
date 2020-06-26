@@ -28,7 +28,7 @@ const Sidebar = ({ posts }) => {
 
   const toc = Object.keys(categories).map(category => {
     return (
-      <div key={category}>
+      <div className="Sidebar__category" key={category}>
         <header>
           <h2 className="Sidebar__caption">{category}</h2>
         </header>

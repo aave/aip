@@ -1,29 +1,45 @@
 @import "src/_mixins/vars"
+@import "src/_mixins/screen-size"
 
 .Sidebar
   width: 300px
-  padding-top: 30px
-  height: auto
+  margin-top: 40px
+  @include respond-to(md)
+    width: 240px
   &__wrapper
     border-radius: 5px
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16)
-    padding-left: 20px
-    padding-right: 20px
-    padding-bottom: 20px
+    padding: 20px
     display: flex
     flex-direction: column
 
+  &__category
+    margin-bottom: 30px
+    &:last-of-type
+      margin-bottom: 0
+
   &__caption
-    font-size: 16px
     font-weight: bold
     font-stretch: normal
     font-style: normal
     color: $primary
-    line-height: 1.19
     padding-bottom: 12px
+    margin-bottom: 12px
+    position: relative
+    &:after
+      content: ''
+      background: $lightGray
+      opacity: 0.3
+      position: absolute
+      left: 0
+      bottom: 0
+      width: 100%
+      height: 1px
 
   &__link
-    padding-bottom: 8px
+    margin-bottom: 10px
+    &:last-of-type
+      margin-bottom: 0
     a
       color: $gray
       transition: .25s ease
@@ -31,5 +47,8 @@
         text-decoration: none
         color: $secondary
   &__active-link
+    margin-bottom: 10px
+    &:last-of-type
+      margin-bottom: 0
     a
       color: $secondary
