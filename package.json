@@ -10,6 +10,7 @@
   ],
   "dependencies": {
     "@react-hook/window-size": "^3.0.6",
+    "classnames": "^2.2.6",
     "gatsby": "^2.20.25",
     "gatsby-cli": "^2.12.48",
     "gatsby-image": "^2.3.4",

@@ -28,53 +28,48 @@ const AipPostTemplate = ({ data, pageContext }) => {
     <Layout posts={posts}>
       <SEO title={aip.frontmatter.title} description={aip.excerpt} />
 
-      <div className="Stack">
-        <article className="Main">
-          <header>
-            <h1>
-              AIP {aip.frontmatter.aip}: {aip.frontmatter.title}
-            </h1>
-            <p>
-              <span>Author: {formatAuthorText(aip.frontmatter.author)}</span>
-              <span>
-                Status: <strong>{aip.frontmatter.status}</strong>
-              </span>
-              <span>
-                - {createLink("Discussions", aip.frontmatter.discussions)}
-              </span>
-              <span>
-                -{" "}
-                {createLink(
-                  "Raw",
-                  `https://github.com/aave/aip/blob/master${slug.slice(
-                    0,
-                    -1
-                  )}.md`
-                )}
-              </span>
-              <span>
-                Created: {aip.frontmatter.created}{" "}
-                {updated &&
-                  `(Updated: ${m(aip.frontmatter.updated).format(
-                    "MMMM DD, YYYY"
-                  )})`}
-              </span>
-            </p>
-          </header>
+      <article className="Main">
+        <header>
+          <h1>
+            AIP {aip.frontmatter.aip}: {aip.frontmatter.title}
+          </h1>
+          <p>
+            <span>Author: {formatAuthorText(aip.frontmatter.author)}</span>
+            <span>
+              Status: <strong>{aip.frontmatter.status}</strong>
+            </span>
+            <span>
+              - {createLink("Discussions", aip.frontmatter.discussions)}
+            </span>
+            <span>
+              -{" "}
+              {createLink(
+                "Raw",
+                `https://github.com/aave/aip/blob/master${slug.slice(0, -1)}.md`
+              )}
+            </span>
+            <span>
+              Created: {aip.frontmatter.created}{" "}
+              {updated &&
+                `(Updated: ${m(aip.frontmatter.updated).format(
+                  "MMMM DD, YYYY"
+                )})`}
+            </span>
+          </p>
+        </header>
 
-          <section dangerouslySetInnerHTML={{ __html: aip.html }} />
+        <section dangerouslySetInnerHTML={{ __html: aip.html }} />
 
-          <footer className="AipPostTemplate__footer">
-            <em>
-              <About />
-              Learn about the{" "}
-              <Link to={"/"} rel="home">
-                process here
-              </Link>
-              .
-            </em>
-          </footer>
-        </article>
+        <footer className="AipPostTemplate__footer">
+          <em>
+            <About />
+            Learn about the{" "}
+            <Link to={"/"} rel="home">
+              process here
+            </Link>
+            .
+          </em>
+        </footer>
 
         <nav>
           <ul className="AipPostTemplate__nav">
@@ -82,7 +77,8 @@ const AipPostTemplate = ({ data, pageContext }) => {
               {previous && (
                 <a href={"/aips" + previous.fields.slug}>
                   {" "}
-                  <span className="Arrow Arrow__prev" /> AIP {previous.frontmatter.aip}: {previous.frontmatter.title}
+                  <span className="Arrow Arrow__prev" /> AIP{" "}
+                  {previous.frontmatter.aip}: {previous.frontmatter.title}
                 </a>
               )}
             </li>
@@ -90,13 +86,14 @@ const AipPostTemplate = ({ data, pageContext }) => {
               {next && (
                 <a href={"/aips" + next.fields.slug}>
                   {" "}
-                  AIP {next.frontmatter.aip}: {next.frontmatter.title} <span className="Arrow Arrow__next" />
+                  AIP {next.frontmatter.aip}: {next.frontmatter.title}{" "}
+                  <span className="Arrow Arrow__next" />
                 </a>
               )}
             </li>
           </ul>
         </nav>
-      </div>
+      </article>
     </Layout>
   )
 }

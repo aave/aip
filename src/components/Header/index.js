@@ -5,9 +5,7 @@ import { createLink } from "../externalLink"
 
 import "./style.sass"
 
-import logo from "../../images/logo.png"
-import logo2x from "../../images/logo@2x.png"
-import logo3x from "../../images/logo@3x.png"
+import logo from "../../images/whiteLogo.svg"
 
 const Header = () => {
   return (
@@ -15,12 +13,7 @@ const Header = () => {
       {createLink(
         "",
         "https://aave.com",
-        <img
-          src={logo}
-          srcSet={`${logo2x} 2x, ${logo3x} 3x`}
-          className="Header__logo"
-          alt="aave logo"
-        />
+        <img src={logo} className="Header__logo" alt="aave logo" />
       )}
 
       <div className="Header__text-wrapper">

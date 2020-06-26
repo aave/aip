@@ -39,7 +39,15 @@ a
 strong, b
   font-weight: 600
 
+button
+  outline: none !important
+  border: none
+  background: transparent
+
 .Main
+  display: flex
+  flex: 1
+  flex-direction: column
   max-width: 1000px
   padding: 0 30px
   @include respond-to(md)
@@ -69,6 +77,8 @@ strong, b
 
   h1
     font-size: rem(32px)
+    @include respond-to(sm)
+      font-size: rem(24px)
 
   h2
     font-size: rem(24px)
@@ -116,6 +126,9 @@ strong, b
 
   code
     background:  #2ebac633
+    display: inline-block
+    margin-bottom: 12px
+    white-space: normal
 
   header
     p
@@ -126,33 +139,24 @@ strong, b
         &:last-of-type
           margin-bottom: 0
 
-.Stack
-  display: flex
-  flex-direction: column
-  flex: 1
-
 .AipPostTemplate__footer
   margin: 15px 0
 
 .AipPostTemplate__nav
   margin: 15px 0
+  padding: 0 !important
   display: flex
   flex-wrap: wrap
   justify-content: space-between
   flex-direction: row
-  list-style: none
+  list-style-image: none !important
   color: $secondary
   font-weight: bold
-  max-width: 1000px
-  padding: 0 30px
+  width: 100%
   @include respond-to(md)
-    padding: 0 0 0 20px
     flex-direction: column
-    width: calc(100% - 240px)
-  @include respond-to(sm)
-    padding: 0
-    width: 100%
   li
+    list-style-type: none
     &:first-of-type
       @include respond-to(md)
         margin-bottom: 15px
@@ -178,4 +182,8 @@ strong, b
       .Arrow__next
         transform: rotate(-45deg)
         margin-left: 7px
+
+
+.Body__mobileMenu-open
+  overflow: hidden
 
