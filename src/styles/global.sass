@@ -44,8 +44,10 @@ strong, b
   padding: 0 30px
   @include respond-to(md)
     padding: 0 0 0 20px
+    width: calc(100% - 240px)
   @include respond-to(sm)
     padding: 0
+    width: 100%
 
   h1, h2
     font-weight: bold
@@ -146,8 +148,10 @@ strong, b
   @include respond-to(md)
     padding: 0 0 0 20px
     flex-direction: column
+    width: calc(100% - 240px)
   @include respond-to(sm)
     padding: 0
+    width: 100%
   li
     &:first-of-type
       @include respond-to(md)
