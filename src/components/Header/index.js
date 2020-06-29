@@ -1,15 +1,22 @@
 import React from "react"
 import { Link } from "gatsby"
+import { useWindowWidth } from "@react-hook/window-size"
 
 import { createLink } from "../externalLink"
+import MobileMenu from "../MobileMenu"
 
 import "./style.sass"
 
 import logo from "../../images/whiteLogo.svg"
 
-const Header = () => {
+const Header = ({ posts }) => {
+  const width = useWindowWidth()
+  const sm = width < 768
+
   return (
     <header className="Header">
+      {sm && posts && <MobileMenu posts={posts} />}
+
       {createLink(
         "",
         "https://aave.com",

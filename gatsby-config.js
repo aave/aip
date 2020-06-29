@@ -7,7 +7,7 @@ module.exports = {
       twitter: `AaveAave`,
     },
   },
-  pathPrefix: "/aips",
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -28,6 +28,21 @@ module.exports = {
       options: {
         path: `${__dirname}/README.md`,
         name: `readme`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: `images`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
       },
     },
     {
@@ -52,6 +67,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-page-load-delay`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -63,20 +79,6 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-react-svg',
-      options: {
-        rule: {
-          include: /\.inline\.svg$/,
-        },
-      },
-    },
-    {
-      resolve: `gatsby-plugin-favicon`,
-      options: {
-        logo: './static/favicon.ico',
       },
     },
 

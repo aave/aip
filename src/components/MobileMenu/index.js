@@ -42,7 +42,7 @@ const MobileMenu = ({ posts }) => {
   }
 
   return (
-    <>
+    <div className="MobileMenu__wrapper">
       <div
         className={classNames("MobileMenu__overlay", {
           MobileMenu__overlayVisible: visible,
@@ -83,11 +83,10 @@ const MobileMenu = ({ posts }) => {
             />
           </div>
 
-
           <Sidebar posts={posts} />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

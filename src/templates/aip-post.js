@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 import m from "moment"
 
@@ -23,6 +23,12 @@ const AipPostTemplate = ({ data, pageContext }) => {
 
   const { previous, next, slug } = pageContext
   const updated = m(aip.frontmatter.updated).isValid()
+
+  useEffect(() => {
+    if (typeof window !== `undefined`) {
+      window.pageExitTime = 500
+    }
+  }, [])
 
   return (
     <Layout posts={posts}>
@@ -75,7 +81,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
           <ul className="AipPostTemplate__nav">
             <li>
               {previous && (
-                <a href={"/aips" + previous.fields.slug}>
+                <a href={"/aip" + previous.fields.slug}>
                   {" "}
                   <span className="Arrow Arrow__prev" /> AIP{" "}
                   {previous.frontmatter.aip}: {previous.frontmatter.title}
@@ -84,7 +90,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
             </li>
             <li>
               {next && (
-                <a href={"/aips" + next.fields.slug}>
+                <a href={"/aip" + next.fields.slug}>
                   {" "}
                   AIP {next.frontmatter.aip}: {next.frontmatter.title}{" "}
                   <span className="Arrow Arrow__next" />

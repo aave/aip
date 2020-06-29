@@ -1,6 +1,6 @@
 ## Contributing
 
-1. Review [AIP-1](./aips/aip-1/).
+1. Review [AIP-1](./aip/aip-1/).
 2. Fork [this repository](https://github.com/aave/aip) by clicking 'Fork' in the top right.
 3. Add your AIP to your fork of the repository. Use the [AIP template](https://github.com/aave/aip/blob/master/aip-X.md).
 4. Submit a [Pull Request (PR) to Aave's AIP repository](https://github.com/aave/aip/pulls).
