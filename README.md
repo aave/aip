@@ -1,8 +1,13 @@
+---
+👋 Hey there! You're currently viewing this on Github, which isn't the intended experience.
+For the full Aave AIP experience, go to the [AIPs website](https://aave.github.io/aip/)
+---
+
 ## Contributing
 
 1. Review [AIP-1](./aip/aip-1/).
 2. Fork [this repository](https://github.com/aave/aip) by clicking 'Fork' in the top right.
-3. Add your AIP to your fork of the repository. Use the [AIP template](https://github.com/aave/aip/blob/master/aip-X.md).
+3. Add your AIP to your fork of the repository in the `content/aips/` directory. Use the [AIP template](https://github.com/aave/aip/blob/master/aip-X.md).
 4. Submit a [Pull Request (PR) to Aave's AIP repository](https://github.com/aave/aip/pulls).
 
 Your first PR should be a draft of the final AIP. It must follow the formatting criteria enforced by the build, as detailed in the AIP template. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the AIP as a whole.

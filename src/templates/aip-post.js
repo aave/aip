@@ -42,16 +42,14 @@ const AipPostTemplate = ({ data, pageContext }) => {
           <p>
             <span>Author: {formatAuthorText(aip.frontmatter.author)}</span>
             <span>
-              Status: <strong>{aip.frontmatter.status}</strong>
-            </span>
-            <span>
-              - {createLink("Discussions", aip.frontmatter.discussions)}
-            </span>
-            <span>
-              -{" "}
+              Status: <strong>{aip.frontmatter.status}</strong> -{" "}
+              {createLink("Discussions", aip.frontmatter.discussions)}-{" "}
               {createLink(
                 "Raw",
-                `https://github.com/aave/aip/blob/master${slug.slice(0, -1)}.md`
+                `https://github.com/aave/aip/blob/master/content/aips${slug.slice(
+                  0,
+                  -1
+                )}.md`
               )}
             </span>
             <span>
