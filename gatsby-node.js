@@ -42,7 +42,7 @@ exports.createPages = async ({ graphql, actions }) => {
     const next = index === 0 ? null : posts[index - 1].node
 
     createPage({
-      path: `/aips${post.node.fields.slug}`,
+      path: `/aip${post.node.fields.slug}`,
       component: aipPost,
       context: {
         slug: post.node.fields.slug,
