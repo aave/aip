@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Aave Improvement Proposals`,
     description: `Aave Improvement Proposals (AIPs) describe standards for the Aave Protocol, including core protocol specifications, client APIs, and contract standards.`,
-    siteUrl: `https://aave.github.io/`,
+    siteUrl: `https://aave.github.io/aip`,
     social: {
       twitter: `AaveAave`,
     },
@@ -81,9 +81,5 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
