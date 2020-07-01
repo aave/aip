@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import { Link, graphql } from "gatsby"
 import m from "moment"
 
@@ -24,6 +24,12 @@ const AipPostTemplate = ({ data, pageContext }) => {
   const { previous, next, slug } = pageContext
   const updated = m(aip.frontmatter.updated).isValid()
 
+  useEffect(() => {
+    if (typeof window !== `undefined`) {
+      window.pageExitTime = 500
+    }
+  }, [])
+
   return (
     <Layout posts={posts}>
       <SEO title={aip.frontmatter.title} description={aip.excerpt} />
@@ -36,16 +42,14 @@ const AipPostTemplate = ({ data, pageContext }) => {
           <p>
             <span>Author: {formatAuthorText(aip.frontmatter.author)}</span>
             <span>
-              Status: <strong>{aip.frontmatter.status}</strong>
-            </span>
-            <span>
-              - {createLink("Discussions", aip.frontmatter.discussions)}
-            </span>
-            <span>
-              -{" "}
+              Status: <strong>{aip.frontmatter.status}</strong> -{" "}
+              {createLink("Discussions", aip.frontmatter.discussions)}-{" "}
               {createLink(
                 "Raw",
-                `https://github.com/aave/aip/blob/master${slug.slice(0, -1)}.md`
+                `https://github.com/aave/aip/blob/master/content/aips${slug.slice(
+                  0,
+                  -1
+                )}.md`
               )}
             </span>
             <span>
@@ -75,7 +79,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
           <ul className="AipPostTemplate__nav">
             <li>
               {previous && (
-                <a href={"/aips" + previous.fields.slug}>
+                <a href={"/aip" + previous.fields.slug}>
                   {" "}
                   <span className="Arrow Arrow__prev" /> AIP{" "}
                   {previous.frontmatter.aip}: {previous.frontmatter.title}
@@ -84,7 +88,7 @@ const AipPostTemplate = ({ data, pageContext }) => {
             </li>
             <li>
               {next && (
-                <a href={"/aips" + next.fields.slug}>
+                <a href={"/aip" + next.fields.slug}>
                   {" "}
                   AIP {next.frontmatter.aip}: {next.frontmatter.title}{" "}
                   <span className="Arrow Arrow__next" />

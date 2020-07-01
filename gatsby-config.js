@@ -7,7 +7,7 @@ module.exports = {
       twitter: `AaveAave`,
     },
   },
-  pathPrefix: "/aip",
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -31,6 +31,21 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/images`,
+        name: `images`,
+      },
+    },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /\.inline\.svg$/,
+        },
+      },
+    },
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -42,9 +57,6 @@ module.exports = {
           },
           {
             resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
@@ -55,6 +67,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
+    `gatsby-plugin-page-load-delay`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -68,6 +81,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
