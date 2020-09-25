@@ -35,7 +35,7 @@ This AIP purpose is also to dedicate a part of the ER to a kickstart incentive f
 
 | Purpose | AAVE per day | emission rate | Duration |
 |-|-|-|-|
-| Safety module kickstart | 400 | 0.00462962962962963 AAVE per second | 6500 Blocks |
+| Safety module kickstart | 400 | 0.00462962962962963 AAVE per second | 3 Months (90 days) |
 
 The bootstrapping phase of Safety module will be a step-by-step process in 2 main phases : 
 - Initial bootstrapping with launch of the safety module, the ability to stake and earn AAVE rewards but no activation of the safety module and thus riskless for stakers
@@ -43,7 +43,7 @@ The bootstrapping phase of Safety module will be a step-by-step process in 2 mai
 
 The initial bootstrapping phase rationale is designed to have lower rewards and a riskless environment to allow the majority of LEND holders to migrate at their own pace and avoid rush sentiment while interracting with critical migrating and staking smart-contracts.
 
-The Safety Incentive (SI) allocation plan next quarter date should be voted before the end of the 6500 blocks distribution schedule, in case of late or no vote on a new SI allocation plan, the current allocation will continue until a vote or ER being empty.
+The Safety Incentive (SI) allocation plan next quarter date should be voted before the end of the 3 months (90 days) distribution schedule, in case of late or no vote on a new SI allocation plan, the current allocation will continue until a vote or ER being empty.
 
 ## Mainnet addresses and relevant notes
 
