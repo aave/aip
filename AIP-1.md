@@ -55,7 +55,7 @@ If this AIP is validated by a community vote, the following addresses will be in
 - [0x317625234562b1526ea2fac4030ea499c5291de4](https://etherscan.io/address/0x317625234562b1526ea2fac4030ea499c5291de4) LendToAaveMigrator The migration contract
 - [0x66c812e4b6e889b638ff548c8c02c803f640d6d5](https://etherscan.io/address/0x66c812e4b6e889b638ff548c8c02c803f640d6d5) AaveGenesisPayloadProposal : Contract in charge of enforcement of the AIP outcome
 - [0xa133459b2502b0137e85a446fa8d4e300877a007](https://etherscan.io/address/0xa133459b2502b0137e85a446fa8d4e300877a007) AaveGenesisExecutor : Contract enforcing a 24h delay on enforcement of AIP outcome to allow the community to be prepared to migrate
-- [0x25f2226b597e8f9514b3f68f00f494cf4f286491](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491#code) AaveIncentivesVault : Vault contract storing the Ecosystem Rewards reserve of 3M AAVE tokens
+- [0x25f2226b597e8f9514b3f68f00f494cf4f286491](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491#code) AaveIncentivesVault : Ecosystem Reserve
 
 
 The migration process for every LEND holder will leverage the method migrateFromLend() with a simple `uint 256` input of the `amount`, non-technical users will have a migration portal available on the [Aave application](app.aave.com/placeholder)
