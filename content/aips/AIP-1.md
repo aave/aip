@@ -61,16 +61,6 @@ The migration process for every LEND holder will leverage the method migrateFrom
 The contracts are deployed to the Ethereum mainnet but are **not activated until the outcome of the current AIP vote**.
 Please refrain from trying to use them before activation, it will result in a failed transaction.
 
-## AIP Editors
-
-The current AIP editors are
-
-`* David Truong (@mrdavey)`
-
-`* Emilio Frangella (@The-3d)`
-
-`* Ernesto Boado (@ernesto-usal)`
-
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
