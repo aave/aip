@@ -44,15 +44,38 @@ Just see the recent [EthGlobal<>Protocol Labs Hackathon](https://hack.ethglobal.
 
 <!--The technical specification should describe the syntax and semantics of any new feature.-->
 
-The technical specification should describe the syntax and semantics of any new feature.
+### Project
+Filecoin is a distributed storage network based on a blockchain mechanism. Filecoin miners can elect to provide storage capacity for the network, and thereby earn units of the Filecoin cryptocurrency (FIL) by periodically producing cryptographic proofs that certify that they are providing the capacity specified. In addition, Filecoin enables parties to exchange FIL currency through transactions recorded in a shared ledger on the Filecoin blockchain. Rather than using Nakamoto-style proof of work to maintain consensus on the chain, however, Filecoin uses proof of storage itself: a miner’s power in the consensus protocol is proportional to the amount of storage it provides.
+
+Filecoin was founded in 2015 by [Juan Benet](https://twitter.com/juanbenet), has been backed by Sequoia Capital, Andreessen Horowitz, and Union Square Ventures, and its mainnet went live on October 15, 2020. The network is governed by the Filecoin Foundation and the Filecoin Foundation for Decentralised Web.
+
+#### Links
+* [Website](https://filecoin.io/)
+* [Filecoin Spec](https://spec.filecoin.io/)
+* [Github](https://github.com/filecoin-project/)
+* [Twitter](https://twitter.com/Filecoin)
+* [Slack](https://app.slack.com/client/TEHTVS1L6/learning-slack)
+
+### Proposal Author
+Corbin Page is Head of Product for [ConsenSys Codefi](https://codefi.consensys.net), which provides tokenization, trading, and compliance products for the DeFi sector and recently announced support for Filecoin in its [Activate platform](https://activate.codefi.network/filecoin). He believes that having a strong Aave market combining decentralized storage and decentralized finance will spur more progress and adoption of web3 technologies.
+
+### Market & Usage
+The Filecoin network went live on October 15, 2020. [View the network health here](https://stats.filecoin.io/d/z6FtI92Zz/filecoin-chain-stats?orgId=1&refresh=30s&from=now-30m&to=now&kiosk).
+
+[Ren Protocol](https://renproject.io/) was chosen as the tokenization service because it is already managing large bridges in production, including [$301 million in renBTC](https://www.coingecko.com/en/coins/renbtc) as of this writing.
+
+### Data
+
+### Risks
+- Smart Contract Risk
+- Counter Party Risk
+- Market Risk
 
 ## Rationale
 
 <!--The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
 The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
-
-
 
 ## Test Cases
 
