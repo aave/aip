@@ -6,7 +6,7 @@ author: Corbin Page (@corbinpage)
 discussions: [<Discord Channel or ]Github issues](https://github.com/corbinpage/aip/issues)
 created: 2020-10-27
 updated (*optional): N/A
-requires (*optional): <AIP number(s)>
+requires (*optional): N/A
 ---
 
 <!--You can leave these HTML comments in your merged AIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new AIPs. Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`. The title should be 44 characters or less.-->
@@ -64,24 +64,22 @@ The Filecoin network went live on October 15, 2020. [View the network health her
 
 [Ren Protocol](https://renproject.io/) was chosen as the tokenization service because it is already managing large bridges in production, including [$301 million in renBTC](https://www.coingecko.com/en/coins/renbtc) as of this writing.
 
-### Data
-
 ### Risks
-- Smart Contract Risk
-- Counter Party Risk
-- Market Risk
+- Smart Contract Risk - Low: Ren Protocol's smart contracts are already doing hundreds of millions in volume and have been battle tested.
+- Counter Party Risk - Medium: Ren Protocol maintains some control over the nodes running the cross-chain bridge but is actively working on rolling out [progressive decentralization](https://medium.com/renproject/renvm-and-the-road-to-decentralisation-72213c3bee3a).
+- Market Risk - Low: Since renFIL is not being added as collateral, the market risk remains low.
 
 ## Rationale
 
 <!--The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+The REN token is already supported in the Aave market, and renBTC is one of the most popular cross-chain tokens today. In unifying the Filecoin and DeFi ecosystems, Ren protocol is a natural bridge and has the technical expertise and experience to get the job down securely and safely.
 
 ## Test Cases
 
 <!--Test cases for an implementation are mandatory for AIPs but can be included with the implementation..-->
 
-Will be included in the implementation.
+_TBD_
 
 ## Implementation
 
