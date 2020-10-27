@@ -21,15 +21,13 @@ Add depositing and borrowing (not collateral) support for renFIL to the Aave mar
 
 <!--A short (~200 word) description of the technical issue being addressed.-->
 
-[Filecoin](https://filecoin.io/) brings decentralized storage to DeFi, and [renFIL](https://renproject.io/) allows all types of new decentralized applications, including truly unstoppable UIs, data markets, storage mining syndicates, and more. But these applications need a robust lending market to thrive, so storage miners can borrow renFIL/FIL to stake and FIL holders can earn a return on their holdings. The Filecoin community is massive and growing everyday, however, many of the participants are unfamiliar with Aave and DeFi.
+[Filecoin](https://filecoin.io/) brings decentralized storage to DeFi, and [renFIL](https://renproject.io/) allows all types of new decentralized applications to be built to further the space. But these applications need a robust lending market to thrive, so storage miners can borrow renFIL/FIL to stake and FIL holders can earn a return on their holdings.
 
 This proposal describes adding depositing and borrowing (not collateral) support for renFIL to the Aave market to unlock these new applications, expose the Filecoin community to Aave, and create a large new market on the protocol. [Ren Protocol](https://renproject.io/) was chosen as the tokenization service because it is already managing large bridges in production, including [$301 million in renBTC](https://www.coingecko.com/en/coins/renbtc) as of this writing. Collateral support for renFIL may be added later, but we recommend waiting for more price stability of FIL and renFIL before enabling.
 
 ## Motivation
 
 <!--The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing protocol specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.-->
-
-The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing protocol specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.
 
 Filecoin, and by extension, renFIL is unlike any other digital asset currently available in the Aave market, as it allows the purchase of hosting space on the permissionless Filecoin network. As a result, being able to lend and borrow renFIL will unlock many new DeFi applications, including:
 
@@ -38,7 +36,7 @@ Filecoin, and by extension, renFIL is unlike any other digital asset currently a
 * Shared UIs/images/content
 * Lossless capital hosting
 
-Just see the recent [EthGlobal<>Protocol Labs Hackathon](https://hack.ethglobal.co/hackfs/showcase) for hints of what is possible at the intersection of Filecoin+DeFi. Adding renFIL to Aave would dramatically support these efforts, would bring Filecoin users/developers into the Aave ecosystem, and allow capital, yield, and value to accrue Aave participants.
+Just see the recent [EthGlobal<>Protocol Labs Hackathon](https://hack.ethglobal.co/hackfs/showcase) for hints of what is possible at the intersection of Filecoin+DeFi. The Filecoin community is massive and growing everyday, however, many of the participants are unfamiliar with Aave and DeFi. Adding renFIL to Aave would dramatically increase support for these efforts, would bring Filecoin users/developers into the Aave ecosystem, and allow capital, yield, and value to accrue to Aave participants.
 
 ## Specification
 
@@ -62,11 +60,11 @@ Corbin Page is Head of Product for [ConsenSys Codefi](https://codefi.consensys.n
 ### Market & Usage
 The Filecoin network went live on October 15, 2020. [View the network health here](https://stats.filecoin.io/d/z6FtI92Zz/filecoin-chain-stats?orgId=1&refresh=30s&from=now-30m&to=now&kiosk).
 
-[Ren Protocol](https://renproject.io/) was chosen as the tokenization service because it is already managing large bridges in production, including [$301 million in renBTC](https://www.coingecko.com/en/coins/renbtc) as of this writing.
+[Ren Protocol](https://renproject.io/) was chosen as the tokenization service because it is already managing large bridges in production, including [$301 million in renBTC](https://www.coingecko.com/en/coins/renbtc) as of this writing. The renFIL token is not yet live on Ethereum mainnet, so no market data is known quite yet.
 
 ### Risks
 - Smart Contract Risk - Low: Ren Protocol's smart contracts are already doing hundreds of millions in volume and have been battle tested.
-- Counter Party Risk - Medium: Ren Protocol maintains some control over the nodes running the cross-chain bridge but is actively working on rolling out [progressive decentralization](https://medium.com/renproject/renvm-and-the-road-to-decentralisation-72213c3bee3a).
+- Counter Party Risk - Medium: Ren Protocol maintains some control over the nodes running the cross-chain bridge but is actively working on rolling out [progressive decentralization](https://medium.com/renproject/renvm-and-the-road-to-decentralisation-72213c3bee3a) to remove itself as a dependency.
 - Market Risk - Low: Since renFIL is not being added as collateral, the market risk remains low.
 
 ## Rationale
