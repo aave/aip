@@ -22,8 +22,8 @@ This AIP proposes to stop the LEND burning. Instead, the idea is to collect the 
 - Deprecation of the current TokenDistributor contract
 - Implementation of the following strategy instead of burning:
   
-  1. All the non stablecoins assets are converted to USDC using uniswap, except AAVE and ETH.
-  2. After the conversion, all the assets are deposited in the protocol to obtain aTokens.
+  1. Remove the assets conversion to LEND
+  2. Deposit the collected assets in the protocol to obtain aTokens.
   3. The aTokens obtained this way are moved to the AAVE Reserve contract, under direct control of the AAVE governance (0x25f2226b597e8f9514b3f68f00f494cf4f286491)
 
 - The implementation will keep the current redistribution of the referral fees (20% of the total) to continue with the referral distribution as until now.
