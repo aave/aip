@@ -33,7 +33,6 @@ This AIP proposes to stop the LEND burning. Instead, the idea is to collect the 
 - Upgrade of the TokenDistributor contract https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae 
 - Modify the distribute() function as follows:
 
-  1. Instead of selling the target asset for LEND, sell for USDC if the asset is a non stablecoin. Nothing is done if an asset is a stablecoin.
   2. Deposit the asset in the protocol.
   3. Move the obtained aTokens to 0x25f2226b597e8f9514b3f68f00f494cf4f286491
   
