@@ -23,7 +23,7 @@ This AIP proposes to stop the LEND burning. Instead, the idea is to collect the 
 - Implementation of the following strategy instead of burning:
   
   1. Remove the assets conversion to LEND and subsequent burning
-  2. The assetsare moved to the AAVE Reserve contract, under direct control of the AAVE governance (0x25f2226b597e8f9514b3f68f00f494cf4f286491)
+  2. The assets are moved to the AAVE Collector contract, under direct control of the AAVE governance (https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c)
 
 - The implementation will keep the current redistribution of the referral fees (20% of the total) to continue with the referral distribution as until now.
 
@@ -37,6 +37,20 @@ This AIP proposes to stop the LEND burning. Instead, the idea is to collect the 
 
 Distribution to the current referral fees wallet will be kept.
   
+## Proposal data
+
+AIP2 Payload:
+
+https://etherscan.io/address/0x4b7c3e3ea48f80a78487067cd08b9a8430eb8eb5
+
+New TokenDistributor Implementation:
+
+https://etherscan.io/address/0x62C936a16905AfC49B589a41d033eE222A2325Ad
+
+Aave Collector contract:
+
+https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c
+
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
