@@ -33,7 +33,7 @@ This AIP proposes to stop the LEND burning. Instead, the idea is to collect the 
 - Modify the distribute() function as follows:
 
   1. Remove LEND burning
-  2. Move the assets to 0x25f2226b597e8f9514b3f68f00f494cf4f286491
+  2. Move the assets to 0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c
 
 Distribution to the current referral fees wallet will be kept.
   
