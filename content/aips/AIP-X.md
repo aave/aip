@@ -228,7 +228,8 @@ We’ve seen 3 sources of risks and how they can lead to either:
     should be extremely low (lower than 0.05% per year with 20-30
     assets listed) to have a collapse risk lower than the APR.
 
-
+![Collapse risk of Aave by collapse risk per individual collateral
+and amount of collaterals](../assets/AIP-X/Risk.png)
 
 *Fig1: Collapse risk of Aave by collapse risk per individual collateral
 and amount of collaterals.*
@@ -255,6 +256,8 @@ dashboard*](https://t2cr-dashboard.kleros.io/)). You can see this
 registry at [*tokens.kleros.io*](https://tokens.kleros.io/tokens) or as
 an [*Uniswap
 list*](https://tokenlists.org/token-list?url=t2crtokens.eth).
+
+![Token² Curated Registry](../assets/AIP-X/t2cr.png)
 
 *Fig2: Token² Curated Registry*
 
