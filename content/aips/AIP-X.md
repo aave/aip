@@ -162,7 +162,7 @@ The badges will use the methodology designed by the Aave risk team to
 determine counterparty risk.\
 A separate proposal may be made to modify some of the criteria. In
 particular the grading criteria could be updated to give more importance
-to the likelihood of unlimited minting / moving tokens.\
+to the likelihood of unlimited minting / moving tokens.
 
 ### Smart contract risks
 
@@ -175,7 +175,7 @@ are good indicators of the security of a smart contract.
 There are 2 main ways that smart contract vulnerabilities could
 adversely impact Aave:
 
--   **Asset failure: **Bugs in smart contracts can result in the loss of
+-   **Asset failure:** Bugs in smart contracts can result in the loss of
     assets backing the token or in the system using the token
     becoming inoperant. In both cases, token value would suffer from a
     rapid drop leading to some positions being undercollateralized and
@@ -185,7 +185,7 @@ adversely impact Aave:
     preventing transfers. This would prevent those tokens from being
     borrowed or corresponding aTokens to be redeemed and would lead an
     auction of staked AAVE (reimbursement risk).
--   **Unlimited minting: **A bug in the smart contract or a smart
+-   **Unlimited minting:** A bug in the smart contract or a smart
     contract it relies on could allow an unlimited amount of tokens to
     be minted, deposited on Aave and used to borrow all the available
     assets (before any oracle update). This would lead to the loss of
@@ -221,9 +221,9 @@ We’ve seen 3 sources of risks and how they can lead to either:
     lead to a collapse of the system.\
     Note that each asset added as collateral increases this risk and
     that this risk does not depend on the LTV (as long as LTV&gt;0).
-    Assuming that there are assets as collateral with a yearly risk *
-    *of leading to a collapse (by smart contract minting hack or
-    governance malicious minting), the yearly risk of AAVE collapse is .
+    Assuming that there are *n* assets as collateral with a yearly risk *r*
+    of leading to a collapse (by smart contract minting hack or
+    governance malicious minting), the yearly risk of AAVE collapse is *c*=1-(1-r)^n.
     As displayed in *Fig1*, collapse risk for individual listed assets
     should be extremely low (lower than 0.05% per year with 20-30
     assets listed) to have a collapse risk lower than the APR.
@@ -268,17 +268,21 @@ The process to register a token is as follows:
 A.  A submitter needs to provide required information (Name, Logo,
     Ticker and Network address) with a deposit (in ETH). This deposit
     acts like a bounty to correct the information.
+    
 B.  Anyone can challenge the submission by putting a deposit (in ETH).
     If no one challenges the information within a defined time period,
     the token is added to the registry and the **process ends**. If
     someone challenges the submission a Kleros dispute is created.
+    
 C.  Parties of both sides are able to provide evidence for or against
     the submission. They can refer to the [*listing
     criterion*](https://ipfs.kleros.io/ipfs/QmbqgkZoGu7jJ8nTqee4NypEhK7YVBEJJmPJbJxz8Bx8nY/t2cr-primary-doc.pdf).
+    
 D.  Kleros jurors are drawn, those are specialized jurors as they are
     drawn from the set of jurors who specifically staked in a
     token-listing court. They vote on whether or not the submission
     should be accepted.
+    
 E.  There is then a period for appeal where each side can submit an
     additional deposit to go to appeal. The time for the side which lost
     the vote is shorter to fund the appeal compared to the side
@@ -286,6 +290,7 @@ E.  There is then a period for appeal where each side can submit an
     considered the winner. In case no side funded the appeal the juror
     vote is final. In case both sides funded the appeal, the amount of
     jurors is increased and we **go back to D**.
+    
 F.  Once the result is known, parties which contributed for deposits of
     the winning side get their deposits reimbursed and win the deposits
     of the losing side (minus arbitration fees). Jurors who voted
