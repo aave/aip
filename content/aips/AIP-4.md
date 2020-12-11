@@ -45,8 +45,10 @@ Some of the expected short-term outcomes of this implementation are new actors c
 
 ## AIP content in short
 
+- Implementation of the Aave Governance v2 smart contract
 - Implementation of voting delegation and proposal power delegation
 - Implementation of voting strategies with the inclusion of AAVE and StkAAVE
+- Addition of voting and proposition power delegations on AAVE and SktAAVE
 - Implementation of Executor entities
 - Implementation of the Guardian
 
