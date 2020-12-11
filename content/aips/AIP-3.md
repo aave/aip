@@ -30,7 +30,10 @@ On LendingPool.sol, line 617, replace `onBehalfOf` with `msg.sender`
 
 The upgrade having a minimum impact on v1 and is particularly simple on the technical side, for this reason, internal review by the Aave genesis team has been considered sufficient to validate it.
 this upgrade details can be found in the Aave public github repo :
+
 - modification code : https://github.com/aave/aave-protocol/pull/28/
+
+- AIP 3 Proposal payload: https://etherscan.io/address/0x3f0cfa3cad621c3651faf9de014489e20e5bf9d1
   
 ## Copyright
 

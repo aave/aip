@@ -1,6 +1,6 @@
 ---
 aip: 2
-title: Bootstrap of the AAVE Governance reserve
+title: Bootstrap of the AAVE Governance Fund
 status: Implemented
 author: Emilio Frangella (@The3D_)
 discussions: https://governance.aave.com/t/proposal-to-stop-the-lend-burning-and-start-building-an-aave-governance-treasury/1012
@@ -15,7 +15,7 @@ As a result of the migration, the LEND liquidity has shrunk considerably, which 
 
 The LEND burner currently holds around 20K of funds, distributed across all the different Aave V1 reserves (mostly stablecoins). The burner contract is here https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae 
 
-This AIP proposes to stop the LEND burning. Instead, the idea is to collect the value accrued by AAVE V1 to bootstrap a protocol treasury. 
+This AIP proposes to stop the LEND burning. Instead, the idea is to collect the fees accrued by AAVE V1 to bootstrap a protocol fund. 
 
 ## AIP content in short
 
