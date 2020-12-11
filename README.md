@@ -18,7 +18,7 @@ When you believe your AIP is mature and ready to progress past the WIP phase, yo
 ## AIP Statuses
 
 - **WIP** - an AIP that is still being developed.
-- **Proposed** - an AIP that is ready to be reviewed in a governance call.
+- **Proposed** - an AIP that is ready to be proposed on-chain.
 - **Approved** - an AIP that has been accepted for implementation by the Aave community.
 - **Implemented** - an AIP that has been released to mainnet.
 - **Rejected** - an AIP that has been rejected.

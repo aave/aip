@@ -1,7 +1,7 @@
 ---
 aip: 2
 title: Bootstrap of the AAVE Governance Fund
-status: WIP
+status: Implemented
 author: Emilio Frangella (@The3D_)
 discussions: https://governance.aave.com/t/proposal-to-stop-the-lend-burning-and-start-building-an-aave-governance-treasury/1012
 created: 2020-11-05
