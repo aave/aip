@@ -114,10 +114,6 @@ CRV fits the profile of a collateral asset, with the need for a conservative bor
 - R_s1 7%
 - R_s2 300%
 
-## Technical Specifications  
-
-The details of the proposed technical solution. The specification should be detailed enough to allow  an implementation as well as testing including: 
-
 ### Code 
 The code is part of the standard Aave protocol deployment (the AToken, Debt tokens and interest rate strategy) therefore no audits are needed. The code can be found here https://github.com/aave/protocol-v2/tree/master/contracts/protocol/tokenization
 
