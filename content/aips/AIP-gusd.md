@@ -1,11 +1,11 @@
 ---
-aip: <to be assigned>
+aip: 6
 title: Adding GUSD on AAVE
 status: WIP
 author: Gemini
 discussions: https://governance.aave.com/t/proposal-add-support-for-gemini-gusd/384
 created: 23.12.2020
-updated:
+updated: 28.12.2020
 ---
 
 <!--You can leave these HTML comments in your merged AIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new AIPs. Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`. The title should be 44 characters or less.-->
@@ -37,6 +37,42 @@ While Coinbase have played nice so far, it’s dominance in regulated crypto liq
 
 <!-- ## Implementation -->
 <!--The implementations must be completed before any AIP is given status "Implemented", but it need not be completed before the AIP is "Approved". While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.-->
+
+## Risk Analysis
+
+The Risk Team has applied Aave’s Risk Framework to GUSD leading to an overall risk rating of B-
+
+GUSD is issued by Gemini Trust Company. It has been created for practical use in innovative applications, among which to facilitate Gemini’s institutional solutions and exchange operations.
+
+GUSD Smart contract Risk: C+
+
+GUSD was launched in September 2018 – at the same time then USDC – yet it has only experienced 120k blockchain transactions.
+
+The GUSD smart contract only supports 2 decimals meaning that interest accrual can only occur for more than 1 cent.
+
+USDC Counterparty Risk: C+ cannot use as collateral (centralisation D-)
+
+As it is backed by real US dollars, GUSD is centralised. Moreover it has few holders with most of the transactions off-chain on the centralised Gemini environment.
+
+An independent accountant’s audit report is published at the end of each month on the website. GUSD is regulated bringing trust to the token. Still, the infrastructure is based on the Ethereum blockchain where regulators have little power.
+
+GUSD Market Risk: B -
+
+GUSD has a small market capitalisation at less than 20m with a small trading volume. The price has diverged from 1 a few times in the last 3 months with up to 3% price variation.
+Given the reduced market capitalization and the possibility of market price manipulation, the oracle will fix the price of GUSD to $1. This does not bring additional risk because the asset cannot be used as collateral and even if the market price swings considerably, the asset is still redeemable 1:1 for USD. The risk team will reevaluate the asset periodically to validate the viability of an actual market based oracle as the GUSD supply grows.  
+
+Risk Parameters ~ BUSD sUSD
+Not a collateral
+Reserve Factor 10%
+
+Variable Interest Rate Model ~ BUSD sUSD
+UOptimal 80%
+
+R_0 0%
+
+R_s1 4%
+
+R_s2 100%
 
 ## References
 
