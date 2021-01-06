@@ -1,7 +1,7 @@
 ---
 aip: 7
 title: Aavenomics Quarterly Upgrade
-status: WIP
+status: Proposed
 author: Marc Zeller (@marczeller)
 discussions: https://governance.aave.com/t/arc-aavenomics-quarterly-upgrade/1631
 created: 05.01.2021
