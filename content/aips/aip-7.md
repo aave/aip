@@ -29,7 +29,7 @@ In this phase 0 of the slashing, the auction mechanism will not be automatized y
 
 ## Implementation details
 
-The payload executed by is available at
+The payload to be executed is available at
 
 https://etherscan.io/address/0x4ab8ba929e4cc780cb82be34eea29a9ea7a58049#code
 
