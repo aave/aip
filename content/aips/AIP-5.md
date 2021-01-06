@@ -4,8 +4,8 @@ title: Adding CRV on AAVE
 status: Implemented
 author: Charlie (@charlie_eth), Julien (@bneiluj)
 discussions: https://governance.aave.com/t/listing-proposal-add-crv-curve-dao-token/1395
-created: 14.12.2020
-updated: 
+created: 2020-12-14
+updated: 2020-12-14
 ---
 
 ## AIP rationale

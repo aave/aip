@@ -2,10 +2,10 @@
 aip: 6
 title: Adding GUSD on AAVE
 status: Implemented
-author: Gemini
+author: Gemini (@Gemini)
 discussions: https://governance.aave.com/t/proposal-add-support-for-gemini-gusd/384
-created: 23.12.2020
-updated: 28.12.2020
+created: 2020-12-23
+updated: 2020-12-23
 ---
 ## Simple Summary
 The Gemini dollar is a cryptographic token that is issued by Gemini, strictly pegged 1:1 to the U.S. dollar, and built on the Ethereum network according to the ERC20 standard for tokens.
