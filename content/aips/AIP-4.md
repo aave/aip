@@ -1,7 +1,7 @@
 ---
 aip: 4
 title: Activation of Aave Protocol Governance V2
-status: Proposed
+status: Implemented
 author: Marc Zeller (@marczeller)
 discussions: https://governance.aave.com/t/arc-activation-of-aave-protocol-governance-v2/1717
 created: 2020-12-11
