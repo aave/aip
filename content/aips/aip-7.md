@@ -29,6 +29,18 @@ In this phase 0 of the slashing, the auction mechanism will not be automatized y
 
 ## Implementation details
 
+The payload executed by is available at
+
+https://etherscan.io/address/0x4ab8ba929e4cc780cb82be34eea29a9ea7a58049#code
+
+The payload will upgrade the Aave reserve contract to a new implementation
+
+https://etherscan.io/address/0xa335e2443b59d11337e9005c9af5bc31f8000714#code
+
+And introduce a reserve controller, with the rights of approving transfers/transferring assets out of the Aave Reserve, under control of the Aave governance short executor
+
+https://etherscan.io/address/0x1e506cbb6721b83b1549fa1558332381ffa61a93#code
+
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
