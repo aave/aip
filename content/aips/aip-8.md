@@ -44,7 +44,6 @@ The implementations must be completed before any AIP is given status "Implemente
 - *Youtube*: https://www.youtube.com/c/BarnBridge
 - *Website*: https://www.BarnBridge.com
 - *Twitter*: https://twitter.com/Barn_Bridge
-- *Source Code*: https://github.com/gemini/dollar
 - *BOND token contract*: https://etherscan.io/address/0x0391D2021f89DC339F60Fff84546EA23E337750f
 
 
