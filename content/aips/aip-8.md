@@ -11,7 +11,7 @@ requires (*optional): <AIP number(s)>
 
 ## Simple Summary
 
-We are proposing to add BarnBridge (BOND) [0x0391D2021f89DC339F60Fff84546EA23E337750f] to AAVE as colateral.
+We are proposing to add BarnBridge (BOND) to AAVE as colateral.
 
 ## Abstract
 
@@ -23,7 +23,7 @@ There seems to have been good support from the community to add BOND and as we g
 
 ## Specification
 
-Adding the ERC-20 contract [0x0391D2021f89DC339F60Fff84546EA23E337750f] as depositable for collateral in AAVE.
+Adding the ERC-20 BOND contract as depositable for collateral in AAVE.
 
 ## Rationale
 
