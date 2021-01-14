@@ -3,6 +3,7 @@ aip: <to be assigned>
 title: <AIP title>
 status: WIP
 author: FirstName LastName (@GitHubUsername)
+shortDescription: <Short description of AIP>
 discussions: <Discord Channel or Github issue>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A

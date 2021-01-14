@@ -6,6 +6,7 @@ author: Marc Zeller (@marczeller)
 discussions: https://governance.aave.com/t/arc-aavenomics-quarterly-upgrade/1631
 created: 2021-01-05
 updated: 2021-01-05
+shortDescription: This AIP will increase the responsibility of AAVE stakers for their service of protecting the Aave protocol by the formal activation of the slashing and adjust the emission accordingly
 ---
 
 ## AIP rationale

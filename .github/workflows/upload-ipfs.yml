@@ -1,0 +1,42 @@
+name: Upload IPFS
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  upload-to-ipfs: 
+    name: aip-uploader
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+
+      - name: Install dependencies
+        run: npm install
+      
+      - name: Parse Markdown
+        run: npm run parse-markdown
+
+      - name: Upload to Pinata and theGraph IPFS
+        env:
+          PINATA_KEY: ${{ secrets.PINATA_KEY }}
+          PINATA_SECRET: ${{ secrets.PINATA_SECRET }}
+        run: npm run upload:pinata-thegraph
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v6
+        with:
+          author_name: dhadrien
+          author_email: hadrien@variabl.io
+          message: '[PIPELINE] Commited IPFS documents uploads'
+          add: '.'
