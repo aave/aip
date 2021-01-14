@@ -9,31 +9,25 @@ updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
 requires (*optional): <AIP number(s)>
 ---
 
-This is the template for AIPs.
-
-Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`.
-
-The title should be 44 characters or less.
-
 ## Simple Summary
 
-If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the AIP.
+We are proposing to add BarnBridge (BOND) [0x0391D2021f89DC339F60Fff84546EA23E337750f] to AAVE as colateral.
 
 ## Abstract
 
-A short (~200 word) description of the technical issue being addressed.
+BarnBridge was built with the mission of helping to facilitate the transition to a decentralized financial system. BarnBridge is working to make the decentralized financial system more efficient, risk-flexible, and attractive to a wider range of participants through their fluctuation derivative protocol. BOND, the native token of BarnBridge, is an ERC-20 token that can be used to stake on their system and for governance once the governance module is launched. 
 
 ## Motivation
 
-The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing protocol specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.
+There seems to have been good support from the community to add BOND and as we get ready to launch our products in Q1 of 20201 we think BOND is a good canidate to strengthen the AAVE ecosystem.  There is also deep synergies between the two projects and we would like to offer tranching of AAVE LPs in the future.
 
 ## Specification
 
-The technical specification should describe the syntax and semantics of any new feature.
+Adding the ERC-20 contract [0x0391D2021f89DC339F60Fff84546EA23E337750f] as depositable for collateral in AAVE.
 
 ## Rationale
 
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+We concider ourselves Yield Maximalist and anywhere there is yield we are going to follow and tranche it out.  The synergies between AAVE and BOND are strong and we are complimentary products.  We look forward to adding AAVE LPs into our system and think this is a great first step to align the projects. 
 
 ## Test Cases
 
@@ -42,6 +36,17 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 ## Implementation
 
 The implementations must be completed before any AIP is given status "Implemented", but it need not be completed before the AIP is "Approved". While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
+
+## References
+
+- *Whitepaper*: https://github.com/BarnBridge/BarnBridge-Whitepaper
+- *Project Management Portal*: https://github.com/BarnBridge/BarnBridge-PM
+- *Youtube*: https://www.youtube.com/c/BarnBridge
+- *Website*: https://www.BarnBridge.com
+- *Twitter*: https://twitter.com/Barn_Bridge
+- *Source Code*: https://github.com/gemini/dollar
+- *BOND token contract*: https://etherscan.io/address/0x0391D2021f89DC339F60Fff84546EA23E337750f
+
 
 ## Copyright
 
