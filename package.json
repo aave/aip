@@ -63,7 +63,7 @@
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
-    "parse-markdown": "m2j ./content/aips/* -c -o ./content/ipfs-aips/all-aips.json",
+    "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
     "upload:pinata-thegraph": "node aip-uploader.js && rm tmp",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",

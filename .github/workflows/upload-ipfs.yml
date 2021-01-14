@@ -1,9 +1,6 @@
 name: Upload IPFS
 
 on:
-  pull_request:
-    branches:
-      - master
   push:
     branches:
       - master
@@ -15,6 +12,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+
+      - name: Rename aip to upper case
+        run: cd content/aips && bash toUpper.sh && cd ../..
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
