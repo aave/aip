@@ -2,7 +2,7 @@
 aip: <to be assigned>
 title: Add BarnBridge ($BOND) as collateral in AAVE
 status: WIP
-author: Troy Murray (@DannyDesert)
+author: Troy Murray ( @DannyDesert )
 discussions: https://governance.aave.com/t/proposal-add-support-for-barnbridge-bond-token/1506
 created: 20201-01-13
 updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
