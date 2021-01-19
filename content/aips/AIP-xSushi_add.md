@@ -65,6 +65,16 @@ let totalXSushiSupply = await xSushi.methods.totalSupply().call()
 let exchangeRate = totalSushiStakedinBar.div(totalXSushiSupply)
 ```
 
+At the request of the AAVE team we have included a convenience contract for returning the exchange rate of Sushi -> xSushi exchange rate.
+
+[Exchange Rate contract](https://etherscan.io/address/0xE8061286f2975EF38c8F70607eD839Fc9C0f0090#readContract)
+[Exchange Rate contract repo](https://github.com/sushiswap/xsushi-exchange-rate)
+
+Values from the `getExchangeRate()` method are returned as `uint256` values with a pecision of `10**18`
+
+Lastly, the supplier will receive the yield harvested from xSushi. The AAVE implementation should disallow the platform from withdrawing the underlying Sushi.
+
+
 ## Audits/Security Reviews
 [Peckshield & Quantstamp](https://docs.defisafety.com/finished-reviews/sushiswap-process-quality-audit#audits)
 
@@ -74,7 +84,7 @@ let exchangeRate = totalSushiStakedinBar.div(totalXSushiSupply)
 
 SushiSwap is a DEX forked of Uniswap that grew very fast, now at $1.6B of TVL, thanks to generous liquidity mining incentives. It is now part of the Yearn conglomerate with many new upcoming features.
 
-xSUSHI is the staked SUSHI that receives 0.05% of the fees with 10 to 40% APY a great property for a collateral. The redeeming process from xSUSHI to SUSHI is permissionless allowing the analysis to focus on SUSHI.
+xSUSHI is the staked SUSHI that receives .5% of the fees with 10 to 40% APY a great property for a collateral. The redeeming process from xSUSHI to SUSHI is permissionless allowing the analysis to focus on SUSHI.
 
 [**SUSHI Smart contract**](https://ethplorer.io/address/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2) **Risk: B-**
 
