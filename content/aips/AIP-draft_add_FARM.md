@@ -81,6 +81,8 @@ For determining the price, we propose using time-weighted average price from Uni
 
 ## Rationale
 
+Add FARM to the Aave platform,  allowing for depositing and leveraging of the token.
+
 ## Test Cases
 
 ## Implementation
