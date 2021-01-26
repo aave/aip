@@ -72,7 +72,9 @@ At the request of the AAVE team we have included a convenience contract for retu
 
 Values from the `getExchangeRate()` method are returned as `uint256` values with a pecision of `10**18`
 
-Lastly, the supplier will receive the yield harvested from xSushi. The AAVE implementation should disallow the platform from withdrawing the underlying Sushi.
+Lastly, xSushi is explicitly convertible for SUSHI at the exchange rate described above. Fees are paid as SUSHI to xSushi holders and collected into a pool of SUSHI, where each xSushi token represents a proportional share in the pool size. In essence SUSHI fees paid are accumulated to the xSushi which are not redeemable without the destruction of the underlying xSushi.
+
+Since debts incurred on AAVE would require that the debt be repaid in xSushi, the fees that are accumulated are safe from being harvested.
 
 
 ## Audits/Security Reviews
@@ -84,7 +86,7 @@ Lastly, the supplier will receive the yield harvested from xSushi. The AAVE impl
 
 SushiSwap is a DEX forked of Uniswap that grew very fast, now at $1.6B of TVL, thanks to generous liquidity mining incentives. It is now part of the Yearn conglomerate with many new upcoming features.
 
-xSUSHI is the staked SUSHI that receives .5% of the fees with 10 to 40% APY a great property for a collateral. The redeeming process from xSUSHI to SUSHI is permissionless allowing the analysis to focus on SUSHI.
+xSUSHI is the staked SUSHI that receives .05% of the fees with 10 to 40% APY a great property for a collateral. The redeeming process from xSUSHI to SUSHI is permissionless allowing the analysis to focus on SUSHI.
 
 [**SUSHI Smart contract**](https://ethplorer.io/address/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2) **Risk: B-**
 
