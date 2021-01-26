@@ -1,3 +1,4 @@
+---
 aIP: <to be assigned>  
 title: Adding BAL on AAVE  
 status: WIP  
@@ -5,8 +6,8 @@ authors: Coopahtroopa (@coopahtroopa), MonetSupply(@monet-supply), Mubrais (@mub
 shortDescription: Enable BAL as a base asset in Aave V2  
 discussions: https://governance.aave.com/t/proposal-add-support-for-bal/1787  
 created: 2021-1-25  
-
 ---
+
 ## Simple Summary
 BAL is the governance token of [Balancer](https://pools.balancer.exchange/#/explore), a programmable liquidity and asset managment protocol with over [$800M in TVL](https://defipulse.com/balancer) according to DeFi Pulse.
 
