@@ -1,5 +1,5 @@
 ---
-aIP: <to be assigned>  
+aip: <to be assigned>  
 title: Adding BAL on AAVE  
 status: WIP  
 authors: Coopahtroopa (@coopahtroopa), MonetSupply(@monet-supply), Mubrais (@mubaris)  
