@@ -1,7 +1,7 @@
 ---
-aip: <to be assigned>  
+aip: 8
 title: Adding BAL on AAVE  
-status: WIP  
+status: Proposed  
 authors: Coopahtroopa (@coopahtroopa), MonetSupply(@monet-supply), Mubrais (@mubaris)  
 shortDescription: Enable BAL as a base asset in Aave V2  
 discussions: https://governance.aave.com/t/proposal-add-support-for-bal/1787  
@@ -9,9 +9,11 @@ created: 2021-1-25
 ---
 
 ## Simple Summary
+
 BAL is the governance token of [Balancer](https://pools.balancer.exchange/#/explore), a programmable liquidity and asset managment protocol with over [$800M in TVL](https://defipulse.com/balancer) according to DeFi Pulse.
 
 ## Abstract
+
 Add [BAL](https://etherscan.io/token/0xba100000625a3754423978a60c9317c58a424e3d) to the AAVE V2 market.
 
 Balancer is a DEX that uses a constant function market maker formula to allow liquidity pools with multiple tokens, custom allocations and fees. Smart pools in Balancer can be used for programmable liquidity. 
