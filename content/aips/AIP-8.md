@@ -5,7 +5,8 @@ status: Proposed
 authors: Coopahtroopa (@coopahtroopa), MonetSupply(@monet-supply), Mubrais (@mubaris)  
 shortDescription: Enable BAL as a base asset in Aave V2  
 discussions: https://governance.aave.com/t/proposal-add-support-for-bal/1787  
-created: 2021-1-25  
+created: 2021-01-25  
+updated: 2021-01-27  
 ---
 
 ## Simple Summary
