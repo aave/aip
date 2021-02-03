@@ -3,10 +3,10 @@ aip: AIP-add_renFIL_support
 title: Add renFIL support to Aave
 status: WIP
 author: Corbin Page (@corbinpage)
-discussions: [<Discord Channel or ]Github issues](https://github.com/corbinpage/aip/issues)
-created: 2020-10-27
+discussions: [Aave Forum](https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059)
+created: 2021-02-03
 updated (*optional): N/A
-requires (*optional): N/A
+requires (*optional): <AIP number(s)>
 ---
 
 <!--You can leave these HTML comments in your merged AIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new AIPs. Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`. The title should be 44 characters or less.-->
@@ -15,7 +15,7 @@ requires (*optional): N/A
 
 <!--"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the AIP.-->
 
-Add depositing and borrowing (not collateral) support for renFIL to the Aave market. renFIL is a wrapped version of [Filecoin](https://filecoin.io/) using the [Ren Protocol](https://renproject.io/).
+Add depositing and borrowing (not collateral) support for renFIL to the Aave market. renFIL is a wrapped version of [Filecoin](https://filecoin.io/) using [Ren Protocol](https://renproject.io/).
 
 ## Abstract
 
@@ -36,7 +36,7 @@ Filecoin, and by extension, renFIL is unlike any other digital asset currently a
 * Shared UIs/images/content
 * Lossless capital hosting
 
-Just see the recent [EthGlobal<>Protocol Labs Hackathon](https://hack.ethglobal.co/hackfs/showcase) for hints of what is possible at the intersection of Filecoin+DeFi. The Filecoin community is massive and growing everyday, however, many of the participants are unfamiliar with Aave and DeFi. Adding renFIL to Aave would dramatically increase support for these efforts, would bring Filecoin users/developers into the Aave ecosystem, and allow capital, yield, and value to accrue to Aave participants.
+Just see the recent [EthGlobal<>Protocol Labs Hackathon](https://hack.ethglobal.co/hackfs/showcase) and [Filecoin Launchpad](https://www.filecoinlaunchpad.co/)for hints of what is possible at the intersection of Filecoin+DeFi. The Filecoin community is massive and growing everyday, however, many of the participants are unfamiliar with Aave and DeFi. Adding renFIL to Aave would dramatically increase support for these efforts, would bring Filecoin users/developers into the Aave ecosystem, and allow capital, yield, and value to accrue to Aave participants.
 
 ## Specification
 
@@ -77,7 +77,7 @@ The REN token is already supported in the Aave market, and renBTC is one of the 
 
 <!--Test cases for an implementation are mandatory for AIPs but can be included with the implementation..-->
 
-_TBD_
+Test cases will be included with the implementation.
 
 ## Implementation
 
