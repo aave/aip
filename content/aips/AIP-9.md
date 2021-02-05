@@ -3,6 +3,7 @@ aip: 9
 title: Activation of the Aave Balancer Pool Liquidity Staking
 status: Proposed
 author: Marc Zeller (@marczeller), Hadrien Charlanes (@dhadrien)
+shortDescription: Activate Staking for Aave Balancer Pool
 discussions: https://governance.aave.com/t/arc-aavenomics-quarterly-upgrade/1631
 created: 2021-01-27
 updated: 2021-02-01
