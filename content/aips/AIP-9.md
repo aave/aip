@@ -44,6 +44,7 @@ The implementation of the AIP consist in three actions:
 
 If this AIP is validated by a community vote, the following addresses will be involved in the execution process :
 
+- [AIP9 Proposal Payload](https://etherscan.io/address/0xd08E12367A7D68CAA8ff080D3A56b2dc6650709b#contracts)
 - [ABPT](https://etherscan.io/address/0x41a08648c3766f9f9d85598ff102a08f4ef84f84)
 - [stkABPT](https://etherscan.io/address/0xa1116930326d21fb917d5a27f1e9943a9595fb47)
 - [Aave Reserve Controller](https://etherscan.io/address/0x1E506cbb6721B83B1549fa1558332381Ffa61A93)
