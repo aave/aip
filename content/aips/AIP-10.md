@@ -1,13 +1,12 @@
 ---
-aip: <to be assigned>
+aip: 10
 title: Adding xSushi on AAVE
 status: WIP
 author: 0xMaki (@0xMaki), Joseph Delong (@dangerousfood)
 shortDescription: Aave governance proposal to enable xSushi as a base asset
 discussions: https://governance.aave.com/t/listing-proposal-add-xsushi/1794
-created: 2021-1-15
-# updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
-# requires (*optional): <AIP number(s)>
+created: 2021-01-15
+updated: 2021-02-08
 ---
 ## Simple Summary
 xSUSHI is the governance token of Sushiswap, a community-led DEX with a current TVL of more than 1.1B.
