@@ -97,19 +97,20 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 
 <!--Test cases for an implementation are mandatory for AIPs but can be included with the implementation..-->
 
-_TBD
+_TBD_
 
 
 ## Audits/Security Reviews
-[**AAVE Community renFIL Risk Assement**](https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059/17?u=corbpage)
-
 [Ren Protocol audits from ChainSecurity, ConsenSys Diligence, and Trail of Bits](https://github.com/renproject/ren/wiki/Audits)
 
 [Filecoin audits and bug bounty](https://security.filecoin.io/)
 
+[AAVE Community renFIL Risk Assement](https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059/17?u=corbpage)
+
 ![renFIL Risk Screenshot](../assets/AIP-add_renFIL_support/renFIL_risk_screenshot.png)
 
 [**RenFIL Smart contract Risk**](https://ethplorer.io/address/0xd5147bc8e386d91cc5dbe72099dac6c9b99276f5): **C**
+
 RenVM is a byzantine fault-tolerant network that is able to securely in a decentralized manner do ECDSA threshold key generation and signing via sMPC, which allows RenVM to securely manage private keys of different assets like Bitcoin and Filecoin, and wrap these assets on smart-contract chains. Since launch, RenVM has processed around $1.5B in total volume of Bitcoin, Filecoin, Zcash, Bitcoin cash going to and from Ethereum. The smart contract risks of RenFIL are mitigated by those of RenBTC which has been battle tested by the markets.
 
 Technically, renFIL is a proxied token standard ERC with some features on top:
@@ -119,6 +120,7 @@ Technically, renFIL is a proxied token standard ERC with some features on top:
 * Recovery of other tokens sent to the contract
 
 **RenFIL Counterparty Risk: C**
+
 There is a proxy admin which can update all the logic of the contract with a 7 days timelock controller by a multisig, controlled by the team. Even with 7 days, it may be impossible to mitigate the consequences of a contract upgrade with minting for example.
 
 Furthermore there is an EOA (Externally Owned Account) with permissions to mint, burn, change the exchange rate and decide which tokens sent by mistake to the renFIL contract are recoverable.
@@ -131,7 +133,7 @@ RenFIL market capitalisation is unknown with very little liquidity in the market
 
 **Risk Parameters**
 
-Given the centralisation of RenFIL it can only be listed as borrow asset
+Given the centralisation of RenFIL it can only be listed as borrow asset.
 
 Reserve Factor 35%
 
@@ -150,9 +152,8 @@ R_s2 300%
 ## References
 * [Filecoin Website](https://filecoin.io/)
 * [Filecoin Spec](https://spec.filecoin.io/)
-* [Filecoin Github](https://github.com/filecoin-project/)
-* [Filecoin Twitter](https://twitter.com/Filecoin)
-* [Filecoin Slack](https://app.slack.com/client/TEHTVS1L6/learning-slack)
+* [Ren Protocol](https://renproject.io/)
+* [renFIL Token](https://etherscan.io/token/0xD5147bc8e386d91Cc5DBE72099DAC6C9b99276F5)
 
 ## Copyright
 
