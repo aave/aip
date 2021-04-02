@@ -31,7 +31,23 @@ Desactivation of the ability to open new stable rate borrowing positions on Aave
 
 ## Implementations details
 
-[TBA]
+Executes the proposal deployed at
+
+https://etherscan.io/address/0x6a46c03c861cab74c8a213983b7eb295234c16b3#code
+
+The proposal executes the following:
+
+- Updates the LendingPool implementation to 
+
+  https://etherscan.io/address/0xDB9217fad3c1463093fc2801Dd0a22C930850A61#code
+
+- Updates the LendingPoolCore implementation to
+
+  https://etherscan.io/address/0x2847A5D7Ce69790cb40471d454FEB21A0bE1F2e3#code
+
+  These contract updates are needed to update the implementation of the rebalanceStableRate() function
+
+- Execute disableReserveStableBorrowRate() in all the assets listed on the protocol V1
 
 ## Copyright
 
