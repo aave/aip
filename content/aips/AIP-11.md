@@ -12,10 +12,10 @@ updated: 2021-04-02
 ## AIP rationale
 
 The Aave Protocol V2 was launched in Dec 2020 and is now concentrating the majority of the Aave protocol Liquidity
-Aave V1 users have the option to upgrade their position seamleslly into V2 with the native Aave migration tool
+Aave V1 users have the option to upgrade their position seamlessly into V2 with the native Aave migration tool
 
 With significant reserves in, the community has the opportunity to implement a plan to transition the remaining reserves from V1 to v2.
-The community has the opportunity to bring about this change to ease the borrowing pressure on V1, to address high transaction feesthat exist now, and may increase further upon the implementationof Berlin hardfork.
+The community has the opportunity to bring about this change to ease the borrowing pressure on V1, to address high transaction fees that exist now, and may increase further upon the implementation of Berlin hardfork.
 The migration can benefit not only Aave users, but also the Aave ecosystem as a whole because it will allow protocols integrating with Aave to have additional stablecoins liquidity available(due to the ecosystem wide stablecoin liquidity crush).
 
 if this proposal is approved by the Aave governance, Stable rates loans will be disabled for Aave V1.
