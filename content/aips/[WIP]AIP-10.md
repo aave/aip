@@ -29,8 +29,6 @@ Desactivation of the ability to open new stable rate borrowing positions on Aave
 
 ## Implementations details
 
-The implementation of the AIP consist in three actions: 
-
 [TBA]
 
 ## Copyright
