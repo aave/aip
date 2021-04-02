@@ -1,5 +1,5 @@
 ---
-aip: 10
+aip: 11
 title: desactivation of Aave V1 stable rate borrowing
 status: Proposed
 author: Marc Zeller (@marczeller), Emilio Frangella (@The3D_)
