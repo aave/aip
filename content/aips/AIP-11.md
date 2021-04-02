@@ -27,7 +27,7 @@ The rebalancing mechanism will also be updated to an enforced swap to variable r
 
 ## AIP content in short
 
-Desactivation of the ability to open new stable rate borrowing positions on Aave V1
+Deactivation of the ability to open new stable rate borrowing positions on Aave V1 and update of the rebalance mechanism
 
 ## Implementations details
 
