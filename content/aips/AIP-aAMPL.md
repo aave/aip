@@ -80,11 +80,7 @@ Analysis based on Aave’s Asset Risk Framework is pending.
 ### Technical Specifications
 
 ### Code
-A custom implementation of the aToken is [in development](https://github.com/ampleforth/protocol-v2/pull/1), pending audits. The aAMPL token operates subtly differently from generic ATokens. The AMPL debt is denominated in fixed supply units and AMPL deposits are 'partially' elastic.
-
-We implement a custom AToken, StableDebtToken and VariableDebtToken for AMPL. The StableDebtToken and VariableDebtToken implementations make no functional changes to the generic implementation. When the debt tokens are mint and burnt, it performs some additional book-keeping to keep track of the totalScaledAMPL (fixed AMPL denomination, ie Gons) borrowed at any-time. The new getAMPLBorrowData method returns the totalScaledAMPL and totalScaledSupply which are used for AAmplToken math.
-
-The AAmplToken inherits from IncentivizedAAmplERC20 rather than the IncentivizedERC20 which the generic token inherits from. The IncentivizedAAmplERC20 implements custom math to handle elastic aToken balances. The AAmplToken additionally stores references to the STABLE_DEBT_TOKEN, and the VARIABLE_DEBT_TOKEN contracts to calculate the total Principal borrowed (totalAMPLBorrowed, totalScaledAMPLBorrowed), at any time.
+A custom implementation of the aToken https://github.com/aave/protocol-v2/pull/66
 
 
 ### Test Cases
