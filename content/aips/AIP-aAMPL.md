@@ -1,7 +1,7 @@
 ---
 aip: <to be assigned>
 title: Adding AMPL on AAVE
-status: WIP
+status: Proposed
 author: Brandon Iles (@brandoniles), Nithin Ottilingam (@nithinkrishna)
 discussions: https://governance.aave.com/t/proposal-add-support-for-ampl/854
 created: 2021-01-12
