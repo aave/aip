@@ -4,7 +4,7 @@ title: Enable borrowing on renFIL
 status: Proposed
 author: Corbin Page (@corbinpage)
 shortDescription: Enable borrowing for the renFIL asset
-discussions: [Aave Forum](https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059)
+discussions: https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059
 created: 2021-04-19
 updated: 2021-04-19
 ---
