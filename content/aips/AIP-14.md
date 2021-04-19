@@ -9,11 +9,8 @@ created: 2021-04-19
 updated: 2021-04-19
 ---
 
-<!--You can leave these HTML comments in your merged AIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new AIPs. Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`. The title should be 44 characters or less.-->
-
 ## Simple Summary
 
-<!--"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the AIP.-->
 
 AIP-13 added a wrapped version of [Filecoin](https://filecoin.io/) (renFIL) to Aave, and this AIP will finalize it by enabling borrowing of the asset.
 
