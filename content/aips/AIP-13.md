@@ -1,25 +1,22 @@
 ---
-aip: AIP-add_renFIL_support
+aip: 13
 title: Add renFIL support to Aave
-status: WIP
+status: Proposed
 author: Corbin Page (@corbinpage)
-shortDescription: Aave governance proposal to enable renFIL depositing and borrowing (not collateral)
-discussions: [Aave Forum](https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059)
+shortDescription: Aave governance proposal to enable renFIL as a borrow asset
+discussions: https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059
 created: 2021-02-03
 updated: 2021-03-13
 ---
 
-<!--You can leave these HTML comments in your merged AIP and delete the visible duplicate text guides, they will not appear and may be helpful to refer to if you edit it again. This is the suggested template for new AIPs. Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`. The title should be 44 characters or less.-->
 
 ## Simple Summary
 
-<!--"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the AIP.-->
 
 Add depositing and borrowing (not collateral) support for renFIL to the Aave market. renFIL is a wrapped version of [Filecoin](https://filecoin.io/) using [Ren Protocol](https://renproject.io/).
 
 ## Abstract
 
-<!--A short (~200 word) description of the technical issue being addressed.-->
 
 [Filecoin](https://filecoin.io/) brings decentralized storage to DeFi, and [renFIL](https://renproject.io/) allows all types of new decentralized applications to be built to further the space. But these applications need a robust lending market to thrive, so storage miners can borrow renFIL/FIL to stake and FIL holders can earn a return on their holdings.
 
@@ -27,7 +24,6 @@ This proposal describes adding depositing and borrowing (not collateral) support
 
 ## Motivation
 
-<!--The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing protocol specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.-->
 
 Filecoin, and by extension, renFIL is unlike any other digital asset currently available in the Aave market, as it allows the purchase of hosting space on the permissionless Filecoin network. As a result, being able to lend and borrow renFIL will unlock many new DeFi applications, including:
 
@@ -40,7 +36,6 @@ Just see the recent [EthGlobal<>Protocol Labs Hackathon](https://hack.ethglobal.
 
 ## Specification
 
-<!--The technical specification should describe the syntax and semantics of any new feature.-->
 
 ### Project
 Filecoin is a distributed storage network based on a blockchain mechanism. Filecoin miners can elect to provide storage capacity for the network, and thereby earn units of the Filecoin cryptocurrency (FIL) by periodically producing cryptographic proofs that certify that they are providing the capacity specified. In addition, Filecoin enables parties to exchange FIL currency through transactions recorded in a shared ledger on the Filecoin blockchain. Rather than using Nakamoto-style proof of work to maintain consensus on the chain, however, Filecoin uses proof of storage itself: a miner’s power in the consensus protocol is proportional to the amount of storage it provides.
@@ -49,16 +44,13 @@ Filecoin was founded in 2015 by [Juan Benet](https://twitter.com/juanbenet), has
 
 ## Rationale
 
-<!--The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
 
 The REN token is already supported in the Aave market, and renBTC is one of the most popular cross-chain tokens today. In unifying the Filecoin and DeFi ecosystems, Ren protocol is a natural bridge and has the technical expertise and experience to get the job down securely and safely.
 
 
 
-
 ## Implementation
 
-<!--The implementations must be completed before any AIP is given status "Implemented", but it need not be completed before the AIP is "Approved". While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.-->
 
 The Filecoin price oracle will be served via [ChainLink](https://chain.link/), which includes both [FIL/ETH and FIL/USD feeds](https://docs.chain.link/docs/ethereum-addresses).
 
@@ -94,10 +86,6 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 ```
 
 ### Test Cases
-
-<!--Test cases for an implementation are mandatory for AIPs but can be included with the implementation..-->
-
-_TBD_
 
 
 ## Audits/Security Reviews
