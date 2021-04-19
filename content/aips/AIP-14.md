@@ -15,16 +15,14 @@ updated: 2021-04-19
 
 <!--"If you can't explain it simply, you don't understand it well enough." Provide a simplified and layman-accessible explanation of the AIP.-->
 
-AIP-13 added a wrapped version of [Filecoin](https://filecoin.io/) to Aave but the deployment script erroneously set borrowing to 'FALSE'. This AIP will correct the issue and enable borrowing for the renFIL asset.
+AIP-13 added a wrapped version of [Filecoin](https://filecoin.io/) (renFIL) to Aave, and this AIP will finalize it by enabling borrowing of the asset.
 
 ## AIP rationale
 
 Over the past 6 months, [AIP-13](https://github.com/aave/aip/blob/Pending-AIPs/content/aips/AIP-13.md
 ) has been proposed, debated, and ultimately passed on [April 19th](https://app.aave.com/governance/8-QmY4AYSTrxVvqTprSjwuaTiECzrWEs2JJFwTx6UNpYMepW) to allow deposits and borrowing (but not collateral use) on renFIL, a wrapped Filecoin token using Ren protocol. The discussion and trade-offs can be [found on the governance forum here](https://governance.aave.com/t/proposal-add-support-for-renfil-filecoin/1059).
 
-After the code changes were made for the proposal and fully tested on kovan, a deployment error accidentally set `ENABLE_BORROW=false` in the `.env` file, resulting in borrowing being turned off in the final smart contract deployment.
-
-This AIP serves as a patch to correct the deployment error and enable borrowing on renFIL.
+This AIP finalizes the previous submission to configure the renFIL asset as a borrowable currency on Aave.
 
 ## Implementations details
 
