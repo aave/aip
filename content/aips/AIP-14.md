@@ -1,5 +1,5 @@
 ---
-aip: AIP-14
+aip: 14
 title: Enable borrowing on renFIL
 status: Proposed
 author: Corbin Page (@corbinpage)
