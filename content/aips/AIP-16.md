@@ -33,8 +33,6 @@ stkAAVE will be rewarded instead of AAVE to align long-term incentives, disincen
 
 stkAAVE requires a 10 day cooldown period. The cooldown period must be started before LPs can unstake their AAVE. After the cooldown period, users have a 2 day window to unstake.
 
-If desired, the community can implement a vesting component to the LM rewards. For example, users can receive ½ of their stkAAVE rewards after 10 days and the remaining ½ stkAAVE in 6 months.
-
 To simplify the implementation and allow the community to analyze the distribution first, this proposal does not include a vesting component. As we approach the target end date for the LM program, we encourage the community to explore any vesting structures for stkAAVE.
 
 We propose 7/15/21 as the target end date for this liquidity mining program. A mid-July end date gives the community 3 months of activity to analyze before voting to end, continue, or adjust the LM program.
@@ -44,7 +42,7 @@ We propose 7/15/21 as the target end date for this liquidity mining program. A m
 
 The purpose of this AIP is to introduce liquidity mining rewards for Aave v2.
 
-This AIP would distribute 2,200 Staked AAVE (stkAAVE) per day, representing $800k in rewards distributed daily to lenders and borrowers. Users will receive stkAAVE.
+This AIP would distribute 2,200 Staked AAVE (stkAAVE) per day, representing around 1M$ in rewards distributed daily to lenders and borrowers. Users will receive stkAAVE.
 
 2,200 stkAAVE per day will be allocated pro-rata across the following markets based on the dollar value of the borrowing activity in the underlying market:
 
@@ -65,7 +63,28 @@ Ecosystem Reserve contract : https://etherscan.io/address/0x25f2226b597e8f9514b3
 
 ## Implementations details
 
-[NEEDED]
+Proposal contract:
+
+https://etherscan.io/address/0x5778DAee2a634acd303dC9dC91e58D57C8FFfcC8#code
+
+The proposal will update the aDAI/GUSD/USDC/USDT/WBTC/WETH implementations and the variableDebt DAI/GUSD/USDC/USDT/WBTC/WETH implementation to set the Incentives controller to https://etherscan.io/address/0x5778DAee2a634acd303dC9dC91e58D57C8FFfcC8. The incentive controller will receive 198000 AAVE from the Aave ecosystem reserve https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491. 
+
+The proposal sets the following emissions per second (in wei):
+
+    emissions[0] = 1706018518518520; //aDAI
+    emissions[1] = 1706018518518520; //vDebtDAI
+    emissions[2] = 92939814814815; //aGUSD
+    emissions[3] = 92939814814815; //vDebtGUSD
+    emissions[4] = 5291203703703700; //aUSDC
+    emissions[5] = 5291203703703700; //vDebtUSDC
+    emissions[6] = 3293634259259260; //aUSDT
+    emissions[7] = 3293634259259260; //vDebtUSDT
+    emissions[8] = 1995659722222220; //aWBTC
+    emissions[9] = 105034722222222; //vDebtWBTC
+    emissions[10] = 2464942129629630; //aETH
+    emissions[11] = 129733796296296; //vDebtWETH
+
+The proposal will set the emission end date to 90 days from the moment the proposal is executed.
 
 ## Copyright
 
