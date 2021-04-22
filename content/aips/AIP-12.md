@@ -1,7 +1,7 @@
 ---
 aip: 12
 title: Adding AMPL on AAVE
-status: Proposed
+status: WIP
 author: Ahmed Naguib Aly (@ahnaguib), Nithin Ottilingam (@nithinkrishna), Brandon Iles (@brandoniles)
 shortDescription: Aave governance proposal to enable AMPL as a borrow asset
 discussions: https://governance.aave.com/t/proposal-add-support-for-ampl/854
