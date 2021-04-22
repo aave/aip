@@ -46,7 +46,7 @@ This AIP would distribute 2,200 Staked AAVE (stkAAVE) per day, representing arou
 
 2,200 stkAAVE per day will be allocated pro-rata across the following markets based on the dollar value of the borrowing activity in the underlying market:
 
-![Aave](../assets/AIP-16/aip16-image.png)
+![Aave](https://raw.githubusercontent.com/aave/aip/Pending-AIPs/content/assets/AIP-16/aip16-img.png)
 
 
 $ Value as of 3/22/21
