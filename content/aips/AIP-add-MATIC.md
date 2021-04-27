@@ -11,7 +11,7 @@ updated: 2021-04-22
 
 ## AIP rationale
 
-MATIC token is the governance and ecosystem token of Polygon L2 scaling solution. Polygon is one of the premier Ethereum scaling solution projects that currently hosts several blue-chip projects like AAVE, Curve, PoolTogether, Decentraland among many others. 
+MATIC token is the governance and ecosystem token of Polygon platform. Polygon is one of the premier Ethereum scaling solution projects that currently hosts several blue-chip projects like AAVE, Curve, PoolTogether,SushiSwap and Decentraland among many others. 
 
 ## References
 
@@ -26,9 +26,9 @@ MATIC token is the governance and ecosystem token of Polygon L2 scaling solution
 - Communities - [Discord](https://discord.com/invite/XvpHAxZ), [Reddit](https://www.reddit.com/r/maticnetwork/), [Official forum](https://forum.matic.network/)
 
 ## MATIC Overview
-MATIC is the ecosystem token of Polygon Network (previously Matic) - a 100% EVM compatible L2 scaling solution with current TVL of more than $500M and 200+ dapps deployed across DeFi, NFT, Gaming and DAO space. With the recent rebranding Matic has now expanded in scope and vision and have transformed into Polygon with the aim of becoming an L2 aggregator - thereby providing a developer with all L2 solutions - POS/Plasma chain (mainnet launched April 2020), zk and Optimistic Rollups and Validum chains (part of the roadmap - as seen on [website](https://polygon.technology/technology/)).
+MATIC is the ecosystem token of Polygon Network (previously Matic) - a 100% EVM compatible L2 scaling solution with current TVL of more than $1B and 250+ dapps deployed across DeFi, NFT, Gaming and DAO space. With the recent rebranding Matic has now expanded in scope and vision and have transformed into Polygon with the aim of becoming an L2 aggregator - thereby providing a developer with all L2 solutions - POS/Plasma chain (mainnet launched April 2020), zk and Optimistic Rollups and Validum chains (part of the roadmap - as seen on [website](https://polygon.technology/technology/)).
 
-The MATIC token lies at the heart of the Polygon ecosystem with multiple use-cases. Primarily the MATIC token is used for paying gas fees on the Polygon network. It runs the ecosystem, supporting top Dapps. Additionally you can participate in the Proof-of-Stake consensus of the blockchain as a validator node and earn 12-14% APY in MATIC tokens.
+The MATIC token lies at the heart of the Polygon ecosystem with multiple use-cases. Primarily the MATIC token is used to secure the system thru PoS staking model and governance. MATIC is currently used to pay gas fees on the Polygon ecosystem supporting top Dapps. Additionally you can participate in the Proof-of-Stake consensus of the blockchain as a validator node and earn 12-14% APY in MATIC tokens.
 
 MATIC token’s emission schedule can be found here - courtesy [Binance](https://research.binance.com/en/projects/matic-network)
 
@@ -56,7 +56,7 @@ The asset will be listed in the current AAVE V2 market.
 4. Provide a brief history of the project and how it overcame stressed conditions
 
 Polygon team has been making valuable contributions to the Ethereum ecosystem for a long time, even before it’s public surfacing as Matic Network. This includes working on implementations of Plasma MVP, developing the WalletConnect protocol and the Ethereum event notification engine Dagger.
-MATIC token has now been listed over 30 exchanges globally (most recently Coinbase), and is trading against more than 50 base pairs. In terms of market cap MATIC is valued at $1.63B and FDV of $3.26B. 24H trading volumes of >$250M make it one of top 30 traded coins across DEXs and CEXs
+MATIC token has now been listed over 30 exchanges globally (most recently Coinbase), and is trading against more than 50 base pairs. In terms of market cap MATIC is valued at $3B and FDV of $5.9B. 24H trading volumes of >$250M make it one of top 30 traded coins across DEXs and CEXs
 
 5. How is the asset currently used?
 
