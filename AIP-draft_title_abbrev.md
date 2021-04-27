@@ -17,11 +17,11 @@ Introduce the Aave Grants DAO (AGD) to fund ideas submitted by the Aave communit
 
 We propose starting a community-led grants DAO to fund ideas submitted by the Aave community, with a focus on empowering a wider network of community developers. The pilot program will be over two quarters. The grants budget will be $1 million per quarter and the operating budget will be $250,000 over two quarters. The operating budget will be used to pay the lead, reviewers, lawyer, and other administrative costs to set up the grants program. A committee of 8 members, including one lead, will oversee the grants program. 
 
-If this AIP is approved, 3,673 AAVE ($1.25 million) will be transferred from the [Ecosystem Reserve](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491) to the [grants DAO multisig](https://gnosis-safe.io/app/#/safes/0x89C51828427F70D77875C6747759fB17Ba10Ceb0/balances). The remaining $1 million will be funded in the beginning of the second quarter of the grants program.
+If this AIP is approved, 2,809 AAVE ($1.25 million) will be transferred from the [Ecosystem Reserve](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491) to the [grants DAO multisig](https://gnosis-safe.io/app/#/safes/0x89C51828427F70D77875C6747759fB17Ba10Ceb0/balances). The remaining $1 million will be funded in the beginning of the second quarter of the grants program.
 
 ## Motivation
 
-Aave has an ecosystem reserve of ~$1B or 2.9m AAVE as of 4/23/21, which is available to fund growth and community initiatives, part of which could be used to fund grants. However, it is currently not easy for the community to allocate from the reserve to fund proposals.
+Aave has an ecosystem reserve of $1.2B or 2.7m AAVE as of 4/27/21, which is available to fund growth and community initiatives, part of which could be used to fund grants. However, it is currently not easy for the community to allocate from the reserve to fund proposals.
 
 To promote inclusivity and a more visible and transparent avenue for funding development in the Aave ecosystem, while maintaining the decentralized nature of the ecosystem, we propose a community-led grants program called Aave Grants DAO.
 
@@ -132,7 +132,7 @@ If AGD has distributed all grants but has more promising projects to fund, it ca
 
 ## Implementation
 
-If this AIP is approved, 3,673 AAVE ($1.25 million) will be transferred from the [Ecosystem Reserve](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491) to the [grants committee multisig](https://gnosis-safe.io/app/#/safes/0x89C51828427F70D77875C6747759fB17Ba10Ceb0/balances). $1 million will fund the first quarter of Aave grants and $250,000 will cover two quarters of operating expenses for the program. The remaining $1 million will be funded in the beginning of the second quarter of the grants program.
+If this AIP is approved, 2,809 AAVE ($1.25 million) will be transferred from the [Ecosystem Reserve](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491) to the [grants committee multisig](https://gnosis-safe.io/app/#/safes/0x89C51828427F70D77875C6747759fB17Ba10Ceb0/balances). $1 million will fund the first quarter of Aave grants and $250,000 will cover two quarters of operating expenses for the program. The remaining $1 million will be funded in the beginning of the second quarter of the grants program.
 
 ## Copyright
 
