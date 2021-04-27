@@ -77,7 +77,7 @@ Here is an analysis based on Aave’s Asset Risk Framework 3 to quantify MATIC�
 
 ### MATIC’s Overall Risk is B+
 
-![MATIC token risk](../assets/AIP-matic-addAAVE/MATICrisks.png?raw=true)
+![MATIC token risk](../assets/AIP-matic-addAAVE/MaticRisks1.png?raw=true)
 
 
 **MATIC Smart Contract Risk: B**
