@@ -11,7 +11,7 @@ updated: 2021-04-22
 
 ## AIP rationale
 
-MATIC token is the governance and ecosystem token of Polygon platform. Polygon is one of the premier Ethereum scaling solution projects that currently hosts several blue-chip projects like AAVE, Curve, PoolTogether,SushiSwap and Decentraland among many others. 
+MATIC token is the governance and ecosystem token of Polygon platform. Polygon is one of the premier Ethereum scaling solution projects that currently hosts several blue-chip projects like AAVE, Curve, PoolTogether, SushiSwap and Decentraland among many others. 
 
 ## References
 
