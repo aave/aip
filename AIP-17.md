@@ -1,7 +1,7 @@
 ---
 aip: 17
 title: Aave Grants DAO
-status: WIP
+status: Proposed
 author: Shreyas Hariharan (@hello-shreyas)
 shortDescription: Introduce Aave Grants DAO
 discussions: https://governance.aave.com/t/arc-aave-community-grants-program/3642
