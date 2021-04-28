@@ -1,12 +1,12 @@
 ---
 aip: <to be assigned>
-title: <Aave Grants DAO>
+title: Aave Grants DAO
 status: WIP
 author: Shreyas Hariharan (@hello-shreyas)
-shortDescription: <Introduce Aave Grants DAO>
-discussions: <https://governance.aave.com/t/arc-aave-community-grants-program/3642>
-created: <2021-04-23>
-updated: N/A
+shortDescription: Introduce Aave Grants DAO
+discussions: https://governance.aave.com/t/arc-aave-community-grants-program/3642
+created: 2021-04-23
+updated: 2021-04-23
 ---
 
 ## Simple Summary
@@ -36,7 +36,7 @@ Our proposal is inspired by the grants programs of Compound and Uniswap, which h
 We propose to run the pilot grants program over two quarters. We request a max grants budget of $2m and a max operating budget of $250k. The operating budget will be used to pay the lead, reviewers, lawyer, and other administrative costs to set up the grants program.
 
 There will be two types of grants that the grants committee can approve:
-1. Rapid grants: <$100k, simple process to apply for a grant to AGD, relatively quick grant decision
+1. Rapid grants: < $100k, simple process to apply for a grant to AGD, relatively quick grant decision
 2. Community grants: $100k-$500k, initial application followed by posting proposal on governance forum, committee can decide to approve these grants based on feedback from community
 
 Contributors can also seek grants over $500k but they will not go through the committee. They will have to be posted on Aave’s governance forum and approved through an on-chain vote.
