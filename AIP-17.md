@@ -1,5 +1,5 @@
 ---
-aip: <to be assigned>
+aip: 17
 title: Aave Grants DAO
 status: WIP
 author: Shreyas Hariharan (@hello-shreyas)
