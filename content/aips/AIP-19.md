@@ -27,13 +27,17 @@ It's now up to the Aave community to strengthten this synergy on Aave side allow
 
 # Relevant Links
 
-* AIP-16 enforcing liquidity mining on Aave V2: https://app.aave.com/governance/11-Qmf1JeXiw8BDUoKJ89VmUJ8wy22D2udqL4HxprCG7DZ5zG
+* AIP-16 implementing liquidity mining on Aave V2: https://app.aave.com/governance/11-Qmf1JeXiw8BDUoKJ89VmUJ8wy22D2udqL4HxprCG7DZ5zG
 * Curve governance vote: https://dao.curve.fi/vote/ownership/45
 
 
 ## Implementations details
 
 call `setClaimer()` for Curve contracts on `INCENTIVES_CONTROLLER_PROXY_ADDRESS` 
+
+Curve aPool contract : https://etherscan.io/address/0x96D7BC17912e4F320c4894194564CF8425cfe8d9
+
+Curve sPool contract : https://etherscan.io/address/0xe5f41acad47849c6eb28b93913ca81893fb5a2a6
 
 Link to incentives controller proxy : https://etherscan.io/address/0xd784927Ff2f95ba542BfC824c8a8a98F3495f6b5#readProxyContract
 
