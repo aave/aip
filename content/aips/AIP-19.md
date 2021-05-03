@@ -17,9 +17,9 @@ Many protocol took this opportunity to reinforce their synergies with Aave and d
 
 For some protocols based on immutable contracts, participating in the Liquidity mining program requires some slight governance intervention on both sides.
 
-Curve.finance is one of them, they enforced via a community work the compability with the Aave liquidity for their Aave and sAave pools : https://dao.curve.fi/vote/ownership/45
+Curve.finance is one of them, they implemented via a community work the compability with the Aave liquidity for their Aave and sAave pools : https://dao.curve.fi/vote/ownership/45
 
-It's now up to the Aave community to enforce this synergy on Aave side allowing Curve users depositing into Aave to collect both CRV & StkAAVE rewards.
+It's now up to the Aave community to strengthten this synergy on Aave side allowing Curve users depositing into Aave to collect both CRV & StkAAVE rewards.
 
 # AIP content in short
 
