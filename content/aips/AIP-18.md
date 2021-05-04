@@ -9,28 +9,27 @@ created: 2021-04-29
 updated: 2021-04-29
 ---
 
-## ARC rationale
+## AIP Rationale
 
-On the 10th of January 2021, with the results of AIP-7, the Aave governance updated the Safety module emission program distributing 550 AAVE/day to AAVE stakers.
+The bootstrap of the LEND to AAVE migration process and the creation of the Safety Module was configured to set the final day
+of emission for the 9th of May 2021. The following AIP moves forward the end date of the emission for the AAVE and AAVE/ETH Safety module to continue with the safety incentives program estabilished within the Aavenomics framework. The date will be set 100 years in the future, to effectively disable the emission date as control mechanism and allow the safety incentives to be controlled only using the emission per second (if there will be consensus around ending the AAVE safety incentives, it will be controlled by setting the emission per second to 0).
+As a consequence of how the incentives system work and the duration of this vote (which will require high consensus, 10 days vote and
+7 days timelock) the emission of AAVE incentives will stop on Sunday 9th, but it will restart from where it left if the vote passes (participants of the safety module will not lose any reward as long as they keep staking while the proposal is executed).
 
-On the 9th of February 2021, with the results of AIP-9, the Aave governance introduced BPT staking for ETH/AAVE LPs on the Balancer protocol with a 550 AAVE/day distribution to BPT stakers.
+## AIP Content in short
 
-As we're reaching the soft deadline for the second quarter of the emission program, this AIP intent to gather community support for continuation of the emission program.
+Extend the end date of the incentives for the Aave Safety module (stkAAVE and stkABPT) 100 years in the future.
 
-# ARC content in short
+##Relevant links
 
-* Keep Slashing for the Safety Module with a maximum slashing threshold at 30% of Staked Amount
-* Keep the Safety Incentives for AAVE staking to 550 AAVE per day and the Safety Incentives for BPT staking at 550 AAVE per day. The new total staking reward remains at 1100 AAVE per day.
-
-# Relevant Links
-
-* AIP-7 enforcing the last quarter Aavenomics quarterly schedule: https://app.aave.com/governance/2-QmVrTta734LkhPcbAXLDcob6gk9NFwiEpggQRYHZx8Mr16
+ AIP-7 implementing the last quarter Aavenomics quarterly schedule: https://app.aave.com/governance/2-QmVrTta734LkhPcbAXLDcob6gk9NFwiEpggQRYHZx8Mr16
 * Community-led main Governance thread on the quarterly schedule plan: https://governance.aave.com/t/arc-fees-rewards-how-to-improve-the-aave-token-value/830
 * Aavenomics proposal : https://aave.com/aavenomics
 
-## Implementations details
 
-[NEEDED]
+Implementation details
+
+[needed]
 
 ## Copyright
 
