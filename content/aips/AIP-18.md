@@ -20,14 +20,14 @@ As a consequence of how the incentives system work and the duration of this vote
 
 Extend the end date of the incentives for the Aave Safety module (stkAAVE and stkABPT) 100 years in the future.
 
-##Relevant links
+## Relevant links
 
  AIP-7 implementing the last quarter Aavenomics quarterly schedule: https://app.aave.com/governance/2-QmVrTta734LkhPcbAXLDcob6gk9NFwiEpggQRYHZx8Mr16
 * Community-led main Governance thread on the quarterly schedule plan: https://governance.aave.com/t/arc-fees-rewards-how-to-improve-the-aave-token-value/830
 * Aavenomics proposal : https://aave.com/aavenomics
 
 
-Implementation details
+## Implementation details
 
 [needed]
 
