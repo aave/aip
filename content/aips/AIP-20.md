@@ -13,17 +13,16 @@ updated: 2021-05-07
 
 As a complementary final action following the AIP 18,
 
-This proposal extends the ability for the Safety Module contracts (stkAAVE and stkABPT) to transfer the AAVE rewards out of the Aave Ecosystem Reserve indefinitely.
+This proposal extends the ability for the Safety Module contracts (stkAAVE and stkABPT) to transfer the AAVE rewards out of the Aave Ecosystem Reserve for the next year onwards (200750 AAVE each, 401500 AAVE for both staking contracts).
 
-Doing so will allow continuation of the safety incentives.
+Doing so will allow continuation of the safety incentives for at least one year.
 
-This will remove the need for periodic quarterly review of the emission scheme, changing the approach to an on demand emission review when the community deems necessary.
+This will remove the need for periodic quarterly review of the emission scheme, changing the approach to an on demand emission review when the community deems necessary. Only one yearly review will be required.
 
-Safety Incentives will remain active and with the same emission rate until the ecosystem reserve is empty or the community consensus vote on a change, whichever comes first.
 
 # ARC content in short
 
-* With the AIP-18 and this proposal, Safety Incentives are maintained until a change is implemented.
+* With the AIP-18 and this proposal, Safety Incentives are maintained until a change is implemented for the next year.
 
 # Relevant Links
 
@@ -32,8 +31,8 @@ Safety Incentives will remain active and with the same emission rate until the e
 
 ## Implementations details
 
-executes approve(0x4da27a545c0c5B758a6BA100e3a049001de870f5, MAX_UINT) and
-approve(0xa1116930326D21fB917d5A27F1E9943A9595fb47, MAX_UINT) on the Aave ecosystem reserve 0x25f2226b597e8f9514b3f68f00f494cf4f286491. https://etherscan.io/address/0x4da27a545c0c5B758a6BA100e3a049001de870f5 is the stkAAVE contract and https://etherscan.io/address/0xa1116930326D21fB917d5A27F1E9943A9595fb47 is the stkABPT address.
+executes approve(0x4da27a545c0c5B758a6BA100e3a049001de870f5, 200750) and
+approve(0xa1116930326D21fB917d5A27F1E9943A9595fb47, 200750) on the Aave ecosystem reserve 0x25f2226b597e8f9514b3f68f00f494cf4f286491. https://etherscan.io/address/0x4da27a545c0c5B758a6BA100e3a049001de870f5 is the stkAAVE contract and https://etherscan.io/address/0xa1116930326D21fB917d5A27F1E9943A9595fb47 is the stkABPT address.
 
 ## Copyright
 
