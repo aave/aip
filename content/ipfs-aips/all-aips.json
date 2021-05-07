@@ -177,6 +177,21 @@
     "ipfsHash": "QmVRGVKqK5GCu3ZQVkyNMDczp8bqK8zvGngGVFrASaKiFT",
     "encodeIpfsHash": "0x6930967f91ce48ecb598b84a97bae5c2932a2e81b59fd6730ca5333d0c5d054a"
   },
+  "AIP-20": {
+    "aip": 20,
+    "title": "Safety Incentives Implementation",
+    "status": "Proposed",
+    "author": "Marc Zeller (@marczeller)",
+    "shortDescription": "Allow Safety Module AAVE transfer",
+    "discussions": "https://governance.aave.com/t/proposal-introduce-liquidity-incentives-for-aave-v2/2340",
+    "created": "2021-05-07T00:00:00.000Z",
+    "updated": "2021-05-07T00:00:00.000Z",
+    "preview": "## AIP rationale\n\nAs a complementary final action following the AIP …",
+    "basename": "AIP-20",
+    "description": "\n\n## AIP rationale\n\nAs a complementary final action following the AIP 18,\n\nThis proposal extends the ability for the Safety Module contracts (stkAAVE and stkABPT) to transfer the AAVE rewards out of the Aave Ecosystem Reserve indefinitely.\n\nDoing so will allow continuation of the safety incentives.\n\nThis will remove the need for periodic quarterly review of the emission scheme, changing the approach to an on demand emission review when the community deems necessary.\n\nSafety Incentives will remain active and with the same emission rate until the ecosystem reserve is empty or the community consensus vote on a change, whichever comes first.\n\n# ARC content in short\n\n* With the AIP-18 and this proposal, Safety Incentives are maintained until a change is implemented.\n\n# Relevant Links\n\n* AIP-19 postponing the end of safety incentives: https://app.aave.com/governance/14-QmTYMox4aBpyQH53LwMzTuJY2z7Df7ANUSakeeeWWUoXmJ\n* Aavenomics : https://docs.aave.com/aavenomics/\n\n## Implementations details\n\n[NEEDED]\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
+    "ipfsHash": "QmdKy1cqy7iLaLncRTHXfcBVPtQkaVUEtNe447vXpjgYYT",
+    "encodeIpfsHash": "0xdeb26aca4905f60669c4cbd10e64c83b23aa4965a86c14c45e6ffd964c539794"
+  },
   "AIP-3": {
     "aip": 3,
     "title": "V1 upgrades for seamless transition to AAVE v2",
