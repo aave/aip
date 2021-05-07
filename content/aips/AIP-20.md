@@ -32,7 +32,8 @@ Safety Incentives will remain active and with the same emission rate until the e
 
 ## Implementations details
 
-[NEEDED]
+executes approve(0x4da27a545c0c5B758a6BA100e3a049001de870f5, MAX_UINT) and
+approve(0xa1116930326D21fB917d5A27F1E9943A9595fb47, MAX_UINT) on the Aave ecosystem reserve 0x25f2226b597e8f9514b3f68f00f494cf4f286491. https://etherscan.io/address/0x4da27a545c0c5B758a6BA100e3a049001de870f5 is the stkAAVE contract and https://etherscan.io/address/0xa1116930326D21fB917d5A27F1E9943A9595fb47 is the stkABPT address.
 
 ## Copyright
 
