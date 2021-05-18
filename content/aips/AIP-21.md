@@ -1,9 +1,9 @@
 ---
 aip: 21
-title: ReserveFactor Updates
+title: Set Reserve Factors for GUSD and CRV
 status: Proposed 
 author: Shreyas Hariharan (@helloshreyas)
-shortDescription: Ipdate CRV and GUSD reserveFactor
+shortDescription: Update CRV and GUSD reserveFactor
 discussions: https://docs.aave.com/aavenomics/
 created: 2021-05-17
 updated: 2021-05-17
