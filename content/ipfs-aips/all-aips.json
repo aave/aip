@@ -194,18 +194,18 @@
   },
   "AIP-21": {
     "aip": 21,
-    "title": "ReserveFactor Updates",
+    "title": "Set Reserve Factors for GUSD and CRV",
     "status": "Proposed",
     "author": "Shreyas Hariharan (@helloshreyas)",
-    "shortDescription": "Ipdate CRV and GUSD reserveFactor",
+    "shortDescription": "Update CRV and GUSD reserveFactor",
     "discussions": "https://docs.aave.com/aavenomics/",
     "created": "2021-05-17T00:00:00.000Z",
     "updated": "2021-05-17T00:00:00.000Z",
     "preview": "## AIP rationale\n\nThe reserveFactor allows the FeeCollector smart …",
     "basename": "AIP-21",
     "description": "\n\n## AIP rationale\n\nThe reserveFactor allows the FeeCollector smart contract to receive a part of interests paid by takers of liquidity, each asset on AAve has it's own reserveFactor set.\n\nAIP-5 and AIP-6 creators didn't set a reserve factor for GUSD and CRV, which means protocol is not receiving anything from the outstanding debt on these assets.\n\nThis AIP purpose is to update the reserveFactor of the assets GUSD and CRV.\n\n- GUSD from 0% to 10%\n\n- CRV from 0% to 20%\n\n# ARC content in short\n\n* Set ReserveFactor for GUSD to 10% and CRV to 20%\n\n# Relevant Links\n\n* AIP-5 CRV Listing https://app.aave.com/governance/0-QmNfU4FMdQriJVQeqQTNxgY63iSJVh8yCJf8aFDkQDjaLQ\n\n* AIP-6 GUSD Listing  https://app.aave.com/governance/1-QmQ5tK5cgVE9nws1NCSqd5gn4sxiEvWra3G4mXHZg8pnMR\n\n* Aavenomics : https://docs.aave.com/aavenomics/\n\n## Implementations details\n\ncall setReserveFactor(0x056fd409e1d7a124bd7017459dfea2f387b6d5cd, 1000)\ncall setReserveFactor(0xD533a949740bb3306d119CC777fa900bA034cd52, 2000)\n\nOn the lending pool configurator contract \n\nhttps://etherscan.io/address/0x311bb771e4f8952e6da169b425e7e92d6ac45756\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
-    "ipfsHash": "QmbbnhfpX9hdFpFe37dYECUDxZs3UULM95z6QUkmJdSMn6",
-    "encodeIpfsHash": "0xc508ade6715ac9a49962d49785aaf1b9e1804ed0b57f53b455d9457dfaf8684f"
+    "ipfsHash": "Qmb4cXBMga15bEHe84BeRXj7gY1tfXom8sr9WyZDwhJPGa",
+    "encodeIpfsHash": "0xbd0c29a45fd25d7c77e3d31efddd83131e4e82630ce7a11b418bb5b9c79c8887"
   },
   "AIP-3": {
     "aip": 3,
