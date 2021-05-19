@@ -20,7 +20,7 @@ RAI is an asset backed only by ETH, governance-minimized, and programmed to main
 
 Introducing more trustless, stable assets into Aave money markets will benefit both Aave and the ecosystem as a whole. The addition of RAI will diversify the protocol’s exposure to stable assets beyond traditional dollar-pegged stablecoins and provide enough bandwidth to grow the protocols TVL.
 
-Currently, $670m (~75%) of the stable asset liquidity on Aave is centralised (USDC, USDT, TUSD, BUSD, GUSD) while only $166m (~25%) is decentralised (DAI, sUSD). While this isn’t inherently a negative, introducing more decentralised, stable assets adds to Aave’s composability and resilience.
+Currently, more than $4.56B worth of stable asset liquidity on Aave V1 and V2 is centralised (USDC, USDT, TUSD, BUSD, GUSD) while only $1.25B (~25%) is decentralised (DAI, sUSD). While this isn’t inherently a negative, introducing more decentralised, stable assets adds to Aave’s composability and resilience.
 
 RAI also stands to benefit from being able to expand its utility and liquidity across the largest lending protocol in the space, allowing for more experimentation to occur in the ongoing journey towards entirely trustless and decentralized stable-credit.
 
@@ -58,8 +58,8 @@ On the other hand, the contract that keeps track of debt and collateral in all S
 
 8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
 
-    Market Cap: $100M
-    24h Volume: $10M
+    Market Cap: $67M
+    24h Volume: $8M
     Volatility: Very Low
     Maturity: Early-Mid
 
