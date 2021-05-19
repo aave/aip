@@ -14,7 +14,7 @@ Reflexer Labs has designed a new type of stable asset called RAI, an ETH backed 
 
 ## Abstract
 
-A short (~200 word) description of the technical issue being addressed.
+
 
 ## Motivation
 
@@ -75,7 +75,26 @@ On the other hand, the contract that keeps track of debt and collateral in all S
 
 ## Rationale
 
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+After its launch in February, over $100m worth of RAI has been minted and more than $300M worth of ETH have been deposited in the protocol. RAI has managed to stabilize using its on-chain PID controller and is now undergoing a governance minimization process with the intention to harden the protocol. The decision to design RAI as it is today came from the desire to achieve three main goals.
+
+1. DeFi Lego
+
+- Fork of MakerDAO’s Multi-Collateral DAI (MCD)
+- Governance-Minimized in the Long Run
+- Algorithmic (PID) interest rates
+
+2. Self-stabilizing asset-backed credit facility
+
+- Like MakerDAO, users can unlock credit from their ETH
+- Unlike MakerDAO, debt/credit is not fixed at $1. Rather, it fluctuates based on supply and demand.
+- RAI’s PI controller updates the system’s moving peg to balance demand for debt vs. credit
+
+3. Reserve asset for DeFi, alternative to pegged coins
+
+- More decentralized than dollar coins like USDC & USDT
+- Independent of USD inflationary monetary policy
+- Avoids being targeted by dollar coin regulation like the “Stable Act”
+- Backed by pure ETH, no centralized collateral.
 
 ## Test Cases
 
