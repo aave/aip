@@ -14,7 +14,7 @@ Reflexer Labs has designed a new type of stable asset called RAI, an ETH backed 
 
 ## Abstract
 
-
+RAI is an asset backed only by ETH, governance-minimized, and programmed to maintain its own price stability without needing to peg to an external price reference like the USD. We believe these qualities make RAI ideal initially as an alternative to pegged-coins for use in DeFi as collateral and as a stable reserve asset, especially for programs where resilience is critical.
 
 ## Motivation
 
@@ -75,18 +75,18 @@ On the other hand, the contract that keeps track of debt and collateral in all S
 
 ## Rationale
 
-After its launch in February, over $100m worth of RAI has been minted and more than $300M worth of ETH have been deposited in the protocol. RAI has managed to stabilize using its on-chain PID controller and is now undergoing a governance minimization process with the intention to harden the protocol. The decision to design RAI as it is today came from the desire to achieve three main goals.
+The decision to design RAI as it is today came from the desire to achieve three main goals.
 
 1. DeFi Lego
 
 - Fork of MakerDAO’s Multi-Collateral DAI (MCD)
-- Governance-Minimized in the Long Run
-- Algorithmic (PID) interest rates
+- Governance-minimized in the Long Run
+- Algorithmic (PI controller) interest rates
 
 2. Self-stabilizing asset-backed credit facility
 
 - Like MakerDAO, users can unlock credit from their ETH
-- Unlike MakerDAO, debt/credit is not fixed at $1. Rather, it fluctuates based on supply and demand.
+- Unlike MakerDAO, debt/credit is not fixed at $1. Rather, it fluctuates based on supply and demand
 - RAI’s PI controller updates the system’s moving peg to balance demand for debt vs. credit
 
 3. Reserve asset for DeFi, alternative to pegged coins
@@ -94,7 +94,16 @@ After its launch in February, over $100m worth of RAI has been minted and more t
 - More decentralized than dollar coins like USDC & USDT
 - Independent of USD inflationary monetary policy
 - Avoids being targeted by dollar coin regulation like the “Stable Act”
-- Backed by pure ETH, no centralized collateral.
+- Backed by pure ETH, no centralized collateral
+
+## References
+
+Whitepaper - https://github.com/reflexer-labs/whitepapers/blob/master/English/rai-english.pdf
+Website - https://reflexer.finance/
+Twitter - https://twitter.com/reflexerfinance
+Docs - https://docs.reflexer.finance/
+Github - https://github.com/reflexer-labs
+Token Contract - https://etherscan.io/token/0x03ab458634910aad20ef5f1c8ee96f1d6ac54919
 
 ## Test Cases
 
