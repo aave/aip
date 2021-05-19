@@ -99,10 +99,15 @@ The decision to design RAI as it is today came from the desire to achieve three 
 ## References
 
 Whitepaper - https://github.com/reflexer-labs/whitepapers/blob/master/English/rai-english.pdf
+
 Website - https://reflexer.finance/
+
 Twitter - https://twitter.com/reflexerfinance
+
 Docs - https://docs.reflexer.finance/
+
 Github - https://github.com/reflexer-labs
+
 Token Contract - https://etherscan.io/token/0x03ab458634910aad20ef5f1c8ee96f1d6ac54919
 
 ## Test Cases
