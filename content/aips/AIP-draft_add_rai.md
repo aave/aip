@@ -96,6 +96,58 @@ The decision to design RAI as it is today came from the desire to achieve three 
 - Avoids being targeted by dollar coin regulation like the “Stable Act”
 - Backed by pure ETH, no centralized collateral
 
+## Implementation
+
+The RAI price oracle will be served via [ChainLink](https://chain.link/), which includes the [RAI/ETH feed](https://docs.chain.link/docs/ethereum-addresses).
+
+RAI will only be used for depositing and lending, not as collateral. The following params are proposed:
+
+```
+IReserveParams = {
+  strategy: rateStrategyStableTwo,
+  baseLTVAsCollateral: '0',
+  liquidationThreshold: '0',
+  liquidationBonus: '0',
+  borrowingEnabled: true,
+  stableBorrowRateEnabled: false,
+  reserveDecimals: '18',
+  aTokenImpl: eContractid.AToken,
+  reserveFactor: '2000'
+};
+```
+
+Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
+
+```
+    New interest bearing asset deployed on main:
+    Interest bearing aRAI address: 0x871F3deE648e326C5Ea992A6a1d05Be7eFA66edC
+    Variable Debt variableDebtRAI address: 0x0Dc560d207F5b8d9A551FeE7B49A33f735AB10e5
+    Stable Debt stableDebtRAI address: 0x81d94Af3861cC79D1b86d83171Ced505fBD1301A
+    Strategy Implementation for RAI address: 0xa1817190c89D306F7bB4EbE35c9a46e0290d6696
+```
+
+## Audits/Security Reviews
+
+[OpenZeppelin Audit for the Core Contracts](https://github.com/reflexer-labs/geb-audits/tree/master/open-zeppelin/core-contracts)
+
+[Quantstamp Audits for Periphery Contracts](https://github.com/reflexer-labs/geb-audits/tree/master/quantstamp/helper-contracts)
+
+[Solidified Audit for Periphery Contracts](https://github.com/reflexer-labs/geb-audits/tree/master/solidified/helper-contracts)
+
+**RAI Smart Contract Risk**: **C-**
+
+RAI has been on Mainnet Ethereum for a bit more than 100 days.
+
+**RAI Counterparty Risk**: **C-**
+
+Currently the RAI protocol can be paused or modified by a multisig. The protocol is meant to be governance minimized by end of summer 2022 according to [this public roadmap](https://docs.reflexer.finance/ungovernance/governance-minimization-guide#4-governance-minimization-levels).
+
+RAI currently has 2,063 holders who performed more than 50,000 transfers.
+
+**RAI Market Risk**: **C**
+
+The current RAI market cap is 33,126,214 USD. The average 24H trading volume in the past month has been 8,786,384,63 USD. RAI's normalized volatility over the last month is 1.49%.
+
 ## References
 
 Whitepaper - https://github.com/reflexer-labs/whitepapers/blob/master/English/rai-english.pdf
