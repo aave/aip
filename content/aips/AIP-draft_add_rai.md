@@ -1,7 +1,7 @@
 ---
-aip: <to be assigned>
+aip: 22
 title: Add RAI to Aave V2
-status: WIP
+status: Proposed
 author: Stefan Ionescu (@stefanionescu)
 shortDescription: Create a new Aave V2 market for the RAI stablecoin
 discussions: https://discord.gg/zCQYcFPEsE
