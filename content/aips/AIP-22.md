@@ -102,29 +102,23 @@ The RAI price oracle will be served via [ChainLink](https://chain.link/), which 
 
 RAI will only be used for depositing and lending, not as collateral. The following params are proposed:
 
-```
-IReserveParams = {
-  strategy: rateStrategyStableTwo,
-  baseLTVAsCollateral: '0',
-  liquidationThreshold: '0',
-  liquidationBonus: '0',
-  borrowingEnabled: true,
-  stableBorrowRateEnabled: false,
-  reserveDecimals: '18',
-  aTokenImpl: eContractid.AToken,
-  reserveFactor: '2000'
-};
-```
+
+  - Strategy: rateStrategyStableTwo,
+  - Base LTV As Collateral: 0
+  - Liquidation Threshold: 0
+  - Liquidation Bonus: 0
+  - Borrowing Enabled: true
+  - Stable BorrowRate Enabled: false
+  - Reserve Decimals: 18
+  - Reserve Factor: 2000
 
 Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
 
-```
-    New interest bearing asset deployed on main:
-    Interest bearing aRAI address: 0xe0065ea37791d336D78fcA0e870D04f700395B8d
-    Variable Debt variableDebtRAI address: 0x2cDA07B4a6D9064292DD8d624883f07c27eE01B7
-    Stable Debt stableDebtRAI address: 0xf37E202E587c6f63FD70F35C24Eb7f818CC5d01A
-    Strategy Implementation for RAI address: 0xA7d4df837926cD55036175AfeF38395d56A64c22
-```
+- Interest bearing aRAI: 0xe0065ea37791d336D78fcA0e870D04f700395B8d
+- Variable Debt variableDebtRAI: 0x2cDA07B4a6D9064292DD8d624883f07c27eE01B7
+- Stable Debt stableDebtRAI: 0xf37E202E587c6f63FD70F35C24Eb7f818CC5d01A
+- Strategy Implementation for RAI: 0xA7d4df837926cD55036175AfeF38395d56A64c22
+
 
 ## Audits/Security Reviews
 
