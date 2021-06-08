@@ -120,10 +120,10 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 
 ```
     New interest bearing asset deployed on main:
-    Interest bearing aRAI address: 0x871F3deE648e326C5Ea992A6a1d05Be7eFA66edC
-    Variable Debt variableDebtRAI address: 0x0Dc560d207F5b8d9A551FeE7B49A33f735AB10e5
-    Stable Debt stableDebtRAI address: 0x81d94Af3861cC79D1b86d83171Ced505fBD1301A
-    Strategy Implementation for RAI address: 0xa1817190c89D306F7bB4EbE35c9a46e0290d6696
+    Interest bearing aRAI address: 0xe0065ea37791d336D78fcA0e870D04f700395B8d
+    Variable Debt variableDebtRAI address: 0x2cDA07B4a6D9064292DD8d624883f07c27eE01B7
+    Stable Debt stableDebtRAI address: 0xf37E202E587c6f63FD70F35C24Eb7f818CC5d01A
+    Strategy Implementation for RAI address: 0xA7d4df837926cD55036175AfeF38395d56A64c22
 ```
 
 ## Audits/Security Reviews
