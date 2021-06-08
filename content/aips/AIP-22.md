@@ -103,7 +103,7 @@ The RAI price oracle will be served via [ChainLink](https://chain.link/), which 
 RAI will only be used for depositing and lending, not as collateral. The following params are proposed:
 
 
-  - Strategy: rateStrategyStableTwo,
+  - Strategy: rateStrategyStableTwo
   - Base LTV As Collateral: 0
   - Liquidation Threshold: 0
   - Liquidation Bonus: 0
