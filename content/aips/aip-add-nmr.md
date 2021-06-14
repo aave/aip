@@ -49,12 +49,14 @@ By giving everyone a way to earn yield and add value to the network, we make Num
 ## Specification
 
 **1. What is the link between the author of the AIP and the Asset?**
+ 
 I am an employee of Numerai tasked with bringing liquidity and lending to NMR. 
 Numerai is the creator of NMR and currently the primary use of it. 
 Numerai holds a Treasury of non-circulating NMR that it uses to raise funds and reward 
 data scientists submitting to the Numerai Data Science Tournament and Numerai Signals service.
 
 **2. Provide a brief high-level overview of the project and the token**
+ 
 Numerai is a quant hedge fund powered by a decentralized network of machine learning models. 
 NMR is used for staking and payouts in the Numerai Tournament and Numerai Signals. 
 In the Numerai Tournament, users build machine learning models to predict the stock market with free obfuscated financial data that Numerai provides. 
@@ -63,12 +65,15 @@ In both tournaments, users stake NMR on their models to earn performance-based r
 The staked models of Numerai are combined to form the Meta Model which controls the capital of the Numerai hedge fund across the global stock market.
 
 **3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?**
+ 
 We see NMR as a good borrow asset on Aave because of strong existing demand from potential borrowers and lenders. 
 Users who borrow NMR can use returns from staking in the Numerai Tournament to pay the loan interest. 
 Users who are unable to generate return will self select out of the tournament and be disincentivized from further borrowing in the future. 
 A broad base of supporters and ex-users who are already long term holders of NMR make up a robust and stable lending pool.
 
-**4. Provide a brief history of the project and the different components** Numerai was founded in October 2015 and began running and actively developing the Numerai Tournament from 2015 to 2017 using BTC to reward top performers, but poorly performing models could not be properly punished which led to widespread overfitting and spam. We [created](https://medium.com/numerai/an-ai-hedge-fund-goes-live-on-ethereum-a80470c6b681) and [airdropped](https://medium.com/numerai/a-new-cryptocurrency-for-coordinating-artificial-intelligence-on-numerai-9251a131419a) NMR to our community in 2017 and switched the Tournament over to staking rules as described in the whitepaper, which better aligned user incentives with Numerai’s performance.
+**4. Provide a brief history of the project and the different components** 
+ 
+Numerai was founded in October 2015 and began running and actively developing the Numerai Tournament from 2015 to 2017 using BTC to reward top performers, but poorly performing models could not be properly punished which led to widespread overfitting and spam. We [created](https://medium.com/numerai/an-ai-hedge-fund-goes-live-on-ethereum-a80470c6b681) and [airdropped](https://medium.com/numerai/a-new-cryptocurrency-for-coordinating-artificial-intelligence-on-numerai-9251a131419a) NMR to our community in 2017 and switched the Tournament over to staking rules as described in the whitepaper, which better aligned user incentives with Numerai’s performance.
 
 In 2019, tournament staking logic was extracted from NMR contracts into the [Erasure protocol](https://erasure.world/) 
 with [Erasure Bay](https://erasurebay.org/) and the Numerai tournament as the first two applications running on it. 
@@ -84,16 +89,19 @@ with the mission of allocating part of the Numerai treasury for the public good 
 The master plan of Numerai is to monopolize intelligence, monopolize data, monopolize money, and to decentralize it all.
 
 **5. How is the asset currently used?**
+ 
 NMR is currently used for staking and payouts in the Numerai Tournament and Numerai Signals, and as a burn token for Erasure Bay. 
 It is also used for bug and development bounties to the community and fundraising for Numerai as detailed in the next section.
 
 **6. Emission schedule**
+ 
 All NMR that will exist has already been minted. Numerai keeps a treasury of non-circulating NMR that it uses for fundraising, 
 rewarding data scientists, bug bounties, and other discretionary usages. For the majority of people, NMR can only be bought, 
 sold, and burned from the currently circulating supply. In 2018, we allocated 3M NMR to fundraising, of which 130K NMR remains. 
 Thereafter, the fundraising allocation will be considered exhausted and Numerai will no longer use NMR for fundraising.
 
 **7. Token (& Protocol) permissions (minting) and upgradability. Is there a multisig? What can it do? Who are the signers?**
+
 All NMR has already been minted. NMR used a delegate contract that originally allowed Numerai to upgrade the token at its discretion, 
 but minting and upgrading was disabled in July 2019 as part of the [NMR 2.0](https://medium.com/numerai/nmr2point0-66a45a9a5e70) migration.
 
@@ -102,6 +110,7 @@ The Numerai Treasury is controlled by a multisig wallet. Current signers include
 The Council of Elders treasury is also controlled by a multisig wallet. Current signers include key community members.
 
 **8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)**
+ 
 As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55 PM, May 13, 2021:
 * Market Cap - $316,010,279
 * 24h Volume - $29,799,393
@@ -109,6 +118,7 @@ As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55
 * [Exchanges](https://www.coingecko.com/en/coins/numeraire#markets) - Coinbase, Binance, Uniswap, OKEx, etc.
 
 **9. Social channels data (Size of communities, activity on Github)**
+ 
 * Twitter, verified: https://twitter.com/numerai [28K]
 * YouTube: https://youtube.com/numerai [3.7K]
 * Reddit: https://www.reddit.com/r/numerai/ [3.2K]
@@ -117,6 +127,7 @@ As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55
 * GitHub: https://github.com/numerai
 
 **10. Contracts date of deployments, number of transactions, number of holders for tokens**
+ 
 * From https://numer.ai/nmr:
   * Contract Deployment Time: Tue, 20 Jun 2017 08:10:37 UTC
 * From https://etherscan.io/token/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671#tokenAnalytics:
