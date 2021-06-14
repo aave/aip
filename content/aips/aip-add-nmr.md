@@ -124,7 +124,7 @@ As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55
   * Transfers: 362,688
  
 ## Risk
-[Risk Assessment](https://raw.githubusercontent.com/numerai/aip/master/content/assets/AIP-add_nmr/risk.png)
+![Risk Assessment](https://raw.githubusercontent.com/numerai/aip/master/content/assets/AIP-add_nmr/risk.png)
 
 ## Rationale
 
