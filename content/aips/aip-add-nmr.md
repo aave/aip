@@ -122,7 +122,9 @@ As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55
 * From https://etherscan.io/token/0x1776e1f26f98b1a5df9cd347953a26dd3cb46671#tokenAnalytics:
   * Holders: 33,948
   * Transfers: 362,688
-
+ 
+## Risk
+[Risk Assessment](https://raw.githubusercontent.com/numerai/aip/master/content/assets/AIP-add_nmr/risk.png)
 
 ## Rationale
 
