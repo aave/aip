@@ -48,9 +48,6 @@ By giving everyone a way to earn yield and add value to the network, we make Num
 
 ## Specification
 
-
-## Specifications
-
 **1. What is the link between the author of the AIP and the Asset?**
 I am an employee of Numerai tasked with bringing liquidity and lending to NMR. 
 Numerai is the creator of NMR and currently the primary use of it. 
