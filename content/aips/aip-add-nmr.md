@@ -144,15 +144,12 @@ We decided not to pursue NMR as a collateral asset because of it's low market li
 
 ## Test Cases
 
-### TBA
-Test cases for an implementation are mandatory for AIPs but can be included with the implementation.
+See Implementation section.
 
 ## Implementation
 
-### TBA
-The implementations must be completed before any AIP is given status "Implemented", but it need not be completed before the AIP is "Approved". 
-While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of 
-"rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
+Implemenatation with working tests:
+https://github.com/aave/protocol-v2/pull/153
 
 ## Copyright
 
