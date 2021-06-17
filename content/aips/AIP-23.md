@@ -65,7 +65,7 @@ In April 2021, bZx launched Fulcrum, and Torque it’s margin trading, borrowing
 
 In June 2021 bZx merged Torque borrowing into Fulcrum to create a single app where users can margin trade, borrow, farm and lend all from one place. Additionally, bZx also added support for Polygon, the third blockchain supported by bZx with 11 supported trading pairs. Alongside launching on Polygon, bZx introduced PGOV, the governance token for Polygon specific assets. 
 
-5.How is the asset currently used?
+5. How is the asset currently used?
 
 BZRX, being the primary token of the Protocol, is used for voting on governance decisions on the future direction of the Protocol. There is also a function–also not yet activated–to give BZRX token holders rights to the bZx insurance fund. The insurance fund comprises 10% of the interest earned by lenders–taken as part of the smart contract's design. The insurance fund protects lenders in case borrowers become unable to pay back their loans.
 
