@@ -1,12 +1,12 @@
 ---
-aip: <to be assigned>
+aip: 24
 title: Add NMR as a Borrow Asset
-status: WIP
+status: Proposed
 author: Noah Harasz (@ndharasz)
 shortDescription: Aave governance proposal to enable NMR as a borrow asset
 discussions: https://governance.aave.com/t/arc-add-support-for-nmr/3982/10
 created: 2021-06-14
-updated: N/A
+updated: 2021-06-18
 ---
 
 ## Simple Summary
