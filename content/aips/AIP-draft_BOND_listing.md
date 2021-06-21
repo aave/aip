@@ -24,24 +24,59 @@ There seems to have been good support from the community to add BOND and as we g
 ## Specification
 
 1. What is the link between the author of the AIP and the Asset?
+  
+  - I'm on of the co-founders of BarnBridge
 
 2. Provide a brief high-level overview of the project and the token
+  
+  - BarnBridge is a risk tokenizing protocol. It aims to reduce the risks associated with DeFi, such as inflation risk, market price risk, and cash-flow volatility   risk. By letting users select a risk profile, BarnBridge can redistribute risk via tokenized, liquid tranches. BarnBridge does this with its SMART Yield, SMART   Exposure, and SMART Alpha products, all of which address a specific DeFi risk category.
+
+  - BOND token is a governance token that powers the BarnBridge DAO protocol. BOND is an ERC-20 token. Token holders have the ability to govern the network by       staking their holdings in return for the right to participate in on-chain voting and make decisions on the protocol development.
+
+  - BOND total supply: 10,000,000 (minting function is disabled).
+  - Token contract address: 0x0391D2021f89DC339F60Fff84546EA23E337750f
 
 3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
+  
+  - By adding BOND as collateral, the DAO and individual BOND holders can borrow against their position, increasing stablecoin demand and utilization on Aave v2. Additionally, BOND holders can lend out their position for a yield on Aave v2. Given BarnBridge’s direct role as an Aave liquidity provider, the addition of BOND to Aave v2 creates more synergies between AAVE and BOND holders.
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
+  
+  - BarnBridge was founded in September 2020. Since that time, BarnBridge succeed in launching the BarnBridge DAO and delivering a SMART Yield product which currently holds $250M+ in TVL with $157M providing to Aave. With the upcoming SMART Yield and SMART Exposure launch on Polygon, followed by the product we call SMART Secret and SMART Alpha (later) BarnBridge will be a full-established protocol with plenty of products and potentially with 1B+ in TVL after all our products launch.
 
 5. How is the asset currently used?
+  
+  - BOND token is currently used for:
+
+     - Staking in BarnBridge DAO to get exposure to voting rights in the DAO.
+     - Liquidity providing on Uniswap, Sushiswap, and Bancor.
+     - Lending on Cream finance.
 
 6. Emission schedule
+  
+  
 
 7. Token & protocol permissions and upgradeability
+  
+  - Protocol is upgraded by the BarnBridge DAO.  We used the Diamond Standard on a couple parts of the protocol so we could do seemless upgrades.  A users token "power" determines their vote weight and control they have in the DAO.
 
 8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
+  
+  - Market cap: $94M
+  - 24h Volume: $4.5M
+  - Volatility: low
+  - Exchanges: Uniswap, Gemini, Gate io
 
 9. Social channels data (Size of communities, activity on Github)
+  
+  - Twitter: 18.8K
+  - Discord: 5,9K
+  - Medium: 4.1K
 
 10. Contracts date of deployments, number of transactions, number of holders for tokens
+  
+  - Transactions: 108K
+  - Token holders: 5.9k
 
 ## Rationale
 
