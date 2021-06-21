@@ -54,7 +54,7 @@ There seems to have been good support from the community to add BOND and as we g
 
 6. Emission schedule
   
-  
+  ![alt text](https://github.com/BarnBridge/BarnBridge-Whitepaper/blob/master/images/emission.png)
 
 7. Token & protocol permissions and upgradeability
   
