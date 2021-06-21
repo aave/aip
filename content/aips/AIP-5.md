@@ -4,6 +4,7 @@ title: Adding CRV on AAVE
 status: Implemented
 author: Charlie (@charlie_eth), Julien (@bneiluj)
 discussions: https://governance.aave.com/t/listing-proposal-add-crv-curve-dao-token/1395
+shortDescription: Aave governance proposal to enable CRV as a base asset
 created: 2020-12-14
 updated: 2020-12-14
 ---
