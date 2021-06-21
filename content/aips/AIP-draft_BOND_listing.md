@@ -25,7 +25,7 @@ There seems to have been good support from the community to add BOND and as we g
 
 1. What is the link between the author of the AIP and the Asset?
   
-  - I'm on of the co-founders of BarnBridge
+  - I'm one of the co-founders of BarnBridge
 
 2. Provide a brief high-level overview of the project and the token
   
