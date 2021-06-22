@@ -24,6 +24,10 @@ stETH lets holders at once margin long ETH and compound it with staking rewards 
 3. Potential arbitrage abilities with high liquidity.
 Deep liquidity on the Curve pool opens good abilities for arbitrage using Aave flash loans, borrowing and lending.
 
+4. Give people opportunity to margin stake ETH. 
+Stake -> borrow ETH vs. stETH -> stake, etc.
+
+
 ### Specification
 The protocol allows users to deposit ETH and receive stETH. The deposited ETH is then pooled and staked with node operators selected by the Lido DAO. stETH represents the user’s staked ETH balance of the beacon chain along with staking rewards accrued or penalties inflicted on validators in the beacon chain. When transactions are enabled on the beacon chain, stETH can be redeemed for unstaked ETH and accumulated rewards. 
 [wstETH](https://docs.lido.fi/contracts/wsteth) is a constant-balance wrapper ERC20 token that converts stETH balances which undergo periodical rebases to the underlying shares balances. As Lido oracles report ETH2 rewards, penalties, or slashings, wstETH token balances remain unchanged: instead, the amount of stETH corresponding to one wstETH (and thus wstETH price) changes. Anyone can convert stETH to wstETH and vice versa on-chain through [`wstETH.wrap`](https://docs.lido.fi/contracts/wsteth#wrap) and [`wstETH.unwrap`](https://docs.lido.fi/contracts/wsteth#unwrap) functions.
