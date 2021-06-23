@@ -5,7 +5,7 @@ status: WIP
 author: Nikolai (MineDeFi)
 shortDescription: Aave governance proposal to enable wstETH as a base asset
 discussions: https://governance.aave.com/t/proposal-add-support-for-steth-lido/2123/14
-created: 2021-06-22
+created: 2021-06-23
 ---
 ### Simple Summary
 stETH is ERC20 token that represents ETH staked by depositing to Lido smart contract and reflects corresponding staking rewards and slashing penalties in the beacon chain. The stETH token is a liquid and productive alternative for the staked ether: it could be transferred, traded, or used in DeFi applications.
@@ -57,7 +57,7 @@ The stETH:ETH pair is [the biggest pool](https://curve.fi/steth) on Curve with o
 
 **Staking risks**
 
-stETH faces staking risks, specifically validator risks including slashing and hostage risks. To mitigate these, Lido works only with best-in-class validators with a track record of success. In addition to this, staked ETH with Lido is protected from slashing using the Unslashed Finance insurance [protocol](https://app.unslashed.finance/policies/Lido%20(ETH%202.0)%205pc%20slashing%20policy.pdf). At the time of writing, Lido is covered for ~20000 ETH slashing until June 22nd. To date, no slashings have been incurred.
+stETH faces staking risks, specifically validator risks including slashing and hostage risks. To mitigate these, Lido works only with best-in-class validators with a track record of success. In addition to this, staked ETH with Lido is protected from slashing using the Unslashed Finance insurance [protocol](https://app.unslashed.finance/policies/Lido%20(ETH%202.0)%205pc%20slashing%20policy.pdf). At the time of writing, Lido is covered for ~584,798 ETH slashing. To date, no slashings have been incurred.
 
 **Withdrawal risks**
 
