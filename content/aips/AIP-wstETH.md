@@ -33,10 +33,12 @@ The protocol allows users to deposit ETH and receive stETH. The deposited ETH is
 [wstETH](https://docs.lido.fi/contracts/wsteth) is a constant-balance wrapper ERC20 token that converts stETH balances which undergo periodical rebases to the underlying shares balances. As Lido oracles report ETH2 rewards, penalties, or slashings, wstETH token balances remain unchanged: instead, the amount of stETH corresponding to one wstETH (and thus wstETH price) changes. Anyone can convert stETH to wstETH and vice versa on-chain through [`wstETH.wrap`](https://docs.lido.fi/contracts/wsteth#wrap) and [`wstETH.unwrap`](https://docs.lido.fi/contracts/wsteth#unwrap) functions.
 
 ### Rationale
+
 Since stETH is a rebasable token it's easier and less risky to integrate wstETH to AAVE.
 
 ## Risk Assessment
-![Risk Assessment Summary](https://lh3.googleusercontent.com/04UNUJOQjcpofALvEecOep-PPcPzon-lttLraleyVlNz687dMwmH7uGfuQ2ALLe8iDDgbl24NnRKGbNXmbPS6_TqcDykJudgOT27Zu97jpdfQSRx5AajIuHtEE4s-w2g3WJeA7PA)
+
+![Risk Assessment Summary](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/748779ef-8bd0-46ea-b5ea-485ec8c16fac/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210623%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210623T101117Z&X-Amz-Expires=86400&X-Amz-Signature=00453a00f04021a795937a91826c0f04f2e33d81132e4f0b65b1657a77fab50a&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
 **Smart contract risks**
 
@@ -51,7 +53,7 @@ Read further in Lido [documentation](https://docs.lido.fi/token-guides/steth-sup
 **Market risk**
 
 Despite that stETH token is still quite novel and there is no such vast historical data compared to ETH, stETH holds the ETH peg 1:1 (at the latest crypto drop peg dropped to 0.995 only).
-The stETH:ETH pair is [the biggest pool](https://curve.fi/steth) on Curve with over $1.44b in liquidity. You need to trade 175000 ETH to stETH or vice versa (more than $200m) to move the price 2%. The reason for that is that the pool is incentivized. There are CRV rewards and LDO rewards that people who are providing liquidity for a stETH:ETH pool can receive by staking their LP shares in the Curve gauge. Lido is incentivizing the pool by monthly governance decisions: e.g. this month 0.375% of total LDO supply, which amounts to $9m or over 3500 ETH at the time of writing, [was allocated](https://research.lido.fi/t/curve-proposal-continue-ldo-reward-initiative-with-3-750-000-ldo-0-375/602) to the gauge.
+The stETH:ETH pair is [the biggest pool](https://curve.fi/steth) on Curve with over $1.44b in liquidity. You need to trade more than 250000 ETH to stETH or vice versa (around  $500m) to move the price 2%. The reason for that is that the pool is incentivized. There are CRV rewards and LDO rewards that people who are providing liquidity for a stETH:ETH pool can receive by staking their LP shares in the Curve gauge. Lido is incentivizing the pool by monthly governance decisions: e.g. this month 0.375% of total LDO supply, which amounts to $5,5m or over 2800 ETH at the time of writing, [was allocated](https://research.lido.fi/t/curve-proposal-continue-ldo-reward-initiative-with-3-750-000-ldo/687) to the gauge.
 
 **Staking risks**
 
