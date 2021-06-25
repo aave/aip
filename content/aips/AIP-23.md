@@ -110,7 +110,7 @@ Stable:
 - R_s1 10%
 - R_s2 300%
 
-![](../assets/AIP-draft_BOND_listing/rate.png)
+![](../assets/AIP-23/rate.png)
 
 ## References
 
