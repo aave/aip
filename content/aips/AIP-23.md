@@ -1,5 +1,5 @@
 ---
-aip: <to be assigned>
+aip: 23
 title: Add BarnBridge BOND to AAVE
 status: WIP
 author: Troy Murray (@DannyDesert)
