@@ -1,5 +1,5 @@
 ---
-aip: 24
+aip: 23
 title: Add NMR as a Borrow Asset
 status: Proposed
 author: Noah Harasz (@ndharasz)
