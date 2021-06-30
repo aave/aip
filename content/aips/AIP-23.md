@@ -1,17 +1,17 @@
 ---
 aip: 23
-title: Add BarnBridge (BOND) to AAVE
+title: Add BarnBridge (BOND) to Aave
 status: Proposed
 author: Anjan Vinod (ParaFi Capital)
-shortDescription: Create an AAVE v2 market for the BOND token
+shortDescription: Create an Aave v2 market for the BOND token
 discussions: https://governance.aave.com/t/proposal-add-support-for-bond-barnbridge/4486
 created: 2021-21-06
-updated: 2021-28-06
+updated: 2021-30-06
 ---
 
 ## Simple Summary
 
-We are proposing to add BarnBridge (BOND) to AAVE as collateral.
+We are proposing to add BarnBridge (BOND) to Aave as collateral.
 
 ## Abstract
 
@@ -23,7 +23,7 @@ BarnBridge is one of a handful of DAOs noted for its sizable allocation of its o
 
 Adding BOND to Aave would provide a mechanism through which the DAO could finance growth, decreasing the need for excessive token distributions. Example use cases include: funding projects building on top of BarnBridge applications, paying salaries to key protocol participants, and hosting bug bounties that earn yield until paid out.
 
-BarnBridge earns fee revenues from both deposits of underlying assets and redemptions of derivative assets. By adding BOND as collateral, the DAO and individual BOND holders can borrow against their position, increasing stablecoin demand and utilization on Aave v2. Additionally, BOND holders can lend out their position for a yield on Aave v2. Given BarnBridge’s direct role as an Aave liquidity provider, the addition of BOND to Aave v2 creates more synergies between AAVE and BOND holders.
+BarnBridge earns fee revenues from both deposits of underlying assets and redemptions of derivative assets. By adding BOND as collateral, the DAO and individual BOND holders can borrow against their position, increasing stablecoin demand and utilization on Aave v2. Additionally, BOND holders can lend out their position for a yield on Aave v2. Given BarnBridge’s direct role as an Aave liquidity provider, the addition of BOND to Aave v2 creates more synergies between Aave and BOND holders.
 
 To start, it may make sense for BOND to have a conservative LTV and liquidation threshold which can be fine tuned further down the line.
 
@@ -40,11 +40,11 @@ To start, it may make sense for BOND to have a conservative LTV and liquidation 
   - BOND token is a governance token that powers the BarnBridge DAO protocol. BOND is an ERC-20 token. Token holders have the ability to govern the network by       staking their holdings in return for the right to participate in on-chain voting and make decisions on the protocol development.
 
   - BOND total supply: 10,000,000 (minting function is disabled).
-  - Token contract address: 0x0391D2021f89DC339F60Fff84546EA23E337750f
+  - Token contract address: [`0x0391D2021f89DC339F60Fff84546EA23E337750f`](https://etherscan.io/address/0x0391D2021f89DC339F60Fff84546EA23E337750f)
 
-3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
+3. Explain positioning of token in the Aave ecosystem. Why would it be a good borrow or collateral asset?
   
-  - By adding BOND as collateral, the DAO and individual BOND holders can borrow against their position, increasing stablecoin demand and utilization on Aave v2. Additionally, BOND holders can lend out their position for a yield on Aave v2. Given BarnBridge’s direct role as an Aave liquidity provider, the addition of BOND to Aave v2 creates more synergies between AAVE and BOND holders. BarnBridge currently provides ~$180M in liquidity to Aave v2 and will be launching a similar integration on Polygon in July.
+  - By adding BOND as collateral, the DAO and individual BOND holders can borrow against their position, increasing stablecoin demand and utilization on Aave v2. Additionally, BOND holders can lend out their position for a yield on Aave v2. Given BarnBridge’s direct role as an Aave liquidity provider, the addition of BOND to Aave v2 creates more synergies between Aave and BOND holders. BarnBridge currently provides ~$180M in liquidity to Aave v2 and will be launching a similar integration on Polygon in July.
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
   
@@ -60,11 +60,11 @@ To start, it may make sense for BOND to have a conservative LTV and liquidation 
 
 6. Emission schedule
   
-  ![alt text](https://github.com/BarnBridge/BarnBridge-Whitepaper/blob/master/images/emission.png)
+  ![BarnBridge BOND emission schedule](../assets/AIP-23/emission.png)
 
 7. Token & protocol permissions and upgradeability
   
-  - Protocol is upgraded by the BarnBridge DAO.  We used the Diamond Standard on a couple parts of the protocol so we could do seemless upgrades.  A users token "power" determines their vote weight and control they have in the DAO.
+  - Protocol is upgraded by the BarnBridge DAO.  We used the Diamond Standard on a couple parts of the protocol so we could do seamless upgrades.  A users token "power" determines their vote weight and control they have in the DAO.
 
 8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
   
@@ -116,7 +116,7 @@ Stable:
 - R_s1 10%
 - R_s2 300%
 
-![](../assets/AIP-23/rate.png)
+![BarnBridge BOND Aave interest rates](../assets/AIP-23/rate.png)
 
 ## References
 
