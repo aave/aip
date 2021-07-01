@@ -94,8 +94,6 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 
 ## Implementation
 
-The BOND price oracle will be served via [ChainLink](https://chain.link/), which includes the [BOND/ETH](https://docs.chain.link/docs/ethereum-addresses) feed, [here](https://etherscan.io/address/0xdd22A54e05410D8d1007c38b5c7A3eD74b855281).
-
 - LTV 25%
 - Liquidation Threshold 35%
 - Liquidation Bonus 15%
@@ -115,6 +113,17 @@ Stable:
 
 - R_s1 10%
 - R_s2 300%
+
+### Contracts
+
+- Interest bearing aBOND address: [`0x848bCacE91a2f3dbBd692580d482C63933cdE3A9`](https://etherscan.io/address/0x848bCacE91a2f3dbBd692580d482C63933cdE3A9)
+- Variable Debt variableDebtBOND address: [`0xffE2af52CBc96C0e21Ce76428371747c14572619`](https://etherscan.io/address/0xffE2af52CBc96C0e21Ce76428371747c14572619)
+- Stable Debt stableDebtBOND address: [`0xC26063FC1CfE2f86a77Ef3E87aDA3a75a4F5c5D2`](https://etherscan.io/address/0xC26063FC1CfE2f86a77Ef3E87aDA3a75a4F5c5D2)
+- Strategy Implementation for BOND address: [`0x17e64934E5a953a1DD355c664Ad0a19aeb69b6b0`](https://etherscan.io/address/0x17e64934E5a953a1DD355c664Ad0a19aeb69b6b0)
+
+### Price oracle
+
+The BOND price oracle will be served via [ChainLink](https://chain.link/), which includes the [BOND/ETH](https://docs.chain.link/docs/ethereum-addresses) feed, [here](https://etherscan.io/address/0xdd22A54e05410D8d1007c38b5c7A3eD74b855281).
 
 ![BarnBridge BOND Aave interest rates](../assets/AIP-23/rate.png)
 
