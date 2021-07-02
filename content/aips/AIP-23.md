@@ -81,7 +81,7 @@ The PAX price oracle will be served via [Chainlink](http://chain.link) as a [PAX
 
 PAX will be used for depositing, lending, and as collateral. The following params are proposed:
 
-- Strategy: rateStrategyStableTwo
+- Strategy: rateStrategyStableThree
 - Base LTV As Collateral: 80%
 - Liquidation Threshold: 85%
 - Liquidation Bonus: 5%
