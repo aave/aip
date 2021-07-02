@@ -79,7 +79,16 @@ PAX tokens are minted/burned based on client demand. The process for minting and
 
 The PAX price oracle will be served via [Chainlink](http://chain.link) as a [PAX/ETH feed](https://data.chain.link/ethereum/mainnet/crypto-eth/pax-eth). 
 
-PAX will be used for depositing, lending, and as collateral.
+PAX will be used for depositing, lending, and as collateral. The following params are proposed:
+
+- Strategy: rateStrategyStableTwo
+- Base LTV As Collateral: 80%
+- Liquidation Threshold: 85%
+- Liquidation Bonus: 5%
+- Borrowing Enabled: true
+- Stable BorrowRate Enabled: true
+- Reserve Decimals: 18
+- Reserve Factor: 10%
 
 ## Audits/Security Reviews
 
