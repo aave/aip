@@ -96,10 +96,10 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 
 ### Contracts
 
-- Interest bearing aBOND address: [`0x848bCacE91a2f3dbBd692580d482C63933cdE3A9`](https://etherscan.io/address/0x848bCacE91a2f3dbBd692580d482C63933cdE3A9)
-- Variable Debt variableDebtBOND address: [`0xffE2af52CBc96C0e21Ce76428371747c14572619`](https://etherscan.io/address/0xffE2af52CBc96C0e21Ce76428371747c14572619)
-- Stable Debt stableDebtBOND address: [`0xC26063FC1CfE2f86a77Ef3E87aDA3a75a4F5c5D2`](https://etherscan.io/address/0xC26063FC1CfE2f86a77Ef3E87aDA3a75a4F5c5D2)
-- Strategy Implementation for BOND address: [`0x17e64934E5a953a1DD355c664Ad0a19aeb69b6b0`](https://etherscan.io/address/0x17e64934E5a953a1DD355c664Ad0a19aeb69b6b0)
+- Interest bearing aBOND address: [`0x170375B4aD477133a36B4961D9bcA6D5BF9C8389`](https://etherscan.io/address/0x170375B4aD477133a36B4961D9bcA6D5BF9C8389)
+- Variable Debt variableDebtBOND address: [`0x21D0366D1D678fCf276954b7D651B9dfeE104D82`](https://etherscan.io/address/0x21D0366D1D678fCf276954b7D651B9dfeE104D82)
+- Stable Debt stableDebtBOND address: [`0xb98EF546D1057f9750511FE16cBCC7Eb0FB6451F`](https://etherscan.io/address/0xb98EF546D1057f9750511FE16cBCC7Eb0FB6451F)
+- Strategy Implementation for BOND address: [`0x273358d06Ca3862bf3C0691d1C8B4B4d3E906458`](https://etherscan.io/address/0x273358d06Ca3862bf3C0691d1C8B4B4d3E906458)
 
 ### Price oracle
 
