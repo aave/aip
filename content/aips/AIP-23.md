@@ -45,7 +45,6 @@ PAX was launched on September 10th, 2018. PAX is included in MakerDAO’s pool a
 PAX shares the typical use-cases for USD stablecoins.
 
 6. Emission schedule
-
     
 PAX tokens are minted/burned based on client demand. The process for minting and burning has been approved by the NYDFS and is regularly audited by a third party. Full monthly attestations available on the paxos website. Market cap fluctuates as users purchase and redeem PAX.
 
