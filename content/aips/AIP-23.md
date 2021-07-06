@@ -90,6 +90,12 @@ PAX will be used for depositing and lending. We will additionally seek collatera
 - Reserve Decimals: 18
 - Reserve Factor: 10%
 
+Deployed Contracts:
+- Interest bearing aPAX address: 0x12E6b609A97261b40B0268495933b952d408e0cD 
+- Variable Debt variableDebtPAX address: 0x4bf6b40E11059281F4D97322C95aF825ad78EB0B 
+- Stable Debt stableDebtPAX address: 0x3C2Aa5E5C6B852B9A9E147a1C203bF3b82383c7E
+- Strategy Implementation for PAX address: 0xE1c7C816F6D7C98eFECF14dBCFDF951A5fF0c971
+
 ## Audits/Security Reviews
 
 [ChainSecurity Audit for the Initial Core Contracts](https://github.com/paxosglobal/pax-contracts/blob/master/audit-reports/ChainSecurity_Audit_Report.pdf)
