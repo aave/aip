@@ -90,7 +90,7 @@ PAX will be used for depositing and lending. We will additionally seek collatera
 - Reserve Decimals: 18
 - Reserve Factor: 10%
 
-Deployed Contracts:
+Deployed Contract Implementations:
 - Interest bearing aPAX address: 0x12E6b609A97261b40B0268495933b952d408e0cD 
 - Variable Debt variableDebtPAX address: 0x4bf6b40E11059281F4D97322C95aF825ad78EB0B 
 - Stable Debt stableDebtPAX address: 0x3C2Aa5E5C6B852B9A9E147a1C203bF3b82383c7E
