@@ -1,5 +1,5 @@
 ---
-aip: 24
+aip: 23
 title: Add PAX to Aave V2
 status: WIP
 author: Charles Rodiger (@charlie-paxos)
