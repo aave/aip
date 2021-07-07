@@ -89,6 +89,12 @@ PAX will be used for depositing, lending and collateral. We believe collateral s
 - Reserve Decimals: 18
 - Reserve Factor: 10%
 
+Deployed Contract Implementations:
+- Interest bearing aPAX address: 0x12c94988d3942c90C7fD19699F2e1A26D5F50d6c 
+- Variable Debt variableDebtPAX address: 0x78938d637311131F1Ccd6cf55423f7FEBED92F40
+- Stable Debt stableDebtPAX address: 0x25E9b7F05BBC38ff922F1ee409E1F2Bc79f18128
+- Strategy Implementation for PAX address: 0xA19727460CAd7AA1856935A96c6143aBF7AaB59C
+
 ## Audits/Security Reviews
 
 [ChainSecurity Audit for the Initial Core Contracts](https://github.com/paxosglobal/pax-contracts/blob/master/audit-reports/ChainSecurity_Audit_Report.pdf)
