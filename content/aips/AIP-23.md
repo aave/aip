@@ -78,22 +78,22 @@ PAX tokens are minted/burned based on client demand. The process for minting and
 
 The PAX price oracle will be served via [Chainlink](http://chain.link) as a [PAX/ETH feed](https://data.chain.link/ethereum/mainnet/crypto-eth/pax-eth). 
 
-PAX will be used for depositing, lending and collateral. We believe collateral status is reasonable given the low risk profile associated with PAX. The following parameters are proposed:
+PAX will be used for depositing and lending. The following parameters are proposed:
 
 - Strategy: rateStrategyStableThree
-- Base LTV As Collateral: 80%
-- Liquidation Threshold: 85%
-- Liquidation Bonus: 5%
+- Base LTV As Collateral: 0%
+- Liquidation Threshold: 0%
+- Liquidation Bonus: 0%
 - Borrowing Enabled: true
-- Stable BorrowRate Enabled: true
+- Stable BorrowRate Enabled: false
 - Reserve Decimals: 18
 - Reserve Factor: 10%
 
 Deployed Contract Implementations:
-- Interest bearing aPAX address: 0x12c94988d3942c90C7fD19699F2e1A26D5F50d6c 
-- Variable Debt variableDebtPAX address: 0x78938d637311131F1Ccd6cf55423f7FEBED92F40
-- Stable Debt stableDebtPAX address: 0x25E9b7F05BBC38ff922F1ee409E1F2Bc79f18128
-- Strategy Implementation for PAX address: 0xA19727460CAd7AA1856935A96c6143aBF7AaB59C
+- Interest bearing aPAX address: 0x12E6b609A97261b40B0268495933b952d408e0cD
+- Variable Debt variableDebtPAX address: 0x4bf6b40E11059281F4D97322C95aF825ad78EB0B
+- Stable Debt stableDebtPAX address: 0x3C2Aa5E5C6B852B9A9E147a1C203bF3b82383c7E
+- Strategy Implementation for PAX address: 0xE1c7C816F6D7C98eFECF14dBCFDF951A5fF0c971
 
 ## Audits/Security Reviews
 
