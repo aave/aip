@@ -21,8 +21,6 @@ bZx Protocol allows anyone to build applications that enable lenders, borrowers,
 Fulcrum: [fulcrum.trade](https://fulcrum.trade/)
 Torque: [torque.loans](https://torque.loans/)
 
-Over the years, bZx has established a strong and loyal community that believes in the principles of DeFi and who would love to be able to use the Aave platform.
-
 ## Motivation
 
 bZx's presence on AAVE would provide additional TVL to AAVE and an opportunity to earn additional fees as bZx holders would be able to come to AAVE to collateralize their assets.
