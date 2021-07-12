@@ -137,6 +137,24 @@ As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55
 ## Risk
 ![Risk Assessment](https://raw.githubusercontent.com/numerai/aip/master/content/assets/AIP-add_nmr/risk.png)
 
+The following token parameters have been selected based on the similarity to other coins of NMRs risk profile:
+```
+  strategy: 
+    optimalUtilizationRate: 0.45
+    baseVariableBorrowRate: 0
+    variableRateSlope1: 0.07
+    variableRateSlope2: 3
+    stableRateSlope1: 0.1
+    stableRateSlope2: 3
+  baseLTVAsCollateral: '1500'
+  liquidationThreshold: '4500'
+  liquidationBonus: '11000'
+  borrowingEnabled: true
+  stableBorrowRateEnabled: false
+  reserveDecimals: '18'
+  reserveFactor: '2000'
+```
+
 ## Rationale
 
 We believe NMR to be primarily valuable as a borrow asset because of the reasons stated above.
