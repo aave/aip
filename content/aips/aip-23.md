@@ -139,7 +139,7 @@ As reported by [CoinGecko](https://www.coingecko.com/en/coins/numeraire) on 1:55
 
 The following token parameters have been selected based on the similarity to other coins of NMRs risk profile:
 ```
-  strategy: 
+  strategy: rateStrategyVolatileOne
     optimalUtilizationRate: 0.45
     baseVariableBorrowRate: 0
     variableRateSlope1: 0.07
