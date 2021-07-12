@@ -1,5 +1,5 @@
 ---
-aip: 23
+aip: 24
 title: Add PAX to Aave V2
 status: WIP
 author: Charles Rodiger (@charlie-paxos)
@@ -90,10 +90,10 @@ PAX will be used for depositing and lending. The following parameters are propos
 - Reserve Factor: 10%
 
 Deployed Contract Implementations:
-- Interest bearing aPAX address: 0x12E6b609A97261b40B0268495933b952d408e0cD
-- Variable Debt variableDebtPAX address: 0x4bf6b40E11059281F4D97322C95aF825ad78EB0B
-- Stable Debt stableDebtPAX address: 0x3C2Aa5E5C6B852B9A9E147a1C203bF3b82383c7E
-- Strategy Implementation for PAX address: 0xE1c7C816F6D7C98eFECF14dBCFDF951A5fF0c971
+- Interest bearing aPAX address: 0xBcbD94007425001E9e2AEc764D799f83a257f050 
+- Variable Debt variableDebtPAX address: 0x7b4E77aa7062cE6b8a8A75514F6D2aD987c0d854
+- Stable Debt stableDebtPAX address: 0x9C3440F4aACA3312b632bE4A07C0f97B15c31c8b
+- Strategy Implementation for PAX address: 0x404d396fc42e20d14585A1a10Cd64BDdC6C6574A
 
 ## Audits/Security Reviews
 
@@ -124,7 +124,7 @@ The current PAX market cap is $819,632,517 USD. The average 24H trading volume i
 
 **PAX Overall Risk**: **A-**
 
-![PAX Risk Analysis](../assets/AIP-23/aip23-img.png?raw=true "PAX Risk Analysis")
+![PAX Risk Analysis](../assets/AIP-24/aip25-img.png?raw=true "PAX Risk Analysis")
 
 ## References
 
