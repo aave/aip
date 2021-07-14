@@ -10,7 +10,7 @@ created: 2021-06-29
 
 ## Simple Summary
 
-Paxos Standard (PAX) is the 5th largest USD-backed stablecoin, is highly trustworthy and regulated by the NYDFS and is the only coin to have received a successful SOC-II audit. Adding PAX to Aave will provide users another, trustworthy alternative to post collateral and borrow.
+Paxos Standard (PAX) is the 5th largest USD-backed stablecoin, is highly trustworthy and regulated by the NYDFS and is the only coin to have received a successful SOC-II audit. Adding PAX to Aave will provide users another, trustworthy alternative to borrow.
 
 ## Abstract
 
@@ -20,7 +20,7 @@ PAX is used in a variety of use cases including a means of payment for other blo
 
 ## Motivation
 
-Paxos would like to extend PAX’s functionality in the DeFi space through a listing on Aave. We believe adding PAX will provide users another trustworthy crypto asset to post as collateral and borrow. PAX is an excellent source of collateral as it is one of the most reliable, regulated stablecoins. PAX is valuable to borrow due to its trustworthiness and range of use cases, including store-of-value, settlement, collateral, trading, and peer-to-peer transfer.
+Paxos would like to extend PAX’s functionality in the DeFi space through a listing on Aave. We believe adding PAX will provide users another trustworthy crypto asset to borrow. PAX is valuable to borrow due to its trustworthiness and range of use cases, including store-of-value, settlement, trading, and peer-to-peer transfer.
 
 ## Specification
 
@@ -30,11 +30,11 @@ Software Engineer employed at Paxos. Paxos Trust Company is a qualified custodia
 
 2. Provide a brief high-level overview of the project and the token
 
-PAX is the most secure, highest regulated stablecoin available. Token was launched in 2018 to facilitate many blockchain-based use-cases such as payments, stable digital storage, and reliable collateral.
+PAX is the most secure, highest regulated stablecoin available. Token was launched in 2018 to facilitate many blockchain-based use-cases such as payments and stable digital storage.
 
 3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
 
-PAX is an excellent source of collateral because it is the most reliable, regulated stablecoin. PAX is valuable to borrow due to its trustworthiness and range of use cases including store of value, settlement, collateral, trading, and peer to peer transfer.
+PAX is valuable to borrow due to its trustworthiness and range of use cases including store of value, settlement, trading, and peer to peer transfer. Paxos additionally plans to request collateral status once sufficient liquidity is established.
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?
 
