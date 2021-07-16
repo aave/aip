@@ -1,12 +1,12 @@
 ---
 aip: 12
 title: Adding AMPL on AAVE
-status: WIP
+status: Proposed
 author: Ahmed Naguib Aly (@ahnaguib), Nithin Ottilingam (@nithinkrishna), Brandon Iles (@brandoniles)
 shortDescription: Aave governance proposal to enable AMPL as a borrow asset
 discussions: https://governance.aave.com/t/proposal-add-support-for-ampl/854
 created: 2021-01-12
-updated: 2021-04-06
+updated: 2021-07-16
 ---
 
 ## AIP rationale
@@ -86,6 +86,12 @@ Given the novel mechanism of rebasing, it will only be used as a borrowing curre
 
 A 3rd party Audit report from Peckshield can be found [here](https://github.com/aave/protocol-v2/blob/50290685aa3b68eea18f4a908748aafb05db96ab/audits/PeckShield-Audit-Report-aAMPL-v1.0.pdf).
 
+After some recommendations from Aave devs, we made small updates to the implementation. This included no behavioral changes but included using a different math library and method of initializating configuration. We then ran a second round of audits with Peckshield that raised no new issues.
+
+Internal testing was performed with a mainnet fork.
+
+We launched an [Immunefi Bug Bounty](https://immunefi.com/bounty/ampleforth/) for the aToken with a competitive $100K reward for critical vulnerabilities. This has also raised no issues.
+
 ### Technical Specifications
 
 We implement a custom AToken, StableDebtToken and VariableDebtToken for AMPL. The StableDebtToken and VariableDebtToken implementations make no functional changes to the generic implementation. When the debt tokens are minted and burned, it performs some additional book-keeping to keep track of the totalScaledAMPL (fixed AMPL denomination, ie Gons) borrowed at any-time. The new getAMPLBorrowData method returns the totalScaledAMPL and totalScaledSupply which are used for AAmplToken math.
@@ -101,7 +107,7 @@ Steps the proposal will execute:
 
 ### Test Cases
 - [Colab Notebook](https://colab.research.google.com/drive/1a4zd7UL-U5Xrme9b0X5B39nJzjrFwfG1?usp=sharing) of test cases
-- Unit tests included with code change
+- Unit tests included with code change provide full coverage for all borrow, repay, and rebase flows.
 
 ### Security Considerations
 - Standard technical risks of smart contracts apply to the AToken implementation.
