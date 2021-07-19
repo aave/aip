@@ -10,17 +10,18 @@ created: 2021-06-29
 
 ## Simple Summary
 
-Paxos Standard (PAX) is the 5th largest USD-backed stablecoin, is highly trustworthy and regulated by the NYDFS and is the only coin to have received a successful SOC-II audit. Adding PAX to Aave will provide users another, trustworthy alternative to borrow.
+This AIP is to list PAX for lend/borrow support on Aave.  Paxos Standard (PAX) is one of largest regulated USD-backed stablecoins, and listing on Aave will provide users a highly trustworthy crypto asset to lend and borrow. PAX is issued by a NYDFS regulated financial institution - Paxos Trust Company - and the token itself is also regulated by NYDFS. This oversight ensures PAX is 100% backed by US Dollars or short term government securities (e.g. “t-bills”) at all times (attestations). PAX users are assured to always access their dollars - all PAX reserves are held fully segregated and bankruptcy remote in US bank accounts, which only Paxos-issued tokens can claim. PAX is also the only coin to have received a successful SOC-II audit. We think transparency is a hallmark of DEFI, and PAX’s transparency and trustworthiness will be beneficial for the community. We are excited at the prospect of listing PAX on Aave.
 
 ## Abstract
 
-Paxos Standard (PAX) was launched in 2018 and is a USD stablecoin that is 100% backed by US dollars held bankruptcy remote. Paxos issues PAX and both the company and token are regulated by the NY DFS. Full PAX attestations are completed monthly and posted to www.paxos.com/attestations.
+Paxos Standard (PAX) was launched in 2018 and is a USD stablecoin that is 100% backed by US dollars or short term government securities held bankruptcy remote. Paxos issues PAX, and both the company and token are regulated by the NY DFS. Full PAX attestations are completed monthly and posted to www.paxos.com/attestations.
 
-PAX is used in a variety of use cases including a means of payment for other blockchain - based assets, trustworthy store-of-value, settlement of assets with fiat currency outside of traditional banking hours, and being lent / borrowed on known CeFi institutions like BlockFi and Celsius. Paxos would like to extend the functionality to the DeFi space through listing on Aave.
+PAX is used in a variety of use cases including as a means of payment for other blockchain-based assets, a trustworthy store-of-value, settlement outside of traditional banking hours, and being lent / borrowed on known CeFi institutions like BlockFi and Celsius. PAX is included in MakerDAO’s pool and is available for trading on DeFi Apps, including Curve and Uniswap. Paxos would like to extend PAX’s functionality through inclusion in Aave’s lend/borrow markets.  Collateral support could be proposed in future AIPs.
+
 
 ## Motivation
 
-Paxos would like to extend PAX’s functionality in the DeFi space through a listing on Aave. We believe adding PAX will provide users another trustworthy crypto asset to borrow. PAX is valuable to borrow due to its trustworthiness and range of use cases, including store-of-value, settlement, trading, and peer-to-peer transfer.
+Paxos would like to extend PAX’s functionality in the DeFi space through a listing on Aave. We believe adding PAX will provide users a highly trustworthy crypto asset to lend and borrow. PAX is valuable not only due to its transparency and trustworthiness, but also the range of use cases it supports, including store-of-value, settlement, trading, and peer-to-peer transfer.
 
 ## Specification
 
@@ -34,29 +35,30 @@ PAX is the most secure, highest regulated stablecoin available. Token was launch
 
 3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
 
-PAX is valuable to borrow due to its trustworthiness and range of use cases including store of value, settlement, trading, and peer to peer transfer. Paxos additionally plans to request collateral status once sufficient liquidity is established.
+PAX is valuable to borrow due to its trustworthiness and range of use cases including store of value, settlement, trading, and peer to peer transfer. PAX is also very liquid and can be created and redeemed directly through Paxos, or can be used to trade on CeFi and DeFi exchanges. Paxos additionally plans to request collateral status at a future date.
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?
 
-PAX was launched on September 10th, 2018. PAX is included in MakerDAO’s pool and available for trading on DeFi Apps Curve and Uniswap, as well as traded on many different centralized exchanges.
+PAX was launched on September 10th, 2018. PAX is included in MakerDAO’s pool and is available for trading on DeFi Apps Curve and Uniswap, as well as traded on many different centralized exchanges.
 
 5. How is the asset currently used?
 
 PAX shares the typical use-cases for USD stablecoins.
 
 6. Emission schedule
-    
-PAX tokens are minted/burned based on client demand. The process for minting and burning has been approved by the NYDFS and is regularly audited by a third party. Full monthly attestations available on the paxos website. Market cap fluctuates as users purchase and redeem PAX.
+
+PAX tokens are minted/burned based on client demand. The process for minting and burning has been approved by the NYDFS and is regularly audited by a third party. Full monthly attestations are available on the Paxos website. Market cap fluctuates as users purchase and redeem PAX.
 
 7. Token & protocol permissions and upgradability
-    1. Note that all of the following roles are held by multi-sig addresses.
-    2. Controlling the token supply - The supplyController address can mint and burn the token based on the actual movement of USD in and out of the reserve based on requests for the purchase, conversion and redemption of PAX.
-    3. Contract Owner - Can pause/unpause the contract and propose a new owner.
-    4. Asset Protection Role - As required by our regulators, we have introduced a role for asset protection to freeze or seize the assets of a criminal party when required to do so by law, including by court order or other legal process.
-    5. Upgradeability Proxy - To facilitate upgradeability on the immutable blockchain we follow a standard two-contract delegation pattern: a proxy contract represents the token, while all calls not involving upgrading the contract are delegated to an implementation contract. The proxy used here is AdminUpgradeabilityProxy from ZeppelinOS.
-    
+   
+   *All of the following roles are held by multi-sig addresses.*
+   1. Controlling the token supply - The supplyController address can mint and burn the token based on the actual movement of USD in and out of the reserve based on requests for the purchase, conversion and redemption of PAX.
+   2. Contract Owner - Can pause/unpause the contract and propose a new owner.
+   3. Asset Protection Role - As required by our regulators, we have introduced a role for asset protection to freeze or seize the assets of a criminal party when required to do so by law, including by court order or other legal process.
+   4. Upgradeability Proxy - To facilitate upgradeability on the immutable blockchain we follow a standard two-contract delegation pattern: a proxy contract represents the token, while all calls not involving upgrading the contract are delegated to an implementation contract. The proxy used here is AdminUpgradeabilityProxy from ZeppelinOS.
+   
 
-8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
+8. Market data as of July 6th, 2021 (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
 
 * [Market Cap](https://etherscan.io/token/0x8e870d67f660d95d5be530380d0ec0bd388289e1): $837M
 * [24h Volume](https://www.coingecko.com/en/coins/paxos-standard): $64M
@@ -64,19 +66,19 @@ PAX tokens are minted/burned based on client demand. The process for minting and
 * [Exchanges](https://www.coingecko.com/en/coins/paxos-standard#markets): Binance, itBit, Bitfinex, Coinsbit, Atomars, etc
 * Maturity: Late
 
-9. Social channels data (Size of communities, activity on Github)
-   
+9. Social channels data as of July 6th, 2021 (Size of communities, activity on Github)
+
 [Paxos Twitter](https://twitter.com/PaxosGlobal): 23k followers
 
 10. Contracts date of deployments, number of transactions, number of holders for tokens
 
 * Date of Deployment: September 8th, 2018
-* Number of Transactions: 3,186,000+ 
+* Number of Transactions: 3,186,000+
 * Number of Holders: 109,500+
 
 ## Implementation
 
-The PAX price oracle will be served via [Chainlink](http://chain.link) as a [PAX/ETH feed](https://data.chain.link/ethereum/mainnet/crypto-eth/pax-eth). 
+The PAX price oracle will be served via [Chainlink](http://chain.link) as a [PAX/ETH feed](https://data.chain.link/ethereum/mainnet/crypto-eth/pax-eth).
 
 PAX will be used for depositing and lending. The following parameters are proposed:
 
@@ -90,7 +92,7 @@ PAX will be used for depositing and lending. The following parameters are propos
 - Reserve Factor: 10%
 
 Deployed Contract Implementations:
-- Interest bearing aPAX address: 0xBcbD94007425001E9e2AEc764D799f83a257f050 
+- Interest bearing aPAX address: 0xBcbD94007425001E9e2AEc764D799f83a257f050
 - Variable Debt variableDebtPAX address: 0x7b4E77aa7062cE6b8a8A75514F6D2aD987c0d854
 - Stable Debt stableDebtPAX address: 0x9C3440F4aACA3312b632bE4A07C0f97B15c31c8b
 - Strategy Implementation for PAX address: 0x404d396fc42e20d14585A1a10Cd64BDdC6C6574A
@@ -109,7 +111,7 @@ Deployed Contract Implementations:
 
 [ChainSecurity Audit for the Upgraded Core Contracts](https://github.com/paxosglobal/paxos-gold-contract/blob/master/audit-reports/paxg-audits/ChainSecurity_PAXOS-GOLD.pdf)
 
-**PAX Smart Contract Risk**: **A-**
+**PAX Smart Contract Risk**: **A**
 
 PAX has been on the Ethereum Mainnet since 2018, and has had 3,000,000+ transactions.
 
@@ -143,3 +145,4 @@ Token Contract - https://etherscan.io/address/0x8e870d67f660d95d5be530380d0ec0bd
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
