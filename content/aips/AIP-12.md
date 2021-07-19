@@ -99,8 +99,8 @@ We implement a custom AToken, StableDebtToken and VariableDebtToken for AMPL. Th
 Generic AToken has a private balance and public balance. The public balance returned by balanceOf is multiplied by an interest rate factor. The aAMPL works the same way but the AAmplInternal balance is multiplied by another factor, which accounts for the underlying AMPL rebasing and the amount of AMPL unborrowed.
 
 ### Code
-AAMPL token address: 0x938Eb0b3C4Bb93aF924ACbf9d3dBD444153F7Ba8
-Code verified [here](https://etherscan.io/address/0x938Eb0b3C4Bb93aF924ACbf9d3dBD444153F7Ba8#code)
+AAMPL token address: 0x6fBC3BE5ee5273598d1491D41bB45F6d05a7541A
+Code verified [here](https://etherscan.io/address/0x6fBC3BE5ee5273598d1491D41bB45F6d05a7541A#code)
 
 Steps the proposal will execute:
 1. Start a vote to add aAMPL as a new asset.
