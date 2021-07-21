@@ -1,3 +1,14 @@
+---
+aip: 25
+title: Extend Liquidity Incentives for Aave v2
+status: Proposed
+author: Anjan Vinod (@Anjan-ParaFi)
+shortDescription: Extend Aave LM Rewards
+discussions: https://governance.aave.com/t/arc-extend-aave-liquidity-mining-rewards/4852
+created: 2021-07-21
+updated: 2021-07-21
+---
+
 **Liquidity Mining Extension**
 
 Given the liquidity mining program will end this week, this AIP will extend the current program by 4 weeks. This extension should give the community enough time to [debate](https://governance.aave.com/t/arc-extend-aave-liquidity-mining-rewards/4852/15) any changes to the liquidity mining program without any interruption for Aave borrowers and lenders.
