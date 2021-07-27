@@ -1,8 +1,8 @@
 ---
 aip: <to be assigned>
 title: Add FEI to Aave V2
-status: WIP
-author: Brianna Montgomery (@bpm6867)
+status: Proposed
+author: Joey Santoro (@joeysantoro), Brianna Montgomery (@bpm6867)
 shortDescription: Create a new Aave V2 market for the FEI stablecoin
 discussions: https://discord.gg/aDeErjS6Dt
 created: 2021-06-16
@@ -33,7 +33,7 @@ FEI is a decentralized and scalable stablecoin for DeFi.
 
 3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
 
-If listed, FEI would be one of the most decentralized stablecoins on Aave. The Fei DAO can support FEI markets on Aave by providing FEI liquidity. Traders will have the ability to tap into the large FEI-ETH liquidity on Uni V2 ($561 million) Uniswap Info as well as any future protocol owned or incentivized liquidity pools.
+If listed, FEI would be one of the most decentralized stablecoins on Aave. The Fei DAO can support FEI markets on Aave by providing FEI liquidity, approved via snapshot for 25 million. Traders will have the ability to tap into the large FEI-ETH liquidity on Uni V2 ($561 million) as well as any future protocol owned or incentivized liquidity pools.
 
 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?
 
@@ -86,14 +86,14 @@ FEI will only be used for depositing and lending, not as collateral. The followi
   - Borrowing Enabled: true
   - Stable BorrowRate Enabled: false
   - Reserve Decimals: 18
-  - Reserve Factor: 1000
+  - Reserve Factor: 2000
 
 Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
 
-- Interest bearing aFEI: 
-- Variable Debt variableDebtFEI: 
-- Stable Debt stableDebtFEI: 
-- Strategy Implementation for FEI:
+- Interest bearing aFEI: 0x08bbB5922550e6992ebDA8252A31AA02924EF28A
+- Variable Debt variableDebtFEI: 0xa4893779e193AbD23CE494e5400ca340033606C7
+- Stable Debt stableDebtFEI: 0xa4767eA500bc04430dE609A523CDc99c9537867C
+- Strategy Implementation for FEI: 0x9f7663e34a2c2Be586126Eed5AF4651b062a51A6
 
 ## References
 
