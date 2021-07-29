@@ -1,26 +1,24 @@
 ---
-aip: <to be assigned>
+aip: 26
 title: Raise Maximum Interest Rate on AMPL Market
 status: WIP
 author: Ahmed Naguib Aly (@ahnaguib), Nithin Ottilingam (@nithinkrishna), Brandon Iles (@brandoniles)
-shortDescription: Raise maximum interest rate to better balance incentives between the borrow and lending sides of the market.
+shortDescription: Raise maximum interest rate to better balance incentives between the borrow and deposit sides of the market.
 discussions: https://governance.aave.com/t/arc-raise-ampl-maximum-interest-rate/4996
 created: 2021-07-26
-updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
-requires (*optional): <AIP number(s)>
 ---
 
 ## Simple Summary
 
-This proposes raising the maximum AMPL interest rate to better balance incentives between the borrowing and lending sides of the market.
+This proposes raising the maximum AMPL interest rate to better balance incentives between the borrow and deposit sides of the market.
 
 ## Motivation
 
-Following [API-12](https://governance.aave.com/t/proposal-add-support-for-ampl/854/8), [AMPL borrowing & lending](https://app.aave.com/reserve-overview/AMPL-0xd46ba6d942050d489dbd938a2c909a5d5039a1610xb53c1a33016b2dc2ff3653530bff1848a515c8c5) went live on the AAVE v2 market [date=2021-07-24 time=20:22:00 timezone="UTC"].
+Following [API-12](https://governance.aave.com/t/proposal-add-support-for-ampl/854/8), [AMPL borrowing & depositing](https://app.aave.com/reserve-overview/AMPL-0xd46ba6d942050d489dbd938a2c909a5d5039a1610xb53c1a33016b2dc2ff3653530bff1848a515c8c5) went live on the AAVE v2 market [date=2021-07-24 time=20:22:00 timezone="UTC"].
 
-Since then, there has been a near 100% utilization rate of deposited assets. This suggests the maximum cap of the interest rate curve is not able to reach a high enough value to effectively balance incentives between the borrow side and lending side of the marketplace.
+Since then, there has been a near 100% utilization rate of deposited assets. This suggests the maximum cap of the interest rate curve is not able to reach a high enough value to effectively balance incentives between the borrow side and depositing side of the marketplace.
 
-![Lend and Borrow APY on AAVE, 7/24/21](../assets/AIP-Ampl_interest_rate/apys.png "Lend and Borrow APY on AAVE, 7/24/21")
+![Deposit and Borrow APY on AAVE, 7/24/21](../assets/AIP-26/apys.png "Deposit and Borrow APY on AAVE, 7/24/21")
 
 While the AMPL spot market is currently in a relatively extreme condition, the AAVE borrowing market should be able to perform efficiently in all market scenarios.
 
