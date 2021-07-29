@@ -1,7 +1,7 @@
 ---
 aip: 26
 title: Raise Maximum Interest Rate on AMPL Market
-status: WIP
+status: Proposed
 author: Ahmed Naguib Aly (@ahnaguib), Nithin Ottilingam (@nithinkrishna), Brandon Iles (@brandoniles)
 shortDescription: Raise maximum interest rate to better balance incentives between the borrow and deposit sides of the market.
 discussions: https://governance.aave.com/t/arc-raise-ampl-maximum-interest-rate/4996
