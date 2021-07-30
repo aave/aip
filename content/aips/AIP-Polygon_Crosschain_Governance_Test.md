@@ -1,6 +1,6 @@
 ---
 aip: <to be assigned>
-title: <Polygon Cross-chain Governance Test>
+title: Polygon Cross-chain Governance Test
 status: WIP
 author: Steven Valeri (@stevenvaleri)
 shortDescription: Test the Aave Polygon governance bridge contract prior to setting it as owner of the Aave Polygon market
