@@ -46,7 +46,7 @@ Given Aave's goal of decentralized ownership of deployed markets, transferring t
 
 A detailed specification of the crosschain-bridge contract and workflow is outlined in the repo here
 
-(https://github.com/Aave/governance-crosschain-bridges)
+https://github.com/Aave/governance-crosschain-bridges
 
 For this test specifically, the test would flow from Aave governance on Ethereum, through a cross chain transaction to the `PolygonBridgeExecutor` contract. Then after a delay, the proposal would be executed on Polygon to make updates to the **mock** Aave Polygon market.
 
@@ -75,13 +75,13 @@ Testing the contracts that enable this cross-chain bridging as thoroughly as pos
 
 ## Test Cases
 
-A full suit of tests with 100% coverage is included in the repo `https://github.com/Aave/governance-crosschain-bridges`. The cross-chain workflow has also successfully been tested on the Goerli-Mumbai test networks.
+A full suit of tests with 100% coverage is included in the repo https://github.com/Aave/governance-crosschain-bridges. The cross-chain workflow has also successfully been tested on the Goerli-Mumbai test networks.
 
 ## Implementation
 
 A mock implementation of this proposed test can be found here:
 
-`https://github.com/Aave/governance-crosschain-bridges/tree/feat/mainnet-test`
+https://github.com/Aave/governance-crosschain-bridges/tree/feat/mainnet-test
 
 After setting up the repository: 
 
