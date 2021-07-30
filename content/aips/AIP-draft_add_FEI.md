@@ -4,7 +4,7 @@ title: Add FEI to Aave V2
 status: Proposed
 author: Joey Santoro (@joeysantoro), Brianna Montgomery (@bpm6867)
 shortDescription: Create a new Aave V2 market for the FEI stablecoin
-discussions: https://discord.gg/aDeErjS6Dt
+discussions: https://governance.aave.com/t/arc-add-support-for-fei-as-a-lending-currency/4542
 created: 2021-06-16
 updated: N/A
 ---
@@ -40,7 +40,7 @@ If listed, FEI would be one of the most decentralized stablecoins on Aave. The F
 Fei Protocol launched in April 2021 with a DAO since day one, and currently has over $643 million in liquidity. Fei aligns itself with the top communities and teams in the space, including Aave, with a similar decentralization ethos. There has been a large voter turnout during important community and team lead proposals that supported stabilizing the peg after the initial launch of the protocol.
 
 5. How is the asset currently used?
-FEI is currently being used in lending markets, including Fuse, and soon to be CREAM. FEI is growing and finding utilization in other financial service offerings in the broader DeFi ecosystem: lending, synthetics, option platforms, exchanges and AMM’s, etc.
+FEI is currently being used in interest rate markets, including Fuse, and soon to be CREAM. FEI is growing and finding utilization in other financial service offerings in the broader DeFi ecosystem: synthetics, option platforms, exchanges and AMM’s, etc.
 
 6. Emission schedule
 
@@ -70,13 +70,13 @@ An additional role, the Guardian, can pause the minting of FEI. The Fei Core Tea
 	Number of Holders: 4,089
 
 ## Rationale
-Because FEI is an earlier stage project the proposal is only for depositing and lending. The use of rateStrategyStableTwo, reserve factor, and disabled stable borrowing is appropriate for similar stablecoins per https://docs.aave.com/risk/asset-risk/risk-parameters.
+Because FEI is an earlier stage project the proposal is only for depositing. The use of rateStrategyStableTwo, reserve factor, and disabled stable borrowing is appropriate for similar stablecoins per https://docs.aave.com/risk/asset-risk/risk-parameters.
 
 ## Implementation
 
 The FEI price oracle will be served via [ChainLink](https://chain.link/), which includes the [FEI/ETH feed](https://docs.chain.link/docs/ethereum-addresses).
 
-FEI will only be used for depositing and lending, not as collateral. The following params are proposed:
+FEI will only be used for depositing, not as collateral. The following params are proposed:
 
 
   - Strategy: rateStrategyStableTwo
