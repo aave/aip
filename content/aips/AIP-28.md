@@ -64,13 +64,13 @@ The general flow of this test will be
 6c. Transfer ownership of the **mock** Aave market to a dummy address\
 7. Confirm the expected updates have been made on **mock** Aave market
 
-Related Contracts:
+**Related Contracts:**
 
-Polygon Bridge Executor Contracts\
+*Polygon Bridge Executor Contracts*\
 PolygonBridgeExecutor: `0x60966EA42764c7c538Af9763Bc11860eB2556E6B`\
-https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#code \
+https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#code
 
-Mock Polygon Market Contracts\
+*Mock Polygon Market Contracts*\
 LendingPoolAddressProviderAddress = `0x240de965908e06a76e1937310627b709b5045bd6`\
 https://polygonscan.com/address/0x240de965908e06a76e1937310627b709b5045bd6#code \
 LendingPoolConfiguratorAddress (proxy)= `0xd63B6B5E0F043e9779C784Ee1c14fFcBffB98b70` \
@@ -78,13 +78,13 @@ https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#write
 LendingPoolConfiguratorAddress (implementation)= `0xADA061366575324945c7a097F829349acA6C9aB9` \
 https://polygonscan.com/address/0xADA061366575324945c7a097F829349acA6C9aB9#code
 
-Polygon Bridge Contracts\
+*Polygon Bridge Contracts*\
 FxRoot: `0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2` \
 https://etherscan.io/address/0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2#code \
 StateSender: `0x28e4F3a7f651294B9564800b2D01f35189A5bFbE` \
 https://etherscan.io/address/0x28e4f3a7f651294b9564800b2d01f35189a5bfbe#code \
 FxChild: `0x8397259c983751DAf40400790063935a11afa28a` \
-https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a#code \
+https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a#code
 
 ## Rationale
 
