@@ -1,5 +1,5 @@
 ---
-aip: <to be assigned>
+aip: 28
 title: Polygon Cross-chain Governance Test
 status: WIP
 author: Steven Valeri (@stevenvaleri)
