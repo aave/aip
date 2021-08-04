@@ -52,16 +52,16 @@ The general flow of this test will be
 1. Propose cross-chain test transactions (Aave governance-v2)
 2. Vote on cross-chain test transactions (Aave governance-v2)
 3. Queue test transactions
-4. Execute cross-chain test transactions 
-4a. Execute transaction from Aave Governance (Aave governance-v2)
-4b. Bridge the test transactions to Polygon  (Polygon fxPortal and Polygon Inherent Bridge Functionality)
-4c. Receive bridged message on Polygon       (Polygon fxPortal and Polygon Inherent Bridge Functionality)
-4d. Queue transactions for execution in PolygonBridgeExecutor (Aave governance-crosschain-bridges)
+4. Execute cross-chain test transactions\
+4a. Execute transaction from Aave Governance (Aave governance-v2)\
+4b. Bridge the test transactions to Polygon  (Polygon fxPortal and Polygon Inherent Bridge Functionality)\
+4c. Receive bridged message on Polygon       (Polygon fxPortal and Polygon Inherent Bridge Functionality)\
+4d. Queue transactions for execution in PolygonBridgeExecutor (Aave governance-crosschain-bridges)\
 5. Wait for delay
-6. Execute queued transactions in the PolygonBridgeExecutor   (Aave governance-crosschain-bridges)
-6a. Turn off borrowing for the **mock** Dai reserve
-6b. Transfer POOL_ADMIN rights to a dummy address
-6c. Transfer ownership of the **mock** Aave market to a dummy address
+6. Execute queued transactions in the PolygonBridgeExecutor   (Aave governance-crosschain-bridges)\
+6a. Turn off borrowing for the **mock** Dai reserve\
+6b. Transfer POOL_ADMIN rights to a dummy address\
+6c. Transfer ownership of the **mock** Aave market to a dummy address\
 7. Confirm the expected updates have been made on **mock** Aave market
 
 Related Contracts:
