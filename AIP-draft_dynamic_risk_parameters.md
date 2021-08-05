@@ -28,7 +28,28 @@ See `discussions` for further information.
 
 ## Implementation
 
-Preparing the OpenZepellin Vesting contract per the ARC details. 
+Current Aave v2 Total $ Borrow = ~$7.09B 
+
+Current Number of Aave v2 Assets = 28
+
+_Gauntlet quarterly service fee formula = log(Number of Assets,10) * Total $ Borrow * 2.5 basis points / AAVE price_\
+                                        = log(26,10) * $6,000,000,000 * 2.5 basis points / AAVE price ($376)\
+                                        = 5,645 AAVE
+  
+This AIP implements two payments to Gauntlet as outlined in the ARC, both denominated in stkAAVE. The stkAAVE is obtained by staking AAVE from the EcosystemReserve. The first payment is implemented as a direct transfer of the stkAAVE to Gauntlet. The second payment makes use of [Sablier](https://docs.sablier.finance/) to implement a streaming vesting payment over the course of half a year. This payment can be revoked by governance using `cancelStream`. Specifically we make use of the following transactions:
+  - `transfer` `AAVE` tokens from the EcosystemReserve to the ShortExecutor using the Ecosystem Reserve Controller contract at 0x1E506cbb6721B83B1549fa1558332381Ffa61A93
+  - `approve` the `stkAAVE` token to stake the `AAVE` we transferred
+  - `stake` the `AAVE` into `stkAAVE`
+  - `transfer` the non vested portion directly to the Gauntlet
+  - `approve` the `Sablier` contracts to spend the remaining vesting portion of the `stkAAVE`
+  - `createStream` on the `Sablier` contract, with the Gauntlet set as the beneficiary, to stream the vesting portion of `stkAAVE` over six months              
+
+
+Exact calldata and target addresses can be viewed in the transaction which created this proposal.
+
+
+
+
 
 ## Copyright
 
