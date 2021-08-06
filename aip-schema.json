@@ -1,0 +1,20 @@
+{
+  "title": "AIP metadata",
+  "description": "AIP metadata",
+  "type": "object",
+  "properties": {
+    "title": {
+      "description": "The title of the proposal",
+      "type": "string"
+    },
+    "shortDescription": {
+      "description": "The short description of the proposal (plain text)",
+      "type": "string"
+    },
+    "description": {
+      "description": "The full description of the proposal (in MD format)",
+      "type": "string"
+    }
+  },
+  "required": ["title", "description"]
+}

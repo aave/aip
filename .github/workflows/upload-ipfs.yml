@@ -27,6 +27,9 @@ jobs:
       - name: Parse Markdown
         run: npm run parse-markdown
 
+      - name: Verify Schema
+        run: npm run validation:aip-schema
+
       - name: Upload to Pinata and theGraph IPFS
         env:
           PINATA_KEY: ${{ secrets.PINATA_KEY }}
