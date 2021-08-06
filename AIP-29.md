@@ -24,7 +24,7 @@ Aave's Risk Framework shows the importance this community puts towards understan
 
 ## Rationale
 
-See `discussions` for further information.
+See [ARC](https://governance.aave.com/t/proposal-dynamic-risk-parameters/4854) for further information.
 
 ## Implementation
 
@@ -32,7 +32,7 @@ Current Aave v2 Total $ Borrow = ~$7.09B
 
 Current Number of Aave v2 Assets = 28
 
-_Gauntlet quarterly service fee formula = log(Number of Assets,10) * Total $ Borrow * 2.5 basis points / AAVE price_\
+_Gauntlet quarterly service fee formula = log(Number of Assets,10) * Total $ Borrow * 2.5 basis points / AAVE price_
                                         = log(26,10) * $6,000,000,000 * 2.5 basis points / AAVE price ($376)\
                                         = 5,645 AAVE
   
