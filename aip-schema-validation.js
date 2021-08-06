@@ -14,6 +14,7 @@ Object.keys(jsonAips).forEach((id) => {
   console.log(`AIP: ${id} schema is valid? ${valid}`);
 
   if (!valid) {
+    console.log('Proposal: ', dataToValidate);
     throw new Error(JSON.stringify(validate.errors))
   }
 });
