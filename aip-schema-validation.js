@@ -8,13 +8,13 @@ const validate = ajv.compile(validationSchema)
 
 jsonAips = JSON.parse(fs.readFileSync('./content/ipfs-aips/all-aips.json').toString());
 Object.keys(jsonAips).forEach((id) => {
-  const dataToValidate  = jsonAips[id];
-  const valid = validate(dataToValidate)
+  delete Object.assign(jsonAips[id], {'description': jsonAips[id]['content'] })['content'];
+  const valid = validate(jsonAips[id])
   
   console.log(`AIP: ${id} schema is valid? ${valid}`);
 
   if (!valid) {
-    console.log('Proposal: ', dataToValidate);
+    console.log('Proposal: ', jsonAips[id]);
     throw new Error(JSON.stringify(validate.errors))
   }
 });
