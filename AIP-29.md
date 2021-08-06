@@ -1,7 +1,7 @@
 ---
-aip: <to be assigned>
+aip: 29
 title: Dynamic Risk Parameters
-status: WIP
+status: Proposed
 author: Nick Cannon (@inkyamze)
 shortDescription: Continuous market risk management for Aave V2
 discussions: https://governance.aave.com/t/proposal-dynamic-risk-parameters/4854
