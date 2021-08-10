@@ -9,7 +9,7 @@ const validate = ajv.compile(validationSchema)
 jsonAips = JSON.parse(fs.readFileSync('./content/ipfs-aips/all-aips.json').toString());
 Object.keys(jsonAips).forEach((id) => {
   const idNumber = id.split('-')[1];
-  if (Number(idNumber) > 30) {
+  if (Number(idNumber) > 27) {
     delete Object.assign(jsonAips[id], {'description': jsonAips[id]['content'] })['content'];
     const valid = validate(jsonAips[id])
     
