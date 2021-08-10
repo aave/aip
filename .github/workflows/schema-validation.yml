@@ -23,3 +23,6 @@ jobs:
 
       - name: Parse Markdown
         run: npm run parse-markdown
+
+      - name: Verify Schema
+        run: npm run validation:aip-schema
