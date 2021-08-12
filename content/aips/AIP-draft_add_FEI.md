@@ -79,7 +79,7 @@ The FEI price oracle will be served via [ChainLink](https://chain.link/), which 
 FEI will only be used for depositing, not as collateral. The following params are proposed:
 
 
-  - Strategy: rateStrategyStableTwo
+  - Strategy: rateStrategyStableOne
   - Base LTV As Collateral: 0
   - Liquidation Threshold: 0
   - Liquidation Bonus: 0
