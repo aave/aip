@@ -90,10 +90,10 @@ FEI will only be used for depositing, not as collateral. The following params ar
 
 Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
 
-- Interest bearing aFEI: 0x08bbB5922550e6992ebDA8252A31AA02924EF28A
-- Variable Debt variableDebtFEI: 0xa4893779e193AbD23CE494e5400ca340033606C7
-- Stable Debt stableDebtFEI: 0xa4767eA500bc04430dE609A523CDc99c9537867C
-- Strategy Implementation for FEI: 0x9f7663e34a2c2Be586126Eed5AF4651b062a51A6
+- Interest bearing aFEI: 0xAcF35Af93a65904C50ED93dfb010bAAdEBb4ccF0
+- Variable Debt variableDebtFEI: 0x1B669D5034143E272b5Ff548f2878735A2F3505A
+- Stable Debt stableDebtFEI: 0x1DdcF68f4C2600CBE534212765F964342a2faf02
+- Strategy Implementation for FEI: 0xF0bA2a8c12A2354c075b363765EAe825619bd490
 
 ## References
 
