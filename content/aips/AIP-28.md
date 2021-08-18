@@ -82,6 +82,7 @@ https://github.com/Aave/governance-crosschain-bridges/tree/feat/mainnet-test
 
 After setting up the repository: 
 
+<<<<<<< HEAD
 `npm run hardhat mock-mainnet-proposal-delegate`
 runs on Ethereum fork to makes sure everything is encoded correctly to be submitted for the proposal
 
@@ -111,14 +112,28 @@ https://etherscan.io/address/0x28e4f3a7f651294b9564800b2d01f35189a5bfbe#code \
 FxChild: `0x8397259c983751DAf40400790063935a11afa28a` \
 https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a#code
 
+=======
+`npm run hardhat mock-mainnet-proposal`
+runs on Ethereum fork to makes sure everything is encoded correctly to be submitted for the proposal
+
+
+`npm run hardhat mock-Polygon-test`
+set a .env variable `Polygon_FORK = "true"` to run the test updating the Polygon market via the mainnet PolygonBridgeExecutor on a Polygon fork
+
+**Related Contracts:**
+
+>>>>>>> upstream/Pending-AIPs
 *Polygon Bridge Executor Contracts*\
 PolygonBridgeExecutor: `0x60966EA42764c7c538Af9763Bc11860eB2556E6B`\
 https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#code
 
+<<<<<<< HEAD
 *Polygon Market Update*\
 MarketUpdate: `0x5b494b94faf0bb63254dba26f17483bcf57f6d6a` \
 https://polygonscan.com/address/0x5b494b94faf0bb63254dba26f17483bcf57f6d6a#code
 
+=======
+>>>>>>> upstream/Pending-AIPs
 *Mock Polygon Market Contracts*\
 LendingPoolAddressProviderAddress = `0x240de965908e06a76e1937310627b709b5045bd6`\
 https://polygonscan.com/address/0x240de965908e06a76e1937310627b709b5045bd6#code \
@@ -127,7 +142,17 @@ https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#write
 LendingPoolConfiguratorAddress (implementation)= `0xADA061366575324945c7a097F829349acA6C9aB9` \
 https://polygonscan.com/address/0xADA061366575324945c7a097F829349acA6C9aB9#code
 
+<<<<<<< HEAD
 
+=======
+*Polygon Bridge Contracts*\
+FxRoot: `0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2` \
+https://etherscan.io/address/0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2#code \
+StateSender: `0x28e4F3a7f651294B9564800b2D01f35189A5bFbE` \
+https://etherscan.io/address/0x28e4f3a7f651294b9564800b2d01f35189a5bfbe#code \
+FxChild: `0x8397259c983751DAf40400790063935a11afa28a` \
+https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a#code
+>>>>>>> upstream/Pending-AIPs
 
 ## Copyright
 
