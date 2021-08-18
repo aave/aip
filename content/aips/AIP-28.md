@@ -82,18 +82,42 @@ https://github.com/Aave/governance-crosschain-bridges/tree/feat/mainnet-test
 
 After setting up the repository: 
 
-`npm run hardhat mock-mainnet-proposal`
+`npm run hardhat mock-mainnet-proposal-delegate`
 runs on Ethereum fork to makes sure everything is encoded correctly to be submitted for the proposal
 
 
-`npm run hardhat mock-Polygon-test`
+`npm run hardhat mock-Polygon-test-delegate`
 set a .env variable `Polygon_FORK = "true"` to run the test updating the Polygon market via the mainnet PolygonBridgeExecutor on a Polygon fork
 
+Two helper contracts have been deployed to support this proposal. `PolygonMessageSender` has been deployed on Ethereum and `PolygonMarketUpdate` has been deployed on Polygon.
+
+This proposal, if executed, calls the function sendMessage() on the `PolygonMessageSender` contract on Ethereum mainnet via a delegatecall. The sendMessage function encodes a delegatecall to the function executeUpate() on the contract `MarketUpdate` deployed on the Polygon network and then sends that encoded action to the `PolygonBridgeExecutor` on the Polygon network via Polygon's FxPortal. When that action is received in the PolygonBridgeExecutor, it will be queued. After a delay, that action can be executed, calling the function executeUpate() which will make three updates to a mock aave market deployed on Polygon:
+
+1. disable the mock dai reserve via the LendingPoolConfigurator contract
+2. Set the pool admin to the address `0x000000000000000000000000000000000000dEaD` via the LendingPoolAddressesProvider contract
+3. Transfer ownership of the pool to the address `0x0000000000000000000000000000000000000001` via the LendingPoolAddressesProvider contract
+
 **Related Contracts:**
+
+*Ethereum PolygonMessageSender Contract*
+PolygonMessageSender: `0xf442C0faE2E9A157cD0202BD63bf9b932D3aa4C8` \
+https://etherscan.io/address/0xf442C0faE2E9A157cD0202BD63bf9b932D3aa4C8#code \
+
+*Polygon FxPortal Bridge Contracts*\
+FxRoot: `0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2` \
+https://etherscan.io/address/0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2#code \
+StateSender: `0x28e4F3a7f651294B9564800b2D01f35189A5bFbE` \
+https://etherscan.io/address/0x28e4f3a7f651294b9564800b2d01f35189a5bfbe#code \
+FxChild: `0x8397259c983751DAf40400790063935a11afa28a` \
+https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a#code
 
 *Polygon Bridge Executor Contracts*\
 PolygonBridgeExecutor: `0x60966EA42764c7c538Af9763Bc11860eB2556E6B`\
 https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#code
+
+*Polygon Market Update*\
+MarketUpdate: `0x5b494b94faf0bb63254dba26f17483bcf57f6d6a` \
+https://polygonscan.com/address/0x5b494b94faf0bb63254dba26f17483bcf57f6d6a#code
 
 *Mock Polygon Market Contracts*\
 LendingPoolAddressProviderAddress = `0x240de965908e06a76e1937310627b709b5045bd6`\
@@ -103,13 +127,6 @@ https://polygonscan.com/address/0xd63b6b5e0f043e9779c784ee1c14ffcbffb98b70#write
 LendingPoolConfiguratorAddress (implementation)= `0xADA061366575324945c7a097F829349acA6C9aB9` \
 https://polygonscan.com/address/0xADA061366575324945c7a097F829349acA6C9aB9#code
 
-*Polygon Bridge Contracts*\
-FxRoot: `0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2` \
-https://etherscan.io/address/0xfe5e5D361b2ad62c541bAb87C45a0B9B018389a2#code \
-StateSender: `0x28e4F3a7f651294B9564800b2D01f35189A5bFbE` \
-https://etherscan.io/address/0x28e4f3a7f651294b9564800b2d01f35189a5bfbe#code \
-FxChild: `0x8397259c983751DAf40400790063935a11afa28a` \
-https://polygonscan.com/address/0x8397259c983751DAf40400790063935a11afa28a#code
 
 ## Copyright
 
