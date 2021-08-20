@@ -8,8 +8,6 @@ discussions: https://governance.aave.com/t/arc-extend-aave-liquidity-mining-rewa
 created: 2021-08-19
 updated (*optional): 2021-08-19
 ---
-
-
 ## **AAVE AIP 32**
 
 **Liquidity Mining V1**
