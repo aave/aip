@@ -17,6 +17,8 @@ Fei Protocol issues a decentralized, scalable USD stablecoin called FEI. FEI aim
 
 FEI is backed by protocol owned reserves used to provide liquidity and stabilize the peg. The Fei community is committed to using decentralized reserve assets and oracles to have FEI be as decentralized as possible. FEI is an ideal candidate to be included on Aave to provide more decentralized stablecoin alternatives.
 
+Additionally, Fei Protocol will be committing 25m FEI to bootstrap the market and 4M TRIBE in incentives for borrowing for at least the first 6 months.
+
 ## Motivation
 
 Being the liquidity protocol, Aave understands the need for robust capital efficient liquidity in creating healthy markets. DAI and sUSD being the current available options for decentralized stablecoins is good but likely insufficient longer term. Having more options like FEI will improve liquidity and optionality for protocols which are committed to decentralization.
@@ -94,6 +96,11 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 - Variable Debt variableDebtFEI: 0x1B669D5034143E272b5Ff548f2878735A2F3505A
 - Stable Debt stableDebtFEI: 0x1DdcF68f4C2600CBE534212765F964342a2faf02
 - Strategy Implementation for FEI: 0xF0bA2a8c12A2354c075b363765EAe825619bd490
+
+Additionally the Fei Smart Contracts team contributed an ERC-20 compatibile incentives controller contract to the Aave codebase so other teams can add rewards in their native token: https://github.com/aave/incentives-proposal/pull/5 
+
+- TRIBE Incentives Controller Implementation: 0xff865335401f12b88fa3ff5a3a51685a7f224191
+- and proxy: 0xDee5c1662bBfF8f80f7c572D8091BF251b3B0dAB
 
 ## References
 
