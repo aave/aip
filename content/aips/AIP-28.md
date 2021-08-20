@@ -1,10 +1,10 @@
 ---
 aip: 28
 title: Polygon Cross-chain Governance Test
-status: WIP
+status: Proposed
 author: Steven Valeri (@stevenvaleri)
 shortDescription: Test the Aave Polygon governance bridge contract prior to setting it as owner of the Aave Polygon market
-discussions: Github Issues
+discussions: N/A
 created: 2021-07-30
 updated (*optional): N/A
 requires (*optional): N/A
