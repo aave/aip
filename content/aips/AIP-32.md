@@ -1,10 +1,22 @@
+---
+aip: 32
+title: Extend Liquidity Incentives for Aave v2
+status: Proposed
+author: Anjan Vinod (@Anjan-ParaFi)
+shortDescription: Extend Liquidity Incentives for Aave v2
+discussions: https://governance.aave.com/t/arc-extend-aave-liquidity-mining-rewards/4852
+created: 2021-08-19
+updated (*optional): 2021-08-19
+---
+
+
 ## **AAVE AIP 32**
 
 **Liquidity Mining V1**
 
 Liquidity mining incentives were introduced for Aave v2 on 4/26/21.
 
-2,200 stkAAVE per day will be allocated pro-rata across supported markets based on the dollar value of the borrowing activity in the underlying market. stkAAVE was distributed over AAVE to further align users with the Aave Protocol and increase the amount of AAVE staked in the safety module.
+2,200 stkAAVE per day were allocated pro-rata across supported markets based on the dollar value of the borrowing activity in the underlying market. stkAAVE was distributed over AAVE to further align users with the Aave Protocol and increase the amount of AAVE staked in the safety module.
 
 ![AAVE](../assets/AIP-32/v1-program.png)
 
