@@ -1,3 +1,5 @@
+## **AAVE AIP 32**
+
 **Liquidity Mining V1**
 
 Liquidity mining incentives were introduced for Aave v2 on 4/26/21.
@@ -21,7 +23,7 @@ Liquidity Mining Recap (as of 7/15/21)
 
 Change in v2 markets from 4/26/21 to 7/15/21
 
-![](../assets/AIP-32/v1-recap.png)
+![AAVE](../assets/AIP-32/v1-recap.png)
 
 **Liquidity Mining V2**
 
@@ -33,7 +35,7 @@ We are open to these changes in the future but to avoid a disruption to the liqu
 
 This proposal [passed on Snapshot](https://snapshot.org/#/aave.eth/proposal/QmeHAwW7XwUD3vqYLMRPF8MJiXkj2nnbRg1ae7mZ1SNQdm) with 91.7k AAVE voting in favor.
 
-![](../assets/AIP-32/v2-program.png)
+![AAVE](../assets/AIP-32/v2-program.png)
 
 **Rationale**
 
