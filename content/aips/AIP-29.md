@@ -89,14 +89,14 @@ FRAX will only be used for depositing and lending and not as collateral, with a 
   - Borrowing Enabled: true
   - Stable BorrowRate Enabled: false
   - Reserve Decimals: 18
-  - Reserve Factor: 1000
+  - Reserve Factor: 2000
 
 Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
 
-- Interest bearing aFRAX address: 0x4ca44E16DAbcdB5a770eA623aca3adCcCde6fBb3
-- Variable Debt variableDebtFRAX address: 0x861CbFc3e727d2CF2F0af964395e447C28d4967e
-- Stable Debt stableDebtFRAX address: 0x6486f5664dbA438e233361ED87fE4D862638989d
-- Strategy Implementation for FRAX address: 0xe4DF757157234019682f25422Bcb01Ed659B9D29
+- Interest bearing aFRAX address: 0x6efD37b3015AeA0E19418f98661488A4D2D3C377
+- Variable Debt variableDebtFRAX address: 0x08FFf652bEF777634585707B17627c9274E3dB11
+- Stable Debt stableDebtFRAX address: 0x7E3Ddfceef69bEC3A38Fc9AE8D7A8c46D7788C6b
+- Strategy Implementation for FRAX address: 0xb0a73aC3B10980A598685d4631c83f5348F5D32c
 
 ## Audits/Security Reviews
 
