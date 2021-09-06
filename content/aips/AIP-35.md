@@ -1,6 +1,6 @@
 ---
 aip: 35
-title: 
+title: Adjust interest rate to account for APY over-approximation
 status: Proposed
 author: Ahmed Naguib Aly (@ahnaguib)
 shortDescription: Adjust interest rate to account for APY over-approximation
