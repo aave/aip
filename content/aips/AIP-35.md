@@ -26,10 +26,12 @@ uint256 ratePerSecond = rate / SECONDS_PER_YEAR;
 
 in comparison to the exact computation.
 
-**![|281x35](https://github.com/aave/aip/blob/debf98b7ebe21b2964b3dc03843854c78709d813/content/assets/AIP-35/rate_per_second.png?raw=true)**
+![|281x35](https://github.com/aave/aip/blob/debf98b7ebe21b2964b3dc03843854c78709d813/content/assets/AIP-35/rate_per_second.png?raw=true)
 
 derived from:
-**![|269x48](https://github.com/aave/aip/blob/debf98b7ebe21b2964b3dc03843854c78709d813/content/assets/AIP-35/apy_formula.jpeg?raw=true)**
+
+![|269x48](https://github.com/aave/aip/blob/debf98b7ebe21b2964b3dc03843854c78709d813/content/assets/AIP-35/apy_formula.jpeg?raw=true)
+
 The deviation in the applied interest rate causes a small over-approximation for APYs <10%, but grows exponentially as can be seen below.
 
 |Expected APY|Effective APY|Expected daily rate|Effective daily rate|
