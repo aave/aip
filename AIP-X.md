@@ -1,5 +1,4 @@
 ---
-aip: <to be assigned>
 title: <AIP title>
 status: WIP
 author: FirstName LastName (@GitHubUsername)
@@ -7,12 +6,11 @@ shortDescription: <Short description of AIP>
 discussions: <Discord Channel or Github issue>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
-requires (*optional): <AIP number(s)>
 ---
 
 This is the template for AIPs.
 
-Note that an AIP number will be assigned by an editor. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-draft_title_abbrev.md`.
+Note that the filename should contain the generated identifier by the author. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-identifier-draft_title_abbrev.md`.
 
 The title should be 44 characters or less.
 
