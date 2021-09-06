@@ -8,6 +8,9 @@
   "contributors": [
     "David Truong <david@aave.com>"
   ],
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@react-hook/window-size": "^3.0.6",
     "bs58": "^4.0.1",
