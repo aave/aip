@@ -18,7 +18,6 @@ created: 2021-07-26
 
 In AAVEs MathUtils an over-approximation in the application of the interest rate for computing compounded interest was discovered. 
 
-In AAVEs MathUtils there is an over-approximation in the application of the interest rate for computing compounded interest.
 ### In [calculateCompoundedInterest](https://github.com/aave/protocol-v2/blob/baeb455fad42d3160d571bd8d3a795948b72dd85/contracts/protocol/libraries/math/MathUtils.sol#L45) method
 
 Periodic rate (per second) is computed as:
