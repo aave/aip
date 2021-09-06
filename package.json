@@ -70,6 +70,7 @@
     "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
     "upload:pinata-thegraph": "node aip-uploader.js && rm tmp",
     "validation:aip-schema": "node ./aip-schema-validation.js",
+    "generate-filename": "node aip-filename-generator.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve --prefix-paths",
