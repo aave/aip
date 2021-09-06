@@ -3,6 +3,7 @@ aip: 1
 title: LEND/AAVE migration and activation of the Safety Module
 status: Implemented
 author: Marc Zeller (@marczeller)
+shortDescription: <none>
 discussions: https://governance.aave.com/t/initial-discussion-aave-reserve-emission-for-safety-and-ecosystem-incentives/85/60
 created: 2020-09-21
 updated: 2020-09-25

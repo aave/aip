@@ -3,6 +3,7 @@ aip: 6
 title: Adding GUSD on AAVE
 status: Implemented
 author: Gemini (@Gemini)
+shortDescription: <none>
 discussions: https://governance.aave.com/t/proposal-add-support-for-gemini-gusd/384
 created: 2020-12-23
 updated: 2020-12-23
