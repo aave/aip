@@ -4,7 +4,7 @@ title:
 status: Proposed
 author: Ahmed Naguib Aly (@ahnaguib)
 shortDescription: Adjust interest rate to account for APY over-approximation
-discussions: https://governance.aave.com/t/arc-raise-ampl-maximum-interest-rate/4996
+discussions: https://governance.aave.com/t/arc-update-ampl-interest-rate-curve-to-account-for-over-approximation-in-compounded-interest/5350
 created: 2021-07-26
 ---
 
