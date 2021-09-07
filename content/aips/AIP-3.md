@@ -3,6 +3,7 @@ aip: 3
 title: V1 upgrades for seamless transition to AAVE v2 
 status: Implemented
 author: Marc Zeller (@marczeller)
+shortDescription: <none>
 discussions: https://governance.aave.com/t/aip-3-upgrade-aave-v1-lendingpool-contract-for-seamless-migration-to-v2/1383
 created: 2020-11-11
 updated: 2020-11-11

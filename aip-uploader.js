@@ -13,15 +13,17 @@ async function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-const jsonAips = JSON.parse(fs.readFileSync('./content/ipfs-aips/all-aips.json').toString());
+const rawJsonAips = JSON.parse(fs.readFileSync('./content/ipfs-aips/all-aips.json').toString());
+const jsonAips = Object.values(rawJsonAips);
 
 async function main() {
   const aipIds = Object.keys(jsonAips).sort(((a, b) => a.split('-')[1] - b.split('-')[1]));
+
   for (let x = 0; x < aipIds.length; x++) {
     const id = aipIds[x];
 
     delete Object.assign(jsonAips[id], { 'description': jsonAips[id]['content'] })['content'];
-
+    
     try {
       const res = await fetch(pinataEndpoint, {
         method: 'POST',
@@ -52,12 +54,12 @@ async function main() {
         }`
       jsonAips[id].ipfsHash = hash
       jsonAips[id].encodeIpfsHash = encodedHash
-      console.log(`${id}: ✅ Success!`)
+      console.log(`${jsonAips[id].title}: ✅ Success!`)
       console.log(` IPFS hash: ${hash}`)
       console.log(` Encoded IPFS hash (for proposal creation): ${encodedHash}`)
       console.log(` See the file here: https://gateway.pinata.cloud/ipfs/${hash}`)
       fs.writeFileSync(
-        `./content/ipfs-aips/${id}-Ipfs-hashes.json`,
+        `./content/ipfs-aips/${jsonAips[id].basename}-Ipfs-hashes.json`,
         JSON.stringify({ aip: id, hash, encodedHash }, null, 2)
       )
       fs.writeFileSync(

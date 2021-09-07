@@ -1,19 +1,20 @@
-{
-  "AIP-1": {
+[
+  {
     "aip": 1,
     "title": "LEND/AAVE migration and activation of the Safety Module",
     "status": "Implemented",
     "author": "Marc Zeller (@marczeller)",
+    "shortDescription": "<none>",
     "discussions": "https://governance.aave.com/t/initial-discussion-aave-reserve-emission-for-safety-and-ecosystem-incentives/85/60",
     "created": "2020-09-21T00:00:00.000Z",
     "updated": "2020-09-25T00:00:00.000Z",
     "preview": "## AIP rationale\n\nAs stated in the [Aavenomics …",
     "basename": "AIP-1",
     "description": "\n\n## AIP rationale\n\nAs stated in the [Aavenomics paper](https://aave.com/Aavenomics.pdf), the AAVE asset is designed to become the center of gravity for Aave governance and the protocol.\n\n\nThe DeFi decentralized ethos has been mostly achieved with protocols on the financial side, creating an ecosystem of financial applications with users in control of their own assets. However, we believe that is only the halfway point of the decentralization objective. Users should also be be in control of the protocol. The AAVE asset is designed for this purpose. This AIP is the first binding step towards the community ownership of the Aave Protocol.\n\n\nThis AIP, if accepted by the community, will slowly deprecate the LEND asset in favour of the AAVE asset. As stated in the Aavenomics, this token upgrade will also create the Ecosystem Reserve (ER), the Safety Module (SM), and start the Safety Incentive (SI) rewards distribution. The Safety Module is designed as an additional line of defense for Aave liquidity providers and as a way for AAVE holders to \"stake\" their assets in exchange for a range of rewards.\n\n\nThis AIP's purpose is also to dedicate a part of the ER to a kickstart incentives for the Safety Module's first quarterly staker distribution.\n\n## AIP content in short\n\n- Migration of LEND -> AAVE asset with the migration contract\n- Activation of the quarterly plan of Safety Incentives (SI) allocation\n- Start of the Safety Module with initial SI rewards of 400 AAVE/day\n\n## Safety Incentives Schedule\n\nThe bootstrapping phase of the Safety Module will be a step-by-step process in 2 main phases:\n- Initial bootstrapping with launch of the Safety Module, the ability to stake and earn AAVE rewards, but no activation of the protocol protection (i.e slashing) and thus risk-free for stakers.\n- Activation of the Safety Module, a new line of defense for the Aave Protocol users.\n\nThe initial bootstrapping phase rationale is designed to have lower rewards and a risk-free environment to allow the majority of LEND holders to migrate at their own pace. This encourages a careful approach while interacting with critical migration and staking smart-contracts.\n\nAfter activation of the Safety Module, the Aave governance can adjust the Safety Incentive (SI) schedule and emissions rate.\n\nThe Safety Incentive's allocation quarterly date should be voted on before the end of the 3 months (90 days) distribution schedule. In the case of a late or no vote on a new SI allocation plan, the current allocation will continue until a vote or until the ER is empty.\n\n## Mainnet addresses and relevant notes\n\nIf this AIP is validated by a community vote, the following addresses will be involved in the migration process :\n\n- [0x8a2efd9a790199f4c94c6effe210fce0b4724f52](https://etherscan.io/address/0x8a2efd9a790199f4c94c6effe210fce0b4724f52) AaveProtoGovernance : the governance contract\n- [0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9](https://etherscan.io/address/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9#code) AAVE token contract : the ERC20 AAVE token contract\n- [0x4da27a545c0c5b758a6ba100e3a049001de870f5](https://etherscan.io/address/0x4da27a545c0c5b758a6ba100e3a049001de870f5) StakedAave : The Staking contract for AAVE\n- [0x317625234562b1526ea2fac4030ea499c5291de4](https://etherscan.io/address/0x317625234562b1526ea2fac4030ea499c5291de4) LendToAaveMigrator : The migration contract\n- [0x95a4949f09415b12da789e144b2522956620d005](https://etherscan.io/address/0x95a4949f09415b12da789e144b2522956620d005) AaveGenesisPayloadProposal : Contract in charge of enforcement of the AIP outcome\n- [0xa133459b2502b0137e85a446fa8d4e300877a007](https://etherscan.io/address/0xa133459b2502b0137e85a446fa8d4e300877a007) AaveGenesisExecutor : Contract enforcing a 24h delay on enforcement of AIP outcome to allow the community to be prepared to migrate\n- [0x25f2226b597e8f9514b3f68f00f494cf4f286491](https://etherscan.io/address/0x25f2226b597e8f9514b3f68f00f494cf4f286491#code) AaveIncentivesVault : Ecosystem Reserve\n\n\nThe migration process for every LEND holder will leverage the method `migrateFromLend()` with a simple `uint256` input of the amount. Non-technical users will have a migration portal available on the [Aave application](https://aave.com/)\n\nThe contracts are deployed to the Ethereum mainnet but are **not activated until the outcome of the current AIP vote**. Please refrain from trying to use them before activation, as it will result in a failed transaction.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
-    "ipfsHash": "QmWkynR91tr9ZRbQCSga1dpTivrP2GXNbjVdsJAHPQbv1h",
-    "encodeIpfsHash": "0x7d190091f1f0ae6098053e314ca4cbf65edc2b013f3585ee70f4f3f23e49919c"
+    "ipfsHash": "QmXTJCpQewBLeVpehu8NFa1vNfUwrvcEkBV79UWwRV5e71",
+    "encodeIpfsHash": "0x876d101db93e098b91046c83f57bcfbd4cfcc0a08af8ed460ce151920f7a69f0"
   },
-  "AIP-10": {
+  {
     "aip": 10,
     "title": "Adding xSushi on AAVE",
     "status": "WIP",
@@ -28,7 +29,7 @@
     "ipfsHash": "QmYFSYTNqafvDsU1fUvCeAqJk1AuePJ2qvpE3XanJo6ZH6",
     "encodeIpfsHash": "0x933f3568af3f6528df60bc0f4eb7e6d60f75043316b9de3f1d7f62389815752d"
   },
-  "AIP-11": {
+  {
     "aip": 11,
     "title": "desactivation of Aave V1 stable rate borrowing",
     "status": "Proposed",
@@ -43,7 +44,7 @@
     "ipfsHash": "QmXwFPhN3ABDzBuEhPTzeXzuQdGkHfWtEZn348LQWxuFFZ",
     "encodeIpfsHash": "0x8e9625443f5a606408e94696458da7d47efb7cb68015b4c672ffe13372dd6934"
   },
-  "AIP-12": {
+  {
     "aip": 12,
     "title": "Adding AMPL on AAVE",
     "status": "Proposed",
@@ -58,7 +59,7 @@
     "ipfsHash": "QmZZ7JqvEx99u7dMNFPBBnew3BgepLCmXRMrNi8y5ndpXn",
     "encodeIpfsHash": "0xa6a199f5378d27b8be29b8ea648b60006f6a4d0cfb15c7951c6e06a1c4b6f705"
   },
-  "AIP-13": {
+  {
     "aip": 13,
     "title": "Add renFIL support to Aave",
     "status": "Proposed",
@@ -73,7 +74,7 @@
     "ipfsHash": "QmY4AYSTrxVvqTprSjwuaTiECzrWEs2JJFwTx6UNpYMepW",
     "encodeIpfsHash": "0x905bba68f66fa57260d86112be64a179903c10061ac0379f008c34dcfbd41b27"
   },
-  "AIP-14": {
+  {
     "aip": 14,
     "title": "Enable borrowing on renFIL",
     "status": "Proposed",
@@ -88,7 +89,7 @@
     "ipfsHash": "QmQJorQkaHfWV3JfEZFWXEaQxjdjoZ8BqdwXJjhLFh52AD",
     "encodeIpfsHash": "0x1d3e8cea0d2274c89d6bfd0add77eebc441d07b25bcdb04b354e83dff43dd7da"
   },
-  "AIP-15": {
+  {
     "aip": 15,
     "title": "Upgrade Aave V1 repayment for migration tool",
     "status": "Proposed",
@@ -103,7 +104,7 @@
     "ipfsHash": "QmQyj7Drrk2NESFCSUs5EPjVaDRkfv7KAK5RkeH3gWzbvR",
     "encodeIpfsHash": "0x2736d655ab1f623c524505a0a0f12d37355987d6a13b9a154988e5a42b433b7a"
   },
-  "AIP-16": {
+  {
     "aip": 16,
     "title": "introduce Liquidity Incentives for Aave v2",
     "status": "Proposed",
@@ -118,7 +119,7 @@
     "ipfsHash": "Qmf1JeXiw8BDUoKJ89VmUJ8wy22D2udqL4HxprCG7DZ5zG",
     "encodeIpfsHash": "0xf7a1f565fcd7684fba6fea5d77c5e699653e21cb6ae25fbf8c5dbc8d694c7949"
   },
-  "AIP-17": {
+  {
     "aip": 17,
     "title": "Aave Grants DAO",
     "status": "Proposed",
@@ -133,7 +134,7 @@
     "ipfsHash": "QmURZNW6PT4z3e4DZqxHMAW1bWRFvxZjtyQZqhnhgdLB6R",
     "encodeIpfsHash": "0x5a67fd6a4da402d9c3aeaf65b1f0d22c73801bd587999d0fd4deffa3d66d89ba"
   },
-  "AIP-18": {
+  {
     "aip": 18,
     "title": "Aavenomics quarterly upgrade Q2 2021",
     "status": "Proposed",
@@ -148,7 +149,7 @@
     "ipfsHash": "QmTYMox4aBpyQH53LwMzTuJY2z7Df7ANUSakeeeWWUoXmJ",
     "encodeIpfsHash": "0x4d4a4bda3036f8da3f6911941df8c185f0e4ec248de44b44253dae5a4798a001"
   },
-  "AIP-19": {
+  {
     "aip": 19,
     "title": "Whitelist Curve Liquidity Mining Claim",
     "status": "Proposed",
@@ -163,21 +164,22 @@
     "ipfsHash": "QmTrcBCNxEx5Ur6HnKXhF8Ds3wvvFY1QYMQvz6WozR2EVH",
     "encodeIpfsHash": "0x51f6feb2dcb9da8154354179fc0ef62dfb63b0be422c7629290c24cd99854084"
   },
-  "AIP-2": {
+  {
     "aip": 2,
     "title": "Bootstrap of the AAVE Governance Fund",
     "status": "Implemented",
     "author": "Emilio Frangella (@The3D_)",
+    "shortDescription": "<none>",
     "discussions": "https://governance.aave.com/t/proposal-to-stop-the-lend-burning-and-start-building-an-aave-governance-treasury/1012",
     "created": "2020-11-05T00:00:00.000Z",
     "updated": "2020-11-05T00:00:00.000Z",
     "preview": "## AIP rationale\n\nThe Aave protocol V1 included the possibility to …",
     "basename": "AIP-2",
     "description": "\n\n## AIP rationale\n\nThe Aave protocol V1 included the possibility to burn LEND tokens by collecting flashloan premiums and borrowing fees. Up until now, 2.5M LEND have been burned, which will not be converted to AAVE.\nAs a result of the migration, the LEND liquidity has shrunk considerably, which makes it very hard to buy LEND on dexes for the burning.\n\nThe LEND burner currently holds around 20K of funds, distributed across all the different Aave V1 reserves (mostly stablecoins). The burner contract is here https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae \n\nThis AIP proposes to stop the LEND burning. Instead, the idea is to collect the fees accrued by AAVE V1 to bootstrap a protocol fund. \n\n## AIP content in short\n\n- Deprecation of the current TokenDistributor contract\n- Implementation of the following strategy instead of burning:\n  \n  1. Remove the assets conversion to LEND and subsequent burning\n  2. The assets are moved to the AAVE Collector contract, under direct control of the AAVE governance (https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c)\n\n- The implementation will keep the current redistribution of the referral fees (20% of the total) to continue with the referral distribution as until now.\n\n## Implementation details\n\n- Upgrade of the TokenDistributor contract https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae \n- Modify the distribute() function as follows:\n\n  1. Remove LEND burning\n  2. Move the assets to 0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c\n\nDistribution to the current referral fees wallet will be kept.\n  \n## Proposal data\n\nAIP2 Payload:\n\nhttps://etherscan.io/address/0x4b7c3e3ea48f80a78487067cd08b9a8430eb8eb5\n\nNew TokenDistributor Implementation:\n\nhttps://etherscan.io/address/0x62C936a16905AfC49B589a41d033eE222A2325Ad\n\nAave Collector contract:\n\nhttps://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
-    "ipfsHash": "QmVRGVKqK5GCu3ZQVkyNMDczp8bqK8zvGngGVFrASaKiFT",
-    "encodeIpfsHash": "0x6930967f91ce48ecb598b84a97bae5c2932a2e81b59fd6730ca5333d0c5d054a"
+    "ipfsHash": "QmaV9J1VFNP7K1XqDGcVcf7oXquM1Yg4uvNr2zQxJ8mrVd",
+    "encodeIpfsHash": "0xb47935d0c2c4d7b020aba36add1982d1df6456bf70043e19c48908359b576c90"
   },
-  "AIP-20": {
+  {
     "aip": 20,
     "title": "Safety Incentives Implementation",
     "status": "Proposed",
@@ -192,7 +194,7 @@
     "ipfsHash": "QmfYfZhLe5LYpCocm1JxdJ7sajV1QTjrK5UCF1TGe5HTfy",
     "encodeIpfsHash": "0xffaa9d3c5810d40206e289407e9935e447e1fa4183c672e03fa69486e7d8b41c"
   },
-  "AIP-21": {
+  {
     "aip": 21,
     "title": "Set Reserve Factors for GUSD and CRV",
     "status": "Proposed",
@@ -207,7 +209,7 @@
     "ipfsHash": "Qmb4cXBMga15bEHe84BeRXj7gY1tfXom8sr9WyZDwhJPGa",
     "encodeIpfsHash": "0xbd0c29a45fd25d7c77e3d31efddd83131e4e82630ce7a11b418bb5b9c79c8887"
   },
-  "AIP-22": {
+  {
     "aip": 22,
     "title": "Add RAI to Aave V2",
     "status": "Proposed",
@@ -221,7 +223,7 @@
     "ipfsHash": "QmZmGy1Bm1v3pPdJdYCCe7EyujW2i169eNq6txpQg4NsSn",
     "encodeIpfsHash": "0xa9bf7dc9c6d546c9d2262b1d3dff9fab1528bb1c34b745e14fe37d542c1094f7"
   },
-  "AIP-23": {
+  {
     "aip": 23,
     "title": "Add BarnBridge (BOND) to Aave",
     "status": "Proposed",
@@ -236,7 +238,7 @@
     "ipfsHash": "QmcznTifYPKHcna8o37MmTKMYhRzhXtVmJVjYEVGEq2gsC",
     "encodeIpfsHash": "0xd9c873eea9fa90a9f24a33398cd38eb4791133c197cec9d87d0cca983b3460e3"
   },
-  "AIP-24": {
+  {
     "aip": 24,
     "title": "Add PAX to Aave V2",
     "status": "WIP",
@@ -250,7 +252,7 @@
     "ipfsHash": "QmcPSftyJoKUHKHg3YxFGpx91Y63UxCPV1aRuWAL7XuH2w",
     "encodeIpfsHash": "0xd0babf74a475611225510ea385d0ff0f6baaa594a9757307137f61ff813e0eb0"
   },
-  "AIP-25": {
+  {
     "aip": 25,
     "title": "Extend Liquidity Incentives for Aave v2",
     "status": "Proposed",
@@ -265,7 +267,7 @@
     "ipfsHash": "QmbxV3o8wYZSNDzMTatBcCAkHkxsUa4p2VaEZGGUm8xv74",
     "encodeIpfsHash": "0xca55ea7db44a796d879b9325f5a3b13a2bcc1cd95d290c65983086516bda3c9b"
   },
-  "AIP-26": {
+  {
     "aip": 26,
     "title": "Raise Maximum Interest Rate on AMPL Market",
     "status": "Proposed",
@@ -279,7 +281,7 @@
     "ipfsHash": "QmVXVtoDGzNtAPDCTWg7vYaezadKwsuHLrbgaTDRESQKzB",
     "encodeIpfsHash": "0x6ac93abe9135d97377d4b2ebafddf8012d8c767117979499b12e1d61fc7df6c4"
   },
-  "AIP-27": {
+  {
     "aip": 27,
     "title": "Lower Reserve Factor for AMPL",
     "status": "Proposed",
@@ -294,7 +296,7 @@
     "ipfsHash": "QmdfFTxuuu7jQv9se4XFUy3w2RCh35kfp4ocUqr69q1X8W",
     "encodeIpfsHash": "0xe3a30eb1373b01235923215abf4ae32fbc1dd81e0036a882392c3d6c706147ab"
   },
-  "AIP-28": {
+  {
     "aip": 28,
     "title": "Polygon Cross-chain Governance Test",
     "status": "Proposed",
@@ -310,21 +312,36 @@
     "ipfsHash": "QmaVRJEWEbik6kcDQSpVvgVM9DLUciNJ9BJAUKp9LwK6iW",
     "encodeIpfsHash": "0xb48b4e4c293b6cd05ed1d31f9283838cc7d495ad51ef356a50d51613e9e7d9ab"
   },
-  "AIP-3": {
+  {
+    "aip": 29,
+    "title": "Add FRAX to Aave V2",
+    "status": "Proposed",
+    "author": "Jason Huan (@jasonhuan_)",
+    "shortDescription": "Create a new Aave V2 market for the FRAX stablecoin",
+    "discussions": "https://governance.aave.com/t/proposal-add-support-for-frax/2621",
+    "created": "2021-08-25T00:00:00.000Z",
+    "preview": "## Simple Summary\n\nFrax is the first algorithmic-stablecoin …",
+    "basename": "AIP-29",
+    "description": "\n\n## Simple Summary\n\nFrax is the first algorithmic-stablecoin protocol, backed through on-chain collateral and algorithmically. Frax has two tokens, the FRAX stablecoin pegged at $1 and the FXS governance + seigniorage token, and aims to be a decentralized crypto-native unit of account with the upcoming Frax Price Index (FPI). FRAX has stayed at $1 for its entire existence, being the only non-traditional stablecoin to keep its peg perfectly in 8 months of release.\n\n## Abstract\n\nThe FRAX stablecoin is partially backed with on-chain collateral and partially backed algorithmically, according to a collateral ratio (CR) parameter that the system adjusts according to market conditions. In Frax v2, the protocol is able to mint FRAX into lending markets using [Algorithmic Market Operations](https://docs.frax.finance/amo/overview) (AMOs), smart contracts which have the ability to print FRAX up to certain thresholds adjustable by governance.\n\n## Motivation\n\nAs the value of Aave's TVL increases, borrow liquidity for stablecoins against volatile assets lent to Aave is one of the key benefits that is offered to lenders of the protocol. The flow of newly minted stablecoins to their decentralized lending market destination such as Aave is not always direct, and may face market inefficiencies through layers of actors.\n\nBy [deploying an AMO for Aave](https://docs.frax.finance/amo/frax-lending), the Frax protocol is able to mint FRAX to be borrowed by lenders of Aave, and thus offer an active and competitive alternative to other stablecoins such as USDC, USDT, and DAI. By allowing for responsive stablecoin liquidity, we aim to benefit lenders and the Aave ecosystem as a whole.\n\nAdditionally, With no collateral factor, there is 0 risk for Aave's money market in terms of the FRAX peg. Furthermore, if the FRAX peg broke and fell below $1, Aave borrowers would have less debt in dollar terms.\n\n## Specification\n\n1. What is the link between the author of the AIP and the Asset?\n\n\t- Co-founder of Frax.\n\n2. Provide a brief high-level overview of the project and the token\n\n\t- FRAX is the world's first fractionally-algorithmic stablecoin, stabilized with parts on-chain collateral and parts algorithmically.\n\n3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?\n\n\t- Frax's AMOs are able to mint FRAX into the Aave lending market, allowing for highly competitive stablecoin borrowing rates for lenders.\n\n4. Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?\n\n\t- FRAX launched at the end of 2020 and currently has over $300M in circulating FRAX. FRAX has never once broken the peg of $1, even through sharp market downturns such as in March 2021. Frax's governance token FXS has maintained governance functionality since inception through a fork of Compound's GovernorAlpha.\n\n5. How is the asset currently used?\n\n\t- FRAX is currently used as a stablecoin in decentralized exchanges and other lending markets such as Rari's Fuse Protocol, where it is currently the most-borrowed and most-supplied stablecoin in several pools through Frax's AMOs.\n\n6. Emission schedule\n\n\t- There is no emission schedule; FRAX is mintable by anyone anytime by depositing corresponding amounts of collateral and FXS into the system's contracts.\n\n7. Token & protocol permissions and upgradability\n\n\t- The protocol is highly modular in terms of system parameters such as oracle addresses and AMO additions. The core contracts such as the token contract itself are non-proxy deployed and permissioned through governance's 2-day timelock, with a backup multisig admin address managed by the core Frax team.\n\n8. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)\n\n    - Market Cap: $307M\n    - 24h Volume: $15M\n    - Volatility: Extremely Low\n    - Maturity: Early-Mid\n\n9. Social channels data (Size of communities, activity on Github)\n\n\t- 13K followers on Twitter, 6.2K members on Telegram, Github is updated frequently.\n\n10. Contracts date of deployments, number of transactions, number of holders for tokens\n\n    - Date of Deployment: December 20th, 2020\n    - Number of Transactions: 110,000+\n    - Number of Holders: 1,600+\n\n## Rationale\n\nFrax's design rationale came as a synthesis of a crypto-native stablecoin with capital efficiency, allowing it to perform algorithmic market operations while managed by on on-chain DAO. As Frax expands, it can compound on its own network effects by being a highly liquid routing asset on DEXes and a default borrowing option for many lending market pools. To keep decentralization at the forefront, the USDC collateral is spread out through other lending markets and DEXes, and is planned to be rotated to ETH and ETH-equivalent collateral as the protocol matures. Furthermore, the Frax Price Index (FPI) allows for a shift away from the USD unit-of-account into the first major stable crypto-native unit-of-account.\n\n## Implementation\n\nThe FRAX price oracle will be served via [ChainLink](https://chain.link/), which includes the [FRAX/ETH feed](https://docs.chain.link/docs/ethereum-addresses).\n\nFRAX will only be used for depositing and lending and not as collateral, with a Loan-to-Value (LTV) value of 0%. The other parameters are as such:\n\n\n  - Strategy: rateStrategyStableTwo\n  - Base LTV As Collateral: 0\n  - Liquidation Threshold: 0\n  - Liquidation Bonus: 0\n  - Borrowing Enabled: true\n  - Stable BorrowRate Enabled: false\n  - Reserve Decimals: 18\n  - Reserve Factor: 2000\n\nFollowing the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:\n\n- Interest bearing aFRAX address: 0x6efD37b3015AeA0E19418f98661488A4D2D3C377\n- Variable Debt variableDebtFRAX address: 0x08FFf652bEF777634585707B17627c9274E3dB11\n- Stable Debt stableDebtFRAX address: 0x7E3Ddfceef69bEC3A38Fc9AE8D7A8c46D7788C6b\n- Strategy Implementation for FRAX address: 0xb0a73aC3B10980A598685d4631c83f5348F5D32c\n\n## Audits/Security Reviews\n\n[Trail of Bits Audit](https://github.com/trailofbits/publications/blob/master/reviews/FraxFinance.pdf)\n\n[CertiK Audit](https://www.certik.org/projects/fraxfinance)\n\n**Note that the risk assessment was performed in May 2021, when FRAX's market cap was $110M**\n\n**FRAX Smart Contract Risk**: **C**\n\nFrax has been live on the Ethereum mainnet for over 8 months.\n\n**FRAX Counterparty Risk**: **C+**\n\nCurrently the Frax protocol can be paused or modified by a multisig. The protocol is meant to be governance minimized with a gradual transition to DAO + comptrollers.\n\n**FRAX Market Risk**: **B**\n\nThe current FRAX market cap is over $307,000,000 USD. The average 24H trading volume in the past month has been over $14,000,000 USD. FRAX's volatility is negligible on Curve and Uniswap v3.\n\n**FRAX Overall Risk**: **B-**\n\n## References\n\nWhitepaper - https://github.com/FraxFinance/frax-solidity/blob/master/frax_whitepaper_v1.pdf\n\nWebsite - https://frax.finance/\n\nTwitter - https://twitter.com/fraxfinance\n\nDocs - https://docs.frax.finance/\n\nGithub - https://github.com/FraxFinance\n\nToken Contract - https://etherscan.io/token/0x853d955aCEf822Db058eb8505911ED77F175b99e\n\n## Test Cases\n\n## Implementation\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+    "ipfsHash": "Qmby95BYfKszQxMPDmbyGzF6vnkpPQCjsMaJLyx9sxixUH",
+    "encodeIpfsHash": "0xca80e8e504ac451697e1dc2aeb34fb8fbf6c17f42cd691306d4876ffa3923682"
+  },
+  {
     "aip": 3,
     "title": "V1 upgrades for seamless transition to AAVE v2",
     "status": "Implemented",
     "author": "Marc Zeller (@marczeller)",
+    "shortDescription": "<none>",
     "discussions": "https://governance.aave.com/t/aip-3-upgrade-aave-v1-lendingpool-contract-for-seamless-migration-to-v2/1383",
     "created": "2020-11-11T00:00:00.000Z",
     "updated": "2020-11-11T00:00:00.000Z",
     "preview": "## AIP rationale\r\n\r\nAt the time of writing, 14,732,165 aLEND are …",
     "basename": "AIP-3",
     "description": "\r\n\r\n## AIP rationale\r\n\r\nAt the time of writing, 14,732,165 aLEND are deposited in the Aave protocol reserve, several community members currently use these assets as collateral in loans and would like to migrate both from LEND to AAVE and from V1 to V2 in the future.\r\nOutside of the situation of the aLEND holders, having a Flashloan-powered migration tool usable for every asset available on V1 to allow seamless migration from v1 to v2 would significantly ease the process of upgrading the liquidity to the new version of AAVE.\r\n\r\nTo allow these new features, small modifications of the `repay()` method are needed to upgrade the efficiency of the process and allow v2 flashloans to access it.\r\n\r\n## AIP content in short\r\n\r\n- upgrade of `lendingPool` v1 smart-contract `repay()` method\r\n  \r\n  This AIP expected effect will be the increase of migrated LEND and faster & easier transition to Aave V2 of V1 liquidity of all assets alongside an increased volume of Flashloans.\r\n\r\n\r\n## Implementation details\r\n\r\n- Upgrade of the LendingPool contract https://etherscan.io/address/0x017788dded30fdd859d295b90d4e41a19393f423#code\r\n- Modify the repay() function as follows:\r\nOn LendingPool.sol, line 617, replace `onBehalfOf` with `msg.sender`\r\n\r\nThe upgrade having a minimum impact on v1 and is particularly simple on the technical side, for this reason, internal review by the Aave genesis team has been considered sufficient to validate it.\r\nthis upgrade details can be found in the Aave public github repo :\r\n\r\n- modification code : https://github.com/aave/aave-protocol/pull/28/\r\n\r\n- AIP 3 Proposal payload: https://etherscan.io/address/0x3f0cfa3cad621c3651faf9de014489e20e5bf9d1\r\n  \r\n## Copyright\r\n\r\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\r\n",
-    "ipfsHash": "Qme8YRKmiPzH2TzAYSyp9oENwwhG8CTLAdNn7ZmSV786HP",
-    "encodeIpfsHash": "0xeaa0e8e3afba15497d829f4ce73614f1cdc555b677284539e16ab31a8c54caa2"
+    "ipfsHash": "QmaTgsrVaUhkKgwKa1GVMnmJmh91TcABTkuLDTpjVBnqjg",
+    "encodeIpfsHash": "0xb419c29d58017ef4f69c3b527a0a45facbd26abcde922d2f3c03a674c25ffb93"
   },
-  "AIP-32": {
+  {
     "aip": 32,
     "title": "Extend Liquidity Incentives for Aave v2",
     "status": "Proposed",
@@ -339,21 +356,37 @@
     "ipfsHash": "QmREXhrYkWCmKJhQX5X5dWMfFBis2khmD9i9VCyUuJeT3W",
     "encodeIpfsHash": "0x2b01a7f5dc2819f0bb23a352df48c100da5a0c97502523ba045b88399a820051"
   },
-  "AIP-4": {
+  {
+    "aip": 33,
+    "title": "Add FEI to Aave V2",
+    "status": "Proposed",
+    "author": "Joey Santoro (@joeysantoro), Brianna Montgomery (@bpm6867)",
+    "shortDescription": "Create a new Aave V2 market for the FEI stablecoin",
+    "discussions": "https://governance.aave.com/t/arc-add-support-for-fei-as-a-lending-currency/4542",
+    "created": "2021-06-16T00:00:00.000Z",
+    "updated": "N/A",
+    "preview": "## Simple Summary\n\nFei Protocol issues a decentralized, scalable USD …",
+    "basename": "AIP-33",
+    "description": "\n\n## Simple Summary\n\nFei Protocol issues a decentralized, scalable USD stablecoin called FEI. FEI aims to become a widely used decentralized stablecoin that reduces centralization risk throughout DeFi.\n\n## Abstract\n\nFEI is backed by protocol owned reserves used to provide liquidity and stabilize the peg. The Fei community is committed to using decentralized reserve assets and oracles to have FEI be as decentralized as possible. FEI is an ideal candidate to be included on Aave to provide more decentralized stablecoin alternatives.\n\nAdditionally, Fei Protocol will be committing 25m FEI to bootstrap the market and 4M TRIBE in incentives for borrowing for at least the first 6 months.\n\n## Motivation\n\nBeing the liquidity protocol, Aave understands the need for robust capital efficient liquidity in creating healthy markets. DAI and sUSD being the current available options for decentralized stablecoins is good but likely insufficient longer term. Having more options like FEI will improve liquidity and optionality for protocols which are committed to decentralization.\n\nFEI brings with it substantial liquidity in the form of the $500m ETH-FEI pair on Uniswap V2. This can allow ETH leverage traders a capital efficient way to benefit from Aave liquidity and FEI liquidity. The yield paid by these traders will attract more FEI liquidity to Aave, benefiting both ecosystems.\n\n## Specification\n\n1. What is the link between the author of the AIP and the Asset?\n@Brianna is a core team member at Fei Labs focused on ecosystem development.\n\n2. Provide a brief high-level overview of the project and the token\nFEI is a decentralized and scalable stablecoin for DeFi.\n\n3. Explain positioning of token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?\n\nIf listed, FEI would be one of the most decentralized stablecoins on Aave. The Fei DAO can support FEI markets on Aave by providing FEI liquidity, approved via snapshot for 25 million. Traders will have the ability to tap into the large FEI-ETH liquidity on Uni V2 ($561 million) as well as any future protocol owned or incentivized liquidity pools.\n\n4. Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?\n\nFei Protocol launched in April 2021 with a DAO since day one, and currently has over $643 million in liquidity. Fei aligns itself with the top communities and teams in the space, including Aave, with a similar decentralization ethos. There has been a large voter turnout during important community and team lead proposals that supported stabilizing the peg after the initial launch of the protocol.\n\n5. How is the asset currently used?\nFEI is currently being used in interest rate markets, including Fuse, and soon to be CREAM. FEI is growing and finding utilization in other financial service offerings in the broader DeFi ecosystem: synthetics, option platforms, exchanges and AMM’s, etc.\n\n6. Emission schedule\n\nThere is no emission schedule.\n\n7. Token (& Protocol) permissions (minting) and upgradability. Is there a multisig? What can it do? Who are the signers?\nContracts within the Fei protocol have the ability to mint and burn FEI through processes that support stabilization around the 1 USD price target. The DAO controlled by TRIBE holders has the ability to mint FEI and appoint other Minter and Burner contracts.\n\nThe FEI contract itself is not upgradeable.\n\nAn additional role, the Guardian, can pause the minting of FEI. The Fei Core Team holds this role in a multi-sig, with the intention of either renouncing the role or transitioning to a community held multi-sig. More information can be read in our docs: https://docs.fei.money/governance/fei-guardian 1\n\n6. Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)\n\n\tMarket Cap: $527,000,000\n\t24h Volume: $70,000,000\n\tVolatility: Low\n\tExchanges: Uniswap V2, Uniswap V3, Gate.io 1, MXC, Virgox, BiKi, etc. As reported by CoinGeicko 3.\n\tMaturity: Early-Mid\n\n9. Social channels data (Size of communities, activity on Github)\n27K followers on Twitter, 2 17k members in Discord 3, Github\n\n10. Contracts date of deployments, number of transactions, number of holders for tokens\n\tDate of Deployment: March 28, 2021\n\tNumber of Transactions: 81,798\n\tNumber of Holders: 4,089\n\n## Rationale\nBecause FEI is an earlier stage project the proposal is only for depositing. The use of rateStrategyStableTwo, reserve factor, and disabled stable borrowing is appropriate for similar stablecoins per https://docs.aave.com/risk/asset-risk/risk-parameters.\n\n## Implementation\n\nThe FEI price oracle will be served via [ChainLink](https://chain.link/), which includes the [FEI/ETH feed](https://docs.chain.link/docs/ethereum-addresses).\n\nFEI will only be used for depositing, not as collateral. The following params are proposed:\n\n\n  - Strategy: rateStrategyStableOne\n  - Base LTV As Collateral: 0\n  - Liquidation Threshold: 0\n  - Liquidation Bonus: 0\n  - Borrowing Enabled: true\n  - Stable BorrowRate Enabled: false\n  - Reserve Decimals: 18\n  - Reserve Factor: 2000\n\nFollowing the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:\n\n- Interest bearing aFEI: 0xAcF35Af93a65904C50ED93dfb010bAAdEBb4ccF0\n- Variable Debt variableDebtFEI: 0x1B669D5034143E272b5Ff548f2878735A2F3505A\n- Stable Debt stableDebtFEI: 0x1DdcF68f4C2600CBE534212765F964342a2faf02\n- Strategy Implementation for FEI: 0xF0bA2a8c12A2354c075b363765EAe825619bd490\n\nAdditionally the Fei Smart Contracts team contributed an ERC-20 compatibile incentives controller contract to the Aave codebase so other teams can add rewards in their native token: https://github.com/aave/incentives-proposal/pull/5 \n\n- TRIBE Incentives Controller Implementation: 0xff865335401f12b88fa3ff5a3a51685a7f224191\n- and proxy: 0xDee5c1662bBfF8f80f7c572D8091BF251b3B0dAB\n\n## References\n\nWebsite - https://fei.money/\n\nTwitter - https://twitter.com/feiprotocol\n\nDocs - https://docs.fei.money/\n\nGithub - https://github.com/fei-protocol\n\nToken Contract - https://etherscan.io/token/0x956F47F50A910163D8BF957Cf5846D573E7f87CA\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+    "ipfsHash": "QmbfLFGJdZQn21pwJGQzVnFqLk4vXHTmHUhio8ArWmvVqZ",
+    "encodeIpfsHash": "0xc5f116e77129bd672679d021ff5902b98e371f42aa8000dfd1d1bf9468edeed8"
+  },
+  {
     "aip": 4,
     "title": "Activation of Aave Protocol Governance V2",
     "status": "Implemented",
     "author": "Marc Zeller (@marczeller)",
+    "shortDescription": "<none>",
     "discussions": "https://governance.aave.com/t/arc-activation-of-aave-protocol-governance-v2/1717",
     "created": "2020-12-11T00:00:00.000Z",
     "updated": "2020-12-11T00:00:00.000Z",
     "preview": "## AIP rationale\n\nAave V2 governance is inspired by delegation-based …",
     "basename": "AIP-4",
     "description": "\n\n## AIP rationale\n\nAave V2 governance is inspired by delegation-based governance models already on the market, while introducing 3 key innovations and a new layer of resilience:\n\nThe introduction of a new concept in DeFi governance - the **segregation between voting and proposition power** to increase control and ownership of voting rights for AAVE holders.\nAAVE holders will have the choice between delegating proposal creation power to specialized actors while holding their voting rights; or even delegating them to another entity.\n\n**Voting strategies** - The AAVE token exists and is used in the Aave ecosystem in a variety of ways. Through different voting strategies, AAVE in different forms can be used to vote and create proposals. In the initial implementation both AAVE and stkAAVE holders will have voting and proposal creation rights. Voting strategies can be upgraded at any time through a governance proposal to include other forms of AAVE (i.e. aAAVE, staked AAVE/ETH AMM shares, etc.)\n\n**Multiple executor entities** - Different components of the ecosystem might have different needs for consensus and security. For example, changing the AAVE token logic itself might have a large impact on the ecosystem and is something that requires higher consensus than adjusting a risk management parameter. The Aave governance V2 splits the control of different entities within the Aave ecosystem between different executors with different execution delays (timelocks) and different consensus parameters. At the beginning there will be two different executors:\n\n**a.** Executor 1 (short timelock) will control the whole Aave Protocol v1, the token distributor used in v1, the contract collecting the v1 fees, the AAVE Reserve Ecosystem and any change in this timelock itself. Once the break-in period for Aave V2 is completed, this timelock will also control the current Aave V2 market and all the future markets instantiated by the Aave Genesis Team.\n\n- admin : Aave Governance v2\n- delay : 1 day\n- grace period : 5 days\n- proposition threshold: 0.5%\n- voting duration: 3 days\n- vote differential: 0.5%\n- Approval quorum: 2%\n\n**b.** Executor 2 (long timelock) will control the upgradeability of the AAVE token, stkAAVE, any change in v2 governance parameters and any change in the parameters of this timelock itself.\n\n- admin: Aave Governance v2\n- delay: 7 days\n- grace period: 5 days\n- proposition threshold: 2%\n- voting duration: 10 days\n- vote differential: 15%\n- Approval quorum: 20%\n\nThe Guardian - As long as a large majority of AAVE tokens are in a centralised exchange, it’s impossible to prevent a STEEM-like governance attack where a centralised entity would use its users’ assets to take over a decentralised protocol through governance. As a security measure to avoid such a scenario, a temporary 5/10 multisig is given a power of veto to cancel proposals in case malicious code is introduced through an AIP. Those entities have been chosen within the AAVE community to be globally distributed, and they cover safety skill sets through governance, code, and economic analysis. Guardians can be changed later through election.\nThe current multisig signers are : James Vaugh (Fire Eyes/Metacartel), Anthony Sassano (SET protocol/ETHhub/Daily Gwei), Mariano Conti (ex MakerDAO head of smart contracts), Tarun Chitra (Gauntlet), DeFiSaver, Zerion, Parafi Capital, Framework Venture, Arthur0x and the Aave Genesis Team\nSome of the expected short-term outcomes of this implementation are new actors creating proposals for token additions, risk parameter upgrades or new liquidity market creation.\n\n## AIP content in short\n\n- Implementation of the Aave Governance v2 smart contract\n- Implementation of voting delegation and proposal power delegation\n- Implementation of voting strategies with the inclusion of AAVE and StkAAVE\n- Addition of voting and proposition power delegations on AAVE and SktAAVE\n- Implementation of Executor entities\n- Implementation of the Guardian\n\n\n## Implementation details\n\nCreating a Governance V1 Proposal vote with the proposal executor at https://etherscan.io/address/0xd194b24913806fc885f1fecd3e776f8449e5e24a#code\n\nIf the proposal passes:\n\na. The new Aave Token logic implementation will be https://etherscan.io/address/0xc13eac3b4f9eed480045113b7af00f7b5655ece8#code which includes the new delegation capabilities.\n\nb. The new StakeToken logic implementation will be https://etherscan.io/address/0xc0d503b341868a6f6b6e21e0780aa57fdbbca53a#code which includes the new delegation capabilities.\n\nc. The upgradeability permissions over the AAVE and stkAAVE tokens will be moved to the long executor on https://etherscan.io/address/0x61910ecd7e8e942136ce7fe7943f956cea1cc2f7#code\n\nd. All the permissions on V1 of the protocol will be moved to the short executor.\n\ne. The permissions over the contract of the Ecosystem’s Reserve will be moved the short executor on https://etherscan.io/address/0xee56e2b3d491590b5b31738cc34d5232f378a8d5#code\n\nAt this point, the Governance V2 on https://etherscan.io/address/0xec568fffba86c094cf06b22134b23074dfe2252c#code  will be operative, accepting submission of new proposals\n  \n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
-    "ipfsHash": "Qme2DbtK2JRw66aUuXoTStLdb7Y7t1M9Sz8mkXhTANz5tP",
-    "encodeIpfsHash": "0xe90225bb2e84217f7ae8e996dead07db582cc064eb0ef8ebb740c70e7e96628c"
+    "ipfsHash": "QmYZYRQoT1PBHBawsQ6rVZgPauc6mPZjj2mquY92awzd8k",
+    "encodeIpfsHash": "0x97e24f61a3ff7dc3bbdf4711fee1272bf35f32e6259c02adafe59f78f7e929f9"
   },
-  "AIP-5": {
+  {
     "aip": 5,
     "title": "Adding CRV on AAVE",
     "status": "Implemented",
@@ -368,21 +401,22 @@
     "ipfsHash": "Qma2zXR6NP7K5hVBzQQU1pt2kwT96hbC7KmgVceKg7vQx6",
     "encodeIpfsHash": "0xadc631b825d9825f6d5f9a1125c4573b2c9d859d74d7f32895c4c54867ea6abf"
   },
-  "AIP-6": {
+  {
     "aip": 6,
     "title": "Adding GUSD on AAVE",
     "status": "Implemented",
     "author": "Gemini (@Gemini)",
+    "shortDescription": "<none>",
     "discussions": "https://governance.aave.com/t/proposal-add-support-for-gemini-gusd/384",
     "created": "2020-12-23T00:00:00.000Z",
     "updated": "2020-12-23T00:00:00.000Z",
     "preview": "## Simple Summary\nThe Gemini dollar is a cryptographic token that is …",
     "basename": "AIP-6",
     "description": "\n## Simple Summary\nThe Gemini dollar is a cryptographic token that is issued by Gemini, strictly pegged 1:1 to the U.S. dollar, and built on the Ethereum network according to the ERC20 standard for tokens.\n\n\n## Abstract\nAdd GUSD to the AAVE V2 market.\n\n## Motivation\nGUSD is an additional fiat on-ramp into the DeFi ecosystem that will help diversify fiat sources inside of AAVE markets.\n\n## Specification\nGUSD can be exchanged for USD at a fixed 1:1 rate on the Gemini exchange. I have personally tested this out and was impressed with the results: withdraw of GUSD from Gemini exchange was sent within 1 minute using fast gas, and deposit back into Gemini was credited within ~17 block confirmation. It should be possible for liquidators (who are willing/able to KYC) to flip GUSD collateral directly through Gemini for the time being. GUSD also has a few trading pairs on other centralized exchanges such as OKEx, HitBTC, and ZB. I plan on submitting a proposal to create a GUSD Curve pool in the near future as well, if this is supported by veCRV voters the on-chain liquidity for GUSD should improve substantially.\n\n## Rationale\nBenefits for Aave:\n\nDiversification of centralized assets: GUSD relies on a different issuer and custodian compared to USDC, TUSD, USDT, or BUSD. Credit, custody, or regulatory risks may be less correlated across these assets, which could reduce risk to Aave security module stakers.\nNew DeFi on/off ramp: Gemini has good linkage with US bank wire and ACH networks, comparable to Coinbase as a fiat ramp.\nWhile Coinbase have played nice so far, it’s dominance in regulated crypto liquidity and USDC on/off ramp has huge influence over the space. I see Gemini and GUSD as a viable competitor. From an industrial economics standpoint, Aave and other Defi protocols like Maker may benefit from breaking down monopolies of their key counter-parties.\n\n## Risk Analysis\n\nThe Risk Team has applied Aave’s Risk Framework to GUSD leading to an overall risk rating of B-\n\nGUSD is issued by Gemini Trust Company. It has been created for practical use in innovative applications, among which to facilitate Gemini’s institutional solutions and exchange operations.\n\nGUSD Smart contract Risk: C+\n\nGUSD was launched in September 2018 – at the same time then USDC – yet it has only experienced 120k blockchain transactions.\n\nThe GUSD smart contract only supports 2 decimals meaning that interest accrual can only occur for more than 1 cent.\n\nUSDC Counterparty Risk: C+ cannot use as collateral (centralisation D-)\n\nAs it is backed by real US dollars, GUSD is centralised. Moreover it has few holders with most of the transactions off-chain on the centralised Gemini environment.\n\nAn independent accountant’s audit report is published at the end of each month on the website. GUSD is regulated bringing trust to the token. Still, the infrastructure is based on the Ethereum blockchain where regulators have little power.\n\nGUSD Market Risk: B -\n\nGUSD has a small market capitalisation at less than 20m with a small trading volume. The price has diverged from 1 a few times in the last 3 months with up to 3% price variation.\nGiven the reduced market capitalization and the possibility of market price manipulation, the oracle will fix the price of GUSD to $1. This does not bring additional risk because the asset cannot be used as collateral and even if the market price swings considerably, the asset is still redeemable 1:1 for USD. The risk team will reevaluate the asset periodically to validate the viability of an actual market based oracle as the GUSD supply grows.  \n\nRisk Parameters ~ BUSD sUSD\nNot a collateral\nReserve Factor 10%\n\nVariable Interest Rate Model ~ BUSD sUSD\nUOptimal 80%\n\nR_0 0%\n\nR_s1 4%\n\nR_s2 100%\n\n## References\n\n- *Whitepaper*: https://gemini.com/static/dollar/gemini-dollar-whitepaper.pdf\n- *Website*: https://gemini.com/dollar\n- *Twitter*: https://twitter.com/Gemini\n- *Source Code*: https://github.com/gemini/dollar\n- *GUSD token contract*: https://etherscan.io/token/0x056fd409e1d7a124bd7017459dfea2f387b6d5cd\n- *Accountant’s reports at bottom of page*: https://gemini.com/dollar#reports\n- *Trail of bits contract audit*: https://gemini.com/static/dollar/gemini-dollar-trailofbits-audit.pdf\n\n## Copyright\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n",
-    "ipfsHash": "QmVckVeEMhESmwkmToccaLEUyvh5D411sKCd6iistRoUMD",
-    "encodeIpfsHash": "0x6c21a485ec4d3761ba9672d1f261ed916970cfc07557d24282e65fca5dd05cf0"
+    "ipfsHash": "QmWpdVz9G1rzNQCBgcuV6LP39JoA5EZ3vDmVSLnwzmePU4",
+    "encodeIpfsHash": "0x7e08641d409c005bc9363a187c6782b9b596cb438715a6090a26f3cfe8091561"
   },
-  "AIP-7": {
+  {
     "aip": 7,
     "title": "Aavenomics Quarterly Upgrade",
     "status": "Proposed",
@@ -397,7 +431,7 @@
     "ipfsHash": "QmTEiiqRrHTi25gAHJdbDDptehE36TzSTxYSuA1R5o2NsN",
     "encodeIpfsHash": "0x48c57c9f586007fd148dea7e9f44b2f4714cfe1a34b378736dfe5e34a3825be5"
   },
-  "AIP-8": {
+  {
     "aip": 8,
     "title": "Adding BAL on AAVE",
     "status": "Proposed",
@@ -412,7 +446,7 @@
     "ipfsHash": "QmRT8PiQwzPUYZVvURqYBDpb8M6EveRUwkMY4uoTJXNmMm",
     "encodeIpfsHash": "0x2e3bd8c71beab0e5bbe32e4fba436bd6ba2eda311f9fa9cd21aeec692e17772c"
   },
-  "AIP-9": {
+  {
     "aip": 9,
     "title": "Activation of the Aave Balancer Pool Liquidity Staking",
     "status": "Proposed",
@@ -427,4 +461,4 @@
     "ipfsHash": "QmS8SNqXhvHHUuXBhch2iUkRDpRnM2ds9iqeSdgxjSVSmU",
     "encodeIpfsHash": "0x384dd57abcd23aae459877625228062db4082485a0ac1fc45eb54524f5836507"
   }
-}
+]
