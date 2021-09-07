@@ -8,10 +8,15 @@
   "contributors": [
     "David Truong <david@aave.com>"
   ],
+  "engines": {
+    "node": "12.x"
+  },
   "dependencies": {
     "@react-hook/window-size": "^3.0.6",
+    "ajv": "^8.6.2",
     "bs58": "^4.0.1",
     "classnames": "^2.2.6",
+    "ethers": "^5.4.6",
     "fs": "0.0.1-security",
     "gatsby": "^2.20.25",
     "gatsby-cli": "^2.12.48",
@@ -45,8 +50,7 @@
     "typeface-open-sans": "0.0.75",
     "typeface-roboto": "0.0.75",
     "typography": "^0.16.19",
-    "typography-theme-github": "^0.16.19",
-    "ajv": "^8.6.2"
+    "typography-theme-github": "^0.16.19"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
@@ -67,6 +71,7 @@
     "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
     "upload:pinata-thegraph": "node aip-uploader.js && rm tmp",
     "validation:aip-schema": "node ./aip-schema-validation.js",
+    "generate-filename": "node aip-filename-generator.js",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve --prefix-paths",
