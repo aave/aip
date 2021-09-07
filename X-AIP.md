@@ -10,7 +10,7 @@ updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
 
 This is the template for AIPs.
 
-Note that the filename should contain the generated identifier by the author. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `AIP-identifier-draft_title_abbrev.md`.
+Note that the filename should contain the generated identifier by the author. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `identifier-AIP-draft_title_abbrev.md`.
 
 The title should be 44 characters or less.
 
