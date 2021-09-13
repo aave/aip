@@ -59,7 +59,7 @@ more suitable interest curve for AMPL. We propose the following parameters, whic
 
 * Optimal utilization = 80%
 * Base rate = 1%
-* Slope1 = 2%#
+* Slope1 = 2%
 * Slope2 = 750%
 
 
