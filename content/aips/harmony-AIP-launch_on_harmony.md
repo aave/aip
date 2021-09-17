@@ -30,11 +30,17 @@ For more details, read our [documentation](https://docs.harmony.one/home/general
 
 ## Rationale
 
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+The Aave community voted on the proposal: https://snapshot.org/#/aave.eth/proposal/QmYYBedL9aRFdC5DUgjN3QMoYxvJhAUBb2sEyhFuVQZbLG with Yes 487.25k AAVE (94%) and No 31.09k AAVE (6%).
 
 ## Incentives
 
-Harmony will provide $2 million in incentives in the form of native ONE tokens for 1 year to bootstrap initial usage with the following emission schedule:
+Harmony will start by providing $5M USD in ONE tokens in incentives to bootstrap initial usage of Aave on Harmony.
+
+We specifically planned for a one year incentive campaign so that net new users have the opportunity to come into Aave and decentralized finance. We know that many protocols are giving out even higher incentives over a short period of time. We chose an attractive incentive over a longer period so that new users who may not be experienced power users can also benefit from the launch.
+
+In addition to token incentives, we will be investing heavily in co-marketing and educating users through tutorials, videos, and community-led support.
+
+Harmony will provide $5 million in incentives in the form of native ONE tokens for 1 year to bootstrap initial usage with the following emission schedule:
 
 Months 1-3: 40%
 
