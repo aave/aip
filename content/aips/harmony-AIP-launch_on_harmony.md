@@ -34,7 +34,7 @@ The Aave community voted on the [Snapshot proposal](https://snapshot.org/#/aave.
 
 The community discussed the rationale around incentives, which we address in the "Incentives" section below.
 
-Additionally, we addressed the questions around technical security on the Aave governance forum in [thhttps://governance.aave.com/t/arc-aave-market-launch-on-harmony/5065/81post](url).
+Additionally, we addressed the questions around technical security on the Aave governance forum in [this post](https://governance.aave.com/t/arc-aave-market-launch-on-harmony/5065/81).
 
 ## Incentives
 
