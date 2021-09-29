@@ -30,7 +30,11 @@ For more details, read our [documentation](https://docs.harmony.one/home/general
 
 ## Rationale
 
-The Aave community [voted on the proposal](https://snapshot.org/#/aave.eth/proposal/QmYYBedL9aRFdC5DUgjN3QMoYxvJhAUBb2sEyhFuVQZbLG) with **Yes** 487.25k AAVE (94%) and **No** 31.09k AAVE (6%).
+The Aave community voted on the [Snapshot proposal](https://snapshot.org/#/aave.eth/proposal/QmYYBedL9aRFdC5DUgjN3QMoYxvJhAUBb2sEyhFuVQZbLG) with Yes 487.25k AAVE (94%) and No 31.09k AAVE (6%).
+
+The community discussed the rationale around incentives, which we address in the "Incentives" section below.
+
+Additionally, we addressed the questions around technical security on the Aave governance forum in [this post](https://governance.aave.com/t/arc-aave-market-launch-on-harmony/5065/81).
 
 ## Incentives
 
@@ -58,11 +62,11 @@ After the market is functional, we will work with the Aave core devs for cross-c
 
 ## Test Cases
 
-Test cases will be determined in discussion with the aave team.
+Test cases for an implementation are mandatory for AIPs but can be included with the implementation.
 
 ## Implementation
 
-The implementation will be determined in discussion with the aave team.
+The implementations must be completed before any AIP is given status "Implemented", but it need not be completed before the AIP is "Approved". While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
 
 ## Copyright
 
