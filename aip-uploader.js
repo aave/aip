@@ -60,7 +60,7 @@ async function main() {
       console.log(` See the file here: https://gateway.pinata.cloud/ipfs/${hash}`)
       fs.writeFileSync(
         `./content/ipfs-aips/${jsonAips[id].basename}-Ipfs-hashes.json`,
-        JSON.stringify({ aip: id, hash, encodedHash }, null, 2)
+        JSON.stringify({ name: jsonAips[id].basename, hash, encodedHash }, null, 2)
       )
       fs.writeFileSync(
         `./content/ipfs-aips/all-aips.json`,
