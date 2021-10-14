@@ -26,7 +26,7 @@ Let's imagine we believe a parameter of the `AAVE` reserve should be changed for
 
 First of all, an *Aave Request for Comment (ARC)* had to be initiated in the [Governance Forum](https://governance.aave.com/), so the community can participate and provide feedback. Here you can find [instructions](https://docs.aave.com/governance/arcs) about it.
 
-If the community is aligned with our change proposal, we can start working on the AIP. There is an example of the AIP at the [sample-aip branch](https://github.com/aave/aip/tree/sample-aip) and the  [Pull Request (PR)](https://github.com/aave/aip/pull/109) to the [Pending AIPs branch](https://github.com/aave/aip/tree/Pending-AIPs) that it is needed to be done.
+If the community is aligned with our change proposal, we can start working on the AIP. There is an example of the AIP at the [sample-aip branch](https://github.com/aave/aip/tree/sample-aip) and the  [Pull Request (PR)](https://github.com/aave/aip/pull/118) to the [Pending AIPs branch](https://github.com/aave/aip/tree/Pending-AIPs) that it is needed to be done.
 
 And Voila, we have created our AIP for the proposal!
 
