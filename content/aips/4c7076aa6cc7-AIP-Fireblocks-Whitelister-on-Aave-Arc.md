@@ -21,23 +21,20 @@ We believe that Fireblocks LLC, a Fireblocks company, satisfies all the qualific
 
 ## Motivation
 
-DeFi is considered by institutional users to be one of the more complex markets to navigate across security, compliance, and risk perspectives. We are eager to be at the forefront of this transformational opportunity with Aave Arc by extending access to even our most compliance-conscious customers, who would otherwise avoid DeFi over compliance or regulatory concerns.
+DeFi is considered by institutional users to be one of the more complex markets to navigate across security, compliance, and risk perspectives. We are eager to be at the forefront of this transformational opportunity with Aave Arc by extending access to even our most compliance-conscious customers, who have been searching to engage with DeFi in a way that comports with their own internal requirements.
 
 Approval of Fireblocks LLC can potentially also facilitate the integration of other “whitelisters” and institutions into instances of the Aave protocol. This may have multiple benefits, including the creation of sustainable governance practices for Aave Arc whitelisters and whitelister customers, as well as the enablement of benefits to the ecosystem, such as the onboarding of regulated fiat on/off ramps and protocol deployments connected to debit cards, high yield savings accounts and other innovative fintech products.
 
 ## Specification
 
-### Whitelisting and the Permissined Manager contract
 “Whitelisting” is the gatekeeping function performed by whitelisters on users of Aave Arc. The term refers specifically to the process of:
 1. Conducting KYC/KYB checks on the user;
-2. Onboarding the user with appropriate disclosures, terms, and conditions; and, Granting specific permissions (e.g., borrow, supply, liquidate) to the Ethereum wallet address(es) provided by the user.
+2. Onboarding the user with appropriate disclosures, terms, and conditions;
+3. Granting specific permissions (e.g., borrow, supply, liquidate) to the Ethereum wallet address(es) provided by the user.
 
-Aave Arc whitelisters are granted “guardian” status like the Aave protocol V2 guardian role with the ability to collectively, make and enforce decisions around gatekeeping parameters.
+Aave Arc whitelisters perform a similar role on Arc as guardians do on Aave V2. Specifically, whitelisters can use a multi-sig veto on governance proposals that add excessive compliance risk on the Aave Arc protocol. For example, existing whitelisters can veto the addition of a privacy coin if such a coin is impermissible in the relevant jurisdiction, or veto the addition of a whitelister that has a poor reputation for compliance.
 
-The whitelisting is managed via a Permission Manager contract (TBD: Etherscan link, once deployed), in which whitelisters are designated as Permission Admins.  Permission Admins are permitted to add or remove wallets grants to the Aave Arc market by calling `addPermissions()` and `removePermissions()` contract methods, respectively. 
-
-#### The proposal payload
-TBD. Still under development.
+The whitelisting is managed via a [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract, in which whitelisters are designated as Permission Admins.  Permission Admins are permitted to add or remove wallets grants to the Aave Arc market by calling `addPermissions()` and `removePermissions()` contract methods, respectively. 
 
 ## Rationale
 
@@ -49,7 +46,19 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 
 ## Implementation
 
-The implementations must be completed before any AIP is given status "Implemented", but it need not be completed before the AIP is "Approved". While there is merit to the approach of reaching consensus on the specification and rationale before writing code, the principle of "rough consensus and running code" is still useful when it comes to resolving many discussions of API details.
+Executes the proposal deployed at:
+
+https://etherscan.io/address/0x5594d90cfe2fe4f2060695f8f42d52fe7646a5f6#code
+
+The proposal executes the following:
+- Adds [Fireblocks](https://etherscan.io/address/0x686a12A79008246F4dF2f1Ea30d136BD6DE748B4) as Permission Admin by calling addPermissionAdmins` on the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract.
+
+`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([0x686a12A79008246F4dF2f1Ea30d136BD6DE748B4]);`
+
+- Unpause the pool by calling setPoolPause on the [LendingPoolConfigurator](https://etherscan.io/address/0x4e1c7865e7BE78A7748724Fa0409e88dc14E67aA) contract.
+
+`ILendingPoolConfigurator(0x4e1c7865e7BE78A7748724Fa0409e88dc14E67aA).setPoolPause(false);`
+
 
 ## Copyright
 
