@@ -48,7 +48,7 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 
 Executes the proposal deployed at:
 
-https://etherscan.io/address/0x5594d90cfe2fe4f2060695f8f42d52fe7646a5f6#code
+https://etherscan.io/address/0xbdcd4437f785f3e719703822a4e4a52bce738824#code
 
 The proposal executes the following:
 - Adds [Fireblocks](https://etherscan.io/address/0x686a12A79008246F4dF2f1Ea30d136BD6DE748B4) as Permission Admin by calling addPermissionAdmins` on the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract.
