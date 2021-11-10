@@ -1,6 +1,6 @@
 ---
 title: Add Fireblocks as a whitelister on Aave Arc
-status: WIP
+status: Proposed
 author: Idan Ofrat (@idan-fb)
 shortDescription: Proposal to add Fireblocks LLC, a Fireblocks company, as a “whitelister” for one or more deployments of Aave Arc.
 discussions: https://governance.aave.com/t/add-fireblocks-as-a-whitelister-on-aave-arc/5753
@@ -9,13 +9,13 @@ created: 2021-10-02
 
 ## Simple Summary
 
-Fireblocks asks the Aave Governance community to approve the appointment, adoption, and authorization of Fireblocks LLC, a Fireblocks company, as a “whitelister” for one or more deployments of Aave Arc.
+Fireblocks asks the Aave Governance community to approve the appointment, adoption, and authorization of Fireblocks LLC, a Fireblocks company, as a “whitelister” on the Aave Arc market.
 
 ## Abstract
 
 Aave Arc is a “permissioned” version of the software underlying V2 of the Aave protocol that employs an additional smart contract layer to only allow “whitelisted” or “permissioned” users to engage with the protocol.
 
-Each Aave Arc deployment will launch with one or more “whitelisters". Only regulated entities that (a) employ KYC/KYB principles in accordance with FATF guidelines to identify and accept their clients; (b) have robust AML/CFT compliance programs; and (c) are currently in good standing with an active license/registration in the entity’s operating jurisdiction will be accepted as “whitelisters” on deployments of the Aave Arc.
+Only regulated ntities that (a) employ KYC/KYB principles in accordance with FATF guidelines to identify and accept their clients; (b) have robust AML/CFT compliance programs; and (c) are currently in good standing with an active license/registration in the entity’s operating jurisdiction will be accepted as “whitelisters” on Aave Arc.
 
 We believe that Fireblocks LLC, a Fireblocks company, satisfies all the qualification requirements to be a whitelister. We have performed a detailed analysis and documented it [here](https://governance.aave.com/t/add-fireblocks-as-a-whitelister-on-aave-arc/5753) for the consideration of the Aave Governance community.
 
@@ -32,7 +32,7 @@ Approval of Fireblocks LLC can potentially also facilitate the integration of ot
 2. Onboarding the user with appropriate disclosures, terms, and conditions;
 3. Granting specific permissions (e.g., borrow, supply, liquidate) to the Ethereum wallet address(es) provided by the user.
 
-Aave Arc whitelisters perform a similar role on Arc as guardians do on Aave V2. Specifically, whitelisters can use a multi-sig veto on governance proposals that add excessive compliance risk on the Aave Arc protocol. For example, existing whitelisters can veto the addition of a privacy coin if such a coin is impermissible in the relevant jurisdiction, or veto the addition of a whitelister that has a poor reputation for compliance.
+In addition, Aave Arc whitelisters perform a similar role on Arc as guardians do on Aave V2. Specifically, whitelisters can use a multi-sig veto on governance proposals that add excessive compliance risk on the Aave Arc protocol. For example, existing whitelisters can veto the addition of a privacy coin if such a coin is impermissible in the relevant jurisdiction, or veto the addition of a whitelister that has a poor reputation for compliance.
 
 The whitelisting is managed via a [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract, in which whitelisters are designated as Permission Admins.  Permission Admins are permitted to add or remove wallets grants to the Aave Arc market by calling `addPermissions()` and `removePermissions()` contract methods, respectively. 
 
@@ -45,6 +45,7 @@ The Aave community voted on the [Snapshot proposal](https://snapshot.org/#/aave.
 Test cases for an implementation are mandatory for AIPs but can be included with the implementation.
 
 ## Implementation
+### Proposal
 
 Executes the proposal deployed at:
 
@@ -59,6 +60,10 @@ The proposal executes the following:
 
 `ILendingPoolConfigurator(0x4e1c7865e7BE78A7748724Fa0409e88dc14E67aA).setPoolPause(false);`
 
+### Aave Arc Timelock
+
+Aave Arc Timelock gives a guardian address the opportunity to cancel an approved governance action prior to its execution.
+The timelock implementation can be found [here](https://github.com/aave/arc-timelock).
 
 ## Copyright
 
