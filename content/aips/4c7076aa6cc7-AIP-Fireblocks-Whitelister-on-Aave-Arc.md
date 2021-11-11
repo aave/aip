@@ -2,7 +2,7 @@
 title: Add Fireblocks as a whitelister on Aave Arc
 status: Proposed
 author: Idan Ofrat (@idan-fb)
-shortDescription: Proposal to add Fireblocks LLC, a Fireblocks company, as a “whitelister” for one or more deployments of Aave Arc.
+shortDescription: Proposal to add Fireblocks LLC, a Fireblocks company, as a “whitelister” on the Aave Arc market.
 discussions: https://governance.aave.com/t/add-fireblocks-as-a-whitelister-on-aave-arc/5753
 created: 2021-10-02
 ---
