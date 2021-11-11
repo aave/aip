@@ -14,7 +14,7 @@ This AIP would list Aavegotchi GHST token on the Aave Polygon Market with the fo
 
 - LTV: 25%
 - Liquidation Threshold: 45%
-- Liquidation Bonus: 12.5%\*
+- Liquidation Bonus: 12.5%
 - Reserve Factor: 20%
 
 ## Rationale
