@@ -60,11 +60,11 @@ The proposal executes the following:
 
 `ILendingPoolConfigurator(0x4e1c7865e7BE78A7748724Fa0409e88dc14E67aA).setPoolPause(false);`
 
-- Transfers the EmergencyAdmin role of the system to the [ArcTimelock's Veto DAO](https://etherscan.io/address/0x33B09130b035d6D7e57d76fEa0873d9545FA7557)
+- Transfers the EmergencyAdmin role of the system to the [ArcTimelock's Veto DAO](https://etherscan.io/address/0x33B09130b035d6D7e57d76fEa0873d9545FA7557).
 
 `provider.setEmergencyAdmin(ARC_TIMELOCK_VETO_DAO_ADDRESS);`
 
-- Transfers the Market ownership of the system to the [ARC Market Multisig](https://etherscan.io/address/0x23c155C1c1ecB18a86921Da29802292f1d282c68) 
+- Transfers ownership of the system to the [ARC Market Multisig](https://etherscan.io/address/0x23c155C1c1ecB18a86921Da29802292f1d282c68) temporarily until handed over to Aave Governance.
 
 `provider.transferOwnership(ARC_MARKET_MULTISIG_ADDRESS);`
 
