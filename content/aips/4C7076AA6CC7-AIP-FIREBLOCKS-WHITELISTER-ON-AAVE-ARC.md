@@ -15,7 +15,7 @@ Fireblocks asks the Aave Governance community to approve the appointment, adopti
 
 Aave Arc is a “permissioned” version of the software underlying V2 of the Aave protocol that employs an additional smart contract layer to only allow “whitelisted” or “permissioned” users to engage with the protocol.
 
-Only regulated ntities that (a) employ KYC/KYB principles in accordance with FATF guidelines to identify and accept their clients; (b) have robust AML/CFT compliance programs; and (c) are currently in good standing with an active license/registration in the entity’s operating jurisdiction will be accepted as “whitelisters” on Aave Arc.
+Only regulated entities that (a) employ KYC/KYB principles in accordance with FATF guidelines to identify and accept their clients; (b) have robust AML/CFT compliance programs; and (c) are currently in good standing with an active license/registration in the entity’s operating jurisdiction will be accepted as “whitelisters” on Aave Arc.
 
 We believe that Fireblocks LLC, a Fireblocks company, satisfies all the qualification requirements to be a whitelister. We have performed a detailed analysis and documented it [here](https://governance.aave.com/t/add-fireblocks-as-a-whitelister-on-aave-arc/5753) for the consideration of the Aave Governance community.
 
@@ -49,7 +49,7 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 
 Executes the proposal deployed at:
 
-https://etherscan.io/address/0xbdcd4437f785f3e719703822a4e4a52bce738824#code
+[https://etherscan.io/address/0xA7fC6E204c2069edb0ed5Fed451F419B985eC416#code](https://etherscan.io/address/0xA7fC6E204c2069edb0ed5Fed451F419B985eC416#code)
 
 The proposal executes the following:
 - Adds [Fireblocks](https://etherscan.io/address/0x686a12A79008246F4dF2f1Ea30d136BD6DE748B4) as Permission Admin by calling addPermissionAdmins` on the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract.
@@ -59,6 +59,14 @@ The proposal executes the following:
 - Unpause the pool by calling setPoolPause on the [LendingPoolConfigurator](https://etherscan.io/address/0x4e1c7865e7BE78A7748724Fa0409e88dc14E67aA) contract.
 
 `ILendingPoolConfigurator(0x4e1c7865e7BE78A7748724Fa0409e88dc14E67aA).setPoolPause(false);`
+
+- Transfers the EmergencyAdmin role of the system to the [ArcTimelock's Veto DAO](https://etherscan.io/address/0x33B09130b035d6D7e57d76fEa0873d9545FA7557).
+
+`provider.setEmergencyAdmin(ARC_TIMELOCK_VETO_DAO_ADDRESS);`
+
+- Transfers ownership of the system to the [ARC Market Multisig](https://etherscan.io/address/0x23c155C1c1ecB18a86921Da29802292f1d282c68) temporarily until handed over to Aave Governance.
+
+`provider.transferOwnership(ARC_MARKET_MULTISIG_ADDRESS);`
 
 ### Aave Arc Timelock
 
