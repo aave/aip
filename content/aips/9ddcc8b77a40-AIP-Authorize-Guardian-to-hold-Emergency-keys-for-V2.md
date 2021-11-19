@@ -1,5 +1,5 @@
 ---
-title: AIP: Authorize the Guardian to hold the emergency keys for V2 
+title: Authorize the Guardian to hold the emergency keys for V2 
 status: Proposed
 author: Imran Khan
 shortDescription: Authorize the Guardian to hold the emergency keys for V2 
