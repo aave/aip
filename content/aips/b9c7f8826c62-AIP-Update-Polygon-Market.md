@@ -140,4 +140,4 @@ Based upon the volatility data share above, Index Coop suggests changing the Liq
 |Parameter|Current Value|Recommended Value|
 | --- | --- | --- |
 |wMATIC Liquidation Threshold|65%|70%|
-|wMATIC Loan to Value|50%|65%|
+|wMATIC Loan to Value|50%|65%| 
