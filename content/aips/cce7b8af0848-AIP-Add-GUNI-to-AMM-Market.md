@@ -1,7 +1,6 @@
 ---
-aip: <to be assigned>
 title: Add G-UNI to Aave V2 AMM Market
-status: WIP
+status: Proposed
 author: Gelato Newtork (@gelatodigital)
 shortDescription: Create a new collateral type to Aave's AMM Market with G-UNI stablecoin LP tokens
 discussions: https://governance.aave.com/t/arc-add-gelato-s-g-uni-erc20-uniswap-v3-positions-as-collateral-to-aave-s-amm-market/5687/5
@@ -69,6 +68,14 @@ Over 20k on Twitter and 16k on Telegram
 10. Contracts date of deployments, number of transactions, number of holders for tokens
 
 Deployed quite recently, around 50 transactions for the pools, only a couple of holders right now, but will most likely change with MakerDAO having integrated it
+
+## Implementation
+
+The payload to list the two G-UNI Pools as collateral types on the AMM market and to configure their price oracles is deployed at this contract address: [0x67e4EDE946b3d76c4C505566eB821a1470507d2d](https://etherscan.io/address/0x67e4ede946b3d76c4c505566eb821a1470507d2d#code)
+
+To execute the action governance simply calls `execute()` method (with no arguments) on the above contract address.
+
+On execution both pools will be listed with the parameters in "Simple Summary" and with borrowing of G-UNI disabled.
 
 ## References
 
