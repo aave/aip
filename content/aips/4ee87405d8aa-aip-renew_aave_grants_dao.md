@@ -15,9 +15,7 @@ Provide Aave Grants DAO (AGD) with a $2m per quarter budget to fund more project
 
 [AIP 17](https://app.aave.com/governance/13-QmURZNW6PT4z3e4DZqxHMAW1bWRFvxZjtyQZqhnhgdLB6R) established Aave Grants DAO on May 4, 2021 with the goal of funding ideas and builders in the Aave ecosystem. The two quarter pilot program had a grants budget of $1 million and an operating budget of $250,000 per quarter. The pilot program has awarded $1.17m to 38 grant recipients and made the initial steps to put the grants process and the protocol in the hands of the community.
 
-Besides providing $ support to grantees, we have also provided post-grant support where possible. This includes support with marketing, strategic advice, introductions to auditors, introductions to Aave genesis team developers, and AMAs with the Aave community.
-
-We have led content for Aave DAO, including 17 issues of Aave News, 5 community calls, and 5 AMAs with grantees and the Aave community. We have also funded hackathons including ETHGlobal and Gitcoin’s hackathons.
+Moving forward we propose renewing Aave Grants DAO with an increased grants budget of $2 million and an operations budget of $2 million per quarter. With the increased budget we will increase the number of larger community grants, fund non-developer grants including sponsorship and community events, and work to decentralize the grants process.
 
 ## Motivation
 
