@@ -1,8 +1,7 @@
 ---
-aip: 38
 title: Renew Aave Grants DAO
 status: WIP
-author: Austin Green (@austingreen), Shreyas Hariharan (@hello-shreyas)
+author: Shreyas Hariharan (@hello-shreyas), Austin Green (@austingreen)
 shortDescription: Provide funding to expand the budget and scope of Aave Grants DAO
 discussions: https://governance.aave.com/t/aave-grants-update-and-renewal/6371
 created: 2021-12-05
@@ -23,6 +22,29 @@ We have led content for Aave DAO, including 17 issues of Aave News, 5 community 
 ## Motivation
 
 AGD’s mission is to build a thriving ecosystem of contributors for Aave. We provide grants to projects, ideas, and events that benefit Aave and its ecosystem. We hope to be at the forefront of ecosystem development at Aave. Ensuring a constant influx of talented builders is critical to Aave’s growth.
+
+## Test Cases
+
+The full test of this proposal can be found here: https://github.com/aave/aave-grants-update-and-renewal
+
+## Implementation
+
+In order to transfer funds from the Aave Ecosystem Reserve, the proposal will target the contract ControllerAaveEcosystemReserve and call the function `transfer(IERC20 token, address recipient, uint256 amount)`.
+
+**Target Contract**
+
+ControllerAaveEcosystemReserve = [0x1E506cbb6721B83B1549fa1558332381Ffa61A93](
+https://etherscan.io/address/0x1e506cbb6721b83b1549fa1558332381ffa61a93)
+
+**Transfer Parameters**
+
+token = the aave token [0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9](
+https://etherscan.io/address/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9)
+
+recipient = the grants dao multi-sig = [0x89C51828427F70D77875C6747759fB17Ba10Ceb0](
+https://etherscan.io/address/0x89C51828427F70D77875C6747759fB17Ba10Ceb0)
+
+amount = $2 million / ($189.67 / aave) = 10544.63 adjust for decimals = 10544630000000000000000
 
 ## Copyright
 
