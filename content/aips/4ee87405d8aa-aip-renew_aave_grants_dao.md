@@ -4,7 +4,7 @@ status: WIP
 author: Shreyas Hariharan (@hello-shreyas), Austin Green (@austingreen)
 shortDescription: Provide funding to expand the budget and scope of Aave Grants DAO
 discussions: https://governance.aave.com/t/aave-grants-update-and-renewal/6371
-created: 2021-12-05
+created: 2021-12-11
 ---
 
 ## Simple Summary
