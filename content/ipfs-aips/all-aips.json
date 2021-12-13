@@ -13,6 +13,19 @@
     "encodeIpfsHash": "0x27c7a77c3127ef93b409b291cbf3726ea80b9ce00bc3e2967bc7027b0c89f04b"
   },
   {
+    "title": "Renew Aave Grants DAO",
+    "status": "Proposed",
+    "author": "Shreyas Hariharan (@hello-shreyas), Austin Green (@austingreen)",
+    "shortDescription": "Provide funding to expand the budget and scope of Aave Grants DAO",
+    "discussions": "https://governance.aave.com/t/aave-grants-update-and-renewal/6371",
+    "created": "2021-12-11T00:00:00.000Z",
+    "preview": "## Simple Summary\n\nProvide Aave Grants DAO (AGD) with a $2m per …",
+    "basename": "922C7BCAA707-AIP-RENEW_AAVE_GRANTS_DAO",
+    "description": "\n\n## Simple Summary\n\nProvide Aave Grants DAO (AGD) with a $2m per quarter budget to fund more projects that benefit Aave.\n\n## Abstract\n\n[AIP 17](https://app.aave.com/governance/13-QmURZNW6PT4z3e4DZqxHMAW1bWRFvxZjtyQZqhnhgdLB6R) established Aave Grants DAO on May 4, 2021 with the goal of funding ideas and builders in the Aave ecosystem. The two quarter pilot program had a grants budget of $1 million and an operating budget of $250,000 per quarter. The pilot program has awarded $1.17m to 38 grant recipients and made the initial steps to put the grants process and the protocol in the hands of the community.\n\nMoving forward we propose renewing Aave Grants DAO with an increased grants budget of $2 million and an operations budget of $2 million per quarter. With the increased budget we will increase the number of larger community grants, fund non-developer grants including sponsorship and community events, and work to decentralize the grants process.\n\n## Motivation\n\nAGD’s mission is to build a thriving ecosystem of contributors for Aave. We provide grants to projects, ideas, and events that benefit Aave and its ecosystem. We hope to be at the forefront of ecosystem development at Aave. Ensuring a constant influx of talented builders is critical to Aave’s growth.\n\n## Test Cases\n\nThe full test of this proposal can be found here: https://github.com/aave/aave-grants-update-and-renewal\n\n## Implementation\n\nIn order to transfer funds from the Aave Ecosystem Reserve, the proposal will target the contract ControllerAaveEcosystemReserve and call the function `transfer(IERC20 token, address recipient, uint256 amount)`.\n\n**Target Contract**\n\nControllerAaveEcosystemReserve = [0x1E506cbb6721B83B1549fa1558332381Ffa61A93](\nhttps://etherscan.io/address/0x1e506cbb6721b83b1549fa1558332381ffa61a93)\n\n**Transfer Parameters**\n\ntoken = the aave token [0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9](\nhttps://etherscan.io/address/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9)\n\nrecipient = the grants dao multi-sig = [0x89C51828427F70D77875C6747759fB17Ba10Ceb0](\nhttps://etherscan.io/address/0x89C51828427F70D77875C6747759fB17Ba10Ceb0)\n\namount = $2 million / ($189.67 / aave) = 10544.63 adjust for decimals = 10544630000000000000000\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+    "ipfsHash": "QmW1YMEnJX8SMWZEf6uUvNYqLA72VXuWnxMvBnfHXmtVjo",
+    "encodeIpfsHash": "0x71f844dcbbdec5423168216c396d02ac6804a0655d347bdbb6401c0b8a80ff1a"
+  },
+  {
     "title": "Authorize the Guardian to hold the emergency keys for V2",
     "status": "Proposed",
     "author": "Imran Khan",
