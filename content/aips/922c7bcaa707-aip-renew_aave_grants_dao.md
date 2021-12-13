@@ -1,6 +1,6 @@
 ---
 title: Renew Aave Grants DAO
-status: WIP
+status: Proposed
 author: Shreyas Hariharan (@hello-shreyas), Austin Green (@austingreen)
 shortDescription: Provide funding to expand the budget and scope of Aave Grants DAO
 discussions: https://governance.aave.com/t/aave-grants-update-and-renewal/6371
