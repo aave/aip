@@ -1,5 +1,4 @@
 ---
-aip: <to-be-assigned>
 title: Add Assets to Aave Polygon Market and Update WMATIC Risk Parameters
 status: Proposed
 author: Coder Dan (@coderdannn), MatthewGraham, tomuky
@@ -7,7 +6,7 @@ shortDescription: Update Polygon Market
 discussions: https://governance.aave.com/t/arc-list-aavegotchi-ghst-token-as-collateral-on-matic-aave-network/3619
   https://governance.aave.com/t/listing-proposal-add-v2-market-assets-to-polygon-market-that-are-relevant-to-polygon-network/5511
   https://governance.aave.com/t/arc-polygon-market-wmatic-risk-parameter-changes/6021
-created: 2021-23-11
+created: 2021-12-14
 ---
 
 ## Simple Summary
