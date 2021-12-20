@@ -143,7 +143,7 @@ Based upon the volatility data share above, Index Coop suggests changing the Liq
 
 ## Implementation
 
-This proposal is the first cross chain proposal for AAVE. AAVE holders will vote through the Ethereum mainnet to change parameters on the Polygon market. The proposal makes use of the [cross chain bridge](https://github.com/aave/governance-crosschain-bridges) to send a message to the Polygon bridge executor. The following functions are called on the [lending pool configurator](https://polygonscan.com/address/0x26db2b833021583566323e3b8985999981b9f1f3):
+This proposal is the first cross chain proposal for AAVE. AAVE holders will vote through the Ethereum mainnet to change parameters on the Polygon market. The proposal makes use of the [cross chain bridge](https://github.com/aave/governance-crosschain-bridges) to send a message to the [Polygon bridge executor](https://polygonscan.com/address/0xdc9A35B16DB4e126cFeDC41322b3a36454B1F772). The following functions are called on the [lending pool configurator](https://polygonscan.com/address/0x26db2b833021583566323e3b8985999981b9f1f3) from the executor:
 
 For GHST, BAL, DPI, CRV, SUSHI, LINK:
 * batchInitReserve((address aTokenImpl, address stableDebtImpl, address variableDebtImpl, uint8 decimals, address interestRateStrategy, address underlyingAsset, address treasury, address incentivesController, string underlyingAssetName, string aTokenName, string aTokenSymbol, string varTokenName, string varTokenSymbol, string stableDebtName, string stableDebtSymbol, bytes params)[])
