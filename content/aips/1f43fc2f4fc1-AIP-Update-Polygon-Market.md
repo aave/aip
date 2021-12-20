@@ -140,3 +140,22 @@ Based upon the volatility data share above, Index Coop suggests changing the Liq
 | --- | --- | --- |
 |wMATIC Liquidation Threshold|65%|70%|
 |wMATIC Loan to Value|50%|65%| 
+
+## Implementation
+
+This proposal is the first cross chain proposal for AAVE. AAVE holders will vote through the Ethereum mainnet to change parameters on the Polygon market. The proposal makes use of the [cross chain bridge](https://github.com/aave/governance-crosschain-bridges) to send a message to the Polygon bridge executor. The following functions are called on the [lending pool configurator](https://polygonscan.com/address/0x26db2b833021583566323e3b8985999981b9f1f3):
+
+For GHST, BAL, DPI, CRV, SUSHI, LINK:
+* batchInitReserve((address aTokenImpl, address stableDebtImpl, address variableDebtImpl, uint8 decimals, address interestRateStrategy, address underlyingAsset, address treasury, address incentivesController, string underlyingAssetName, string aTokenName, string aTokenSymbol, string varTokenName, string varTokenSymbol, string stableDebtName, string stableDebtSymbol, bytes params)[])
+* setReserveFactor(address asset, uint256 reserveFactor)
+
+For GHST, BAL, CRV, LINK:
+* enableBorrowingOnReserve(address asset, bool stableBorrowEnabled)
+
+For GHST, BAL, DPI, CRV, SUSHI, LINK, WMATIC:
+* configureReserveAsCollateral(address asset, uint256 ltv, uint256 liquidationThreshold, uint256 liquidationBonus)
+
+And the following function is called on the [Aave Oracle](https://polygonscan.com/address/0x0229f777b0fab107f9591a41d5f02e4e98db6f2d#code) for GHST, BAL, DPI, CRV, SUSHI, LINK:
+* setAssetSources(address[] assets, address[] sources)
+
+Tests and implementation are located [here](https://github.com/pakim249CAL/Polygon-Asset-Deployment-Generic-Executor).
