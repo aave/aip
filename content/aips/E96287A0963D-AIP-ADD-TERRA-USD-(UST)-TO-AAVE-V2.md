@@ -1,5 +1,4 @@
 ---
-aip: 50
 title: Add Terra USD (UST) to AAVE v2
 status: Proposed
 author: Anjan Vinod (@anjan_vinod), Adam Cader (@adamcader_)
