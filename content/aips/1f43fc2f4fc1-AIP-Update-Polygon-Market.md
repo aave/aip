@@ -158,4 +158,8 @@ For GHST, BAL, DPI, CRV, SUSHI, LINK, WMATIC:
 And the following function is called on the [Aave Oracle](https://polygonscan.com/address/0x0229f777b0fab107f9591a41d5f02e4e98db6f2d#code) for GHST, BAL, DPI, CRV, SUSHI, LINK:
 * setAssetSources(address[] assets, address[] sources)
 
+Contracts to support the payload have been created to initiate GHST, BAL, DPI, CRV, SUSHI, and LINK
+[Proposal Executor](https://polygonscan.com/address/0x2CE7f32755181f32bAfB65286aedB24fdd723E75)
+[Proposal Data Provider](https://polygonscan.com/address/0x3EC1580919A1e7980ac171A079E3F1826A26fA63)
+
 Tests and implementation are located [here](https://github.com/pakim249CAL/Polygon-Asset-Deployment-Generic-Executor).
