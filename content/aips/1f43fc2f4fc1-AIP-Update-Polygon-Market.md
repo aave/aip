@@ -159,7 +159,7 @@ And the following function is called on the [Aave Oracle](https://polygonscan.co
 * setAssetSources(address[] assets, address[] sources)
 
 Contracts to support the payload have been created to initiate GHST, BAL, DPI, CRV, SUSHI, and LINK
-[Proposal Executor](https://polygonscan.com/address/0x2CE7f32755181f32bAfB65286aedB24fdd723E75)
+[Proposal Executor](https://polygonscan.com/address/0x2771204c7B544eD4b8b37206bf40F1ED643f8789)
 [Proposal Data Provider](https://polygonscan.com/address/0x3EC1580919A1e7980ac171A079E3F1826A26fA63)
 
 Tests and implementation are located [here](https://github.com/pakim249CAL/Polygon-Asset-Deployment-Generic-Executor).
