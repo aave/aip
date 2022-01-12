@@ -19,7 +19,7 @@ BAL, CRV, DPI, LINK, and SUSHI have been voted in by governance to be added to t
   
 WMATIC parameters are being updated to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.
 
-GHST is the token the powers the Aavegotchi universe. Aavegotchi (Playable DeFi-backed NFTs) utilizes Aave aTokens in game as collateral assets for Aavegotchis “playable bank”. Given Aave’s recent launch onto Polygon (where Aavegotchi is deployed) the Aavegotchi community believes it would be a great idea to have GHST token as collateral on Matic Aave. If GHST gets listed as an collateral on Aave, users of Aavegotchi will be able to use aGHST as collateral within their Aavegotchis.
+GHST is the token that powers the Aavegotchi universe. Aavegotchi (Playable DeFi-backed NFTs) utilizes Aave aTokens in game as collateral assets for Aavegotchis “playable bank”. Given Aave’s recent launch onto Polygon (where Aavegotchi is deployed) the Aavegotchi community believes it would be a great idea to have GHST token as collateral on Matic Aave. If GHST gets listed as an collateral on Aave, users of Aavegotchi will be able to use aGHST as collateral within their Aavegotchis.
 
 ## Motivation
 
