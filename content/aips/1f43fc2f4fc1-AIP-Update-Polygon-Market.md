@@ -160,6 +160,6 @@ And the following function is called on the [Aave Oracle](https://polygonscan.co
 
 A payload contract has been created to initiate all the above changes.
 
-[Payload Contract](https://polygonscan.com/address/0x685582b372f7947c0cb51a82f9101605294e9f64)
+[Payload Contract](https://polygonscan.com/address/0x8b97a0B37974Ddec0CB8B8039a4e593457DefE8c)
 
 Tests and implementation are located [here](https://github.com/pakim249CAL/Polygon-Asset-Deployment-Generic-Executor).
