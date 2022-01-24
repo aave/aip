@@ -1,16 +1,16 @@
 ---
 title: Add MIM to Aave V2
 status: WIP
-author: FirstName LastName (@GitHubUsername)
-shortDescription: <Short description of AIP>
-discussions: <Discord Channel or Github issue>
+author: Larry Fulton (@lar-e-fulton), Eugene Mathew (@voyager-gold)
+shortDescription: Add MIM to Aave V2
+discussions: https://github.com/aave/aip/issues/143
 created: 2022-01-20
 updated (*optional): N/A
 ---
 
 # AIP: Add MIM to Aave V2
 
-Discussions to https://governance.aave.com/t/add-mim-to-aave-v2/6970
+ARC to https://governance.aave.com/t/add-mim-to-aave-v2/6970
 
 ## Simple Summary
 
