@@ -105,10 +105,10 @@ UST will only be used for depositing, not as collateral. The following params ar
 ​
 Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
 ​
-- Interest bearing aUST: [ins]
-- Variable Debt variableDebtUST: [ins]
-- Stable Debt stableDebtUST: [ins]
-- Strategy Implementation for UST: [ins]
+- Interest bearing aUST: 0xa5a645c33C51F43F05FdB70E04fa2ACEe1A299FB
+- Variable Debt variableDebtUST: 0x36f785716a6A10B0FE6de62D4A991d32471B1153
+- Stable Debt stableDebtUST: 0x9943697532B6D03DAbd7f5E9bd74fF0D0c591185
+- Strategy Implementation for UST: 0xd258B6271448D81b0A84CF77cEB05F4EF8B56CE7
 ​
 ## References
 ​
