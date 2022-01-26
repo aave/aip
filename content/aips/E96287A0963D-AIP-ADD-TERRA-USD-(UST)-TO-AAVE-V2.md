@@ -100,7 +100,7 @@ UST will only be used for depositing, not as collateral. The following params ar
  - Liquidation Bonus: 0
  - Borrowing Enabled: true
  - Stable BorrowRate Enabled: false
- - Reserve Decimals: 18
+ - Reserve Decimals: 6
  - Reserve Factor: 2000
 ​
 Following the steps from the [Aave governance docs](https://docs.aave.com/developers/protocol-governance/governance/propose-your-token-as-new-aave-asset), the following contracts were generated:
