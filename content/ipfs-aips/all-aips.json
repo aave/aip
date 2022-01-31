@@ -1,5 +1,18 @@
 [
   {
+    "title": "Add SEBA Bank as a whitelister on Aave Arc",
+    "status": "WIP",
+    "author": "Diego Garcia (@diego-g)",
+    "shortDescription": "Proposal to add SEBA, a regulated Swiss Bank, as a “whitelister” on the Aave Arc market.",
+    "discussions": "https://governance.aave.com/t/arc-adding-seba-bank-as-a-whitelister-to-aave-arc/6661",
+    "created": "2022-01-31T00:00:00.000Z",
+    "preview": "## Simple Summary\n\nSEBA Bank asks the Aave Governance community to …",
+    "basename": "EACB2C901249-AIP-SEBA-BANK-WHITELISTER-ON-AAVE-ARC",
+    "description": "\n\n## Simple Summary\n\nSEBA Bank asks the A",
+    "ipfsHash": "____SEBA_IPFS_HASH______",
+    "encodedIpfsHash": "____SEBA_IPFS_ENCODED_HASH______"
+  },
+  {
     "title": "Add Fireblocks as a whitelister on Aave Arc",
     "status": "Proposed",
     "author": "Idan Ofrat (@idan-fb)",
