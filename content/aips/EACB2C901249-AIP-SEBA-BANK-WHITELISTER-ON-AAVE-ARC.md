@@ -2,14 +2,14 @@
 title: Add SEBA Bank as a whitelister on Aave Arc
 status: WIP
 author: Diego Garcia (@diego-g)
-shortDescription: Proposal to add SEBA, a licensed and supervised Swiss Bank, as a “whitelister” on the Aave Arc market.
+shortDescription: Proposal to add SEBA Bank, a licensed and supervised Swiss Bank, as a “whitelister” on the Aave Arc market.
 discussions: https://governance.aave.com/t/arc-adding-seba-bank-as-a-whitelister-to-aave-arc/6661
 created: 2022-01-31
 ---
 
 ## Simple Summary
 
-SEBA asks the Aave Governance community to approve the appointment, adoption, and authorization of SEBA, a licensed and supervised Swiss Bank, as a “whitelister” on the Aave Arc market.
+SEBA Bank asks the Aave Governance community to approve the appointment, adoption, and authorization of SEBA Bank AG, a licensed and supervised Swiss Bank, as a “whitelister” on the Aave Arc market.
 
 ## Abstract
 
