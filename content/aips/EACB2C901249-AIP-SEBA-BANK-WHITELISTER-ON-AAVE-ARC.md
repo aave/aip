@@ -25,6 +25,7 @@ Beyond innovation and transparency brought by permissionless DeFi, SEBA is a str
 
 ## Specification
 
+[Reference](https://github.com/aave/aip/blob/9da687033ae0536377b822c9196dd783be0e3e65/content/aips/4C7076AA6CC7-AIP-FIREBLOCKS-WHITELISTER-ON-AAVE-ARC.md#specification) to standard.
 
 ## Rationale
 
