@@ -20,8 +20,6 @@ First, we propose to change the project-based relationship of Aave and Certora, 
 
 Second, we will develop a new symbolic execution tool (path coverage) which will significantly increase the coverage of code areas where we look for bugs, complementing the more focused nature of the Certora Prover. This tool’s results will be visible to all via a unique dashboard we will build. In addition, it will be open-source, so the community could contribute to its development.
 
-A short (~200 word) description of the technical issue being addressed.
-
 ## Motivation
 
 One of the major risks in managing a complex system of smart contracts such as Aave's is that it is harder to ensure that changes introduced via governance are safe, and that they do not break the behavior of the protocol.
