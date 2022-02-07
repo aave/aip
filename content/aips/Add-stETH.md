@@ -87,7 +87,7 @@ Early challenges were overcome with DAO member support, speed of execution and u
 
 stETH is used in a number of ways.
 
-- a productive asset (e.g. in Nexus Mutual Treasury risk management strategy 2);
+- a productive asset (e.g. in Nexus Mutual Treasury risk management strategy);
 - compounding yield strategies in DeFI (AMMs, autofarms) (e.g. Convex, Yearn, Harvest);
 - multichain lending (e.g. wstETH on Ethereum on Maker and bETH on Terra in Anchor).
 
@@ -99,7 +99,7 @@ There is no emission schedule. Similar to DAI, stETH is minted on demand when us
 
 stETH token is the upgradable contract behind `AppProxyUpgradeable` proxy at https://etherscan.io/address/0xae7ab96520de3a18e5e111b5eaab095312d7fe84. Lido DAO can change the implementation with the successful DAO vote.
 
-The roles and addresses can be checked in the Aragon UI https://mainnet.lido.fi/#/lido-dao/permissions/app/0xae7ab96520de3a18e5e111b5eaab095312d7fe84
+The roles and addresses can be checked in the Aragon UI: https://mainnet.lido.fi/#/lido-dao/permissions/app/0xae7ab96520de3a18e5e111b5eaab095312d7fe84
 
 To mitigate withdrawal risks, Lido staking went live on December 18th, 2020, through a [withdrawal key ceremony](https://blog.lido.fi/lido-withdrawal-key-ceremony/). Chorus One, Staking Facilities, Certus One, Argent, Banteg (yearn.finance), Alex Svanevik (Nansen), Anton Bukov (1inch), Michael Egorov (Curve/Nucypher), Rune Christensen (MakerDAO), Will Harborne (DeversiFi), and Mustafa Al-Bassam (LazyLedger) came together over a four-day event to generate threshold signatures for Lido’s withdrawal keys in a secure environment on air-gapped machines. 
 Lido has already migrated to a non-custodial solution and >60% of all stETH already uses this. Details can be found here: [Withdrawal Credentials in Lido](https://blog.lido.fi/withdrawal-credentials-in-lido/).
@@ -113,35 +113,35 @@ Lido has already migrated to a non-custodial solution and >60% of all stETH alre
 **Volumes and DEXs**
 
 **[Balancer (wstETH/WETH)](https://app.balancer.fi/#/pool/0x32296969ef14eb0c6d29669c550d4a0449130230000200000000000000000080)**  
-Liquidity: $459.3M  
+Liquidity: $409.3M  
 Volume (24h): $509,3  
 https://dune.xyz/embeds/153863/304423/684fdf22-161c-4352-a41d-81ce8a705c01  
 
 **[SushiSwap (wstETH/DAI)](https://analytics.sushi.com/pairs/0xc5578194d457dcce3f272538d1ad52c68d1ce849)**  
-Liquidity: $34.2M  
-Volume (24h): $880,211  
+Liquidity: $32.2M  
+Volume (24h): $756,211  
 https://dune.xyz/embeds/153729/304165/5c53e046-47ef-485d-9767-6ec188a5629e  
 
 **[Curve (stETH/ETH)](https://curve.fi/steth)**  
-Liquidity: $3,5B  
-Volume (24h): $12,4M  
+Liquidity: $3,75B  
+Volume (24h): $5,7M  
 https://dune.xyz/embeds/153374/303383/9c8cb193-4538-497e-a774-c33e78bcd34d  
 
 9. **Social channels data**
 
-[Discord](https://discord.gg/vgdPfhZ) - 7100 members  
-[Twitter](https://twitter.com/LidoFinance) - 57,3K followers  
+[Discord](https://discord.gg/vgdPfhZ) - 7400 members  
+[Twitter](https://twitter.com/LidoFinance) - 60K followers  
 [GitHub](https://github.com/lidofinance) - Active and managed  
 
 10. **Contracts date of deployments, number of transactions, number of holders for tokens**
 
 Date of Deployment: December 18th, 2020  
-Number of Transactions (stETH): [136,000+](https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)  
-Unique holders: [40,000+](https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)  
+Number of Transactions (stETH): [146,000+](https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)  
+Unique holders: [42,000+](https://etherscan.io/token/0xae7ab96520de3a18e5e111b5eaab095312d7fe84)  
 
 11. **Unique Depositors**
 
-Unique depositors: [34,000+](https://dune.xyz/queries/20029/41160)
+Unique depositors: [36,000+](https://dune.xyz/queries/20029/41160)
 
 ### Technical specification
 stETH represents the user’s staked ETH balance of the beacon chain along with staking rewards accrued or penalties inflicted on validators in the beacon chain.  
@@ -166,7 +166,7 @@ Steps the proposal will execute: start a vote to add stETH as a new asset.
 
 #### Security Considerations
 Standard technical risks of smart contracts apply to the AToken implementation.
-The implementation has been audited by Quantstamp and MixBytes() and considered safe. Read the full report from Quantstamp [here](https://github.com/lidofinance/audits/blob/main/Quantstamp%20stETH%20Aave%20Integration%20Security%20Assessment%20Report%2012-2021.pdf).
+The implementation has been audited by MixBytes() and considered safe. Read the full report from [here](https://github.com/lidofinance/audits/blob/main/MixBytes%20AAVE%20stETH%20integration%20Security%20Audit%20Report%2002-22.pdf).
 
 ### Proposed Risk Parameters
 
