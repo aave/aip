@@ -12,7 +12,7 @@ We propose listing stETH to AAVE v2 market. This would allow users to lend and b
 - [Document portal](https://docs.lido.fi/)
 - [Source code for the system(s) that interact with the proposed asset](https://github.com/lidofinance/lido-dao/blob/master/contracts/0.4.24/Lido.sol)
 - [Ethereum addresses contracts](https://docs.lido.fi/deployed-contracts)
-- [ChainLink Oracle](https://data.chain.link/ethereum/mainnet/crypto-usd/steth-usd)
+- [ChainLink Oracle](https://etherscan.io/address/0x86392dC19c0b719886221c78AB11eb8Cf5c52812)
 - [Audits](https://github.com/lidofinance/audits)
 - Community
     - [Governance forum](https://research.lido.fi/)
@@ -53,7 +53,7 @@ Lido has been audited by Sigma Prime, Quantstamp and MixBytes.
 
 #### stETH Background
 
-Lido allows users to deposit ETH and receive stETH. The deposited ETH is then pooled and staked with node operators selected by the Lido DAO. stETH represents the user’s staked ETH balance of the beacon chain along with staking rewards accrued or penalties inflicted on validators in the beacon chain. When transactions are enabled on the beacon chain, stETH can be redeemed for unstaked ETH and accumulated rewards.
+Lido allows users to deposit ETH and receive stETH. The deposited ETH is then pooled and staked with node operators selected by the Lido DAO. stETH represents the user’s staked ETH balance of the beacon chain along with staking rewards accrued or penalties inflicted on validators in the beacon chain. When withdrawals are enabled on the beacon chain, stETH can be redeemed for unstaked ETH and accumulated rewards.
 
 Unlike beacon chain ETH, stETH can be freely transferred and traded. Onboarding stETH to Aave would allow users to lend and borrow against stETH.
 
@@ -151,7 +151,7 @@ Due to the rebasing nature of stETH, the proposed listing implementation involve
 The proposed aToken uses underlying stETH shares to store balances and implement the rebase ability. Thus, it has 2 private balances and 1 public balance.
 
 1. The internal (fixed-supply) balance and total supply are used for book-keeping. The deposited balance is stored in stETH shares and converted into the amount of the tokens with functions from stETH. Users’ balances are book-kept with the underlying ERC20 token.
-2. The internal (elastic-supply) balance and total supply correspond to the deposited balance without accrued interest. Rebasing of aSTETH according to stETH happens in this layer. Rebasing only affects the un-borrowed part of deposited stETH.
+2. The internal (elastic-supply) balance and total supply correspond to the deposited balance without accrued interest. Rebasing of aSTETH according to stETH happens in this layer.  
 3. The external (elastic-supply) balance and total supply correspond to the deposited balance with interest.
 
 Externally, the aSTETH behaves similar to every other aToken. It always maintains a 1:1 peg with the underlying stETH. 
@@ -162,6 +162,7 @@ The current implementation doesn't support borrowing, neither with variable nor 
 AStETH https://etherscan.io/address/0xbd233D4ffdAA9B7d1d3E6b18CCcb8D091142893a  
 variableDebtSTETH https://etherscan.io/address/0xde2c414b671d2db93617d1592f0490c13674de24  
 stableDebtSTETH https://etherscan.io/address/0x8180949ac41ef18e844ff8dafe604a195d86aea9  
+DefaultReserveInterestRateStrategy https://etherscan.io/address/0xff04ed5f7a6C3a0F1e5Ea20617F8C6f513D5A77c  
 Steps the proposal will execute: start a vote to add stETH as a new asset.
 
 #### Security Considerations
