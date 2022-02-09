@@ -1,6 +1,6 @@
 | title | status | author | shortDescription | discussion | created |
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| Add stETH to AAVE v2 | WIP | @jbeezy @grstepanov | AAVE governance proposal to enable stETH as a base asset | https://governance.aave.com/t/arc-add-support-for-steth-lido/5793 | 2022-04-02 |
+| Add stETH to AAVE v2 | Proposed | @jbeezy @grstepanov | AAVE governance proposal to enable stETH as a base asset | https://governance.aave.com/t/arc-add-support-for-steth-lido/5793 | 2022-04-02 |
 
 ### Simple Summary
 Lido allows users to earn staking rewards on the Ethereum beacon chain without locking Ether or maintaining staking infrastructure. This is done through the stETH token. stETH tokens represent a tokenized staking deposit with staking rewards and slashing penalties applied. stETH can be held, traded, or sold.  
