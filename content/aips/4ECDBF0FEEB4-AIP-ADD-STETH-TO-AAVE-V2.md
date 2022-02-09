@@ -1,10 +1,10 @@
-| aip | title | status | author | shortDescription | discussion | created |
-| -------- | -------- | -------- | -------- | -------- | -------- | -------- |
-|  | Add stETH to AAVE v2 | WIP | @jbeezy @grstepanov | AAVE governance proposal to enable stETH as a base asset | https://governance.aave.com/t/arc-add-support-for-steth-lido/5793 | 2022-04-02 |
+| title | status | author | shortDescription | discussion | created |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| Add stETH to AAVE v2 | WIP | @jbeezy @grstepanov | AAVE governance proposal to enable stETH as a base asset | https://governance.aave.com/t/arc-add-support-for-steth-lido/5793 | 2022-04-02 |
 
 ### Simple Summary
-Lido allows users to earn staking rewards on the Ethereum beacon chain without locking Ether or maintaining staking infrastructure. This is done through the stETH token. stETH tokens represent a tokenized staking deposit and can be held, traded, or sold.  
-We propose listing stETH to AAVE v2 market. This would allow users to lend and borrow against stETH.
+Lido allows users to earn staking rewards on the Ethereum beacon chain without locking Ether or maintaining staking infrastructure. This is done through the stETH token. stETH tokens represent a tokenized staking deposit with staking rewards and slashing penalties applied. stETH can be held, traded, or sold.  
+We propose listing stETH to AAVE v2 market. This would allow users to borrow against stETH.
 
 ### References
 - Website: [lido.fi](https://lido.fi/)
@@ -25,7 +25,7 @@ We propose listing stETH to AAVE v2 market. This would allow users to lend and b
 The goal of listing stETH on AAVE v2 market is to provide the ability to deposit stETH into AAVE and allow to use it as collateral. There is no intention to enable borrowing of stETH on AAVE v2 market.
 
 ### Motivation
-Listing stETH on AAVE can work to attract a larger audience to both AAVE and Lido. More ETH staked with Lido would subsequently benefit the decentralization and security of the Ethereum network, to the benefit of the community as a whole. stETH would likely bring new borrow demand to AAVE as market participants look to borrow against stETH or lend their stETH for a yield.
+Listing stETH on AAVE can work to attract a larger audience to both AAVE and Lido. More ETH staked with Lido would subsequently benefit the decentralization and security of the Ethereum network, to the benefit of the community as a whole. stETH would likely bring new borrow demand to AAVE as market participants look to borrow against stETH.
 
 stETH makes a perfect DeFi collateral and is beneficial for a number of reasons covered in the Specifications section of this AIP.
 
@@ -39,7 +39,7 @@ stETH makes a perfect DeFi collateral and is beneficial for a number of reasons 
 
 #### Lido Background
 
-The Lido Protocol, built on Ethereum’s beacon chain to start, allows users to earn staking rewards on the beacon chain without locking Ether or maintaining staking infrastructure.
+The Lido Protocol, built on Ethereum’s beacon chain to start, allows users to earn staking rewards on the beacon chain without rendering their assets illiquid or maintaining staking infrastructure.
 
 Lido was [announced](https://blog.lido.fi/how-lido-works/) in November 2020. The testnet was released in late November.
 
@@ -55,7 +55,7 @@ Lido has been audited by Sigma Prime, Quantstamp and MixBytes.
 
 Lido allows users to deposit ETH and receive stETH. The deposited ETH is then pooled and staked with node operators selected by the Lido DAO. stETH represents the user’s staked ETH balance of the beacon chain along with staking rewards accrued or penalties inflicted on validators in the beacon chain. When withdrawals are enabled on the beacon chain, stETH can be redeemed for unstaked ETH and accumulated rewards.
 
-Unlike beacon chain ETH, stETH can be freely transferred and traded. Onboarding stETH to Aave would allow users to lend and borrow against stETH.
+Unlike beacon chain ETH, stETH can be freely transferred and traded. Onboarding stETH to Aave would allow users to borrow against stETH.
 
 The balance of stETH is based on the total amount of staked ETH plus total staking rewards minus slashing applied on validators. stETH rebases daily.
 The stETH supply stands at 1,697,460 - worth $5.4BN using current stETH prices.
@@ -67,7 +67,7 @@ stETH as DeFi collateral is beneficial for a number of reasons.
 - stETH is almost as safe as ETH, price-wise: barring catastrophic scenarios, its value tends to hold the ETH peg well;
 - stETH is a productive asset. Earning rewards on collateral effectively lowers the cost of borrowing. This could make borrowing more attractive on Aave and help to increase market utilization (and therefore Aave’s protocol revenue from 
 coin reserve factors).
-- stETH is a very liquid asset with around $3.5 billion in liquidity locked in the Curve stETH/ETH pool.
+- stETH is a very liquid asset with $5+ billion in liquidity used across [multiple DeFi projects](). stETH<>ETH liquidity pool on Curve is the deepest LP in DeFi with $3.8 billion TVL.
 
 4. **Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?**
 
@@ -89,7 +89,8 @@ stETH is used in a number of ways.
 
 - a productive asset (e.g. in Nexus Mutual Treasury risk management strategy);
 - compounding yield strategies in DeFI (AMMs, autofarms) (e.g. Convex, Yearn, Harvest);
-- multichain lending (e.g. wstETH on Ethereum on Maker and bETH on Terra in Anchor).
+- multichain 
+ing (e.g. wstETH on Ethereum on Maker and bETH on Terra in Anchor).
 
 5. **Emission schedule**
 
@@ -108,7 +109,7 @@ Lido has already migrated to a non-custodial solution and >60% of all stETH alre
 
 **Market Cap** $5.5B
 
-**Volatility** - Over the past year, stETH proved to hold peg extremely well through various market conditions. [Curve peg analytics can be found here](https://dune.xyz/queries/36557/72603).
+**Volatility** - Over the past year, stETH proved to hold peg extremely well through various market conditions. [stETH<>ETH balance data for the Curve pool can be found here](https://dune.xyz/queries/36557/72603).
 
 **Volumes and DEXs**
 
@@ -192,14 +193,14 @@ Lido faces smart contract risks. To mitigate these, Lido has been audited multip
 
 **Counterparty risks**
 
-Lido is a DAO. Decisions in the Lido DAO are made through proposals and votes - community members manage protocol parameters, node operators, oracle members, and more. The Lido staking infrastructure for stETH consists of 13 node operators, with a focus on decentralization.
+Lido is a DAO. Decisions in the Lido DAO are made through proposals and votes - community members manage protocol parameters, node operators, oracle members, and more. The Lido staking infrastructure for stETH consists of 22 node operators, with a focus on decentralization.
 Lido relies on a set of oracles to report staking rewards to the smart contracts. Their maximum possible impact is limited by the [recent upgrade](https://github.com/lidofinance/lido-improvement-proposals/blob/develop/LIPS/lip-2.md#sanity-checks-the-oracles-reports-by-configurable-values) (limit oracles report change by 10% APR increase in stake and 5% decrease in stake), and the operators of oracles are all well-known entities: Stakefish, Certus One, Chorus One, Staking Facilities, DSRV, Blockscape, Everstake, SkillZ, RockX, Allnodes, P2P Validator, and others.
 Read further in Lido [documentation](https://docs.lido.fi/token-guides/steth-superuser-functions/).
 
 **Market risk**
 
 Over the past year, stETH proved to hold the ETH peg 1:1 steadily.
-The Curve stETH:ETH pool is incentivized with significant LDO rewards and has grown into the deepest LP across DeFi, which makes it extremely resistant to any attempts of moving the peg.
+Four liquidity pools across different DEXs are incentivized with significant LDO rewards. Curve stETH<>ETH LP has grown into the deepest LP across DeFi, which makes it extremely resistant to any attempts of moving the peg.
 
 **Staking risks**
 
@@ -208,4 +209,4 @@ Besides, there's an ongoing [discussion in the community](https://research.lido.
 
 **Price feed risk**
 
-The Beacon chain oracle has “sanity checks” on both max APR reported (no more than 10%) and total staked amount drop (no more than 5%). The oracle is run by highly respected node operators. The Beacon oracle has no interaction with the ChainLink price feeds.
+The ChainLink price feed for stETH is based on the pools with extremely deep liquidity. This makes stETH price very stable and resilient. Manipulating stETH price at this point would require staggering amount of resources and potentially render this kind of attack unreasonable.
