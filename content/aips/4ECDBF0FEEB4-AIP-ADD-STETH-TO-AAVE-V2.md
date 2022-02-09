@@ -67,7 +67,8 @@ stETH as DeFi collateral is beneficial for a number of reasons.
 - stETH is almost as safe as ETH, price-wise: barring catastrophic scenarios, its value tends to hold the ETH peg well;
 - stETH is a productive asset. Earning rewards on collateral effectively lowers the cost of borrowing. This could make borrowing more attractive on Aave and help to increase market utilization (and therefore Aave’s protocol revenue from 
 coin reserve factors).
-- stETH is a very liquid asset with $5+ billion in liquidity used across [multiple DeFi projects](). stETH<>ETH liquidity pool on Curve is the deepest LP in DeFi with $3.8 billion TVL.
+- stETH is a very liquid asset with $5+ billion in liquidity used across [multiple DeFi projects](https://dune.xyz/LidoAnalytical/Integration-monitor-dashboard
+). stETH<>ETH liquidity pool on Curve is the deepest LP in DeFi with $3.8 billion TVL.
 
 4. **Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?**
 
