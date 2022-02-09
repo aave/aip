@@ -34,8 +34,8 @@ The Aave community voted on the [Snapshot proposal](https://snapshot.org/#/aave.
 ## Implementation
 ### Proposal
 
-The proposal executes a single call to the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract to add [SEBA](https://etherscan.io/address/ADDRESS_HERE) as PermissionAdmin in Aave ARC market:
-`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([ADDRESS_HERE]);`
+The proposal executes a single call to the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract to add [SEBA](https://etherscan.io/address/0xC5eeEd1a811b77d64A37d94CF0363bA716375FDd) as PermissionAdmin in Aave ARC market:
+`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([0xC5eeEd1a811b77d64A37d94CF0363bA716375FDd]);`
 
 ## Copyright
 
