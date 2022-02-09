@@ -89,8 +89,7 @@ stETH is used in a number of ways.
 
 - a productive asset (e.g. in Nexus Mutual Treasury risk management strategy);
 - compounding yield strategies in DeFI (AMMs, autofarms) (e.g. Convex, Yearn, Harvest);
-- multichain 
-ing (e.g. wstETH on Ethereum on Maker and bETH on Terra in Anchor).
+- multichain collateral (e.g. wstETH on Ethereum on Maker and bETH on Terra in Anchor).
 
 5. **Emission schedule**
 
@@ -111,7 +110,7 @@ Lido has already migrated to a non-custodial solution and >60% of all stETH alre
 
 **Volatility** - Over the past year, stETH proved to hold peg extremely well through various market conditions. [stETH<>ETH balance data for the Curve pool can be found here](https://dune.xyz/queries/36557/72603).
 
-**Volumes and DEXs**
+**Volumes and DEXes**
 
 **[Balancer (wstETH/WETH)](https://app.balancer.fi/#/pool/0x32296969ef14eb0c6d29669c550d4a0449130230000200000000000000000080)**  
 Liquidity: $409.3M  
@@ -200,7 +199,7 @@ Read further in Lido [documentation](https://docs.lido.fi/token-guides/steth-sup
 **Market risk**
 
 Over the past year, stETH proved to hold the ETH peg 1:1 steadily.
-Four liquidity pools across different DEXs are incentivized with significant LDO rewards. Curve stETH<>ETH LP has grown into the deepest LP across DeFi, which makes it extremely resistant to any attempts of moving the peg.
+Four liquidity pools across different DEXes are incentivized with significant LDO rewards. Curve stETH<>ETH LP has grown into the deepest LP across DeFi, which makes it extremely resistant to any attempts of moving the peg.
 
 **Staking risks**
 
