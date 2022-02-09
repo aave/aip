@@ -34,11 +34,8 @@ The Aave community voted on the [Snapshot proposal](https://snapshot.org/#/aave.
 ## Implementation
 ### Proposal
 
-An execution proposal was deployed at:
-[https://etherscan.io/address/0x\_**\_SEBA_EXECUTION_PROPOSAL\_\_**#code](https://etherscan.io/address/____SEBA_EXECUTION_PROPOSAL____#code)
-
-The proposal executes a single call to the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract to add [SEBA](https://etherscan.io/address/0x____SEBA_ETH_ADDRESS____) as PermissionAdmin in Aave ARC market:
-`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([0x____SEBA_ETH_ADDRESS____]);`
+The proposal executes a single call to the [PermissionManager](https://etherscan.io/address/0xF4a1F5fEA79C3609514A417425971FadC10eCfBE) contract to add [SEBA](https://etherscan.io/address/ADDRESS_HERE) as PermissionAdmin in Aave ARC market:
+`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([ADDRESS_HERE]);`
 
 ## Copyright
 
