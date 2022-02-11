@@ -1,12 +1,17 @@
-| title | status | author | shortDescription | discussion | created |
-| -------- | -------- | -------- | -------- | -------- | -------- |
-| Add stETH to AAVE v2 | Proposed | @jbeezy @grstepanov | AAVE governance proposal to enable stETH as a base asset | https://governance.aave.com/t/arc-add-support-for-steth-lido/5793 | 2022-04-02 |
+--- 
+title: Add stETH to AAVE v2
+status: Proposed
+author: Jacob Blish (@jbeezy); Gregory Stepanov (@grstepanov)
+shortDescription: AAVE governance proposal to enable stETH as a base asset
+discussions: https://governance.aave.com/t/arc-add-support-for-steth-lido/5793
+created: 2022-04-02
+---
 
-### Simple Summary
+## Simple Summary
 Lido allows users to earn staking rewards on the Ethereum beacon chain without locking Ether or maintaining staking infrastructure. This is done through the stETH token. stETH tokens represent a tokenized staking deposit with staking rewards and slashing penalties applied. stETH can be held, traded, or sold.  
 We propose listing stETH to AAVE v2 market. This would allow users to borrow against stETH.
 
-### References
+#### References
 - Website: [lido.fi](https://lido.fi/)
 - [Primer](https://lido.fi/static/Lido:Ethereum-Liquid-Staking.pdf) 
 - [Document portal](https://docs.lido.fi/)
@@ -21,15 +26,15 @@ We propose listing stETH to AAVE v2 market. This would allow users to borrow aga
     - [Telegram](https://t.me/lidofinance)
     - [Reddit](https://www.reddit.com/r/LidoFinance)
 
-### Abstract
+## Abstract
 The goal of listing stETH on AAVE v2 market is to provide the ability to deposit stETH into AAVE and allow to use it as collateral. There is no intention to enable borrowing of stETH on AAVE v2 market.
 
-### Motivation
+## Motivation
 Listing stETH on AAVE can work to attract a larger audience to both AAVE and Lido. More ETH staked with Lido would subsequently benefit the decentralization and security of the Ethereum network, to the benefit of the community as a whole. stETH would likely bring new borrow demand to AAVE as market participants look to borrow against stETH.
 
 stETH makes a perfect DeFi collateral and is beneficial for a number of reasons covered in the Specifications section of this AIP.
 
-### Specification
+## Specification
 1. **What is the link between the author of the AIP and the Asset?**
 
 - Jacob (jbeezy) is a full time member of the DAO working to facilitate integrations for st-Assets across DeFi in protocols such as Aave among others.
@@ -144,7 +149,7 @@ Unique holders: [42,000+](https://etherscan.io/token/0xae7ab96520de3a18e5e111b5e
 
 Unique depositors: [36,000+](https://dune.xyz/queries/20029/41160)
 
-### Technical specification
+## Rationale
 stETH represents the user’s staked ETH balance of the beacon chain along with staking rewards accrued or penalties inflicted on validators in the beacon chain.  
 This is implemented via rebasing mechanism. 
 
@@ -159,6 +164,8 @@ Externally, the aSTETH behaves similar to every other aToken. It always maintain
 
 The current implementation doesn't support borrowing, neither with variable nor with stable interest rates. The stableDebtSTETH and variableDebtSTETH contracts extend default stableDebtToken and variableDebtToken contracts accordingly to make it impossible to use borrowing with aSTETH because default debt tokens are not compatible with the AStETH contract.
 
+## Implementation
+
 #### Code
 AStETH https://etherscan.io/address/0xbd233D4ffdAA9B7d1d3E6b18CCcb8D091142893a  
 variableDebtSTETH https://etherscan.io/address/0xde2c414b671d2db93617d1592f0490c13674de24  
@@ -170,8 +177,7 @@ Steps the proposal will execute: start a vote to add stETH as a new asset.
 Standard technical risks of smart contracts apply to the AToken implementation.
 The implementation has been audited by MixBytes() and considered safe. Read the full report from [here](https://github.com/lidofinance/audits/blob/main/MixBytes%20AAVE%20stETH%20integration%20Security%20Audit%20Report%2002-22.pdf).
 
-### Proposed Risk Parameters
-
+**Proposed Risk Parameters**
 LTV: 70%  
 Liquidation Threshold: 75%  
 Liquidation Bonus: 7.5%  
@@ -185,7 +191,7 @@ Slope 2: 200%
 
 As stETH is more suited as collateral instead of a borrowing asset, we propose listing stETH on AAVE v2 market with borrowing disabled. 
 
-### Risk Assessment (as of time of ARC)
+## Risk Assessment
 
 **Smart contract risks**
 
@@ -210,3 +216,7 @@ Besides, there's an ongoing [discussion in the community](https://research.lido.
 **Price feed risk**
 
 The ChainLink price feed for stETH is based on the pools with extremely deep liquidity. This makes stETH price very stable and resilient. Manipulating stETH price at this point would require staggering amount of resources and potentially render this kind of attack unreasonable.
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
