@@ -35,7 +35,7 @@ Finally, Terra has begun its migration from its centrally held bridge to Wormhol
 ​
 1. What is the link between the author of the AIP and the Asset?
 ​
-ParaFi Capital is a user of AAVE and UST.
+ParaFi Capital is an active AAVE governance participant, submitting AIPs to list stable assets including FEI, and modifying liquidity mining incentives. ParaFi is also a user of AAVE and UST.
 ​
 2. Provide a brief high-level overview of the project and the token
 ​
@@ -89,7 +89,7 @@ To mitigate concerns, a 0% collateral factor will allow UST to be supplied or bo
 ​
 ## Implementation
 ​
-The UST price oracle will be served via [ChainLink](https://chain.link/), which ???includes??? the [UST/ETH feed](https://docs.chain.link/docs/ethereum-addresses).
+The UST price oracle will be served via [ChainLink](https://chain.link/), which includes the [UST/ETH feed](https://docs.chain.link/docs/ethereum-addresses). The Chainlink UST/ETH Price Feed Proxy contract address is 0xa20623070413d42a5C01Db2c8111640DD7A5A03a. 
 ​
 UST will only be used for depositing, not as collateral. The following params are proposed:
 ​
@@ -110,6 +110,9 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 - Stable Debt stableDebtUST: 0x107ed1832647436a0D39F09e65f4aA920242C0BB
 - Strategy Implementation for UST: 0x0dEDCaE8Eb22A2EFB597aBde1834173C47Cff186
 - Incentive Controller: 0x036cA61C1977c6EA52222Db81F725fDBd70eFBd7
+
+
+The Incentive Controller was added in anticipation of LUNA incentives to UST borrowers/lenders being proposed by the community and thus for future engineering simplicity.
 ​
 ## References
 ​
