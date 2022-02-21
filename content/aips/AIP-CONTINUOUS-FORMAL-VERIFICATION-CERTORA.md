@@ -47,10 +47,11 @@ The transactions that will be performed are as follows:
 1. Transfer a total worth of $900,000 in AAVE tokens from the EcosystemReserve to the ShortExecutor using the Ecosystem Reserve Controller contract at 0x1E506cbb6721B83B1549fa1558332381Ffa61A93.
 2. Approve $700,000 worth of AAVE tokens to Sablier.
 3. Create a Sablier stream with Certora as the beneficiary, to stream the $700,000 worth of Aave over 6 months.
-4. Transfer USDC 1,420,000 from the Aave Collector to the ShortExecutor (exact mechanism TBD).
-5. Transfer USDC 420,000 directly to Certora.
-6. Approve USDC 1,000,000 to Sablier.
-7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 1,000,000 over 6 months.
+4. Transfer $200,000 worth of AAVE to a multisig co-controlled by Aave and Certora teams (address TBD).
+5. Transfer USDC 1,420,000 from the Aave Collector to the ShortExecutor (exact mechanism TBD).
+6. Transfer USDC 420,000 directly to Certora.
+7. Approve USDC 1,000,000 to Sablier.
+8. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 1,000,000 over 6 months.
 
 ## Copyright
 
