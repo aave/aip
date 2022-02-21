@@ -35,12 +35,22 @@ See `discussions` for further information.
 ## Implementation
 
 This AIP implements the proposal for its 6 months period. According to the forum discussion, the price is $1,700,000, where:
-1. $1,000,000 is paid in USDC. Every month a sum of $166,666 will be transfered from the Aave treasury using USDC. As no stablecoins were paid as of yet from the Aave treasury, we will first enable stablecoin transfers, in particular USDC.
-2. $700,000 is paid in Aave. Every month, Aave tokens of value $116,666 will be transferred from the Aave treasury. The Aave tokens will be vested linearly over a year period.
+1. $1,000,000 is paid in USDC. These funds will be transferred from the Aave Collector after stablecoin transfers are enabled, and will be vested using [Sablier](https://docs.sablier.finance/). 
+2. $700,000 is paid in Aave, also vested using Sablier.
 3. A one-time payment of $200,000 in Aave tokens will be transferred to a special multi-sig wallet owned by the Aave Governance, an elected member from the Aave community, and a Certora delegate. The wallet will serve as a special fund for paying decentralized community rule writers.
 
-In all cases, the Aave price will be fetched at the time of the payment to compute the number of Aave tokens to transfer.
-[Sablier](https://docs.sablier.finance/) will be used to implement a streaming vesting payment for the Aave tokens in (2).
+In addition, it was agreed with the Aave team to include the payment for services performed towards the release of V3, a sum of $420,000 paid in USDC.
+
+The Aave price average Feb. 11, 2022 to Feb. 21, 2022 is computed from [here](https://www.coingecko.com/en/coins/aave) and is ____.
+
+The transactions that will be performed are as follows:
+1. Transfer a total worth of $900,000 in AAVE tokens from the EcosystemReserve to the ShortExecutor using the Ecosystem Reserve Controller contract at 0x1E506cbb6721B83B1549fa1558332381Ffa61A93.
+2. Approve $700,000 worth of AAVE tokens to Sablier.
+3. Create a Sablier stream with Certora as the beneficiary, to stream the $700,000 worth of Aave over 6 months.
+4. Transfer USDC 1,420,000 from the Aave Collector to the ShortExecutor (exact mechanism TBD).
+5. Transfer USDC 420,000 directly to Certora
+6. Approve USDC 1,000,000 to Sablier.
+7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 1,000,000 over 6 months.
 
 ## Copyright
 
