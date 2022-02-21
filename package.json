@@ -66,6 +66,7 @@
     "url": "git+https://github.com/aave/aip"
   },
   "scripts": {
+    "run-env": "npm i && tail -f /dev/null",
     "build": "gatsby build --prefix-paths",
     "develop": "gatsby develop",
     "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
