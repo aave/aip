@@ -41,7 +41,7 @@ This AIP implements the proposal for its 6 months period. According to the forum
 
 In addition, it was agreed with the Aave team to include the payment for services performed towards the release of V3, a sum of $420,000 paid in USDC.
 
-The Aave price average Feb. 11, 2022 to Feb. 21, 2022 is computed from [here](https://www.coingecko.com/en/coins/aave) and is ____.
+The AAVE price average from Feb. 11, 2022 to Feb. 21, 2022 is computed from [here](https://www.coingecko.com/en/coins/aave) and is $158.23.
 
 The transactions that will be performed are as follows:
 1. Transfer a total worth of $900,000 in AAVE tokens from the EcosystemReserve to the ShortExecutor using the Ecosystem Reserve Controller contract at 0x1E506cbb6721B83B1549fa1558332381Ffa61A93.
