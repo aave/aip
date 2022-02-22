@@ -1,4 +1,4 @@
---- 
+---
 title: Add stETH to AAVE v2
 status: Proposed
 author: Jacob Blish (@jbeezy); Gregory Stepanov (@grstepanov)
