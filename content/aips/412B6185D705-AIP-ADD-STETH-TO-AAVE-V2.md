@@ -2,7 +2,7 @@
 title: Add stETH to AAVE v2
 status: Proposed
 author: Jacob Blish (@jbeezy); Gregory Stepanov (@grstepanov)
-shortDescription: AAVE governance proposal to enable stETH as a base asset
+shortDescription: AAVE governance proposal to enable stETH as a collateral asset
 discussions: https://governance.aave.com/t/arc-add-support-for-steth-lido/5793
 created: 2022-04-02
 ---
