@@ -13,15 +13,15 @@ Alchemix allows users to take out liquidation-free loans against their assets, b
 
 We propose adding alUSD, a stablecoin, as a borrowable asset on Aave but not as collateral.
 
-#### References
-Whitepaper: https://alchemix.fi/c76d1d663f6c8247b86a8fca83d5bd1b.pdf
-Website: https://alchemix.fi/
-App: https://app.alchemix.fi/
-Twitter: https://twitter.com/AlchemixFi
-Docs: https://alchemix-finance.gitbook.io/alchemix-finance/
-Github: https://github.com/alchemix-finance
-alUSD Token Contract: https://etherscan.io/address/0xbc6da0fe9ad5f3b0d58160288917aa56653660e9
-Chainlink Oracle: https://etherscan.io/address/0xC3a8033Dc5f2FFc8AD9bE10f39063886055E22B7
+### References
+Whitepaper: https://alchemix.fi/c76d1d663f6c8247b86a8fca83d5bd1b.pdf  
+Website: https://alchemix.fi/  
+App: https://app.alchemix.fi/  
+Twitter: https://twitter.com/AlchemixFi  
+Docs: https://alchemix-finance.gitbook.io/alchemix-finance/  
+Github: https://github.com/alchemix-finance  
+alUSD Token Contract: https://etherscan.io/address/0xbc6da0fe9ad5f3b0d58160288917aa56653660e9  
+Chainlink Oracle: https://etherscan.io/address/0xC3a8033Dc5f2FFc8AD9bE10f39063886055E22B7  
 
 ## Abstract
 
@@ -41,8 +41,8 @@ Alchemix only mints like-kind or “mirror” al-Assets. For example, alUSD is o
 
 Alchemix ensures the alUSD peg with the following mechanisms.
 
-1. 50% LTV for minting alUSD, which prevents excessive recursive leverage in the protocol.
-2. DAO-managed debt caps that limit the over-minting of alUSD
+1. 50% LTV for minting alUSD, which prevents excessive recursive leverage in the protocol. 
+2. DAO-managed debt caps that limit the over-minting of alUSD. 
 3. The ability to repay debt in alUSD or DAI. If alUSD is under the peg, people can buy it off the market and repay their loan at a discount. If alUSD is over the peg, users can sell alUSD to DAI and repay with DAI to arbitrage the price, and they can self-liquidate their collateral to mint more alUSD to trade to DAI for arbitrage.
 4. The Transmuter module guarantees 1:1 conversions of alUSD to DAI, the conversion process isn’t instant, but it can present good arbitrage opportunities, which helps to stabilize the peg.
 5. Alchemix rewards ALCX governance tokens for alUSD liquidity providers, which attracts liquidity to the pool, further boosting the peg.
