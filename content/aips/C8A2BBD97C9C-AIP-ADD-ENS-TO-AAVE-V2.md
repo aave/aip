@@ -16,10 +16,6 @@ $ENS is the governance token providing ownership over the ENS protocol. $ENS gov
 
 This proposal looks to onboard $ENS as a collateral asset to Aave.
 
-## Abstract
-
-This proposal initialises the ENS reserve, enables variable borrowing, sets a reserve factor and configures the reserve as collateral. As needed, it also connects a price source on the AaveOracle.
-
 ## Motivation
 
 Following conversations with Aave and ENS communities, we’ve found that ENS is a prime candidate for Aave, already having gathered over $1B in circulating market cap and millions of dollars in liquidity across the ecosystem.
@@ -28,11 +24,7 @@ The addition of ENS to Aave will unlock additional liquidity and optionality for
 
 ## Specification
 
-The technical specification should describe the syntax and semantics of any new feature.
-
-## Rationale
-
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+This proposal initialises the ENS reserve, enables variable borrowing, sets a reserve factor and configures the reserve as collateral. As needed, it also connects a price source on the AaveOracle.
 
 ## Test Cases
 
