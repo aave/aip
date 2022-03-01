@@ -570,6 +570,19 @@
     "encodeIpfsHash": "0x384dd57abcd23aae459877625228062db4082485a0ac1fc45eb54524f5836507"
   },
   {
+    "title": "Add ENS to Aave V2",
+    "status": "Proposed",
+    "author": "Fire Eyes DAO (@fireeyesdao)",
+    "shortDescription": "List ENS as collateral and borrowing asset on the Aave V2 pool",
+    "discussions": "https://governance.aave.com/t/arc-add-ens-as-collateral/6342",
+    "created": "2022-02-24T00:00:00.000Z",
+    "preview": "## Simple Summary\n\nENS (Ethereum Name Service) is an critical piece …",
+    "basename": "C8A2BBD97C9C-AIP-ADD-ENS-TO-AAVE-V2",
+    "description": "\n\n\n## Simple Summary\n\nENS (Ethereum Name Service) is an critical piece of infrastructure for the Ethereum ecosystem with over 400,000 names registered and hundreds of intergrations across the ecosystem.\n\n$ENS is the governance token providing ownership over the ENS protocol. $ENS governs the direction of the ENS treasury as well as controlling crucial protocol parameters via the ENS registrar controller.\n\nThis proposal looks to onboard $ENS as a collateral asset to Aave.\n\n## Motivation\n\nFollowing conversations with Aave and ENS communities, we’ve found that ENS is a prime candidate for Aave, already having gathered over $1B in circulating market cap and millions of dollars in liquidity across the ecosystem.\n\nThe addition of ENS to Aave will unlock additional liquidity and optionality for all ENS holders.\n\n## Specification\n\nThis proposal initialises the ENS reserve, enables variable borrowing, sets a reserve factor and configures the reserve as collateral. As needed, it also connects a price source on the AaveOracle.\n\n## Test Cases\n\nAll the components involved in this proposal (tokens' implementations, interest rate strategy, oracle feed, proposal payload) have been tested and reviewed, including simulations on mainnet of the whole proposal lifecycle.\n\n## Implementation\n\n- [ProposalPayload](https://etherscan.io/address/0xf42d0a1b03c0795021272a4793cd03dcb97581d3#code)\n- [aENS implementation](https://etherscan.io/address/0xB2f4Fb41F01CdeF7c10F0e8aFbeB3cFA79d1686F#code)\n- [Variable Debt ENS implementation](https://etherscan.io/address/0x2386694b2696015dB1a511AB9cD310e800F93055#code)\n- [Stable Debt ENS implementation](https://etherscan.io/address/0x5746b5b6650dd8d9b1d9d1bbf5e7f23e9761183f#code)\n- [Interest rate strategy](https://etherscan.io/address/0xb2eD1eCE1c13455Ce9299d35D3B00358529f3Dc8#code) \n- [EnsUsdToEnsEth price feed](https://etherscan.io/address/0xd4641b75015E6536E8102D98479568D05D7123Db#code)\n- LTV: 50%\n- Liquidation threshold: 60%\n- Liquidation bonus: 8%\n- Reserve Factor: 20%\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+    "ipfsHash": "QmU4MH1mps19vXJzWeV555T6yhqX2sqSceaN1fkkxgFDe1",
+    "encodeIpfsHash": "0x54f91e12ea75ccaf9101fa8d59bf08b9edab7a745f16ca0ac26b668e47b93952"
+  },
+  {
     "title": "Add G-UNI to Aave V2 AMM Market",
     "status": "Proposed",
     "author": "Gelato Newtork (@gelatodigital)",
