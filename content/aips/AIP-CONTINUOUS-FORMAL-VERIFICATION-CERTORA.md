@@ -46,9 +46,9 @@ The transactions that will be performed are as follows:
 2. Approve $700,000 worth of AAVE tokens to Sablier.
 3. Create a Sablier stream with Certora as the beneficiary, to stream the $700,000 worth of Aave over 6 months.
 4. Transfer $200,000 worth of AAVE to a multisig co-controlled by Aave and Certora teams.
-5. Transfer USDC 1,000,000/6 (USDC 166666) from the Aave Collector to the ShortExecutor, first transfering aUSDC and then withdrawing them from the pool.
-6. Approve USDC 166666 to Sablier.
-7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 166666 over 1 month.
+5. Transfer USDC 1,000,000/6 (USDC 166,666) from the Aave Collector to the ShortExecutor, first transfering aUSDC and then withdrawing them from the pool.
+6. Approve USDC 166,666 to Sablier.
+7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 166,666 over 1 month.
 
 The vesting for the remaining USDC amount will resume after a more capital efficient streaming solution is devised.
 
