@@ -10,7 +10,7 @@ updated (*optional): N/A
 
 ## Simple Summary
 
-A proposal for significantly and continuously improving the security of the Aave platform and the dApps built on top of it, by offering our formal verification and path coverage tooling service to the Aave Platform contributors and the Aave Protocol dApp developers. The initial proposal is for 6 months starting January 2022. A discount price is given for an annual contract.
+A proposal for significantly and continuously improving the security of the Aave platform and the dApps built on top of it, by offering our formal verification and path coverage tooling service to the Aave Platform contributors and the Aave Protocol dApp developers. The initial proposal is for 6 months starting January 2022.
 
 ## Abstract
 
@@ -35,7 +35,7 @@ See `discussions` for further information.
 ## Implementation
 
 This AIP implements the proposal for its 6 months period. According to the forum discussion, the price is $1,700,000, where:
-1. $1,000,000 is paid in USDC. These funds will be transferred from the Aave Collector, and will be vested using [Sablier](https://docs.sablier.finance/). To avoid significant yield loss for the treasury, the vesting is set to 1 month for 1/6 of the amount, to allow some time in finding a more capital efficient streaming solution.
+1. $1,000,000 is paid in USDC. These funds will be transferred from the Aave Collector, and will be vested using [Sablier](https://docs.sablier.finance/).
 2. $700,000 is paid in Aave, also vested using Sablier.
 3. A one-time payment of $200,000 in Aave tokens will be transferred to a special 3/4 multi-sig wallet owned by the Aave Governance, 2 members from the Aave community, and 2 Certora delegates. The wallet will serve as a special fund for paying decentralized community rule writers.
 
@@ -46,11 +46,9 @@ The transactions that will be performed are as follows:
 2. Approve $700,000 worth of AAVE tokens to Sablier.
 3. Create a Sablier stream with Certora as the beneficiary, to stream the $700,000 worth of Aave over 6 months.
 4. Transfer $200,000 worth of AAVE to a multisig co-controlled by Aave and Certora teams.
-5. Transfer USDC 1,000,000/6 (USDC 166,666) from the Aave Collector to the ShortExecutor, first transfering aUSDC and then withdrawing them from the pool.
-6. Approve USDC 166,666 to Sablier.
-7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 166,666 over 1 month.
-
-The vesting for the remaining USDC amount will resume after a more capital efficient streaming solution is devised.
+5. Transfer USDC 1,000,000 from the Aave Collector to the ShortExecutor, first transfering aUSDC and then withdrawing them from the pool.
+6. Approve USDC 1,000,000 to Sablier.
+7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 1,000,000 over 6 months.
 
 The source code for the proposal payload contract is available [here](https://github.com/Certora/aave-proposal-test).
 
