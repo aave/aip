@@ -52,6 +52,8 @@ The transactions that will be performed are as follows:
 
 The vesting for the remaining USDC amount will resume after a more capital efficient streaming solution is devised.
 
+The source code for the proposal payload contract is available [here](https://github.com/Certora/aave-proposal-test).
+
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
