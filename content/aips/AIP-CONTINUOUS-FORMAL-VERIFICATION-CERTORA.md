@@ -51,6 +51,7 @@ The transactions that will be performed are as follows:
 7. Create a Sablier stream with Certora as the beneficiary, to stream the USDC 1,000,000 over 6 months.
 
 The source code for the proposal payload contract is available [here](https://github.com/Certora/aave-proposal-test).
+The contract is deployed at [0x879A89D30b04b481Bcd54f474533d3D6A27cFd7D](https://etherscan.io/address/0x879a89d30b04b481bcd54f474533d3d6a27cfd7d).
 
 ## Copyright
 
