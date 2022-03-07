@@ -5,7 +5,6 @@ author: Shelly Grossman (@shellygr)
 shortDescription: A proposal for integrating formal verification and path coverage tools for continuous securing of the Aave Protocol. 
 discussions: https://governance.aave.com/t/continuous-formal-verification/6308
 created: 2022-02-03
-updated (*optional): N/A
 ---
 
 ## Simple Summary
@@ -16,7 +15,7 @@ A proposal for significantly and continuously improving the security of the Aave
 
 Certora proposes two approaches to significantly increase the confidence in the platform itself and in the smart contracts built on top of it, even when the code is evolving.
 
-First, we propose to change the project-based relationship of Aave and Certora, to an ongoing relationship, where we will provide ongoing support and rule-writing for Certora Prover on Aave’s code. This service will be provided to all who contribute to Aave’s ecosystem: Aave’s in-house developers, community contributors and dApp developers. This will ensure that the constantly-evolving code of Aave’s platform remains secure, protecting its users’ assets.
+First, we propose to change the project-based relationship of Aave and Certora, to an ongoing relationship, where we will provide ongoing support and rule-writing for Certora Prover on Aave’s code. This service will be provided to all community contributions to core and periphery parts of the Aave ecosystem. This will ensure that the constantly-evolving code of Aave’s platform remains secure, protecting its users’ assets.
 
 Second, we will develop a new symbolic execution tool (path coverage) which will significantly increase the coverage of code areas where we look for bugs, complementing the more focused nature of the Certora Prover. This tool’s results will be visible to all via a unique dashboard we will build. In addition, it will be open-source, so the community could contribute to its development.
 
