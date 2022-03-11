@@ -21,7 +21,7 @@ Twitter: https://twitter.com/AlchemixFi
 Docs: https://alchemix-finance.gitbook.io/alchemix-finance/  
 Github: https://github.com/alchemix-finance  
 alUSD Token Contract: https://etherscan.io/address/0xbc6da0fe9ad5f3b0d58160288917aa56653660e9  
-Chainlink Oracle: https://etherscan.io/address/0xC3a8033Dc5f2FFc8AD9bE10f39063886055E22B7  
+Chainlink Oracle: https://etherscan.io/address/0xf55db61d1e65718ac0d5a163b18cca3645791265 
 
 ## Abstract
 
