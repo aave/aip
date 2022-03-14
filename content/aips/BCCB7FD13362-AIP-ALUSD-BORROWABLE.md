@@ -70,6 +70,12 @@ Stable BorrowRate Enabled: true
 Reserve Decimals: 18
 Reserve Factor: 20%
 
+Interest bearing aALUSD address: 0x174aC37dD1db54516D00887E0E84697423Eefa9b
+Variable Debt variableDebtALUSD address: 0xE2B3b50CF9b36C8d066e5da994B97cae6a268482
+Stable Debt stableDebtALUSD address: 0x1D708aB94699717A4A8d725431d322D418A166E8
+Strategy Implementation for ALUSD address: 0x0CFc9A0F66692179abCA661a610851bdf6fAE0F0
+Chainlink oracle for ALUSD/ETH address: 0xF55DB61d1e65718ac0d5A163B18CCA3645791265
+
 ## Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
