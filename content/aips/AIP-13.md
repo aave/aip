@@ -101,7 +101,7 @@ Following the steps from the [Aave governance docs](https://docs.aave.com/develo
 
 RenVM is a byzantine fault-tolerant network that is able to securely in a decentralized manner do ECDSA threshold key generation and signing via sMPC, which allows RenVM to securely manage private keys of different assets like Bitcoin and Filecoin, and wrap these assets on smart-contract chains. Since launch, RenVM has processed around $1.5B in total volume of Bitcoin, Filecoin, Zcash, Bitcoin cash going to and from Ethereum. The smart contract risks of RenFIL are mitigated by those of RenBTC which has been battle tested by the markets.
 
-Technically, renFIL is a proxied token standard ERC with some features on top:
+Technically, renFIL is a proxied token standard ERC-20 with some features on top:
 
 * Mechanism of exchange rate (similar to Aave slashing)
 * Permit for approvals
