@@ -38,13 +38,13 @@ Current stETH rewards are ~4%. Staking rewards on ETH via Lido are still relativ
 
 ![image](https://user-images.githubusercontent.com/76888251/159755523-2e0d6440-b7ad-4bc7-8eda-9a44284109b6.png)
 
-Considering the situation with the current modal at a 3% borrowing rate:
+**Projected rates at current a 3% borrowing rate:**
 
 Utilization: 24.5% [very low utilization leading to less revenue generation]
 Borrowing rate: 3.02%
 Supplying rate: 0.66% [low incentives for new lenders to come in]
 
-Considering new rates: kink at 3% borrow rate and 70% utilization.
+**Projected rates at 3% borrow rate and 70% utilization:**
 
 Utilization: 70% [good revenue for governance]
 Borrow rate: 3%
