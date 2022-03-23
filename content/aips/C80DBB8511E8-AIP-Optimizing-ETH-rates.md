@@ -34,7 +34,7 @@ Proposed updated to ETH rates:
 
 
 ## Rationale
-Current stETH rewards are ~4%. Staking rewards on ETH via Lido are still relatively high and stETH still has the capacity to accept another ~$4.5B of ETH. This increase in stETH supply would only reduce the rewards by 0.3%, meaning there is at least 1.5M ETH (~$4-5B USD) that could get staked. For Aave, it represents $4-5B in borrowings of ETH (more significant than any borrowing market that currently exists across any token)
+Current stETH rewards are 4%. Staking rewards on ETH via Lido are still relatively high and stETH still has the capacity to accept another $4.5B of ETH. This increase in stETH supply would only reduce the rewards by 0.3%, meaning there is at least 1.5M ETH (~$4-5B USD) that could get staked. For Aave, it represents $4-5B in borrowings of ETH (more significant than any borrowing market that currently exists across any token)
 
 ![image](https://user-images.githubusercontent.com/76888251/159755523-2e0d6440-b7ad-4bc7-8eda-9a44284109b6.png)
 
@@ -53,7 +53,9 @@ Current stETH rewards are ~4%. Staking rewards on ETH via Lido are still relativ
 See Governance Post [here](https://governance.aave.com/t/optimize-rate-curve-for-eth-improve-revenue-generation/7571) for more detailed description on calcualations, benefits & risks.
 
 ## Implementation
-TBD
+
+[Here](https://etherscan.io/address/0xEc368D82cb2ad9fc5EfAF823B115A622b52bcD5F#code) is the new rate strategy.
+[Here](https://etherscan.io/address/0xf4a7aA06413F2555fF90f64eEB7A97474A0F9046#code) is the execution payload.
 
 # Copyright
 
