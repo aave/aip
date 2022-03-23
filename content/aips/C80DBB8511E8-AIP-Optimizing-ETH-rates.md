@@ -40,15 +40,15 @@ Current stETH rewards are ~4%. Staking rewards on ETH via Lido are still relativ
 
 **Projected rates at current a 3% borrowing rate:**
 
-Utilization: 24.5% [very low utilization leading to less revenue generation]
-Borrowing rate: 3.02%
-Supplying rate: 0.66% [low incentives for new lenders to come in]
+- Utilization: 24.5% [very low utilization leading to less revenue generation]
+- Borrowing rate: 3.02%
+- Supplying rate: 0.66% [low incentives for new lenders to come in]
 
 **Projected rates at 3% borrow rate and 70% utilization:**
 
-Utilization: 70% [good revenue for governance]
-Borrow rate: 3%
-Supplying rate: 1.9% [decent for new lenders to come in or to get a discount for stable coin borrowing against ETH]
+- Utilization: 70% [good revenue for governance]
+- Borrow rate: 3%
+- Supplying rate: 1.9% [decent for new lenders to come in or to get a discount for stable coin borrowing against ETH]
 
 See Governance Post [here](https://governance.aave.com/t/optimize-rate-curve-for-eth-improve-revenue-generation/7571) for more detailed description on calcualations, benefits & risks.
 
