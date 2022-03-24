@@ -36,8 +36,6 @@ Proposed updated to ETH rates:
 ## Rationale
 Current stETH rewards are 4%. Staking rewards on ETH via Lido are still relatively high and stETH still has the capacity to accept another $4.5B of ETH. This increase in stETH supply would only reduce the rewards by 0.3%, meaning there is at least 1.5M ETH (~$4-5B USD) that could get staked. For Aave, it represents $4-5B in borrowings of ETH (more significant than any borrowing market that currently exists across any token)
 
-![image](https://user-images.githubusercontent.com/76888251/159755523-2e0d6440-b7ad-4bc7-8eda-9a44284109b6.png)
-
 **Projected rates at current a 3% borrowing rate:**
 
 - Utilization: 24.5% [very low utilization leading to less revenue generation]
