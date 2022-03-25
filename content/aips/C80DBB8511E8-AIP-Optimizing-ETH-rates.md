@@ -53,7 +53,7 @@ See Governance Post [here](https://governance.aave.com/t/optimize-rate-curve-for
 ## Implementation
 
 [Here](https://etherscan.io/address/0xEc368D82cb2ad9fc5EfAF823B115A622b52bcD5F#code) is the new rate strategy.
-[Here](https://etherscan.io/address/0xf4a7aA06413F2555fF90f64eEB7A97474A0F9046#code) is the execution payload.
+[Here](https://etherscan.io/address/0x49e4db0a4d63c73bae75747ee12ab63bbdda3207#code) is the execution payload.
 
 # Copyright
 
