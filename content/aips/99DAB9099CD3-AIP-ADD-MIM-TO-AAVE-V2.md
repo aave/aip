@@ -1,7 +1,7 @@
 ---
 title: Add MIM to Aave V2
 status: WIP
-author: Larry Fulton (@lar-e-fulton), Eugene Mathew (@voyager-gold)
+author: Larry Fulton (@lar-e-fulton)
 shortDescription: Add MIM to Aave V2
 discussions: https://github.com/aave/aip/issues/143
 created: 2022-01-20
