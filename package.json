@@ -37,7 +37,6 @@
     "gatsby-source-filesystem": "^2.2.4",
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.4.6",
-    "latest-version": "^6.0.0",
     "markdown-to-json": "^0.5.4",
     "moment": "^2.24.0",
     "node-fetch": "^2.6.1",

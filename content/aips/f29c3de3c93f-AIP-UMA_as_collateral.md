@@ -6,7 +6,7 @@ author: Tommy
 shortDescription: Aave governance proposal to enable UMA as a collateral asset
 discussions: View [here](https://governance.aave.com/t/listing-proposal-add-uma-as-collateral-to-lend-borrow-on-aave/6196) and [here](https://snapshot.org/#/aave.eth/proposal/0x1d4f6d9f376761409669ce498889d688ddada33c87796b14d9d646aebd86dbdd)
 created: 2021-11-15
-updated: 2022-02-07
+updated: 2022-07-04
 ---
 
 ## Simple Summary
@@ -58,8 +58,17 @@ Allow users to use UMA token as collateral to borrow WETH.
 
 WETH - 0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2
 
-
 Use the Chainlink Oracle to obtain the price of UMA - [UMA / ETH](https://docs.chain.link/docs/ethereum-addresses/) [0xf817B69EA583CAFF291E287CaE00Ea329d22765C](https://etherscan.io/address/0xf817B69EA583CAFF291E287CaE00Ea329d22765C)
+
+**Deployed contracts**:
+ 
+- Interest bearing aUMA address: 0xC1116b99E07bFAF17Ab066509F4Cda6afb320B31
+   
+- Variable Debt variableDebtUMA address: 0xd733b12d22940ECa67D8cAA0A65f64EE969926BE
+
+- Stable Debt stableDebtUMA address: 0x253a8d1412698f5279E6fffD9453Bb81D47B1c38
+    
+- Strategy Implementation for UMA address: 0x289F0e8f0209584D30a4c51F20094A535F14F4f8
 
 ### Test Cases
 
