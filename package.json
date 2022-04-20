@@ -38,7 +38,7 @@
     "gatsby-transformer-remark": "^2.7.3",
     "gatsby-transformer-sharp": "^2.4.6",
     "markdown-to-json": "^0.5.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "node-fetch": "^2.6.1",
     "node-sass": "^4.14.1",
     "prismjs": "^1.19.0",
