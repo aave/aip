@@ -51,7 +51,7 @@ Full PR: https://github.com/aave/incentives-controller/pull/4
 
 New incentives implementation contract on Ethereum mainnet: `0xD9ED413bCF58c266F95fE6BA63B13cf79299CE31`
 
-Upgrade to be executed via deployment of `ProposalIncentivesRev2Executor.sol`: https://github.com/aave/incentives-controller/blob/086743809fc22a3470a2e5663e3063b7bb15a0d4/contracts/proposals/ProposalIncentivesRev2Executor.sol
+Upgrade to be executed via deployment of `ProposalIncentivesV2Executor.sol`: https://github.com/aave/incentives-controller/blob/e5e8b2c994ee29b0af883db7c94add372b4423b2/contracts/proposals/ProposalIncentivesV2Executor.sol
 
 ## Audit
 
