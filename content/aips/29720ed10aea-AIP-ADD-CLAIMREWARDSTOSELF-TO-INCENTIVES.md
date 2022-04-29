@@ -1,8 +1,8 @@
 ---
-title: Add claimRewardsToSelf() to incentives
+title: Add claimRewardsToSelf() to incentives for Ethereum V2 Aave Market
 status: Proposed
 author: Sean Casey (@SeanJCasey)
-shortDescription: Add claimRewardsToSelf() to the liquidity mining incentives contract
+shortDescription: Add claimRewardsToSelf() to the liquidity mining incentives contract for Ethereum V2 Aave Market
 discussions: https://governance.aave.com/t/proposal-adapt-contracts-slightly-to-improve-defi-composability/4125
 created: 2021-11-30
 ---
