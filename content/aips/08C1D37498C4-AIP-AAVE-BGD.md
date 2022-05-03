@@ -21,7 +21,7 @@ A full rationale of the proposal can be found on the Aave governance forum post 
 
 ## Specification
 
-A full specification of the contracts update enabling this mandate can be found on the BGD Labs github [here](https://github.com/bgd-labs/aave-ecosystem-reserve-v2), together will all the security procedures applied, and the implementation of the governance payload.
+A full specification of the contracts update enabling this mandate can be found on the BGD Labs github [here](https://github.com/bgd-labs/aave-ecosystem-reserve-v2/tree/release/final-proposal), together will all the security procedures applied, and the implementation of the governance payload.
 In summary, the proposal:
 - Updates the Aave v2 Ethereum ecosystem reserve and the AAVE ecosystem reserve with a common implementation contract, with streaming capabilities.
 - Sets as fundsAdmin of those ecosystem reserves a new AaveEcosystemReserveController contract, controlled directly by the Aave governance and the only entity able to transfer and approve funds, create streams, and cancel streams.
@@ -29,7 +29,7 @@ In summary, the proposal:
 - Creates 15-months duration streams: 4'800'000 USDC and 12'600 AAVE.
 
 ## Security
-As mandatory with any change on a running Aave smart contract, extensive security procedures have been applied to the proposal payload and the changes included. A full security report can be found [here](https://github.com/bgd-labs/aave-ecosystem-reserve-v2#security), but as summary:
+As mandatory with any change on a running Aave smart contract, extensive security procedures have been applied to the proposal payload and the changes included. A full security report can be found [here](https://github.com/bgd-labs/aave-ecosystem-reserve-v2/tree/release/final-proposal#security), but as summary:
 - Full test coverage via units tests in the Forge environment.
 - Security review from Aave community members.
 - Minimal changes from the Sablier's v1 logic used as base for the streaming capabilities. The original codebase is audited and battle tested (running in production with meaningful funds for a long time).
