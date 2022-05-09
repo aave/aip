@@ -1,6 +1,6 @@
 ---
 title: Add MAI to Aave V3 on Polygon, Fantom, and Avalanche
-status: Proposed
+status: Approved
 author: Pablo Peillard (@itspublu)
 shortDescription: Add MAI Stablecoin to Aave V3 on Polygon, Fantom, and Avalanche
 discussions: https://governance.aave.com/t/add-mai-on-aave-v3/7630
