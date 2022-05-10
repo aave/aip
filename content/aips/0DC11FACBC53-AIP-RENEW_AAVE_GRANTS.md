@@ -1,6 +1,6 @@
 ---
 title: Renew Aave Grants DAO
-status: WIP
+status: Proposed
 author: Shreyas Hariharan (@hello-shreyas), Austin Green (@austingreen)
 shortDescription: Provide funding to expand the budget and scope of Aave Grants DAO
 discussions: https://governance.aave.com/t/aave-grants-dao-update-and-renewal/7842
@@ -29,8 +29,8 @@ This proposal includes a $3M transfer of AAVE from the AaveEcosystemReserve to t
 
 **Target Contracts**
 
-ProposalPayload = [0xXXX](
-https://etherscan.io/address/0xXXX)
+ProposalPayload = [0x8e7df91fed22c192a3aa1bb6143879295ee91295](
+https://etherscan.io/address/0x8e7df91fed22c192a3aa1bb6143879295ee91295)
 
 ## Copyright
 
