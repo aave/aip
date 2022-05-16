@@ -29,7 +29,7 @@ This proposal recommends consolidating the Aave V1, V2, and AMM market revenue i
 
 ## Specification
 
-### Part A - Consolidate Aave Mainnet V1and V2 Reserve Factors
+### Part A - Consolidate Aave Mainnet V1 and V2 Reserve Factors
 
 Within this proposal, the assets held with the Aave mainnet V1 RF are to be transferred to the Aave mainnet V2 RF. All future revenue from the V1 deployment will now automatically accrue in the V2 RF upon implementation of this proposal. Post implementation of this proposal, the V1 RF is not expected to accrue any future revenue.
 
@@ -47,7 +47,16 @@ The full test of this proposal can be found here: https://github.com/llama-commu
 
 ## Implementation
 
-[Will complete this after ProposalPayload deployment]
+Aave mainnet V1 Reserve Factor: `0xE3d9988F676457123C5fD01297605efdD0Cba1ae`
+Aave mainnet V2 Reserve Factor: `0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c`
+
+By calling `function execute()` and `function distributeTokens()` on the ProposalPayload contract, the token distributor will be upgraded to send all funds to the `Aave mainnet V2 Reserve Factor`, the AAVE protocol v1's token distributor will be set to `Aave mainnet V2 Reserve Factor`, DPI borrowing will be enabled and all large balances from the `Aave mainnet V1 Reserve Factor` will be distributed to `Aave mainnet V2 Reserve Factor`. The new token distributor implementation was deployed to [0x55c559730cbCA5deB0bf9B85961957FfDf502603](
+https://etherscan.io/address/0x55c559730cbCA5deB0bf9B85961957FfDf502603).
+
+**Target Contracts**
+
+ProposalPayload = [0x43D2A74c55eE4DB917251eC934b2fD03E3069bd6](
+https://etherscan.io/address/0x43D2A74c55eE4DB917251eC934b2fD03E3069bd6)
 
 ## Copyright
 
