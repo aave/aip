@@ -15,7 +15,7 @@ The Llama proposal entails re-routing the current and future revenue from the ma
 
 ## Abstract
 
-The Llama Community recommends consolidating revenue earned on all Aave markets on mainnet into a single Reserve Factor (RF). This proposal consolidates past and future Aave mainent V1 market revenue into the mainnet V2 RF. In the future, other aspects of the Llama treasury management proposal will be implemented through separate AIPs.
+The Llama Community recommends consolidating revenue earned on all Aave markets on mainnet into a single Reserve Factor (RF). This proposal consolidates past and future Aave mainnet V1 market revenue into the mainnet V2 RF. In the future, other aspects of the Llama treasury management proposal will be implemented through separate AIPs.
 
 This proposal is broken into two parts, the second part is to enable borrowing of DPI. The borrowing of DPI was disabled via [AIP-44](https://app.aave.com/#/governance/44-QmNVWrrm3ieyRRVD4f77zdxrvSUj1W4HDCojLKNcxmVQhr) along with xSUSHI. Shortly after enacting AIP-44, DPI was found to be safe. This proposal is to reinstate DPI as an asset that can be borrowed on the Aave markets.
 
@@ -25,7 +25,7 @@ This proposal is broken into two parts, the second part is to enable borrowing o
 
 The legacy V1 market continues to generate mostly flash loan fee revenue and this has slowed down in recent times. There is only ~$102.7M of TVL remaining in the V1 market, and at the rate of which revenue is generated is expected to continue declining as more and more users move to V2 or V3 over time. 
 
-This proposal recommends consolidating the Aave V1, V2, and AMM market revenue into a single location before deploying the capital to earn additional yield. The V1 RF holds around [~$435K](https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae) of assets at the time of writing, whereas the Ethereum V2 + AMM market holds [$26.88M](https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c) of assets, excluding holdings under $5,000. Consolidating the RF balance would increase the mainnet treasury to around $27.32M.
+This proposal recommends consolidating the Aave V1, V2, and AMM market revenue into a single location before deploying the capital to earn additional yield. The V1 RF holds around [~$435K](https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae) of assets at the time of writing, whereas the Ethereum V2 + AMM market holds [$26.88M](https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c) of assets. Consolidating the RF balance would increase the mainnet treasury to around $27.32M.
 
 ## Specification
 
