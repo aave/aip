@@ -1,7 +1,7 @@
 ---
 title: Consolidate Reserve Factors and Enable Borrowing DPI
 status: WIP
-author: Matthew Graham (@Matthew_Graham_), Dydymoon (@dydymoon1), Austin Green (@AustinGreen), Noah Citron (@NoahCitron)
+author: Llama - Matthew Graham (@Matthew_Graham_), Dydymoon (@dydymoon1), Austin Green (@AustinGreen), Noah Citron (@NoahCitron)
 shortDescription: Consolidate Aave Mainnet V1 and V2 Reserve Factors and Enable Borrowing DPI
 discussions: https://governance.aave.com/t/arc-consolidate-aave-v1-v2-amm-reserve-factors-purchase-cvx-and-deploy-to-earn-yield/6797
 created: 2022-05-16
