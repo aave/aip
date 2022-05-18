@@ -53,6 +53,8 @@ New incentives implementation contract on Ethereum mainnet: `0xD9ED413bCF58c266F
 
 Upgrade to be executed via deployment of `ProposalIncentivesV2Executor.sol`: https://github.com/aave/incentives-controller/blob/e5e8b2c994ee29b0af883db7c94add372b4423b2/contracts/proposals/ProposalIncentivesV2Executor.sol
 
+Deployed proposal payload (`ProposalIncentivesV2Executor.sol`) on Ethereum mainnet: `0xb8fA635fEC4E6BDb05e7937cBeF01214991e9D5a`
+
 ## Audit
 
 https://github.com/aave/incentives-proposal/blob/1ef7705546dc7970795003e435f76b73efebbb1d/audits/Enzyme_Aave_IncentivesController_Improvement.pdf
