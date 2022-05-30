@@ -9,13 +9,15 @@ created: 2022-05-12
 
 ## Simple Summary
 
-The Llama Community would like to ask for your support in listing CVX as a collateral asset. CVX is the governance token of the Convex Finance protocol.
+Llama proposes listing CVX, the governance token of the Convex Finance protocol, on Aave v2 mainnet as collateral with borrowing enabled. The risk parameters detailed within have been provided by Gauntlet.
 
 ## Abstract
 
-The Llama Community recommends consolidating revenue earned on all Aave markets on mainnet into a single Reserve Factor (RF). This proposal consolidates past and future Aave mainent V1 market revenue into the mainnet V2 RF. In the future, other aspects of the Llama treasury management proposal will be implemented through separate AIPs.
+Convex Finance allows Curv.fi liquidity providers to earn trading fees, CVX liquidity mining and boosted CRV rewards without having to lock and use their boosting power with veCRV. Convex Finance intends to add support for other tokens like FXS in the future.
 
-This proposal is broken into two parts, the second part is to enable borrowing of DPI. The borrowing of DPI was disabled via [AIP-44](https://app.aave.com/#/governance/44-QmNVWrrm3ieyRRVD4f77zdxrvSUj1W4HDCojLKNcxmVQhr) along with xSUSHI. Shortly after enacting AIP-44, DPI was found to be safe. This proposal is to reinstate DPI as an asset that can be borrowed on the Aave markets.
+Listing CVX on Aave v2 will enable lenders to receive yield and borrowers of CVX to partake in Convex Finance’s tokenomics model to earn yield. As CVX has a different, but similar tokenomics model to CRV, Llama expects there to be similar demand for CVX. aCRV is one of the highest earning assets on Aave v2 and Llama hopes CVX will become a significant source of revenue for the community.
+
+The Aave community also benefits from being able to use the aCVX revenue to participate in Convex Finance’s tokenomics and vote CRV rewards to Curve pools that contain aTokens.
 
 ## Motivation
 
