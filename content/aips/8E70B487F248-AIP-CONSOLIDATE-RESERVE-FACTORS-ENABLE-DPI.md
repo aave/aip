@@ -9,6 +9,8 @@ created: 2022-05-30
 
 ## Simple Summary
 
+This is a copy of [Proposal 76](https://app.aave.com/governance/proposal/76/) ([IPFS](https://gateway.pinata.cloud/ipfs/QmaqqGyP76hDi5ywqSoF5r63jVrG7TdZVNzcm8Zdwa4PeM)). It expired before execution so we need to re-propose it to the Aave community.
+
 This AIP is the combination of two ARCs presented on the Aave Governance Forum. This proposal performs the initial step of the [Llama treasury management strategy](https://governance.aave.com/t/arc-consolidate-aave-v1-v2-amm-reserve-factors-purchase-cvx-and-deploy-to-earn-yield/6797) and also includes [Index Coop’s enable borrowing of DPI](https://governance.aave.com/t/arc-enable-borrowing-of-dpi-on-aave-markets/6976) proposal. 
 
 The Llama proposal entails re-routing the current and future revenue from the mainnet V1 Reserve Factor to the mainnet V2 Reserve Factor. The Index Coop proposal re-enables users to borrow DPI after it was disable by [AIP-44](https://app.aave.com/#/governance/44-QmNVWrrm3ieyRRVD4f77zdxrvSUj1W4HDCojLKNcxmVQhr). 
