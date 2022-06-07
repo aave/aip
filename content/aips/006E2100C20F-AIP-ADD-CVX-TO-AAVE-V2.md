@@ -54,7 +54,6 @@ Variable Debt Token = [0xa2eC40E5e60d71144e16C92A4C78F8b38FEA7877](https://ether
 Interest Strategy = [0x1dA981865AE7a0C838eFBF4C7DFecb5c7268E73A](https://etherscan.io/address/0x1da981865ae7a0c838efbf4c7dfecb5c7268e73a)
 Chainlink CVX/ETH Price Feed = [0xC9CbF687f43176B302F03f5e58470b77D07c61c6](https://etherscan.io/address/0xC9CbF687f43176B302F03f5e58470b77D07c61c6)
 
-
 The governance forum proposal discussing Add CVX on Aave V2 mainnet market can be found [here](https://governance.aave.com/t/arc-add-support-for-cvx-convex-finance-token/7319) and the snapshot vote can be found [here](https://snapshot.org/#/aave.eth/proposal/0x399300d33120f63cdda37068b46e5da8485dbeeb1100dab0367a223124798f5b). The payload can be found here.
 
 ## Copyright
