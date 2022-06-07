@@ -1,6 +1,6 @@
 ---
 title: Add CVX to Aave V2
-status: WIP
+status: Proposed
 author: Llama (Matthew Graham, Dydymoon, Jean Brasse and Austin Green)
 shortDescription: Add CVX as a collateral asset to Aave v2
 discussions: https://governance.aave.com/t/arc-add-support-for-cvx-convex-finance-token/7319
@@ -13,7 +13,7 @@ Llama proposes listing CVX, the governance token of the Convex Finance protocol,
 
 ## Abstract
 
-Convex Finance allows Curv.fi liquidity providers to earn trading fees, CVX liquidity mining and boosted CRV rewards without having to lock and use their boosting power with veCRV. Convex Finance intends to add support for other tokens like FXS in the future.
+Convex Finance allows Curve.fi liquidity providers to earn trading fees, CVX liquidity mining and boosted CRV rewards without having to lock and use their boosting power with veCRV. Convex Finance intends to add support for other tokens like FXS in the future.
 
 Listing CVX on Aave v2 will enable lenders to receive yield and borrowers of CVX to partake in Convex Finance’s tokenomics model to earn yield. As CVX has a different, but similar tokenomics model to CRV, Llama expects there to be similar demand for CVX. aCRV is one of the highest earning assets on Aave v2 and Llama hopes CVX will become a significant source of revenue for the community.
 
@@ -47,6 +47,13 @@ UOptimal 50%
 R_0      0%
 R_s1     7%
 R_s2     200%
+
+aToken = [0x0e9134467A273De42BE82D8764BF1E9cC0e0c8Ba](https://etherscan.io/address/0x0e9134467A273De42BE82D8764BF1E9cC0e0c8Ba)
+Stable Debt Token = [0x10638C31Daeee246f0026f7174E1f30fB17010F5](https://etherscan.io/address/0x10638c31daeee246f0026f7174e1f30fb17010f5)
+Variable Debt Token = [0xa2eC40E5e60d71144e16C92A4C78F8b38FEA7877](https://etherscan.io/address/0xa2eC40E5e60d71144e16C92A4C78F8b38FEA7877)
+Interest Strategy = [0x1dA981865AE7a0C838eFBF4C7DFecb5c7268E73A](https://etherscan.io/address/0x1da981865ae7a0c838efbf4c7dfecb5c7268e73a)
+Chainlink CVX/ETH Price Feed = [0xC9CbF687f43176B302F03f5e58470b77D07c61c6](https://etherscan.io/address/0xC9CbF687f43176B302F03f5e58470b77D07c61c6)
+
 
 The governance forum proposal discussing Add CVX on Aave V2 mainnet market can be found [here](https://governance.aave.com/t/arc-add-support-for-cvx-convex-finance-token/7319) and the snapshot vote can be found [here](https://snapshot.org/#/aave.eth/proposal/0x399300d33120f63cdda37068b46e5da8485dbeeb1100dab0367a223124798f5b). The payload can be found here.
 
