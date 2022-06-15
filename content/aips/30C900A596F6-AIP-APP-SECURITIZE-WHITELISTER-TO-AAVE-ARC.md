@@ -1,11 +1,11 @@
 ---
 title: Appoint Securitize as a Whitelister to Aave Arc
-status: WIP
+status: Proposed
 author: Adan Carreno (@adancspal)
 shortDescription: Securitize asks the Aave Governance community to approve Securitize as a Whitelister for Aave Arc
 discussions: https://governance.aave.com/t/arc-appoint-securitize-as-a-whitelister-to-aave-arc/6434
 created: 2022-06-08
-updated: N/A
+updated: 2022-06-15
 ---
 
 ## Simple Summary
@@ -43,6 +43,8 @@ The whitelisting is managed via a [PermissionManager](https://etherscan.io/addre
 The Aave Governance community voted on the Snapshot proposal with “YES” 389K AAVE (99.98%) and “No” 87 AAVE (0.02%)
 
 ## Implementation
+
+The implementation is described [here](https://github.com/aave/arc-timelock#adding-a-new-permissionadmin)
 
 ## Proposal
 
