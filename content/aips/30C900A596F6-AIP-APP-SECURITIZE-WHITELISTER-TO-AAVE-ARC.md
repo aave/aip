@@ -49,7 +49,7 @@ The implementation is described [here](https://github.com/aave/arc-timelock#addi
 ## Proposal
 
 The proposal executes a single call to the PermissionManager contract to add [Securitize](https://etherscan.io/address/0x36b8A1D23BDc76092aD88A1c4Ef59fafD4931b03) as PermissionAdmin in Aave ARC market:
-`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([0xBDAb998899d3F2eeD07b180542CDA7908Bbd8Fa0]);`
+`IPermissionManager(0xF4a1F5fEA79C3609514A417425971FadC10eCfBE).addPermissionAdmins([0x36b8A1D23BDc76092aD88A1c4Ef59fafD4931b03]);`
 
 ## Copyright
 
