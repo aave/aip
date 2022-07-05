@@ -7,12 +7,6 @@ discussions: https://governance.aave.com/t/sigma-prime-security-assessment-servi
 created: 2022-07-07
 ---
 
-This is the template for AIPs.
-
-Note that the filename should contain the generated identifier by the author. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `identifier-AIP-draft_title_abbrev.md`.
-
-The title should be 44 characters or less.
-
 ## Summary
 
 This proposal acts as a mandate from the Aave community to engage [Sigma Prime](https://sigmaprime.io) for continous security assessment services as outlined in [this post](https://governance.aave.com/t/sigma-prime-security-assessment-services-for-aave/8518) and already pre-approved via Snapshot [here](https://snapshot.org/#/aave.eth/proposal/0xf4d2d4c89e29cd11472d5b86f013cb0995952b96099ced35eb91a03e99fbb5cf).
