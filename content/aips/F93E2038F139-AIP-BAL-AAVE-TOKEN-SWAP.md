@@ -49,13 +49,13 @@ The token swap is to be performed by both Balancer and Aave by depositing tokens
 Once both AAVE and BAL have been deposited into the swap contract, anyone can call the contract to transfer the BAL and AAVE to the predetermined address. For Aave DAO, this will be the mainnet Reserve Factor. 
 
 ## References
-[1] https://forum.balancer.fi/t/introducing-vebal-tokenomics/2512
-[2] https://pools.balancer.exchange/#/pool/0xc697051d1c6296c24ae3bcef39aca743861d9a81/
-[3] https://app.balancer.fi/#/pool/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe
-[4] https://etherscan.io/token/0xba100000625a3754423978a60c9317c58a424e3d#balances
-[5] https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9#balances
-[6] https://tribe.fei.money/t/fip-33-swap-between-balancer-dao-and-fei-dao/3555
-[7] https://github.com/llama-community/bal-aave-token-swap
+1. https://forum.balancer.fi/t/introducing-vebal-tokenomics/2512
+2. https://pools.balancer.exchange/#/pool/0xc697051d1c6296c24ae3bcef39aca743861d9a81/
+3. https://app.balancer.fi/#/pool/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe
+4. https://etherscan.io/token/0xba100000625a3754423978a60c9317c58a424e3d#balances
+5. https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9#balances
+6. https://tribe.fei.money/t/fip-33-swap-between-balancer-dao-and-fei-dao/3555
+7. https://github.com/llama-community/bal-aave-token-swap
 
 
 ## Copyright
