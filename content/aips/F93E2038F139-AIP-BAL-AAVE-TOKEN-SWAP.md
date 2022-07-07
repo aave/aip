@@ -1,15 +1,15 @@
 ---
 title: Strategic Investment Part 1 - BAL <> AAVE Token Swap
 status: WIP
-author: Matthew Graham ()
+author: Matthew Graham (@Matthew_Graham_), Elad Mallel (@eladmallel), Rajath Alex (@0xrajath)
 shortDescription: BAL <> AAVE Token Swap
-discussions: <Discord Channel or Github issue>
+discussions: https://governance.aave.com/t/arc-strategic-partnership-with-balancer-part-1/7617
 created: 2022-06-05
 ---
 
 ## Simple Summary
 
-The Aave DAO is to perform a token swap with Balancer DAO. The Aave DAO is to acquire 200,000 BAL tokens for XYZ AAVE tokens based on a 90 day moving average exchange rate of A AVVE for B BAL tokens. 
+The Aave DAO is to perform a token swap with Balancer DAO. The Aave DAO is to acquire 200,000 BAL tokens for 17377.55 AAVE tokens based on a 90 day moving average exchange rate of 1 AAVE for 11.50910161 BAL tokens. 
 
 Upon completion of the transaction the BAL tokens will be received into the mainnet Reserve Factor (RF).
 
