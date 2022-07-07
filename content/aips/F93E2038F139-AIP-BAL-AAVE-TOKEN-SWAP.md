@@ -40,13 +40,24 @@ The initial sizing to acquire 200,000 BAL was something that was reached via dis
 
 ## Test Cases
 
-The full test of this proposal can be found here: https://github.com/llama-community/aave-balancer-swap
+* The full test of the Proposal Payload can be found here: https://github.com/llama-community/aave-balancer-swap
+* The full test of the Swap contract can be found here: https://github.com/llama-community/bal-aave-token-swap
 
 ## Implementation
 
-The token swap is to be performed by both Balancer and Aave by depositing tokens into a contract linked below, [7].
+The full implementation consists of 4 steps:
+1. Deploy the Swap contract (`OtcEscrowApprovals`) [7]. The Swap contract contains a `swap()` function that trustlessly executes a token swap between the AAVE Economic Reserve and Balancer treasury for the pre-determined and pre-approved token amounts.
+2. Balancer treasury approves the Swap contract to transfer the 200,000 BAL tokens on its behalf.
+3. Deploy the Proposal Payload contract (`ProposalPayload`). 
+4. The Proposal Payload contract contains an `execute()` function that :
+* Approves the Swap contract contract through the AAVE Ecosystem Reserve Controller to transfer the pre-determined amount of AAVE tokens from the AAVE Economic Reserve. 
+* Calls the `swap()` function on the Swap contract to execute the swap. 
 
-Once both AAVE and BAL have been deposited into the swap contract, anyone can call the contract to transfer the BAL and AAVE to the predetermined address. For Aave DAO, this will be the mainnet Reserve Factor. 
+Steps 1, 2 and 3 are intended to be pre-requisites to the actual implementation of this proposal which is Step 4.
+
+**Target Contracts**
+ProposalPayload = [](
+https://etherscan.io/address/)
 
 ## References
 1. https://forum.balancer.fi/t/introducing-vebal-tokenomics/2512
