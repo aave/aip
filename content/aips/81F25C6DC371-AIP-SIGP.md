@@ -27,7 +27,7 @@ Aave’s success relies partly on its ability to deliver high quality products w
 
 This proposal authorises payment of the minimum engagement fee outlined in [the proposal](https://governance.aave.com/t/sigma-prime-security-assessment-services-for-aave/8518) (US$ 1,296,000) through the following:
 - Upfront payment for 50% of the minimum engagement fee (US$ 648,000) paid in aUSDC and aUSDT (even split, $324,000 each)
-- Two (2) payment streams for the remaining 50% (US$ 648,000) in aUSDC and aUSDT (even split, $324,000 each). Each stream will start 6 months from now, and last a total duration of 6 months.
+- Remaining 50% (US$ 648,000) paid at the end of the engagement period (12 months) via two (2) payment streams in aUSDC and aUSDT (even split, $324,000 each), with each stream starting 12 months from now, and lasting a duration of 1 second.
 
 If the maximum fee was to apply to this engagement, a subsequent proposal will be pushed forward for the remaining amount in 12 months (i.e at the end of the engagement period).
 
@@ -44,7 +44,7 @@ Throughout the works performed for Aave, the feedback received from the leadersh
 
 ## Test Cases
 
-- Please refer to the [test section](https://github.com/sigp/aave-msa-contract/src/tests/) of the [sigp/aave-msa-contract](https://https://github.com/sigp/aave-msa-contract) repository.
+- Please refer to the [test section](https://github.com/sigp/sigp-aip-payload/tree/master/test) of the [sigp/sigp-aip-payload](https://github.com/sigp/sigp-aip-payload) repository. 
 
 ## Implementation
 
