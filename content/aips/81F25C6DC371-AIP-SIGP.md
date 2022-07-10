@@ -34,7 +34,7 @@ If the maximum fee was to apply to this engagement, a subsequent proposal will b
 
 ## Rationale
 
-Sigma Prime is an information security consultancy who specialise in Blockchain technology and are mostly based out of Sydney, Australia.
+Sigma Prime is an information security consultancy who specialise in Blockchain technology and administered from Sydney, Australia.
 
 The primary focus of Sigma Prime is to help secure distributed systems through in-depth security assessments of decentralised projects, while concurrently researching and developing core Blockchain infrastructure. Over the past 6 years, we have been working with some of the most prominent organisations in the space: the Ethereum Foundation, Chainlink, SushiSwap, 1inch, the Filecoin Foundation, NEAR, Arbitrum, Lido, Rocket Pool, and plenty of others.
 
