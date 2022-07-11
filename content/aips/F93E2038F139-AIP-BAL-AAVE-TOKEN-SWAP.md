@@ -46,11 +46,11 @@ The initial sizing to acquire 200,000 BAL was something that was reached via dis
 ## Implementation
 
 The full implementation consists of 4 steps:
-1. Deploy the Swap contract (`OtcEscrowApprovals`) [7]. The Swap contract contains a `swap()` function that trustlessly executes a token swap between the AAVE Economic Reserve and Balancer treasury for the pre-determined and pre-approved token amounts.
+1. Deploy the Swap contract (`OtcEscrowApprovals`) [7]. The Swap contract contains a `swap()` function that trustlessly executes a token swap between the AAVE Ecosystem Reserve and Balancer treasury for the pre-determined and pre-approved token amounts.
 2. Balancer treasury approves the Swap contract to transfer the 200,000 BAL tokens on its behalf.
 3. Deploy the Proposal Payload contract (`ProposalPayload`). 
-4. The Proposal Payload contract contains an `execute()` function that :
-* Approves the Swap contract contract through the AAVE Ecosystem Reserve Controller to transfer the pre-determined amount of AAVE tokens from the AAVE Economic Reserve. 
+4. The Proposal Payload contract contains an `execute()` function that:
+* Approves the Swap contract contract through the AAVE Ecosystem Reserve Controller to transfer the pre-determined amount of AAVE tokens from the AAVE Ecosystem Reserve. 
 * Calls the `swap()` function on the Swap contract to execute the swap. 
 
 Steps 1, 2 and 3 are intended to be pre-requisites to the actual implementation of this proposal which is Step 4.
