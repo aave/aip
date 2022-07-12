@@ -1,5 +1,5 @@
 ---
-title: Sigma Prime: Security Assessment Services for Aave
+title: Sigma Prime - Security Assessment Services for Aave
 status: Proposed
 author: Sigma Prime (@sigp)
 shortDescription: Proposal for continuous security assessment services from Sigma Prime
