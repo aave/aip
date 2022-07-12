@@ -4,7 +4,7 @@ status: Proposed
 author: Sigma Prime (@sigp)
 shortDescription: Proposal for continuous security assessment services from Sigma Prime
 discussions: https://governance.aave.com/t/sigma-prime-security-assessment-services-for-aave/8518
-created: 2022-07-07
+created: 2022-07-12
 ---
 
 ## Summary
@@ -44,11 +44,11 @@ Throughout the works performed for Aave, the feedback received from the leadersh
 
 ## Test Cases
 
-- Please refer to the [test section](https://github.com/sigp/sigp-aip-payload/tree/master/test) of the [sigp/sigp-aip-payload](https://github.com/sigp/sigp-aip-payload) repository. 
+- Please refer to the [test section](https://github.com/sigp/sigp-aip-payload/tree/master/test) of the [sigp/sigp-aip-payload](https://github.com/sigp/sigp-aip-payload) repository.
 
 ## Implementation
 
-- [PayloadAaveSigP](https://etherscan.io/address/<CONTRACT_ADDRESS>#code)
+- [PayloadAaveSigP](https://etherscan.io/address/0xe8ea74754dce51168102e820424f7e7f74c5be3e#code)
 
 ## Copyright
 
