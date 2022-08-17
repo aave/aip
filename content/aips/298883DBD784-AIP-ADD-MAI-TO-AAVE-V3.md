@@ -84,6 +84,7 @@ Since the protocol uses canonical bridging, QiDao retains the power to mint MAI 
 - Telegram: 2,130 members: @QiDaoProtocol
 - Discord: 8,987 members: https://discord.com/qidaoprotocol
 - Contracts date of deployments, number of transactions, number of holders for tokens
+
 MAI token
 
 - Date of deployment: May 4, 2021
