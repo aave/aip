@@ -10,14 +10,14 @@ created: 2022-08-16
 Author: QiDao Protocol core team
 Forum post: 
 
-Proposal to add support for MAI (aka miMatic) on Aave V3 (On Polygon, Fantom, and Avalanche)
+Proposal to add support for MAI (aka miMatic) on Aave V3 (On Polygon)
 
 Summary
-MAI is the first and largest stablecoin project on Polygon and Fantom. It is an overcollateralized stablecoin that is non-custodial. All MAI is backed by collateral locked in user-managed vaults. MAI minting is available on 8 chains, and bridging to 18 chains.
+MAI is the first and largest native stablecoin project on Polygon and a variety of other chains. It is an overcollateralized stablecoin that is non-custodial. All MAI is backed by collateral locked in user-managed vaults. MAI minting is available on 8 chains, and bridging to 18 chains.
 
 All accepted collaterals are priced using Chainlink price feeds. MAI has stayed within its peg through several market downturns.
 
-There’s around 250M MAI minted, with liquidity on all top DEXs in which MAI is present. A significant portion of liquidity for MAI is on Curve. MAI hosts the largest pool on Curve Polygon and the pool with most volume on Curve Fantom.
+There’s around 250M MAI minted, with liquidity on all top DEXs in which MAI is present. A significant portion of liquidity for MAI is on Curve. MAI hosts the largest pool on Curve Polygon.
 
 Risk Parameters
 V3 Efficiency mode: stablecoins
