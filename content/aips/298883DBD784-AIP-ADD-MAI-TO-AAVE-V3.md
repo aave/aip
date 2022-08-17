@@ -29,10 +29,13 @@ V3 Efficiency mode: stablecoins
 V3 Isolation mode: 75% LTV, 80% liquidation threshold, 10% reserve factor, $2M initial debt ceiling per chain
 
 ## Specifications
-What is the link between the author of the AIP and the Asset?
+
+- What is the link between the author of the AIP and the Asset?
+
 Core team at QiDao Protocol.
 
-Provide a brief high-level overview of the project and the token
+- Provide a brief high-level overview of the project and the token
+
 MAI is the first and largest stablecoin protocol on Polygon. It allows users to lock their tokens and use them as collateral to mint MAI at 0% interest.
 
 MAI is an overcollateralized CDP stablecoin on Polygon, Avalanche, Fantom, Arbitrum, Harmony, Moonriver, and Gnosis Chain. MAI is one of the most crosschain assets in DeFi, currently on 18 chains through Multichain. Accepted collateral includes interest-bearing assets like Aave Market Tokens. Users are not charged interest for borrowing MAI - instead, they are charged a 0.5% fee upon repayment.
@@ -41,13 +44,15 @@ Despite market downturns during its existence, MAI has maintained its peg.
 
 MAI currently has a TVL of around $90M, and has around 70M MAI outstanding.
 
-Explain positioning of the token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
+- Explain positioning of the token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
+
 Being the largest native stablecoin on Polygon and Fantom, MAI has a wide reach within the native projects on those chains. Listing MAI would connect Aave to most communities in these chains through the integrations already made by MAI.
 MAI is one of the most crosschain assets, available on 18 chains through canonical bridging. As a result, users will be drawn to borrow MAI to bridge value to other chains and take advantage of the many yield opportunities that MAI has.
 
 MAI’s risk profile is low. It is used by large institutions. MAI has also received grants from several blockchains, including Polygon, Metis, Optimism, Arbitrum, and Gnosis.
 
-Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
+- Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
+
 MAI is governed by the QiDao Protocol, a community-run DAO around the QI token.
 Several other projects have participated in our DAO through proposals and bribing, including Frax Finance, Stake DAO, Celsius, * PolygonDAO, SpiritSwap, SpookySwap, Gotchi Vault, and Beefy Finance
 The Polygon Alliance was recently set up to participate in QiDao.
@@ -59,9 +64,11 @@ MAI is used by Celsius to borrow against their AUM
 MAI has been used by Polygon to award bounties
 MAI offers low-cost leverage to strategies on Stake DAO, Yearn, Beefy, and Aave
 Emission schedule
+
 Users can mint MAI by locking up their assets and borrowing against that value at 0% interest. Temporary debt ceilings serve as the a supply mitigation.
 
-Token (& Protocol) permissions (minting) and upgradability. Is there a multisig? What can it do? Who are the signers?
+- Token (& Protocol) permissions (minting) and upgradability. Is there a multisig? What can it do? Who are the signers?
+
 All funds stored as collateral are fully controlled by users
 There is a 3/5 multisig, comprised by the QiDao team. Team members are doxxed and regularly appear on podcasts, live streams, and crypto conferences
 The multisig executes the results of Snapshot votes: liquidation ratios for new collaterals, partnerships, and debt ceilings. There have been over 70 votes since the start of the DAO: see votes here 1.
