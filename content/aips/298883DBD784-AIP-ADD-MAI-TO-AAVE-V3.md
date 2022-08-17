@@ -7,23 +7,28 @@ discussions: https://governance.aave.com/t/add-mai-on-aave-v3/7630
 created: 2022-08-16
 ---
 
-Author: QiDao Protocol core team
-Forum post: 
+## Author: 
+QiDao Protocol core team
 
+## Forum post: 
+
+https://governance.aave.com/t/add-mai-on-aave-v3/7630
 Proposal to add support for MAI (aka miMatic) on Aave V3 (On Polygon)
 
-Summary
+## Summary
+
 MAI is the first and largest native stablecoin project on Polygon and a variety of other chains. It is an overcollateralized stablecoin that is non-custodial. All MAI is backed by collateral locked in user-managed vaults. MAI minting is available on 8 chains, and bridging to 18 chains.
 
 All accepted collaterals are priced using Chainlink price feeds. MAI has stayed within its peg through several market downturns.
 
 There’s around 250M MAI minted, with liquidity on all top DEXs in which MAI is present. A significant portion of liquidity for MAI is on Curve. MAI hosts the largest pool on Curve Polygon.
 
-Risk Parameters
+## Risk Parameters
+
 V3 Efficiency mode: stablecoins
 V3 Isolation mode: 75% LTV, 80% liquidation threshold, 10% reserve factor, $2M initial debt ceiling per chain
 
-Specifications
+## Specifications
 What is the link between the author of the AIP and the Asset?
 Core team at QiDao Protocol.
 
@@ -62,42 +67,45 @@ There is a 3/5 multisig, comprised by the QiDao team. Team members are doxxed an
 The multisig executes the results of Snapshot votes: liquidation ratios for new collaterals, partnerships, and debt ceilings. There have been over 70 votes since the start of the DAO: see votes here 1.
 Since the protocol uses canonical bridging, QiDao retains the power to mint MAI on chains it is bridged to.
 
-Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
-Market Cap: ~$70M
-24h Volume: >$40M
-Volatility: Low
-Exchanges: Curve, Balancer, QuickSwap, SpookySwap, SpiritSwap, Saber, Beethoven, Solidly, TombSwap, Solarbeam, Trader Joe, Crodex, ZoomSwap, PaintSwap, Elk Finance, and Rose
-Maturity: Launched 5/4/21
-Social channels data (Size of communities, activity on Github)
-Project: https://www.mai.finance/
-Defillama: https://defillama.com/protocol/qidao
-Whitepaper: https://docs.mai.finance/
-Document portal: https://docs.mai.finance/
-Source code for the system(s) that interact with the proposed asset: https://github.com/0xlaozi
-Twitter: 17k followers: https://twitter.com/QiDaoProtocol
-Telegram: 2,130 members: @QiDaoProtocol
-Discord: 8,987 members: https://discord.com/qidaoprotocol
-Contracts date of deployments, number of transactions, number of holders for tokens
+## Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
+
+- Market Cap: ~$70M
+- 24h Volume: >$40M
+- Volatility: Low
+- Exchanges: Curve, Balancer, QuickSwap, SpookySwap, SpiritSwap, Saber, Beethoven, Solidly, TombSwap, Solarbeam, Trader Joe, Crodex, ZoomSwap, PaintSwap, Elk Finance, and Rose
+- Maturity: Launched 5/4/21
+- Social channels data (Size of communities, activity on Github)
+- Project: https://www.mai.finance/
+- Defillama: https://defillama.com/protocol/qidao
+- Whitepaper: https://docs.mai.finance/
+- Document portal: https://docs.mai.finance/
+- Source code for the system(s) that interact with the proposed asset: https://github.com/0xlaozi
+- Twitter: 17k followers: https://twitter.com/QiDaoProtocol
+- Telegram: 2,130 members: @QiDaoProtocol
+- Discord: 8,987 members: https://discord.com/qidaoprotocol
+- Contracts date of deployments, number of transactions, number of holders for tokens
 MAI token
 
-Date of deployment: May 4, 2021
-Number of transactions: +3M
-Number of crosschain token holders: 16k+
-Security Considerations
+- Date of deployment: May 4, 2021
+- Number of transactions: +3M
+- Number of crosschain token holders: 16k+
+
+## Security Considerations
 MAI has undergone 2 thorough audits (linked below). Constant internal reviews are performed to ensure MAI’s economic and technical safety.
 
 The protocol currently has around $90M TVL.
 
-First audit: https://uploads-ssl.webflow.com/606120c25fb119221b762612/60bd3b9a1366549deb6a1cf7_Mai_Finance_Audit_Bramah.pdf
+- First audit: https://uploads-ssl.webflow.com/606120c25fb119221b762612/60bd3b9a1366549deb6a1cf7_Mai_Finance_Audit_Bramah.pdf
 
-Second audit: https://cloakwire.com/qi-dao-security-audit/
+- Second audit: https://cloakwire.com/qi-dao-security-audit/
 
-Other links
+## Other links
+
 Contract addresses: https://docs.mai.finance/functions/smart-contract-addresses
 
-Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon), 0x5D1F504211c17365CA66353442a74D4435A8b778 (Avalanche), 0x827863222c9C603960dE6FF2c0dD58D457Dcc363 (Fantom)
+Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon)
 
-Proposal's technical implementation
+## Proposal's technical implementation
 
 This asset listing will be executed via Aave's cross-chain governance module, described here [https://github.com/bgd-labs/aave-v3-crosschain-listing-template](https://github.com/bgd-labs/aave-v3-crosschain-listing-template). The listing of miMATIC via cross-chain is one of the examples included there, together with tests.
 
