@@ -12,18 +12,18 @@ Forum post:
 
 Proposal to add support for MAI (aka miMatic) on Aave V3 (On Polygon)
 
-Summary
+## Summary
 MAI is the first and largest native stablecoin project on Polygon and a variety of other chains. It is an overcollateralized stablecoin that is non-custodial. All MAI is backed by collateral locked in user-managed vaults. MAI minting is available on 8 chains, and bridging to 18 chains.
 
 All accepted collaterals are priced using Chainlink price feeds. MAI has stayed within its peg through several market downturns.
 
 There’s around 250M MAI minted, with liquidity on all top DEXs in which MAI is present. A significant portion of liquidity for MAI is on Curve. MAI hosts the largest pool on Curve Polygon.
 
-Risk Parameters
+## Risk Parameters
 V3 Efficiency mode: stablecoins
 V3 Isolation mode: 75% LTV, 80% liquidation threshold, 10% reserve factor, $2M initial debt ceiling per chain
 
-Specifications
+## Specifications
 What is the link between the author of the AIP and the Asset?
 Core team at QiDao Protocol.
 
@@ -62,7 +62,7 @@ There is a 3/5 multisig, comprised by the QiDao team. Team members are doxxed an
 The multisig executes the results of Snapshot votes: liquidation ratios for new collaterals, partnerships, and debt ceilings. There have been over 70 votes since the start of the DAO: see votes here 1.
 Since the protocol uses canonical bridging, QiDao retains the power to mint MAI on chains it is bridged to.
 
-Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
+## Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
 Market Cap: ~$70M
 24h Volume: >$40M
 Volatility: Low
@@ -92,12 +92,12 @@ First audit: https://uploads-ssl.webflow.com/606120c25fb119221b762612/60bd3b9a13
 
 Second audit: https://cloakwire.com/qi-dao-security-audit/
 
-Other links
+## Other links
 Contract addresses: https://docs.mai.finance/functions/smart-contract-addresses
 
 Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon), 0x5D1F504211c17365CA66353442a74D4435A8b778 (Avalanche), 0x827863222c9C603960dE6FF2c0dD58D457Dcc363 (Fantom)
 
-Proposal's technical implementation
+## Proposal's technical implementation
 
 This asset listing will be executed via Aave's cross-chain governance module, described here [https://github.com/bgd-labs/aave-v3-crosschain-listing-template](https://github.com/bgd-labs/aave-v3-crosschain-listing-template). The listing of miMATIC via cross-chain is one of the examples included there, together with tests.
 
