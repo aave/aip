@@ -4,7 +4,7 @@ status: Proposed
 author: Pablo Peillard (@itspublu)
 shortDescription: Add MAI Stablecoin to Aave V3 on Polygon
 discussions: https://governance.aave.com/t/add-mai-on-aave-v3/7630
-created: 2022-04-01
+created: 2022-08-16
 ---
 
 Author: QiDao Protocol core team
@@ -20,8 +20,9 @@ All accepted collaterals are priced using Chainlink price feeds. MAI has stayed 
 There’s around 250M MAI minted, with liquidity on all top DEXs in which MAI is present. A significant portion of liquidity for MAI is on Curve. MAI hosts the largest pool on Curve Polygon and the pool with most volume on Curve Fantom.
 
 Risk Parameters
-V3 Efficiency mode stablecoins: 97% LTV, 98% Liquidation threshold, 10% reserve factor
-V3 Isolation mode: 75% LTV, 80% liquidation threshold, 10% reserve factor, $50M initial debt ceiling per chain
+V3 Efficiency mode: stablecoins
+V3 Isolation mode: 75% LTV, 80% liquidation threshold, 10% reserve factor, $2M initial debt ceiling per chain
+
 Specifications
 What is the link between the author of the AIP and the Asset?
 Core team at QiDao Protocol.
@@ -33,13 +34,13 @@ MAI is an overcollateralized CDP stablecoin on Polygon, Avalanche, Fantom, Arbit
 
 Despite market downturns during its existence, MAI has maintained its peg.
 
-MAI currently has a TVL of around $350M, and has around 250M MAI outstanding.
+MAI currently has a TVL of around $90M, and has around 70M MAI outstanding.
 
 Explain positioning of the token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?
 Being the largest native stablecoin on Polygon and Fantom, MAI has a wide reach within the native projects on those chains. Listing MAI would connect Aave to most communities in these chains through the integrations already made by MAI.
 MAI is one of the most crosschain assets, available on 18 chains through canonical bridging. As a result, users will be drawn to borrow MAI to bridge value to other chains and take advantage of the many yield opportunities that MAI has.
 
-MAI’s risk profile is low. It is used by large institutions like Celsius and Polygon. MAI has also received grants from several blockchains, including Polygon, Fantom, Harmony, Aurora, and IoTeX.
+MAI’s risk profile is low. It is used by large institutions. MAI has also received grants from several blockchains, including Polygon, Metis, Optimism, Arbitrum, and Gnosis.
 
 Provide a brief history of the project and the different components: DAO (is it live?), products (are the live?). How did it overcome some of the challenges it faced?
 MAI is governed by the QiDao Protocol, a community-run DAO around the QI token.
@@ -62,7 +63,7 @@ The multisig executes the results of Snapshot votes: liquidation ratios for new 
 Since the protocol uses canonical bridging, QiDao retains the power to mint MAI on chains it is bridged to.
 
 Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
-Market Cap: ~$250M
+Market Cap: ~$70M
 24h Volume: >$40M
 Volatility: Low
 Exchanges: Curve, Balancer, QuickSwap, SpookySwap, SpiritSwap, Saber, Beethoven, Solidly, TombSwap, Solarbeam, Trader Joe, Crodex, ZoomSwap, PaintSwap, Elk Finance, and Rose
@@ -85,7 +86,7 @@ Number of crosschain token holders: 16k+
 Security Considerations
 MAI has undergone 2 thorough audits (linked below). Constant internal reviews are performed to ensure MAI’s economic and technical safety.
 
-The protocol currently has around $350M TVL.
+The protocol currently has around $90M TVL.
 
 First audit: https://uploads-ssl.webflow.com/606120c25fb119221b762612/60bd3b9a1366549deb6a1cf7_Mai_Finance_Audit_Bramah.pdf
 
@@ -96,3 +97,10 @@ Contract addresses: https://docs.mai.finance/functions/smart-contract-addresses
 
 Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon), 0x5D1F504211c17365CA66353442a74D4435A8b778 (Avalanche), 0x827863222c9C603960dE6FF2c0dD58D457Dcc363 (Fantom)
 
+Proposal's technical implementation
+
+This asset listing will be executed via Aave's cross-chain governance module, described here [https://github.com/bgd-labs/aave-v3-crosschain-listing-template](https://github.com/bgd-labs/aave-v3-crosschain-listing-template). The listing of miMATIC via cross-chain is one of the examples included there, together with tests.
+
+Proposal Payload on Polygon: [https://polygonscan.com/address/0x17dead0f59C549b4afD1f67B36966974a21867Db#code](https://polygonscan.com/address/0x17dead0f59C549b4afD1f67B36966974a21867Db#code)
+
+BGD Labs has provided support on the technical aspects of the listing and Certora has reviewed the proposal's payload.
