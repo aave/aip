@@ -120,6 +120,6 @@ Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon)
 
 This asset listing will be executed via Aave's cross-chain governance module, described here [https://github.com/bgd-labs/aave-v3-crosschain-listing-template](https://github.com/bgd-labs/aave-v3-crosschain-listing-template). The listing of miMATIC via cross-chain is one of the examples included there, together with tests.
 
-Proposal Payload on Polygon: [https://polygonscan.com/address/0x17dead0f59C549b4afD1f67B36966974a21867Db#code](https://polygonscan.com/address/0x17dead0f59C549b4afD1f67B36966974a21867Db#code)
+Proposal Payload on Polygon: [https://polygonscan.com/address/0x83fba23163662149b33dbc05cf1312df6dcba72b#code](https://polygonscan.com/address/0x83fba23163662149b33dbc05cf1312df6dcba72b#code)
 
 BGD Labs has provided support on the technical aspects of the listing and Certora has reviewed the proposal's payload.
