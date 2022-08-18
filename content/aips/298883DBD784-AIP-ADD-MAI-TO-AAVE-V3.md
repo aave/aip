@@ -114,7 +114,7 @@ The protocol currently has around $90M TVL.
 
 Contract addresses: https://docs.mai.finance/functions/smart-contract-addresses
 
-Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon), 0x5D1F504211c17365CA66353442a74D4435A8b778 (Avalanche), 0x827863222c9C603960dE6FF2c0dD58D457Dcc363 (Fantom)
+Chainlink Oracle: 0xd8d483d813547CfB624b8Dc33a00F2fcbCd2D428 (Polygon)
 
 ## Proposal's technical implementation
 
