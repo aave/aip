@@ -7,25 +7,23 @@ discussions: https://governance.aave.com/t/arc-add-support-for-lusd-liquity/8443
 created: 2022-08-19
 ---
 
-This is the template for AIPs.
-
-Note that the filename should contain the generated identifier by the author. When opening a pull request to submit your AIP, please use an abbreviated title in the filename, `identifier-AIP-draft_title_abbrev.md`.
-
-The title should be 44 characters or less.
-
 ## Simple Summary
 
-Add LUSD as a borrowable asset on Aave
-
-LUSD is stablecoin minted directly by the protocol users by opening a Trove and depositing ETH as collateral. Loans are interest-free, with a 0.5% base initiation fee. All the contracts of the Liquity protocol are immutable, which makes LUSD the most trustless stablecoin currently available on the Ethereum mainnet.
+Add LUSD as a borrowable asset on Aave (0% LTV), helping the protocol diversify its stablecoin offering away from centralized stablecoins.
 
 ## Abstract
 
-A short (~200 word) description of the technical issue being addressed.
+LUSD is stablecoin minted directly by the protocol users by opening a Trove and depositing ETH as collateral. Loans are interest-free, with a 0.5% base initiation fee. All the contracts of the Liquity protocol are immutable, which makes LUSD the most trustless stablecoin currently available on the Ethereum mainnet.
+
+LUSD is overcollateralized by ETH with two main mechanisms helping it keep its peg: first, LUSD can be redeemed for ETH at face value (i.e., 1 LUSD for $1 of ETH). Secondly, there is a minimal collateral ratio of 110%. Both mechanisms respectively create a price floor and ceiling through arbitrage opportunities.
+
+Since the protocol is immutable, no additional developments are planned, yet the Liquity team is working on another project that will prove synergetic with LUSD.
+
+LUSD’s resilience makes it a highly sought-after stablecoin for DAOs and protocols looking to diversify their treasury and users looking for cost-effective leverage on ETH. The current focus is to grow the DeFi ecosystem around LUSD to enable more diverse use cases.
 
 ## Motivation
 
-The motivation is critical for AIPs that want to change Aave. It should clearly explain why the existing protocol specification is inadequate to address the problem that the AIP solves. AIP submissions without sufficient motivation may be rejected outright.
+Most of the stablecoins available for borrowing on Aave are centralized or relying heavily on centralized collateral, apart from FEI, sUSD and RAI. Adding LUSD as a borrowable asset on Aave would enable the protocol to further diversify away from centralized stablecoins.
 
 ## Specification
 
@@ -33,7 +31,7 @@ The technical specification should describe the syntax and semantics of any new 
 
 ## Rationale
 
-The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
+LUSD will be added as a borrowable asset only (0% LTV) to ensure the safest onboarding possible. If the demand for borrowing is sufficient, the LTV could later be raised and once mainnet v3 is available, efficiency mode could also be enabled. 
 
 ## Test Cases
 
