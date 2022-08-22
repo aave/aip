@@ -35,7 +35,9 @@ LUSD will be added as a borrowable asset only (0% LTV) to ensure the safest onbo
 
 ## Test Cases
 
-Test cases for an implementation are mandatory for AIPs but can be included with the implementation.
+All the components involved in this proposal (tokens' implementations, interest rate strategy, oracle feed, proposal payload) have been tested and reviewed, including simulations on mainnet of the whole proposal lifecycle.
+
+Link to Test Cases: [End-to-end test suite](https://github.com/liquity/example-aave-v2-listing/blob/master/src/test/ValidationLUSDListing.sol)
 
 ## Implementation
 
