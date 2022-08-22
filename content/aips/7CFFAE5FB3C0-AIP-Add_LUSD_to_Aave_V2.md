@@ -39,12 +39,12 @@ Test cases for an implementation are mandatory for AIPs but can be included with
 
 ## Implementation
 
-- [aLUSD implementation](0x893E606358205AD994e610ad48e8aEF98aEadDbe)
-- [Variable Debt LUSD implementation](0xEB1cfEF24F5B9d287F702AC6EbD301E606936B54)
-- [Stable Debt LUSD implementation](0x595c33538215DC4B092F35Afc85d904631263f4F)
-- [Interest rate strategy for LUSD](0x545Ae1908B6F12e91E03B1DEC4F2e06D0570fE1b)
-- [LusdUsdToLusdEth price feed](0x60c0b047133f696334a2b7f68af0b49d2F3D4F72)
-- [LUSD token](0x5f98805A4E8be255a32880FDeC7F6728C6568bA0)
+- [aLUSD implementation](https://etherscan.io/address/0x893E606358205AD994e610ad48e8aEF98aEadDbe)
+- [Variable Debt LUSD implementation](https://etherscan.io/address/0xEB1cfEF24F5B9d287F702AC6EbD301E606936B54)
+- [Stable Debt LUSD implementation](https://etherscan.io/address/0x595c33538215DC4B092F35Afc85d904631263f4F)
+- [Interest rate strategy for LUSD](https://etherscan.io/address/0x545Ae1908B6F12e91E03B1DEC4F2e06D0570fE1b)
+- [LusdUsdToLusdEth price feed](https://etherscan.io/address/0x60c0b047133f696334a2b7f68af0b49d2F3D4F72)
+- [LUSD token](https://etherscan.io/address/0x5f98805A4E8be255a32880FDeC7F6728C6568bA0)
 
 ## Copyright
 
