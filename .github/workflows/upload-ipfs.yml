@@ -60,7 +60,7 @@ jobs:
         run: npm ci
 
       - name: Update readme
-        run: yarn ci:readme
+        run: npm run ci:generate-readme
 
       - name: check diff
         run: |
@@ -71,7 +71,7 @@ jobs:
             git config --global user.name 'Cache bot'
             git config --global user.email 'cache-bot@aave.com'
             git add README.md
-            git commit -am "fix(cache): update readme :robot:"
+            git commit -m "fix(cache): update readme :robot:"
             git push origin master
           exit
           fi
