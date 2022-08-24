@@ -8,8 +8,10 @@ async function generateReadme() {
   reportsTable += `### AIPs\n\n`
   reportsTable += `| AIP | hash | encoded hash |\n| --- | --- | --- |\n`
   for (const aip of aips) {
-    const aipContent = require(path.join(__dirname, "../", aipsFolder, aip))
-    reportsTable += `| [${aipContent.name}](${aipsFolder}/${aip}) | ${aipContent.hash} | ${aipContent.encodedHash} |\n`
+    if (aip !== "all-aips.json") {
+      const aipContent = require(path.join(__dirname, "../", aipsFolder, aip))
+      reportsTable += `| [${aipContent.name}](${aipsFolder}/${aip}) | ${aipContent.hash} | ${aipContent.encodedHash} |\n`
+    }
   }
   reportsTable += `\n`
   reportsTable += "<!-- ### AIPs table end ### -->"
