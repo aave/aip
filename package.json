@@ -9,16 +9,15 @@
     "David Truong <david@aave.com>"
   ],
   "dependencies": {
-    "ajv": "^8.6.2",
-    "bs58": "^4.0.1",
-    "ethers": "^5.4.6",
-    "fs": "0.0.1-security",
+    "ajv": "^8.11.0",
+    "bs58": "^5.0.0",
+    "ethers": "^5.7.0",
     "markdown-to-json": "^0.5.4",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.2.10",
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
-    "prettier": "2.0.4"
+    "prettier": "2.7.1"
   },
   "homepage": "https://github.com/aave/aip",
   "keywords": [
