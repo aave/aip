@@ -8,57 +8,20 @@
   "contributors": [
     "David Truong <david@aave.com>"
   ],
-  "engines": {
-    "node": "12.x"
-  },
   "dependencies": {
-    "@react-hook/window-size": "^3.0.6",
     "ajv": "^8.6.2",
     "bs58": "^4.0.1",
-    "classnames": "^2.2.6",
     "ethers": "^5.4.6",
     "fs": "0.0.1-security",
-    "gatsby": "^2.20.25",
-    "gatsby-cli": "^2.12.48",
-    "gatsby-image": "^2.3.4",
-    "gatsby-plugin-google-analytics": "^2.2.4",
-    "gatsby-plugin-manifest": "^2.3.5",
-    "gatsby-plugin-page-load-delay": "^0.1.2",
-    "gatsby-plugin-react-helmet": "^3.2.4",
-    "gatsby-plugin-react-svg": "^3.0.0",
-    "gatsby-plugin-sass": "^2.3.6",
-    "gatsby-plugin-sharp": "^2.5.6",
-    "gatsby-plugin-typography": "^2.4.3",
-    "gatsby-remark-copy-linked-files": "^2.2.3",
-    "gatsby-remark-images": "^3.2.4",
-    "gatsby-remark-prismjs": "^3.4.3",
-    "gatsby-remark-responsive-iframe": "^2.3.3",
-    "gatsby-remark-smartypants": "^2.2.3",
-    "gatsby-source-filesystem": "^2.2.4",
-    "gatsby-transformer-remark": "^2.7.3",
-    "gatsby-transformer-sharp": "^2.4.6",
     "markdown-to-json": "^0.5.4",
-    "moment": "^2.24.0",
-    "node-fetch": "^2.6.1",
-    "node-sass": "^4.14.1",
-    "prismjs": "^1.19.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-typography": "^0.16.19",
-    "typeface-merriweather": "0.0.72",
-    "typeface-open-sans": "0.0.75",
-    "typeface-roboto": "0.0.75",
-    "typography": "^0.16.19",
-    "typography-theme-github": "^0.16.19"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
     "prettier": "2.0.4"
   },
   "homepage": "https://github.com/aave/aip",
   "keywords": [
-    "gatsby"
+    "aave", "aip"
   ],
   "main": "n/a",
   "repository": {
@@ -67,17 +30,10 @@
   },
   "scripts": {
     "run-env": "npm i && tail -f /dev/null",
-    "build": "gatsby build --prefix-paths",
-    "develop": "gatsby develop",
     "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
     "upload:pinata-thegraph": "node aip-uploader.js && rm tmp",
     "validation:aip-schema": "node ./aip-schema-validation.js",
     "generate-filename": "node aip-filename-generator.js",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve --prefix-paths",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
   }
 }

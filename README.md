@@ -1,8 +1,3 @@
----
-👋 Hey there! You're currently viewing this on Github, which isn't the intended experience.
-For the full Aave AIP experience, go to the [AIPs website](https://aave.github.io/aip/)
----
-
 ## Contributing
 
 If you plan to add a new *Aave Improvement Proposal (AIP)* follow this guide:
