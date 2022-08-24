@@ -33,7 +33,7 @@
   "scripts": {
     "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
     "upload:pinata-thegraph": "node scripts/aip-uploader.js && rm tmp",
-    "validation:aip-schema": "node scripts/aip-schema-validation.js",
+    "validation:aip-schema": "ts-node scripts/aip-schema-validation.ts",
     "generate-filename": "ts-node scripts/aip-filename-generator.js",
     "ci:generate-readme": "ts-node scripts/generate-readme.ts"
   }

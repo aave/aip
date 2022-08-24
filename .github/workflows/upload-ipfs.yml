@@ -33,45 +33,19 @@ jobs:
           PINATA_SECRET: ${{ secrets.PINATA_SECRET }}
         run: npm run upload:pinata-thegraph
 
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v6
-        with:
-          author_name: miguelmtzinf
-          author_email: miguelmtzinf@users.noreply.github.com
-          message: "[PIPELINE] Committed IPFS documents uploads"
-          add: "."
-
-  update-readme:
-    needs:
-      - upload-to-ipfs
-
-    name: Update readme
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-          cache: "npm"
-
-      - name: Install dependencies
-        run: npm ci
-
       - name: Update readme
         run: npm run ci:generate-readme
 
-      - name: check diff
+      - name: Commit changes
         run: |
           if [[ -z $(git status -s) ]]
           then
             echo "tree is clean"
           else
             git config --global user.name 'Cache bot'
-            git config --global user.email 'cache-bot@aave.com'
-            git add README.md
-            git commit -m "fix(cache): update readme :robot:"
+            git config --global user.email 'cache-bot@users.noreply.github.com'
+            git add .
+            git commit -m "chore(cache): update ipfs aips :robot:"
             git push origin master
           exit
           fi
