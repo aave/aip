@@ -14,7 +14,8 @@
     "ethers": "^5.7.0",
     "markdown-to-json": "^0.5.4",
     "node-fetch": "^3.2.10",
-    "ts-node": "^10.9.1"
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
   },
   "devDependencies": {
     "prettier": "2.7.1"
@@ -30,12 +31,10 @@
     "url": "git+https://github.com/aave/aip"
   },
   "scripts": {
-    "run-env": "npm i && tail -f /dev/null",
     "parse-markdown": "m2j ./content/aips/*.md -c -o ./content/ipfs-aips/all-aips.json",
-    "upload:pinata-thegraph": "node aip-uploader.js && rm tmp",
-    "validation:aip-schema": "node ./aip-schema-validation.js",
-    "generate-filename": "node aip-filename-generator.js",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "upload:pinata-thegraph": "node scripts/aip-uploader.js && rm tmp",
+    "validation:aip-schema": "node scripts/aip-schema-validation.js",
+    "generate-filename": "ts-node scripts/aip-filename-generator.js",
     "ci:generate-readme": "ts-node scripts/generate-readme.ts"
   }
 }

@@ -4,7 +4,7 @@ const fs = require("fs")
 const fetch = require("node-fetch")
 const { execSync } = require("child_process")
 const { exit } = require("process")
-const rawJsonAips = require("./content/ipfs-aips/all-aips.json")
+const rawJsonAips = require("../content/ipfs-aips/all-aips.json")
 
 const { PINATA_KEY, PINATA_SECRET } = process.env
 
