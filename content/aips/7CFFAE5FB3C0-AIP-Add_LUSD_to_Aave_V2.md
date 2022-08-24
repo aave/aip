@@ -41,6 +41,7 @@ Link to Test Cases: [End-to-end test suite](https://github.com/liquity/example-a
 
 ## Implementation
 
+- [LUSDListingPayload](https://etherscan.io/address/0xe0070f7a961dcb102e3d904a170613be3f3b37a9)
 - [aLUSD implementation](https://etherscan.io/address/0x893E606358205AD994e610ad48e8aEF98aEadDbe)
 - [Variable Debt LUSD implementation](https://etherscan.io/address/0xEB1cfEF24F5B9d287F702AC6EbD301E606936B54)
 - [Stable Debt LUSD implementation](https://etherscan.io/address/0x595c33538215DC4B092F35Afc85d904631263f4F)
