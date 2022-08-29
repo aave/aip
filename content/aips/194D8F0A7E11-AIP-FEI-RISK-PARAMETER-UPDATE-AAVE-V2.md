@@ -1,8 +1,8 @@
 ---
-title: Risk Parameter Updates for Ethereum Aave v2 Market
+title: FEI Risk Parameter Updates for Ethereum Aave v2 Market
 status: Proposed
 Author: [Llama](https://twitter.com/llama) [Matthew_Graham](https://twitter.com/Matthew_Graham_) [defijesus.eth](https://twitter.com/eldefijesus)
-shortDescription: Risk Parameter Updates for Ethereum Aave v2 Market
+shortDescription: FEI Risk Parameter Updates for Ethereum Aave v2 Market
 discussions: https://governance.aave.com/t/arc-risk-parameter-updates-for-ethereum-aave-v2-market/9393
 created: 2022-08-29
 ---
