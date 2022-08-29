@@ -46,7 +46,7 @@ Test cases can be found: [Here](https://github.com/llama-community/aave-risk-par
 
 ## Implementation
 
-Deployment of the proposal payload can be found [here](TODO)
+Deployment of the proposal payload can be found [here](https://etherscan.io/address/0xb8fe2a2104afb975240d3d32a7823a01cb74639f#code)
 
 The repository of the payload can be found [here](https://github.com/llama-community/aave-risk-param-updates-fei)
  
