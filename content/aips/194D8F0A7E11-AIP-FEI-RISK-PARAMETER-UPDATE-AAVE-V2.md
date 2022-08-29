@@ -47,6 +47,8 @@ Test cases can be found: [Here](https://github.com/llama-community/aave-risk-par
 ## Implementation
 
 Deployment of the proposal payload can be found [here](TODO)
+
+The repository of the payload can be found [here](https://github.com/llama-community/aave-risk-param-updates-fei)
  
 The proposal calls freezeReserve on the LendingPoolConfigurator (0x311Bb771e4F8952E6Da169b425E7e92d6Ac45756) targeting FEI (a0x956F47F50A910163D8BF957Cf5846D573E7f87CA).
 
