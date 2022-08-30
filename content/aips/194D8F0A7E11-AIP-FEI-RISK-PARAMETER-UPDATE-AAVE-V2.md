@@ -21,7 +21,7 @@ In response, this ARC proposes freezing the FEI market which will Disabling Depo
 
 # Motivation
 
-With the emergence of news that Tribe DAO intends to dissolve FEI and the Protocol Controlled Value (PCV) backing the stablecoin, there is a need to amend the FEI lending market in preparation of the risks to emerge with transition Tribe DAO to a terminal state.
+With the emergence of news that Tribe DAO intends to dissolve FEI and the Protocol Controlled Value (PCV) backing the stablecoin, there is a need to amend the FEI reserve in preparation of the risks to emerge with transition Tribe DAO to a terminal state.
 
 The details around how Tribe DAO will transition from current state to terminal state can be found [here](https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475).
 
@@ -32,7 +32,7 @@ Snapshot found [here](https://snapshot.org/#/aave.eth/proposal/0x19df23070be999e
 The proposal will freeze the FEI reserve on the pool, stopping supply of liquidity and borrowing.
 
 Borrowing Enabled → Disable 
-Lending Enabled → Disable 
+Deposits Enabled → Disable 
 
 Also,
 
