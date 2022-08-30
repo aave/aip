@@ -29,7 +29,7 @@ Snapshot found [here](https://snapshot.org/#/aave.eth/proposal/0x19df23070be999e
 
 ## Specification
 
-This proposal will freeze the lending market. 
+The proposal will freeze the FEI reserve on the pool, stopping supply of liquidity and borrowing.
 
 Borrowing Enabled → Disable 
 Lending Enabled → Disable 
