@@ -15,11 +15,11 @@ Llama proposes listing stMATIC on the Aave v3 Polygon market. stMATIC is an ERC2
 
 Lido is a DAO governed liquid staking protocol for the Polygon PoS chain. It allows users to stake their MATIC tokens on the Ethereum mainnet and immediately get the representation of their share in the form of stMATIC token without maintaining staking infrastructure. Users will receive staking rewards whilst being able to utilize their stMATIC tokens in secondary markets on Ethereum mainnet and Polygon.
 
-Listing stMATIC as collateral will enable depositors to borrow funds against stMATIC. In addition, a special stMATIC eMode will be created for just stMATIC and wMATIC, a $7.5M Supply Cap will be set and borrowing disabled to manage the risk exposure with this asset listing.
+Listing stMATIC as collateral will enable depositors to borrow funds against stMATIC. In addition, a special 'MATIC correlated' eMode will be created for just stMATIC and wMATIC, a $7.5M Supply Cap will be set and borrowing disabled to manage the risk exposure with this asset listing.
 
 # Motivation
 
-Listing stMATIC on the Aave v3 market would allow Aave DAO to benefit from the first mover advantage and hopefully in time replicate the success of the wstETH listing which has generated $1.72B in TVL on the Ethereum Aave v2 market. 
+Listing stMATIC on the Aave v3 market would allow Aave DAO to benefit from the first mover advantage and hopefully in time replicate the success of the wstETH listing which has generated $1.38B in TVL on the Ethereum Aave v2 market. 
 
 As with the wstETH listing on Ethereum Aave v2 market, we expect stMATIC to stimulate demand for wMATIC and other assets. With the introduction of eMode on Aave v3, we expect the recursive stMATIC and wMATIC loop to create a significant source of yield for Users. 
 
