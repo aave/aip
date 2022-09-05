@@ -116,7 +116,7 @@ There were also two rounds of extensive and in-depth audits. The first round of 
 |  Peckshield   | 14-01-2022 |   [Peckshield](https://github.com/aave/aave-v3-core/blob/master/audits/14-01-2022_PeckShield_AaveV3.pdf)   |     1     |
 |  SigmaPrime   | 14-01-2022 |   [SigmaPrime](https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_SigmaPrime_AaveV3.pdf)   |     2     |
 
-### Compensation Model
+### <a name="compesation">Compensation Model</a>
 
 If the AIP is approved by the DAO, the Aave team will receive $16,280,000 million in retroactive funding for the development of Aave Protocol V3. The funding will consist of $5,456,993.61 between DAI, USDT and USDC; $1,148,881.31 in alternative stable assets, $3,394,125.08 million in more volatile crypto assets; and $6,280,000 million in AAVE tokens.
 
@@ -199,6 +199,11 @@ These are the main actions included in the proposal:
 2. Transfer of aToken assets from the AaveCollector of Ethereum V2 Market.
 3. Upgrade the AaveCollector contract of Polygon V2 and V3 Markets to add the ability to retrieve funds from themselves.
 4. Transfer of aToken assets from the AaveCollector of Polygon V2 Market.
+
+
+A detailed breakdown of the assets to transfer, following the considerations described at [Compensation](#compesation) section, can be found below:
+
+![summarytransfers](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/summary-transfers.png)
 
 ## Test Cases
 
