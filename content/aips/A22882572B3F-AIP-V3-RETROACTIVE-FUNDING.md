@@ -189,7 +189,7 @@ Aave V3 is a protocol that emphasizes capital efficiency, security, and risk man
 
 ## Specification
 
-This proposal transfers the requested funds to Aave Companies, following the compensation model described above. The requested assets are pulled from multiple contracts, fees collectors and ecosystem reserve across networks.
+This proposal transfers the requested funds to the Aave Companies, following the compensation model described above. The requested assets are pulled from multiple contracts, fee collectors and ecosystem reserves across networks.
 
 These are the main actions included in the proposal:
 
@@ -198,7 +198,7 @@ These are the main actions included in the proposal:
 3. Upgrade the AaveCollector contract of Polygon V2 and V3 Markets to add the ability to retrieve funds from themselves.
 4. Transfer of aToken assets from the AaveCollector of Polygon V2 Market.
 
-A detailed breakdown of the assets to transfer, following the considerations described at [Compensation](#compesation) section, can be found below:
+A detailed breakdown of the assets to transfer, following the considerations described in the [Compensation](#compesation) section, can be found below:
 
 | **Received Token** |  **# Tokens**  | **Market Value USD (w/ Discount)** | **Transfer Method** |
 | :----------------: | :------------: | :--------------------------------: | :-----------------: |
