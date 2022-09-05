@@ -32,7 +32,7 @@ The full proposal can be found here: https://governance.aave.com/t/arc-aave-v3-r
 
 ### **Introduction**
 
-![Introduction](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/introimage.png)
+![Introduction](https://raw.githubusercontent.com/aave/aip/Pending-AIPs/content/assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/introimage.png)
 
 A focus on risk management and capital efficiency and a contemporaneous reinforcement of the flexibility and decentralization of the protocol has been instrumental in the success of Aave V3.
 
@@ -46,7 +46,7 @@ It is imperative that the Aave protocol ecosystem remains as decentralized as po
 
 Contributors interact with the protocol and the DAO in a symbiotic circle, as demonstrated in the diagram below:
 
-![circle](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/circle.jpeg)
+![circle](https://raw.githubusercontent.com/aave/aip/Pending-AIPs/content/assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/circle.jpeg)
 
 Each part of this symbiotic circle is integral to the whole. Contributors help to develop the protocol and ensure that protocol revenue continues to grow in a sustainable manner. Innovations and contributions help attract more users by improving user experience and developing new products and services. Protocol revenue, in part, then gets redirected to the DAO; bolstering the DAO treasury to continue fuelling innovations in the Aave ecosystem.
 
@@ -60,7 +60,7 @@ The revenue created across versions of the Aave Protocol adds to the sustainabil
 
 With request, permission and support granted by the Aave DAO, the Aave Companies have been an important contributor for the protocol, alongside others such as BGD Labs, Gauntlet, Certora, SigmaPrime, Llama and others. We have been building exciting innovations within the Aave ecosystem and want to continue doing so. A brief overview of this work that has taken place over many years is visualized in the simple diagram below:
 
-![timeline](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/timeline.jpeg)
+![timeline](https://raw.githubusercontent.com/aave/aip/Pending-AIPs/content/assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/timeline.jpeg)
 
 As the Aave protocol has grown into what it is today, costs associated with development have risen substantially. For example, security has always been a cornerstone of protocol development, and this has become more crucial as Aave’s TVL has increased. Building an innovative, secure and battle-tested version of a protocol such as Aave V3 requires experienced builders across a variety of skill sets that are fairly compensated for their work.
 
@@ -98,7 +98,7 @@ Overall, there were multiple functions involved in V3’s creation. These functi
 
 Below you can find a breakdown of the different teams that make up the Aave V3 Working Group at the Aave Companies:
 
-![aavepod](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/aavepod.jpeg)
+![aavepod](https://raw.githubusercontent.com/aave/aip/Pending-AIPs/content/assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/aavepod.jpeg)
 
 In terms of costs related to incurred work for V3, 60% are associated with engineering roles, whilst 40% are related to non-engineering roles.
 
