@@ -9,7 +9,7 @@ created: 2022-09-95
 
 ## Simple Summary
 
-We propose that the Aave DAO retribute a total of $16.28M in retroactive funding to Aave Companies for development of Aave Protocol V3. This total includes $15M for work performed directly by the team over the course of more than one year and $1.28M for costs paid to third-party audit services.
+We propose that the Aave DAO retribute a total of $16.28M in retroactive funding to Aave Companies for development of Aave Protocol V3. This total includes $15M for work performed directly by the team over the course of more than one year and \$1.28M for costs paid to third-party audit services.
 
 ## Abstract
 
@@ -34,7 +34,6 @@ The full proposal can be found here: https://governance.aave.com/t/arc-aave-v3-r
 
 ![Introduction](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/introimage.png)
 
-
 A focus on risk management and capital efficiency and a contemporaneous reinforcement of the flexibility and decentralization of the protocol has been instrumental in the success of Aave V3.
 
 Aligned with [Vitalik’s take on retroactive public goods funding](https://medium.com/ethereum-optimism/retroactive-public-goods-funding-33c9b7d00f0c) —it’s easier to agree on what was useful than what will be useful—the benefit of hindsight allows the community to make an accurate and fair quantification of the work done on V3 against the backdrop of V3’s post-launch success, as well as the potential for V3 moving forward.
@@ -48,7 +47,6 @@ It is imperative that the Aave protocol ecosystem remains as decentralized as po
 Contributors interact with the protocol and the DAO in a symbiotic circle, as demonstrated in the diagram below:
 
 ![circle](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/circle.jpeg)
-
 
 Each part of this symbiotic circle is integral to the whole. Contributors help to develop the protocol and ensure that protocol revenue continues to grow in a sustainable manner. Innovations and contributions help attract more users by improving user experience and developing new products and services. Protocol revenue, in part, then gets redirected to the DAO; bolstering the DAO treasury to continue fuelling innovations in the Aave ecosystem.
 
@@ -118,32 +116,32 @@ There were also two rounds of extensive and in-depth audits. The first round of 
 
 ### <a name="compesation">Compensation Model</a>
 
-If the AIP is approved by the DAO, the Aave team will receive $16,280,000 million in retroactive funding for the development of Aave Protocol V3. The funding will consist of $5,456,993.61 between DAI, USDT and USDC; $1,148,881.31 in alternative stable assets, $3,394,125.08 million in more volatile crypto assets; and $6,280,000 million in AAVE tokens.
+If the AIP is approved by the DAO, the Aave team will receive $16,280,000 million in retroactive funding for the development of Aave Protocol V3. The funding will consist of $5,456,993.61 between DAI, USDT and USDC; $1,148,881.31 in alternative stable assets, $3,394,125.08 million in more volatile crypto assets; and \$6,280,000 million in AAVE tokens.
 
-The $6.28 million in AAVE tokens requested will be based on a 14-day TWAP - time weighted average price (average of open, high, low, close) per Messari at UTC+0 - from the moment the proposal is approved in a Snapshot vote.
+The \$6.28 million in AAVE tokens requested will be based on a 14-day TWAP - time weighted average price (average of open, high, low, close) per Messari at UTC+0 - from the moment the proposal is approved in a Snapshot vote.
 
-The funding of the aforementioned $6.28 million in AAVE tokens will be reimbursed with two lock-up periods. 50% of the AAVE tokens received will be deposited in the Safety Module for one year, whilst the other 50% of AAVE tokens will be deposited in the Safety Module for two years. During this time, the tokens will contribute to the protocol safety module, helping to reduce risk for the protocol. Based on this model, Aave Companies would be free to use the tokens after the end of each lock-up period.
+The funding of the aforementioned \$6.28 million in AAVE tokens will be reimbursed with two lock-up periods. 50% of the AAVE tokens received will be deposited in the Safety Module for one year, whilst the other 50% of AAVE tokens will be deposited in the Safety Module for two years. During this time, the tokens will contribute to the protocol safety module, helping to reduce risk for the protocol. Based on this model, Aave Companies would be free to use the tokens after the end of each lock-up period.
 
 We request that the USDC, DAI, and USDT be broken down as follows:
 
-|                             |   **USDC**    |    **DAI**    |   **USDT**    |
-| :-------------------------: | :-----------: | :-----------: | :-----------: |
-| **Approximate % Breakdown** |      51%      |      30%      |      19%      |
-| **Total $ Value Requested** | $2,783,066.74 | $1,637,098.08 | $1,036,828.78 |
+|                              |    **USDC**    |    **DAI**     |    **USDT**    |
+| :--------------------------: | :------------: | :------------: | :------------: |
+| **Approximate % Breakdown**  |      51%       |      30%       |      19%       |
+| **Total \$ Value Requested** | \$2,783,066.74 | \$1,637,098.08 | \$1,036,828.78 |
 
-Regarding the $1,148,881.31 in alternative stable assets, a small volatility discount has been applied to each asset to account for peg fluctuations and low liquidity. These discounts are based on the lowest close price of each asset in the past 90 days. An itemized view of the requested alternative assets and their respective discounts can be found below:
+Regarding the \$1,148,881.31 in alternative stable assets, a small volatility discount has been applied to each asset to account for peg fluctuations and low liquidity. These discounts are based on the lowest close price of each asset in the past 90 days. An itemized view of the requested alternative assets and their respective discounts can be found below:
 
-| **Token** | **Volatility Discount** | **Number** |   **Value**   |
-| :-------: | :---------------------: | :--------: | :-----------: |
-| **sUSD**  |          -0.2%          | 463,358.33 |  462,526.88   |
-| **TUSD**  |          -0.4%          | 292,927.66 |  291,647.27   |
-| **FRAX**  |          -1.4%          | 154,992.10 |  152,830.21   |
-| **BUSD**  |          -0.5%          | 130,749.62 |  130,142.79   |
-| **GUSD**  |          -1.4%          | 86,354.30  |   85,154.05   |
-| **USDP**  |          -1.1%          | 26,871.32  |   26,580.10   |
-| **Total** |                         |            | $1,148,881.31 |
+| **Token** | **Volatility Discount** | **Number** |   **Value**    |
+| :-------: | :---------------------: | :--------: | :------------: |
+| **sUSD**  |          -0.2%          | 463,358.33 |   462,526.88   |
+| **TUSD**  |          -0.4%          | 292,927.66 |   291,647.27   |
+| **FRAX**  |          -1.4%          | 154,992.10 |   152,830.21   |
+| **BUSD**  |          -0.5%          | 130,749.62 |   130,142.79   |
+| **GUSD**  |          -1.4%          | 86,354.30  |   85,154.05    |
+| **USDP**  |          -1.1%          | 26,871.32  |   26,580.10    |
+| **Total** |                         |            | \$1,148,881.31 |
 
-Further, the remaining $3,394,125.08 that will be composed of more volatile crypto assets will remain fixed. The price will be determined by TWAP - time weighted average price (average of open, high, low, close) per Messari at UTC+0 on the day the Snapshot vote is made.
+Further, the remaining \$3,394,125.08 that will be composed of more volatile crypto assets will remain fixed. The price will be determined by TWAP - time weighted average price (average of open, high, low, close) per Messari at UTC+0 on the day the Snapshot vote is made.
 
 Looking at the volatility of ETH over the last week, there is daily implied volatility of 5%. This does not mean that every day ETH will move by 5%, but on average, the general size of the moves will be so big that their standard deviation will be 5%.
 
@@ -175,7 +173,7 @@ A detailed breakdown of the requested assets with the 10% discount outlined can 
 | **xSUSHI** |           10%           |       2,331.22       |       1.58        |       3,314.99        |
 |  **BAT**   |           10%           |       6,395.16       |       0.36        |       2,072.03        |
 |  **REN**   |           10%           |      15,300.17       |       0.13        |       1,790.12        |
-| **Total**  |                         |                      |                   |     $3,394,125.08     |
+| **Total**  |                         |                      |                   |    \$3,394,125.08     |
 
 This compensation model aims to reduce the burden on the DAO’s stablecoin reserves by diversifying the requested compensation to include other assets from the DAO treasury.
 
@@ -200,10 +198,48 @@ These are the main actions included in the proposal:
 3. Upgrade the AaveCollector contract of Polygon V2 and V3 Markets to add the ability to retrieve funds from themselves.
 4. Transfer of aToken assets from the AaveCollector of Polygon V2 Market.
 
-
 A detailed breakdown of the assets to transfer, following the considerations described at [Compensation](#compesation) section, can be found below:
 
-![summarytransfers](../assets/a22882572b3f-AIP-V3-RETROACTIVE-FUNDING/summary-transfers.png)
+| **Received Token** |  **# Tokens**  | **Market Value USD (w/ Discount)** | **Transfer Method** |
+| :----------------: | :------------: | :--------------------------------: | :-----------------: |
+|   **aAvaWAVAX**    |  9584.301837   |            \$164,451.39            |       Manual        |
+|    **aAvaWBTC**    |    1.077275    |            \$19,376.34             |       Manual        |
+|      **AAVE**      |  76196.367344  |           \$6,533,944.52           |      On-chain       |
+|      **aBAT**      |  6395.160000   |             \$1,927.71             |      On-chain       |
+|     **aBUSD**      | 130399.257103  |            \$129,794.20            |      On-chain       |
+|      **aCRV**      | 509732.680000  |            \$519,461.65            |      On-chain       |
+|      **aCVX**      |  5137.260000   |            \$23,534.81             |      On-chain       |
+|      **aDAI**      | 1637098.070000 |           \$1,637,098.07           |      On-chain       |
+|      **aENJ**      |  7242.480000   |             \$3,339.30             |      On-chain       |
+|     **aFRAX**      | 154992.100000  |            \$152,829.96            |      On-chain       |
+|     **aGUSD**      |  86354.300000  |            \$85,153.98             |      On-chain       |
+|      **aKNC**      |  11236.269638  |            \$17,632.12             |      On-chain       |
+|     **aLINK**      |  12053.480000  |            \$73,118.35             |      On-chain       |
+|     **aMANA**      | 103234.630000  |            \$71,608.23             |      On-chain       |
+|      **aMKR**      |   30.360000    |            \$20,592.35             |      On-chain       |
+|     **amWBTC**     |   16.656090    |            \$299,583.70            |      On-chain       |
+|    **amWMATIC**    | 850000.000000  |            \$656,394.81            |      On-chain       |
+|      **aPAX**      |  26871.320000  |            \$26,580.03             |      On-chain       |
+|      **aRAI**      |  66094.610000  |             \$7,874.06             |      On-chain       |
+|      **aREN**      |  15300.170000  |             \$1,670.62             |      On-chain       |
+|      **aSNX**      |  96251.920000  |            \$256,779.94            |      On-chain       |
+|     **aSUSD**      | 463358.329101  |            \$462,526.88            |      On-chain       |
+|     **aTUSD**      | 292839.518601  |            \$291,559.81            |      On-chain       |
+|      **aUNI**      |  1681.265487   |             \$9,370.44             |      On-chain       |
+|     **aUSDC**      | 2783066.720000 |           \$2,783,066.72           |      On-chain       |
+|     **aUSDT**      | 1036828.780000 |           \$1,036,828.78           |      On-chain       |
+|    **avWAVAX**     |  19415.698163  |            \$333,142.53            |       Manual        |
+|     **avWBTC**     |    1.807146    |            \$32,504.12             |       Manual        |
+|     **aWBTC**      |    3.388551    |            \$60,947.95             |      On-chain       |
+|     **aWETH**      |   350.000000   |            \$492,366.99            |      On-chain       |
+|    **aXSUSHI**     |  2331.216007   |             \$2,922.55             |      On-chain       |
+|      **aYFI**      |    7.080000    |            \$57,880.72             |      On-chain       |
+|      **BUSD**      |   350.362897   |              \$348.74              |      On-chain       |
+|      **KNC**       |   795.220362   |             \$1,247.87             |      On-chain       |
+|      **TUSD**      |   88.141399    |              \$87.76               |      On-chain       |
+|      **UNI**       |    4.394513    |              \$24.49               |      On-chain       |
+|      **WBTC**      |    0.445770    |             \$8,017.82             |      On-chain       |
+|  **Grand Total**   | 8405344.837285 |          \$16,275,590.32           |                     |
 
 ## Test Cases
 
@@ -214,6 +250,7 @@ Please refer to the [test section](https://github.com/aave/v3-retroactive-fundin
 The [aave/v3-retroactive-funding](https://github.com/aave/v3-retroactive-funding) repository contains all the code, tests and scripts needed to deploy, execute and test the governance proposal.
 
 Relevant contracts:
+
 - [EthereumProposalPayload](https://etherscan.io/address/0xDB89487A449274478e984665b8692AfC67459deF)
 - [PolygonProposalPayload](https://polygonscan.com/address/0xccf14215e0134d6709c7dd7fa172cec40e97bfb1#code)
 - [AaveCollector Implementation](https://polygonscan.com/address/0xc773bf5a987b29ddeac77cf1d48a22a4ce5b0577)
