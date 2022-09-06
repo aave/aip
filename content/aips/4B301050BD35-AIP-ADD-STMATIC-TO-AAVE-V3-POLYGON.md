@@ -25,7 +25,7 @@ As with the stETH listing on Ethereum Aave v2 pool, we expect stMATIC to stimula
 
 ## Specification
 
-In supporting the stMATIC asset listing, creates a pool that reflects the characteristics shown below and connects the Chainlink oracle price source to AaveOracle.
+In supporting the stMATIC asset listing, this proposal creates a pool that reflects the characteristics shown below and connects the Chainlink oracle price source to AaveOracle.
 
 ## Test Cases
 
