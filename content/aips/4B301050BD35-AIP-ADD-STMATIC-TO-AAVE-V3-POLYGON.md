@@ -71,7 +71,7 @@ The governance forum proposal discussing Add stMATIC on Aave v3 Polygon pool can
 Link to Payload Implementation: [Here](https://github.com/llama-community/aave-v3-crosschain-stmatic-listing/blob/master/src/contracts/polygon/StMaticPayload.sol)
 
 **Deployed Contracts**
-ProposalPayload = []https://polygonscan.com/address/)
+ProposalPayload = [0xc730008C64783a283988b0fA3b5eE6b6F997922A](https://polygonscan.com/address/0xc730008C64783a283988b0fA3b5eE6b6F997922A)
 
 # Copyright
 
