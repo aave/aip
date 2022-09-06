@@ -19,13 +19,13 @@ Listing stMATIC as collateral will enable depositors to borrow funds against stM
 
 # Motivation
 
-Listing stMATIC on the Aave v3 market would allow Aave DAO to benefit from the first mover advantage and hopefully in time replicate the success of the wstETH listing which has generated $1.38B in TVL on the Ethereum Aave v2 market. 
+Listing stMATIC on the Aave v3 market would allow Aave DAO to benefit from the first mover advantage and hopefully in time replicate the success of the stETH listing which has generated $1.38B in TVL on the Ethereum Aave v2 market. 
 
-As with the wstETH listing on Ethereum Aave v2 market, we expect stMATIC to stimulate demand for wMATIC and other assets. With the introduction of eMode on Aave v3, we expect the recursive stMATIC and wMATIC loop to create a significant source of yield for Users. 
+As with the stETH listing on Ethereum Aave v2 market, we expect stMATIC to stimulate demand for wMATIC and other assets. With the introduction of eMode on Aave v3, we expect the recursive stMATIC and wMATIC loop to create a significant source of yield for Users. 
 
 ## Specification
 
-In supporting the stMATIC asset listing, creates a lending market that reflects the characteristics shown below and connects the Chainlink oracle price source to AaveOracle.
+In supporting the stMATIC asset listing, creates a pool that reflects the characteristics shown below and connects the Chainlink oracle price source to AaveOracle.
 
 ## Test Cases
 
@@ -68,7 +68,7 @@ NewSupplyCap: $7.5m stMATIC
 
 The governance forum proposal discussing Add stMATIC on Aave v3 Polygon market can be found [here](https://governance.aave.com/t/proposal-add-support-for-stmatic-lido/7677) and the snapshot vote can be found [here](https://snapshot.org/#/aave.eth/proposal/0xc8646abba01becf81ad32bf4adf48f723a31483dc4dedc773bbb6e3954c3990f). 
 
-Link to Payload Implemenation: [Here](https://github.com/llama-community/aave-v3-crosschain-stmatic-listing/blob/master/src/contracts/polygon/StMaticPayload.sol)
+Link to Payload Implementation: [Here](https://github.com/llama-community/aave-v3-crosschain-stmatic-listing/blob/master/src/contracts/polygon/StMaticPayload.sol)
 
 **Deployed Contracts**
 ProposalPayload = []https://polygonscan.com/address/)
