@@ -1,27 +1,27 @@
 ---
-title: Add stMATIC to Aave v3 market on Polygon
+title: Add stMATIC to Aave v3 pool on Polygon
 status: Proposed
 author: Llama (@llama), Matthew Graham (@Matthew_Graham_), Rajath Alex (@0xrajath)
-shortDescription: Add stMATIC to Aave v3 market on Polygon
+shortDescription: Add stMATIC to Aave v3 pool on Polygon
 discussions: https://governance.aave.com/t/proposal-add-support-for-stmatic-lido/7677
 created: 2022-09-01
 ---
 
 # Simple Summary
 
-Llama proposes listing stMATIC on the Aave v3 Polygon market. stMATIC is an ERC20 token that represents the account’s share of the total supply of MATIC tokens inside the Lido system. 
+Llama proposes listing stMATIC on the Aave v3 Polygon pool. stMATIC is an ERC20 token that represents the account’s share of the total supply of MATIC tokens inside the Lido system. 
 
 # Abstract
 
-Lido is a DAO governed liquid staking protocol for the Polygon PoS chain. It allows users to stake their MATIC tokens on the Ethereum mainnet and immediately get the representation of their share in the form of stMATIC token without maintaining staking infrastructure. Users will receive staking rewards whilst being able to utilize their stMATIC tokens in secondary markets on Ethereum mainnet and Polygon.
+Lido is a DAO governed liquid staking protocol for the Polygon PoS chain. It allows users to stake their MATIC tokens on the Ethereum mainnet and immediately get the representation of their share in the form of stMATIC token without maintaining staking infrastructure. Users will receive staking rewards whilst being able to utilize their stMATIC tokens in secondary pools on Ethereum mainnet and Polygon.
 
 Listing stMATIC as collateral will enable depositors to borrow funds against stMATIC. In addition, a special 'MATIC correlated' eMode will be created for just stMATIC and wMATIC, a $7.5M Supply Cap will be set and borrowing disabled to manage the risk exposure with this asset listing.
 
 # Motivation
 
-Listing stMATIC on the Aave v3 market would allow Aave DAO to benefit from the first mover advantage and hopefully in time replicate the success of the stETH listing which has generated $1.38B in TVL on the Ethereum Aave v2 market. 
+Listing stMATIC on the Aave v3 pool would allow Aave DAO to benefit from the first mover advantage and hopefully in time replicate the success of the stETH listing which has generated $1.38B in TVL on the Ethereum Aave v2 pool. 
 
-As with the stETH listing on Ethereum Aave v2 market, we expect stMATIC to stimulate demand for wMATIC and other assets. With the introduction of eMode on Aave v3, we expect the recursive stMATIC and wMATIC loop to create a significant source of yield for Users. 
+As with the stETH listing on Ethereum Aave v2 pool, we expect stMATIC to stimulate demand for wMATIC and other assets. With the introduction of eMode on Aave v3, we expect the recursive stMATIC and wMATIC loop to create a significant source of yield for Users. 
 
 ## Specification
 
@@ -66,7 +66,7 @@ Supply / Borrow Caps:
 
 NewSupplyCap: $7.5m stMATIC
 
-The governance forum proposal discussing Add stMATIC on Aave v3 Polygon market can be found [here](https://governance.aave.com/t/proposal-add-support-for-stmatic-lido/7677) and the snapshot vote can be found [here](https://snapshot.org/#/aave.eth/proposal/0xc8646abba01becf81ad32bf4adf48f723a31483dc4dedc773bbb6e3954c3990f). 
+The governance forum proposal discussing Add stMATIC on Aave v3 Polygon pool can be found [here](https://governance.aave.com/t/proposal-add-support-for-stmatic-lido/7677) and the snapshot vote can be found [here](https://snapshot.org/#/aave.eth/proposal/0xc8646abba01becf81ad32bf4adf48f723a31483dc4dedc773bbb6e3954c3990f). 
 
 Link to Payload Implementation: [Here](https://github.com/llama-community/aave-v3-crosschain-stmatic-listing/blob/master/src/contracts/polygon/StMaticPayload.sol)
 
