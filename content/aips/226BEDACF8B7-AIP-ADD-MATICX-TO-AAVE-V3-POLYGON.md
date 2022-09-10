@@ -1,7 +1,7 @@
 ---
 title: Add MaticX to Aave v3 Polygon Pool
 status: Proposed
-author: Llama (@llama), Matthew Graham (@Matthew_Graham_), Rajath Alex (@0xrajath)
+author: Llama, Matthew Graham, Rajath Alex
 shortDescription: Add MaticX to Aave v3 Polygon Pool
 discussions: https://governance.aave.com/t/proposal-to-add-maticx-to-aave-v3-polygon-market/7995
 created: 2022-09-12
@@ -15,13 +15,15 @@ Llama proposes listing MaticX on the Aave v3 Polygon Pool. MaticX is an ERC20 re
 
 Stader is building a native staking smart contract platform spanning multiple networks that enables users to develop staking-related applications. The MaticX product selects validators based upon performance, safety, decentralisation and the commission terms to ensure users receive the best user experience in supporting the Polygon Network. 
 
-MaticX allows users to stake their MATIC tokens on the Ethereum mainnet and immediately get the representation of their share in the form of MaticX token without maintaining staking infrastructure. Users will receive staking rewards whilst being able to utilise their MaticX tokens in secondary markets on Ethereum mainnet and Polygon.
+MaticX allows users to stake their MATIC tokens on the Ethereum mainnet or Polygon and immediately get the representation of their share in the form of MaticX token without maintaining staking infrastructure. Users will receive staking rewards whilst being able to utilise their MaticX tokens in secondary markets on Ethereum mainnet and Polygon.
 
 MaticX will be added as collateral and Users will be able to borrow against their MaticX deposits. A SupplyCap of $6M will be implemented, borrowing disabled and Matrix will be added to the 'Matic correlated' eMode. 
 
 # Motivation
 
 Listing MaticX on the Aave v3 Polygon Pool will allow Aave DAO to benefit from the first mover advantage and provide an alternative to Lido’s stMATIC. 
+
+In addition to being able to stake on Ethereum mainnet, MaticX allows users to stake Matic directly on Polygon through a unique instant pool mechanism while remaining on Polygon throughout. This is expected to drive staking penetration higher for MATIC with Users being able to enjoy the cheaper, faster transactions on Polygon to stake.
 
 MaticX offers users a maximum 50 hours withdrawal period, which is shorter than alternatives and is expected to support a tighter secondary spot market price relative to the fundamental value of the receipt token’s claim.
 
