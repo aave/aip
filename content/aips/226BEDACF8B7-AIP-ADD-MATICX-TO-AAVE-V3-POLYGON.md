@@ -39,7 +39,7 @@ All the components involved in this proposal (tokens' implementations, interest 
 
 This proposal has been tested and peer reviewed by [Bored Ghost Developing](https://twitter.com/bgdlabs).
 
-Link to Test Cases: [Here](https://github.com/llama-community/aave-v3-crosschain-maticx-listing/blob/rajath/maticx-listing/src/test/PolygonMaticXE2E.t.sol)
+Link to Test Cases: [Here](https://github.com/llama-community/aave-v3-crosschain-maticx-listing/blob/master/src/test/PolygonMaticXE2E.t.sol)
 
 ## Implementation
 
@@ -74,7 +74,7 @@ NewSupplyCap: $6m MaticX
 
 The governance forum proposal discussing Add MaticX on Aave v3 Polygon pool can be found [here](https://governance.aave.com/t/proposal-to-add-maticx-to-aave-v3-polygon-market/7995) and the snapshot vote can be found [here](https://snapshot.org/#/aave.eth/proposal/0x88e896a245ffeda703e0b8f5494f3e66628be6e32a7243e3341b545c2972857f). 
 
-Link to Payload Implementation: [Here](https://github.com/llama-community/aave-v3-crosschain-maticx-listing/pull/1)
+Link to Payload Implementation: [Here](https://github.com/llama-community/aave-v3-crosschain-maticx-listing/blob/master/src/contracts/polygon/MaticXPayload.sol)
 
 **Deployed Contracts**
 ProposalPayload = [](https://polygonscan.com/address/)
