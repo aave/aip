@@ -31,7 +31,7 @@ With the introduction of eMode on Aave v3, there exists the potential for users 
 
 ## Specification
 
-In supporting the MaticX asset listing, this proposal creates a lending market that reflects the characteristics shown below and connect the Chainlink oracle price source to AaveOracle.
+In supporting the MaticX asset listing, this proposal creates a liquidity pool that reflects the characteristics shown below and connect the Chainlink oracle price source to AaveOracle.
 
 ## Test Cases
 
