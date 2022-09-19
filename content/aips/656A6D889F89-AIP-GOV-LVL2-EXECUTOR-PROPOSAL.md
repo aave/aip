@@ -20,6 +20,7 @@ This proposal upgrades Level 2 requirements the following way:
 - Quorum of Level 2 Executor changes from 20% to 6.5%
 - Vote differential of Level 2 Executor changes from 15% to 6.5%
 - Proposition power required for Level 2 proposal changes from 2% to 1.25%.
+- A delay of 7200 blocks is added between proposal creation and vote start. 1 day considering 12 seconds/block.
 
 These updates are applied in practice by whitelisting on the Aave Governance v2 a newly deployed Executor smart contract.
 
