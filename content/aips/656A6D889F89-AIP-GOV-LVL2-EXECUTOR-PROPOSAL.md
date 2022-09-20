@@ -28,7 +28,9 @@ As the current Level 2 Executor holds permissions of the Aave ecosystem, this pr
 
 - Ownership of the Aave Governance v2 smart contract.
 - Proxy admin of the AAVE token smart contract.
-- Proxy admin of stkAAVE and stkABPT (Safety Module).
+- Proxy admin of stkAAVE (Safety Module).
+
+This proposal also migrates the Proxy admin of ABPT and stkABPT to the [Short Executor](https://etherscan.io/address/0xEE56e2B3D491590B5b31738cC34d5232F378a8D5) as they don't have influence on the Aave Governance
 
 **This proposal will be created via a fully decentralized smart contract (so-called Autonomous Proposal)**
 
