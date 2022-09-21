@@ -40,11 +40,11 @@ This proposal also migrates the Proxy admin of ABPT and stkABPT to the [Short Ex
 
 - We have executed a diff between the current [Level 2 Executor](https://etherscan.io/address/0x61910ecd7e8e942136ce7fe7943f956cea1cc2f7#code) and the new Executor, to verify that the changes are exclusively the ones expected. The diff can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/diffs/Executor-diff.md).
 
-- In order to properly verify that all permissions are transferred to the new Executor, we did a verification procedure described [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/security/Analysis%20of%20Level%202%20executor%20permissions.md)
+- In order to properly verify that all permissions are transferred to the new Executor, we did a verification procedure described [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/Analysis%20of%20Level%202%20executor%20permissions.md)
 
-- SigmaPrime has audited the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/tree/main/security/sigmap/tests), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/SigmaPrime.md).
+- SigmaPrime has audited the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/tree/main/audits/sigmap/tests), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/sigmap/SigmaPrime.md).
 
-- Certora has reviewed the changes. The audit report can be found [HERE]()
+- Certora has reviewed the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/specs/executor.spec), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/report/Security%20Review%20of%20Aave%20Governance%20V2%20Update.pdf)
 
 ## Implementation
 
