@@ -28,9 +28,9 @@ This proposal exclusively upgrades the implementation of the AAVE Ecosystem Rese
 
 - We have executed a diff between the current implementation of the [AAVE Ecosystem Reserve in production](https://etherscan.io/address/0x1aa435ed226014407fa6b889e9d06c02b1a12af3#code) and the new implementation, to verify that the changes and exclusively the ones expected. The diff can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/diffs/AaveEcosystemReserveV2-diff.md).
 
-- SigmaPrime has audited the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/tree/main/security/sigmap/tests), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/SigmaPrime.md).
+- SigmaPrime has audited the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/tree/main/audits/sigmap/tests), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/sigmap/SigmaPrime.md).
 
-- Certora has reviewed the changes. The audit report can be found [HERE]()
+- Certora has reviewed the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/specs/executor.spec), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/report/Security%20Review%20of%20Aave%20Governance%20V2%20Update.pdf)
 
 ## Implementation
 
