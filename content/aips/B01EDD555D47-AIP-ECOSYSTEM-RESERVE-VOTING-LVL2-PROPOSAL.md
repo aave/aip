@@ -30,7 +30,7 @@ This proposal exclusively upgrades the implementation of the AAVE Ecosystem Rese
 
 - SigmaPrime has audited the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/tree/main/audits/sigmap/tests), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/sigmap/SigmaPrime.md).
 
-- Certora has reviewed the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/specs/executor.spec), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/report/Security%20Review%20of%20Aave%20Governance%20V2%20Update.pdf)
+- Certora has reviewed the changes, and implemented an [independent test suite](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/specs/executor.spec), complementary to BGD's. The audit report can be found [HERE](https://github.com/bgd-labs/aave-gov-level-2-update/blob/main/audits/certora/report/Security%20Review%20of%20Aave%20Governance%20V2%20Update.pdf).
 
 ## Implementation
 
