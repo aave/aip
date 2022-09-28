@@ -23,7 +23,7 @@ Aave currently has $9 billion of liquidity locked across 7 networks and over 13 
 
 Llama has received grants from Aave Grants DAO over the past 12 months for work that includes treasury management, protocol upgrades, DAO to DAO partnerships, and analytics. Aave Grants has recommended that we move from short-term grants to a longer-term work scope funded through governance, allowing us to drive more impact to the Aave ecosystem. It should be noted that many of the deliverables in this proposal require substantial smart contract engineering, data engineering, and financial expertise.
 
-We will provide regular updates on the forum with details of our work and will solicit feedback from the community to ensure we continue to uphold the commitments outlined in our forum post. Towards the end of the 12-month period, a renewal proposal will be drafted and shared with Aave governance.
+We will provide regular updates on the forum with details of our work and will solicit feedback from the community to ensure we continue to uphold the commitments outlined in our forum post. Towards the end of the 12-month period, a renewal proposal will be shared with Aave governance.
 
 ## Specification
 
