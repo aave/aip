@@ -46,7 +46,7 @@ Test cases can be found: Here
 
 ## Implementation
 
-The governance payload is deployed at [6], the swapper is deployed at [7]. 
+The governance payload is deployed at [6], the swapper contract is deployed at [7]. 
 
 The proposal transfers aFEI from the Aave Mainnet Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) to the payload contract via the Aave Ecosystem Controller (0x3d569673dAa0575c936c7c67c4E6AedA69CC630C) transfer function.
 
@@ -68,4 +68,3 @@ The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM
 # Copyright
 
 Copyright and related rights waived via CC0.
-
