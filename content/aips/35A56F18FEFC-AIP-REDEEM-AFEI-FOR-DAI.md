@@ -36,7 +36,7 @@ The below provides a broad, high level summary of how the aFEI position held wit
 Actors can call a contract from Etherscan which queries both Aave’s aFEI holding and the FEI Reserve, determines the lower of the two values, and redeems the maximum amount of aFEI based upon available liquidity within the Reserve
 All FEI is to be redeemed for DAI via the Tribe DAO’s SimpleFeiDaiPSM
 DAI will be deposited in the Aave v2 Ethereum DAI Reserve
-Aave v2 Ethereum Rserve Factor will receive aDAI
+Aave v2 Ethereum Reserve Factor will receive aDAI
 
 # Test Cases
 
