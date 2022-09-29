@@ -19,7 +19,7 @@ This proposal acts as a mandate from the Aave community to engage with Llama for
 
 [Llama](https://www.llama.xyz/) is one of the most active contributors to Aave. We hope to deepen our engagement with the community and ensure that Aave is a market-leading protocol for many decades to come.
 
-Aave currently has $9 billion of liquidity locked across 7 networks and over 13 markets, with more in the works. To continue its rate of growth, the community needs to onboard proven contributors who can drive value to the Aave ecosystem. Skilled teams have the knowledge, trust, and alignment to meaningfully contribute to growing Aave.
+Aave currently has $9 billion of liquidity locked across 7 networks and over 13 pools, with more in the works. To continue its rate of growth, the community needs to onboard proven contributors who can drive value to the Aave ecosystem. Skilled teams have the knowledge, trust, and alignment to meaningfully contribute to growing Aave.
 
 Llama has received grants from Aave Grants DAO over the past 12 months for work that includes treasury management, protocol upgrades, DAO to DAO partnerships, and analytics. Aave Grants has recommended that we move from short-term grants to a longer-term work scope funded through governance, allowing us to drive more impact to the Aave ecosystem. It should be noted that many of the deliverables in this proposal require substantial smart contract engineering, data engineering, and financial expertise.
 
