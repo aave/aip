@@ -45,7 +45,7 @@ Test cases, payload, and Swapper can be found at reference [6], [7] & [8] respec
 
 The governance payload is deployed at [9], the Swapper contract is deployed at [10].
 
-The payload gives the Swapper aFEI max allowance from the Aave Ethereum Reserve Factor and calls the "swap all available" function on the Swapper.
+The payload gives the Swapper aFEI max allowance from the Aave Ethereum Reserve Factor and calls the "swapAllAvailable" function on the Swapper.
 
 When called, Swapper transfers all possible aFEI from the Aave Ethereum Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) to the payload contract via the Aave Ecosystem Controller (0x3d569673dAa0575c936c7c67c4E6AedA69CC630C) transfer function.
 
