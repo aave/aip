@@ -55,17 +55,17 @@ The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM
 
 # References
 
-[1] https://etherscan.io/address/0x7842186cdd11270c4af8c0a99a5e0589c7f249ce#code
-[2] https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3#balances
-[2] https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3
-[3] https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3
-[4] https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475
-[5] https://twitter.com/bgdlabs
-[6] https://github.com/llama-community/aave-redeem-fei/blob/main/src/test/ValidateRedeemFei.sol
-[7] https://github.com/llama-community/aave-redeem-fei/blob/main/src/RedeemFei.sol
-[8] https://github.com/llama-community/aave-redeem-fei/blob/main/src/AFeiToDaiSwapper.sol
-[9] https://etherscan.io/address/0x8dfd2255a9d38c182a14f49afcb8a4a4763c6098#code
-[10] https://etherscan.io/address/0x9a953ac1090c7014d00fd205d89c6ba1c219af8b#code
+1. https://etherscan.io/address/0x7842186cdd11270c4af8c0a99a5e0589c7f249ce#code
+2. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3#balances
+2. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3
+3. https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3
+4. https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475
+5. https://twitter.com/bgdlabs
+6. https://github.com/llama-community/aave-redeem-fei/blob/main/src/test/ValidateRedeemFei.sol
+7. https://github.com/llama-community/aave-redeem-fei/blob/main/src/RedeemFei.sol
+8. https://github.com/llama-community/aave-redeem-fei/blob/main/src/AFeiToDaiSwapper.sol
+9. https://etherscan.io/address/0x8dfd2255a9d38c182a14f49afcb8a4a4763c6098#code
+10. https://etherscan.io/address/0x9a953ac1090c7014d00fd205d89c6ba1c219af8b#code
 
 # Copyright
 
