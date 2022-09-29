@@ -27,7 +27,7 @@ Limited FEI liquidity remains in the Reserve. Aave DAO is dependent on Borrowers
 
 Once the aFEI has been redeemed for FEI, it is to be redeemed for DAI via Tribe DAO’s SimpleFeiDaiPSM. There is no redeem fee and all FEI is to be redeemed for DAI via this contract.
 
-The SimpleFeiDaiPSM is supported by Tribe DAO as means of removing FEI from circulation, [5]. The SimpleFeiDaiPSM has around $57,4M of liquidity at the time of writing, [1].
+The SimpleFeiDaiPSM is supported by Tribe DAO as means of removing FEI from circulation, [5]. The SimpleFeiDaiPSM has around $57,4 Million of liquidity at the time of writing, [1].
 
 # Specification
 
