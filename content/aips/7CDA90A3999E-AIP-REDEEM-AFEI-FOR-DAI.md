@@ -57,7 +57,6 @@ The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM
 
 1. https://etherscan.io/address/0x7842186cdd11270c4af8c0a99a5e0589c7f249ce#code
 2. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3#balances
-2. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3
 3. https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3
 4. https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475
 5. https://twitter.com/bgdlabs
