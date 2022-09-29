@@ -21,7 +21,7 @@ This will reduce Aave’s exposure to FEI.
 
 The FEI reserve is concentrated with Aave DAO holding 94.3% of all aFEI supply, [2]. 
 
-The reserve currently supports 662,518.93 units of aFEI, with 582,449.43 units of debt and 80,069.50 units available for lenders to redeem their collateral from or for Users to borrow, [3,4]. Any User seeking to claim 80,069.50 or less is able to do so now, but this may change as others start redeeming aFEI. 
+The reserve currently supports 662,518.93 units of aFEI, with 582,449.43 units of debt and 80,069.50 units available for lenders to redeem their collateral from or for Users to borrow, [3,4]. Any User seeking to claim 80,069.50 units or less is able to do so now, but this may change as others start redeeming aFEI. 
 
 Limited FEI liquidity remains in the Reserve. Aave DAO is dependent on Borrowers repaying their debt which provides the liquidity needed for Aave to redeem the aFEI position.
 
