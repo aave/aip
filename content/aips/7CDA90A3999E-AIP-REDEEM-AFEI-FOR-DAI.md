@@ -51,11 +51,14 @@ Payload and Swapper can be found at [8] & [9] respectively.
 
 The governance payload is deployed at [10], the swapper contract is deployed at [11]. 
 
-The proposal transfers aFEI from the Aave Mainnet Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) to the payload contract via the Aave Ecosystem Controller (0x3d569673dAa0575c936c7c67c4E6AedA69CC630C) transfer function.
+The payload gives the swapper aFEI max allowance from the Aave Mainnet Reserve Factor, and calls the "swap all available" function on the swapper.
 
-The proposal redeems aFEI for FEI via the Lending Pool (0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9).
+The swapper whenever called transfers all possible aFEI from the Aave Mainnet Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) to the payload contract via the Aave Ecosystem Controller (0x3d569673dAa0575c936c7c67c4E6AedA69CC630C) transfer function.
 
-The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM (0x2A188F9EB761F70ECEa083bA6c2A40145078dfc2) sending all DAI directly to the Aave Mainnet Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c).
+The proposal redeems aFEI for FEI via the Aave Reserve (0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9).
+
+The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM (0x2A188F9EB761F70ECEa083bA6c2A40145078dfc2) depositing all DAI in the Aave v2 Ethereum DAI Reserve with the Aave Mainnet Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) as the beneficiary.
+
 
 # References
 
