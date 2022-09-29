@@ -68,8 +68,8 @@ The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM
 6. https://github.com/llama-community/aave-redeem-fei/blob/main/src/test/ValidateRedeemFei.sol 
 7. https://github.com/llama-community/aave-redeem-fei/blob/main/src/RedeemFei.sol
 8. https://github.com/llama-community/aave-redeem-fei/blob/main/src/AFeiToDaiSwapper.sol
-7. https://etherscan.io/address/0x8dfd2255a9d38c182a14f49afcb8a4a4763c6098#code
-8. https://etherscan.io/address/0x9a953ac1090c7014d00fd205d89c6ba1c219af8b#code
+9. https://etherscan.io/address/0x8dfd2255a9d38c182a14f49afcb8a4a4763c6098#code
+10. https://etherscan.io/address/0x9a953ac1090c7014d00fd205d89c6ba1c219af8b#code
 
 # Copyright
 
