@@ -37,8 +37,6 @@ In summary, the proposal:
 3. Creates a 12-month stream of 700,000 aUSDC ($0.7 Million) to the Llama-controlled address.
 4. Creates a 12-month stream of 3,627.35 AAVE ($0.3 Million using 30 day TWAP on day of proposal) to the Llama-controlled address.
 
-The 30 day TWAP calculation can be found [here](https://docs.google.com/spreadsheets/d/1EiXdmLXxF-oqxOfS_AN94bpfWtPFnbwigPgiKXgXhW0/edit#gid=0)
-
 ## Test Cases
 
 The Proposal Payload has been tested and peer reviewed by [Bored Ghost Developing](https://twitter.com/bgdlabs), including simulations on mainnet of the whole proposal lifecycle.
