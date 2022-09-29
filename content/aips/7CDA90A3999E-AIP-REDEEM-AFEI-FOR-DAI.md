@@ -43,7 +43,7 @@ Test cases, payload, and Swapper can be found at reference [6], [7] & [8] respec
 
 ## Implementation
 
-The governance payload is deployed at [10], the Swapper contract is deployed at [11].
+The governance payload is deployed at [9], the Swapper contract is deployed at [10].
 
 The payload gives the Swapper aFEI max allowance from the Aave Ethereum Reserve Factor and calls the "swap all available" function on the Swapper.
 
