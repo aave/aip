@@ -27,7 +27,7 @@ Limited FEI liquidity remains in the Reserve. Aave DAO is dependent on Borrowers
 
 Once the aFEI has been redeemed for FEI, it is to be redeemed for DAI via Tribe DAO’s SimpleFeiDaiPSM. There is no redeem fee and all FEI is to be redeemed for DAI via this contract.
 
-The SimpleFeiDaiPSM is supported by Tribe DAO as means of removing FEI from circulation, [4]. The SimpleFeiDaiPSM has around $57,4M of liquidity at the time of writing, [1].
+The SimpleFeiDaiPSM is supported by Tribe DAO as means of removing FEI from circulation, [5]. The SimpleFeiDaiPSM has around $57,4M of liquidity at the time of writing, [1].
 
 # Specification
 
@@ -41,15 +41,15 @@ Aave v2 Ethereum Reserve Factor will receive the aDAI
 
 # Test Cases
 
-This proposal has been tested and peer reviewed by Bored Ghost Developing, [5].
+This proposal has been tested and peer reviewed by Bored Ghost Developing, [6].
 
-Test cases can be found at [6]
+Test cases can be found at [7]
 
-Payload and Swapper can be found at [7] & [8] respectively.
+Payload and Swapper can be found at [8] & [9] respectively.
 
 ## Implementation
 
-The governance payload is deployed at [9], the swapper contract is deployed at [10]. 
+The governance payload is deployed at [10], the swapper contract is deployed at [11]. 
 
 The proposal transfers aFEI from the Aave Mainnet Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) to the payload contract via the Aave Ecosystem Controller (0x3d569673dAa0575c936c7c67c4E6AedA69CC630C) transfer function.
 
@@ -61,15 +61,15 @@ The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM
 
 1. https://etherscan.io/address/0x7842186cdd11270c4af8c0a99a5e0589c7f249ce#code
 2. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3#balances
-2. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3
-3. https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3
-4. https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475
-5. https://twitter.com/bgdlabs
-6. https://github.com/llama-community/aave-redeem-fei/blob/main/src/test/ValidateRedeemFei.sol 
-7. https://github.com/llama-community/aave-redeem-fei/blob/main/src/RedeemFei.sol
-8. https://github.com/llama-community/aave-redeem-fei/blob/main/src/AFeiToDaiSwapper.sol
-9. https://etherscan.io/address/0x8dfd2255a9d38c182a14f49afcb8a4a4763c6098#code
-10. https://etherscan.io/address/0x9a953ac1090c7014d00fd205d89c6ba1c219af8b#code
+3. https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3
+4. https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3
+5. https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475
+6. https://twitter.com/bgdlabs
+7. https://github.com/llama-community/aave-redeem-fei/blob/main/src/test/ValidateRedeemFei.sol 
+8. https://github.com/llama-community/aave-redeem-fei/blob/main/src/RedeemFei.sol
+9. https://github.com/llama-community/aave-redeem-fei/blob/main/src/AFeiToDaiSwapper.sol
+10. https://etherscan.io/address/0x8dfd2255a9d38c182a14f49afcb8a4a4763c6098#code
+11. https://etherscan.io/address/0x9a953ac1090c7014d00fd205d89c6ba1c219af8b#code
 
 # Copyright
 
