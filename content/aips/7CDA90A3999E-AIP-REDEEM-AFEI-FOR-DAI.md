@@ -45,13 +45,13 @@ Test cases, payload, and Swapper can be found at reference [6], [7] & [8] respec
 
 The governance payload is deployed at [9], the Swapper contract is deployed at [10].
 
-The payload gives the Swapper aFEI max allowance from the Aave Ethereum Reserve Factor and calls the "swapAllAvailable" function on the Swapper.
+The payload gives the Swapper aFEI max allowance from the Aave Ethereum Reserve Factor and calls the `swapAllAvailable` function on the Swapper.
 
-When called, Swapper transfers all possible aFEI from the Aave Ethereum Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) to the payload contract via the Aave Ecosystem Controller (0x3d569673dAa0575c936c7c67c4E6AedA69CC630C) transfer function.
+When called, Swapper transfers all possible aFEI from the Aave Ethereum Reserve Factor ([0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](https://etherscan.io/address/0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c)) to the payload contract via the Aave Ecosystem Controller ([0x3d569673dAa0575c936c7c67c4E6AedA69CC630C](https://etherscan.io/address/0x3d569673dAa0575c936c7c67c4E6AedA69CC630C)) transfer function.
 
-The proposal redeems aFEI for FEI via the FEI Reserve (0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9).
+The proposal redeems aFEI for FEI via the FEI Reserve ([0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9](https://etherscan.io/address/0x7d2768dE32b0b80b7a3454c06BdAc94A69DDc7A9)).
 
-The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM (0x2A188F9EB761F70ECEa083bA6c2A40145078dfc2), depositing all DAI in the Aave V2 Ethereum DAI Reserve with the Aave Ethereum Reserve Factor (0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c) as the beneficiary.
+The proposal redeems all available FEI for DAI via the Tribe DAO Fixed Price PSM ([0x2A188F9EB761F70ECEa083bA6c2A40145078dfc2](https://etherscan.io/address/0x2A188F9EB761F70ECEa083bA6c2A40145078dfc2)), depositing all DAI in the Aave V2 Ethereum DAI Reserve with the Aave Ethereum Reserve Factor ([0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c](0x464C71f6c2F760DdA6093dCB91C24c39e5d6e18c)) as the beneficiary.
 
 # References
 
