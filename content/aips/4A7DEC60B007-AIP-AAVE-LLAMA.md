@@ -48,7 +48,7 @@ Link to Test Cases: [Here](https://github.com/llama-community/aave-llama-proposa
 Link to Payload Implementation: [Here](https://github.com/llama-community/aave-llama-proposal/blob/main/src/ProposalPayload.sol)
 
 **Deployed Contracts**
-ProposalPayload = []()
+ProposalPayload = [0xbDd286d4b9BfbD10319f3FCd1c76e9ECA12a80Ee](https://etherscan.io/address/0xbdd286d4b9bfbd10319f3fcd1c76e9eca12a80ee)
 
 # Copyright
 
