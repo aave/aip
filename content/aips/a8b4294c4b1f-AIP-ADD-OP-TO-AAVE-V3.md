@@ -2,8 +2,8 @@
 title: Add OP to Aave V3 on Polygon
 status: Proposed
 author: Ben Jones
-shortDescription: Add OP as collateral asset to Aave V3 on Polygon
-discussions: https://governance.aave.com/t/add-mai-on-aave-v3/7630
+shortDescription: Add OP as collateral asset to Aave V3 on Optimism
+discussions: https://governance.aave.com/t/arc-add-op-as-collateral-to-aave-v3/9087
 created: 2022-10-04
 ---
 
@@ -80,7 +80,7 @@ At genesis there was an initial total supply of 4,294,967,296 OP tokens. The tot
 
 **Is there a multisig? What can it do? Who are the signers?**
 
-TODO
+There is a multisig. It coontrols all funds in the chain. Members are anonymous in order to make the multisig more difficult to compromise.
 
 ## Market data (Market Cap, 24h Volume, Volatility, Exchanges, Maturity)
 
@@ -112,8 +112,8 @@ Chainlink Oracle: https://optimistic.etherscan.io/address/0x0D276FC14719f9292D5C
 
 ## Proposal's technical implementation
 
-This asset listing will be executed via Aave's cross-chain governance module, described here [https://github.com/bgd-labs/aave-v3-crosschain-listing-template](https://github.com/bgd-labs/aave-v3-crosschain-listing-template). The listing of miMATIC via cross-chain is one of the examples included there, together with tests.
+This asset listing will be executed via Aave's cross-chain governance module, described here https://github.com/bgd-labs/aave-v3-crosschain-listing-template.
 
-Proposal Payload on Polygon: [https://polygonscan.com/address/0x83fba23163662149b33dbc05cf1312df6dcba72b#code](https://polygonscan.com/address/0x83fba23163662149b33dbc05cf1312df6dcba72b#code)
+Proposal Payload on Optimism: TBA
 
-BGD Labs has provided support on the technical aspects of the listing.
+BGD Labs has provided support on the technical aspects of the listing and Certora has reviewed the proposal's payload.
