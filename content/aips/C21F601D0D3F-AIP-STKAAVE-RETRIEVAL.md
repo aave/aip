@@ -12,7 +12,7 @@ This proposal enables Balancer DAO to retrieve the stkAAVE Liquidity Mining ince
 
 # Abstract
 
-Balancer DAO seeks to retrieve around 1,500 stkAAVE from several Linear Pools. Balancer DAO accrued this stkAAVE after it deposited liquidity into Aave while Liquidity Mining incentives were being distributed, [1,2]. 
+Balancer DAO seeks to retrieve around 1,500 stkAAVE from several Linear Pools. Balancer DAO accrued this stkAAVE after it deposited liquidity into Aave while Liquidity Mining incentives were being distributed [1,2]. 
 
 The proposal is to implement the changes required to enable Balancer DAO to retrieve the stkAAVE from the Linear Pools within the Balancer Boosted Aave Pool.
 
