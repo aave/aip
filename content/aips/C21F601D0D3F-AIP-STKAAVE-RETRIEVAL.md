@@ -55,8 +55,8 @@ Test cases can be found at reference [8].
 Payload Implementation and Retrieval Contract can be found at reference [9] & [10] respectively.
 
 ## Deployed Contracts
-1. Proposal Payload = []()
-2. Retrieval Contract = []()
+1. Proposal Payload = [0x9e0f13a2298a879c7834d84c2967fccc7fa42df8](https://etherscan.io/address/0x9e0f13a2298a879c7834d84c2967fccc7fa42df8)
+2. Retrieval Contract = [0x0e2d46fe246eb926d939a10efa96fb7d4eb14bb3](https://etherscan.io/address/0x0e2d46fe246eb926d939a10efa96fb7d4eb14bb3)
 
 # References
 
