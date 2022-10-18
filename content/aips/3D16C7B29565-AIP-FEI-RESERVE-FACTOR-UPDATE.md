@@ -39,7 +39,7 @@ A full specification of the payload contract and tests enabling this mandate can
 
 The Proposal Payload does the following:
 1. Sets FEI Reserve Factor from 100% to 99%.
-2. If liquidity is available to claim, then calls `swapAllAvailable()` on the [aFEI to aDAI Swapper Contract](https://etherscan.io/address/0x9A953AC1090C7014D00FD205D89c6BA1C219Af8b)
+2. If liquidity is available to withdraw, then calls `swapAllAvailable()` on the [aFEI to aDAI Swapper Contract](https://etherscan.io/address/0x9A953AC1090C7014D00FD205D89c6BA1C219Af8b)
 
 ## Test Cases
 
