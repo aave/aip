@@ -1,5 +1,5 @@
 ---
-title: Add OP to Aave V3 on Polygon
+title: Add OP to Aave V3 on Optimism
 status: Proposed
 author: Ben Jones
 shortDescription: Add OP as collateral asset to Aave V3 on Optimism
