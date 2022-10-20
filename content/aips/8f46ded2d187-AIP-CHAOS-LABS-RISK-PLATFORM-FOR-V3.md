@@ -1,10 +1,10 @@
 ---
-**title**: Chaos Labs - Risk & Simulation Platform Proposal
-**status**: WIP
-**author**: Omer Goldberg
-**shortDescription**: Chaos Labs will build risk and simulation tooling focused on parameter optimization and new asset support for Aave v3 and engage with the community for 12 months to iterate and secure the protocol.
-**discussions**: [https://governance.aave.com/t/updated-proposal-chaos-labs-risk-simulation-platform/10025](https://governance.aave.com/t/updated-proposal-chaos-labs-risk-simulation-platform/10025)
-**created**: 2022-10-19
+title: Chaos Labs - Risk & Simulation Platform Proposal
+status: WIP
+author: Omer Goldberg
+shortDescription: Chaos Labs will build risk and simulation tooling focused on parameter optimization and new asset support for Aave v3 and engage with the community for 12 months to iterate and secure the protocol.
+discussions: [https://governance.aave.com/t/updated-proposal-chaos-labs-risk-simulation-platform/10025](https://governance.aave.com/t/updated-proposal-chaos-labs-risk-simulation-platform/10025)
+created: 2022-10-19
 ---
 
 ## Simple Summary
