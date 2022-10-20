@@ -22,7 +22,7 @@ The Optimism Foundation could also seed incentives while the initial liquidity o
 
 ## Risk Parameters
 
-The complete tehcnical and risk parameters:
+The complete technical and risk parameters:
 
 - Loan-to-value: 50.00%
 - Liquidation threshold: 65.00%
