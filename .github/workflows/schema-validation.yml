@@ -31,7 +31,7 @@ jobs:
           cd content/aips
           for i in *.md 
           do 
-            mv "$i" "$(echo ${i%.md} | tr [:lower:] [:upper:]).md" 2>/dev/null; true
+            mv "$i" "$(echo ${i%.md} | tr [:lower:] [:upper:]).md" || true
           done
           # ensure nothing changed
           cd ../../
