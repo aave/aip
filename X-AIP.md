@@ -1,6 +1,5 @@
 ---
 title: <AIP title>
-status: WIP
 author: FirstName LastName (@GitHubUsername)
 shortDescription: <Short description of AIP>
 discussions: <Forum Post>
