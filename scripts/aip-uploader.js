@@ -19,16 +19,15 @@ async function delay(ms) {
 const jsonAips = Object.values(rawJsonAips)
 
 async function main() {
-  const aipIds = Object.keys(jsonAips).sort(
-    (a, b) => a.split("-")[1] - b.split("-")[1]
+  const aipIds = Object.keys(jsonAips).sort((a, b) =>
+    a.localeCompare(b.split("-"))
   )
 
   for (let x = 0; x < aipIds.length; x++) {
     const id = aipIds[x]
 
-    delete Object.assign(jsonAips[id], {
-      description: jsonAips[id]["content"],
-    })["content"]
+    jsonAips[id].description = jsonAips[id]["content"]
+    delete jsonAips[id]["content"]
 
     try {
       const res = await fetch(pinataEndpoint, {
