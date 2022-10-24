@@ -24,3 +24,20 @@ jobs:
 
       - name: Verify Schema
         run: npm run validation:aip-schema
+
+      - name: Verify uppercase
+        run: |
+          # rename everything to uppercase
+          cd content/aips
+          for i in *.md 
+          do 
+            mv "$i" "$(echo ${i%.md} | tr [:lower:] [:upper:]).md" 2>/dev/null; true
+          done
+          # ensure nothing changed
+          if [[ -z $(git status -s) ]]
+          then
+            echo "tree is clean"
+          else
+            echo "your filename must be uppercase"
+            exit 1
+          fi

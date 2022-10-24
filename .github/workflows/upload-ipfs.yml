@@ -13,9 +13,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Rename aip to upper case
-        run: cd content/aips && bash toUpper.sh || true && cd ../..
-
       - uses: actions/setup-node@v3
         with:
           node-version: 16
