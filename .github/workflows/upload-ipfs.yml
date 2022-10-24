@@ -3,7 +3,7 @@ name: Upload IPFS
 on:
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   upload-to-ipfs:

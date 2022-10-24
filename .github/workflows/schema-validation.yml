@@ -2,11 +2,9 @@ name: Schema Validation
 
 on:
   pull_request:
-    branches:
-      - Pending-AIPs
 
 jobs:
-  validate-shcema:
+  validate-schema:
     name: schema-validator
     runs-on: ubuntu-latest
     steps:
