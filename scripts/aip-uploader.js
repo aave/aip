@@ -1,10 +1,12 @@
 #!/usr/bin/env node
 const bs58 = require("bs58")
 const fs = require("fs")
-const fetch = require("node-fetch")
 const { execSync } = require("child_process")
 const { exit } = require("process")
 const rawJsonAips = require("../content/ipfs-aips/all-aips.json")
+
+const fetch = (...args) =>
+  import("node-fetch").then(({ default: fetch }) => fetch(...args))
 
 const { PINATA_KEY, PINATA_SECRET } = process.env
 
