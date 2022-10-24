@@ -34,7 +34,7 @@ jobs:
             mv "$i" "$(echo ${i%.md} | tr [:lower:] [:upper:]).md" 2>/dev/null; true
           done
           # ensure nothing changed
-          if [[ -z $(git status -s) ]]
+          if [[ -z $(git status -s content/aips) ]]
           then
             echo "tree is clean"
           else
