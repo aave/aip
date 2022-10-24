@@ -3,7 +3,7 @@ title: <AIP title>
 status: WIP
 author: FirstName LastName (@GitHubUsername)
 shortDescription: <Short description of AIP>
-discussions: <Discord Channel or Github issue>
+discussions: <Forum Post>
 created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
 updated (*optional): <date created on, in ISO 8601 (yyyy-mm-dd) format> or N/A
 ---
