@@ -1,7 +1,7 @@
 name: Upload IPFS
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
