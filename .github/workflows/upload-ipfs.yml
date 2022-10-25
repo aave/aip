@@ -1,5 +1,9 @@
 name: Upload IPFS
 
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
 on:
   push:
     branches:
