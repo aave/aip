@@ -1,6 +1,6 @@
 ---
 title: Chaos Labs Risk Platform Proposal
-status: WIP
+status: Proposed 
 author: Omer Goldberg (@arieg419)
 discussions: [Updated Proposal Chaos Labs Risk Simulation Platform](https://governance.aave.com/t/updated-proposal-chaos-labs-risk-simulation-platform/10025)
 shortDescription: Chaos Labs will build risk tooling to support Aave v3.
