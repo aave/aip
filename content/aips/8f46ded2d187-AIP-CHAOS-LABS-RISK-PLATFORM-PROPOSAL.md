@@ -23,10 +23,9 @@ Chaos Labs will focus on risk management and parameter recommendations for all v
 
 This includes:
 
-- Risk parameter recommendations and tooling for the community covering:
-  - Borrow & lending caps
-  - Collateral factors
-  - Interest rates
+- Borrow & lending caps recommendations
+- Collateral factors recommendations
+- Interest rates recommendations
 - Asset listing risk analytics & tooling
 - Open-sourced agent access
 - Extending the AAVE v3 Risk Analytics App
