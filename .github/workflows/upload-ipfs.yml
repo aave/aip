@@ -51,6 +51,11 @@ jobs:
             exit 1
           fi
 
+      - name: create branch
+        if: steps.checkChanges.outcome == 'failure'
+        run: |
+          git checkout -b ipfs-hash/${{ github.sha }}
+
       - uses: actions/github-script@v6
         if: steps.checkChanges.outcome == 'failure'
         with:
