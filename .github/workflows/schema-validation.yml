@@ -2,11 +2,9 @@ name: Schema Validation
 
 on:
   pull_request:
-    branches:
-      - Pending-AIPs
 
 jobs:
-  validate-shcema:
+  validate-schema:
     name: schema-validator
     runs-on: ubuntu-latest
     steps:
@@ -26,3 +24,21 @@ jobs:
 
       - name: Verify Schema
         run: npm run validation:aip-schema
+
+      - name: Verify uppercase
+        run: |
+          # rename everything to uppercase
+          cd content/aips
+          for i in *.md 
+          do 
+            mv "$i" "$(echo ${i%.md} | tr [:lower:] [:upper:]).md" || true
+          done
+          # ensure nothing changed
+          cd ../../
+          if [[ -z $(git status -s content/aips) ]]
+          then
+            echo "tree is clean"
+          else
+            echo "your filename must be uppercase"
+            exit 1
+          fi
