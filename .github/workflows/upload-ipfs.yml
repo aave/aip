@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: setup config
         run: |
@@ -44,6 +46,8 @@ jobs:
       - name: Update readme
         run: npm run ci:generate-readme
 
+      # emits a failure in case there are changes
+      # based on this condition we create a pr back to main
       - name: Check changes
         id: checkChanges
         continue-on-error: true
@@ -59,13 +63,14 @@ jobs:
         if: steps.checkChanges.outcome == 'failure'
         run: |
           git checkout -b ipfs-hash/${{ github.sha }}
+          git push origin ipfs-hash/${{ github.sha }}
 
       - uses: actions/github-script@v6
         if: steps.checkChanges.outcome == 'failure'
         with:
           script: |
             github.rest.pulls.create({
-              title: 'chore(ipfs-hash): new ipfs hashses :rocket: :tada:',
+              title: 'chore(ipfs-hash): new ipfs hashes :rocket: :tada:',
               body: 'This pr contains all newly created ipfs hashes',
               owner: context.repo.owner,
               repo: context.repo.repo,
