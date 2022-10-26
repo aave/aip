@@ -9,7 +9,7 @@ If you plan to add a new _Aave Improvement Proposal (AIP)_ follow this guide:
 
 Your first PR should be a draft of the final AIP. It must follow the formatting criteria enforced by the build, as detailed in the AIP template. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the AIP as a whole.
 
-If your AIP requires images, the image files should be included in a subdirectory of the `assets` folder for that AIP as follow: `assets/[title_abbrev]` (for AIP **[title_abbrev]**). When linking to an image in the AIP, use relative links such as `../assets/[title_abbrev]/image.png`.
+If your AIP requires images, the image files should be included in a subdirectory of the `assets` folder for that AIP as follow: `assets/[UPPERCASE_IDENTIFIER]` (for AIP **AAVESOME_AIP** it would be `assets/AAVESOME_AIP/`). When linking to an image in the AIP, use relative links such as `../assets/[UPPERCASE_IDENTIFIER]/image.png`.
 
 ### Contribution example
 
