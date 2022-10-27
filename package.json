@@ -9,7 +9,6 @@
     "David Truong <david@aave.com>"
   ],
   "dependencies": {
-    "@ipld/dag-pb": "^3.0.0",
     "@types/bs58": "^4.0.1",
     "@types/node-fetch": "^2.6.2",
     "ajv": "^8.11.0",
