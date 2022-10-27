@@ -54,17 +54,17 @@ jobs:
         run: |
           if [[ -z $(git status -s) ]]
           then
-            exit 0
+            exit 1
           else
             git checkout -b ipfs-hash/${{ github.sha }}
             git add .
             git commit -am "fix(cache): add missing ipfs hashes"
             git push origin ipfs-hash/${{ github.sha }}
-            exit 1
+            exit 0
           fi
 
       - uses: actions/github-script@v6
-        if: steps.checkChanges.outcome == 'failure'
+        if: steps.checkChanges.outcome == 'success'
         with:
           script: |
             github.rest.pulls.create({
