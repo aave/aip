@@ -58,7 +58,7 @@ jobs:
           else
             git checkout -b ipfs-hash/${{ github.sha }}
             git add .
-            git commit -am "fix(cache): add missing ipfs hashes"
+            git commit -am "chore(ipfs-hash): add missing ipfs hashes :robot:"
             git push origin ipfs-hash/${{ github.sha }}
             exit 0
           fi
