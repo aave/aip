@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+require("dotenv").config()
 const bs58 = require("bs58")
 const fs = require("fs")
 const { execSync } = require("child_process")
