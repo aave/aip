@@ -56,14 +56,12 @@ jobs:
           then
             exit 0
           else
+            git checkout -b ipfs-hash/${{ github.sha }}
+            git add .
+            git commit -am "fix(cache): add missing ipfs hashes"
+            git push origin ipfs-hash/${{ github.sha }}
             exit 1
           fi
-
-      - name: create branch
-        if: steps.checkChanges.outcome == 'failure'
-        run: |
-          git checkout -b ipfs-hash/${{ github.sha }}
-          git push origin ipfs-hash/${{ github.sha }}
 
       - uses: actions/github-script@v6
         if: steps.checkChanges.outcome == 'failure'
