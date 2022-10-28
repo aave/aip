@@ -7,7 +7,7 @@ If you plan to add a new _Aave Improvement Proposal (AIP)_ follow this guide:
 3. Create a new aip file with an UPPERCASE_IDENTIFIER: `AAVESOME_AIP.md` following the [aip template](https://github.com/aave/aip/blob/main/X-AIP.md) inside `content/aips/` directory.
 4. Submit a [Pull Request (PR)](https://github.com/aave/aip/pulls) to the [main](https://github.com/aave/aip/tree/main).
 
-Your first PR should be a draft of the final AIP. It must follow the formatting criteria enforced by the build, as detailed in the AIP template. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the AIP as a whole.
+Your PR must follow the formatting criteria enforced by the build, as detailed in the AIP template. Make sure you include a `discussions-to` header with the URL to a discussion forum or open GitHub issue where people can discuss the AIP as a whole.
 
 If your AIP requires images, the image files should be included in a subdirectory of the `assets` folder for that AIP as follow: `assets/[UPPERCASE_IDENTIFIER]` (for AIP **AAVESOME_AIP** it would be `assets/AAVESOME_AIP/`). When linking to an image in the AIP, use relative links such as `../assets/[UPPERCASE_IDENTIFIER]/image.png`.
 
@@ -17,7 +17,7 @@ Let's imagine we believe a parameter of the `AAVE` reserve should be changed for
 
 First of all, an _Aave Request for Comment (ARC)_ had to be initiated in the [Governance Forum](https://governance.aave.com/), so the community can participate and provide feedback. Here you can find [instructions](https://docs.aave.com/governance/arcs) about it.
 
-If the community is aligned with our change proposal, we can start working on the AIP. There is an example of the AIP at the [sample-aip branch](https://github.com/aave/aip/tree/sample-aip) and the [Pull Request (PR)](https://github.com/aave/aip/pull/118) to the [main branch](https://github.com/aave/aip/tree/main) that it is needed to be done.
+If the community is aligned with our change proposal, we can start working on the AIP. There is an example of the AIP at the [sample-aip branch](https://github.com/aave/aip/tree/sample-aip) and the [Pull Request (PR)](https://github.com/aave/aip/pull/213) to the [main branch](https://github.com/aave/aip/tree/main) that it is needed to be done.
 
 And Voila, we have created our AIP for the proposal!
 
