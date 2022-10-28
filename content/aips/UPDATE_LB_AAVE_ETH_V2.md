@@ -1,12 +1,10 @@
 ---
-title: Update the Liquidation Bonus of AAVE in Aave V2 Market
-status: Proposed
+title: Update the Liquidation Bonus of AAVE in Aave Ethereum V2 Market
 author: Author's Name (@GitHubUsername)
 shortDescription: Update LB of AAVE in V2
 discussions: <governance forum thread>
 created: 2021-09-07
 ---
-
 
 ## Simple Summary
 
@@ -24,7 +22,6 @@ The current liquidation bonus of AAVE drives to multiple issues. The change of t
 
 - Current Liquidation Bonus of AAVE: 8%
 - Recommended Liquidation Bonus Update of AAVE: 10%
-
 
 ## Implementation
 
