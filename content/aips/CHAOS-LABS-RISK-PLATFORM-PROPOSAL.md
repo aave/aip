@@ -49,7 +49,7 @@ Link to Test Cases: [Here](https://github.com/ChaosLabsInc/aave-chaos-v3-risk-p
 
 Link to Payload Implementation: [Here](https://github.com/ChaosLabsInc/aave-chaos-v3-risk-proposal/blob/main/src/ProposalPayload.sol)
 
-**Deployed Contracts** ProposalPayload = <Deployment Pending Code Review>
+**Deployed Contracts** ProposalPayload = 0x691B41805f7Ef2D7De6165bC42295b035a31600D
 
 ## Copyright
 
