@@ -57,7 +57,7 @@ Link to Test Cases: [Here](https://github.com/Certora/aave-certora-nov22-propos
 
 Link to Payload Implementation: [Here](https://github.com/Certora/aave-certora-nov22-proposal/blob/main/src/ProposalPayload.sol)
 
-**Deployed Contracts** ProposalPayload = TBD
+**Deployed Contracts** ProposalPayload = 0x2D2b1Bf70d98ae9A8CC9A3d7a49C2d321eCC6C04
 
 ## Copyright
 
