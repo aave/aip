@@ -62,8 +62,8 @@ Test cases can be found: [Here](https://github.com/llama-community/aave-bal-bond
 
 ## Deployed Contracts
 
-1. Proposal Payload = []()
-2. Bonding Curve = []()
+1. Proposal Payload = [0x5e945515a8e1008DAC95404AeC9E12a9e65948F1](https://etherscan.io/address/0x5e945515a8e1008dac95404aec9e12a9e65948f1)
+2. Bonding Curve = [0x04f90d449D4f8316eDd6Ef4F963b657f8444a4cA](https://etherscan.io/address/0x04f90d449d4f8316edd6ef4f963b657f8444a4ca)
 
 # Copyright
 
