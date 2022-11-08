@@ -1,7 +1,7 @@
 ---
 title: Certora Continuous Formal Verification
 author: Shelly Grossman (@shellygr)
-shortDescription: A continuation of proposal 6308 to improve the security of smart contracts built on top of Aave using a combination of formal verification and manual code review. 
+shortDescription: A continuation of proposal 66 to improve the security of smart contracts built on top of Aave using a combination of formal verification and manual code review. 
 discussions: https://governance.aave.com/t/security-and-agility-of-aave-smart-contracts-via-continuous-formal-verification/10181
 created: 2022-11-08
 
