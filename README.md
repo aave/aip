@@ -112,5 +112,6 @@ Once all is ready for the proposal, submit the proposal to [Aave Governance](htt
 | [E96287A0963D-AIP-ADD-TERRA-USD-(UST)-TO-AAVE-V2](./content/ipfs-aips/E96287A0963D-AIP-ADD-TERRA-USD-(UST)-TO-AAVE-V2-Ipfs-hashes.json) | QmYcKbka4WWgwVTcxE7esz2NJfzQbza5ya6oTUKhuFzPrN | 0x98988e11b4db662760cd10652f66abeef3ad17e242091b360fe6dfd681e4608f |
 | [EACB2C901249-AIP-SEBA-BANK-WHITELISTER-ON-AAVE-ARC](./content/ipfs-aips/EACB2C901249-AIP-SEBA-BANK-WHITELISTER-ON-AAVE-ARC-Ipfs-hashes.json) | QmRw3MDvmjqyX825Yyw6chbXoQ9DcE4yjEoj48FEv3vWG7 | 0x35626848bc220e0bf46adf4a40c3be50894e860a0f91c6f3a1dd4d46bdb68048 |
 | [F93E2038F139-AIP-BAL-AAVE-TOKEN-SWAP](./content/ipfs-aips/F93E2038F139-AIP-BAL-AAVE-TOKEN-SWAP-Ipfs-hashes.json) | QmefFRkSojKFqr8qchKDdTKT67WgE1rgfd3rRESxKMeJXj | 0xf27eb37dc1f6129638e61204393c7f27bafa4c4f9ae4ea6170132af7f51bc7e2 |
+| [RISK-PARAMS-UPDATE-AAVE-V2-ETH](./content/ipfs-aips/RISK-PARAMS-UPDATE-AAVE-V2-ETH-Ipfs-hashes.json) | QmbxjEXKnDYRo2xe5mATVYKTCwn9F5CWKHMQ6YHVGfXque | 0xca65f4783e34449a9248cf0b723a1a724a911785fd476c1ef766beac41f23c1d |
 
 <!-- ### AIPs table end ### -->
