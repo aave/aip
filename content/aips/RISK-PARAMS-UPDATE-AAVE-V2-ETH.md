@@ -1,5 +1,6 @@
 ---
-title: Risk Parameter Updates for Aave v2 Ethereum Liquidty Pool 
+title: Risk Parameter Updates for Aave v2 Ethereum Liquidty Pool
+shortDescription: In response to recent market events and the resulting discussion on the governance forum, Llama and Chaos Labs propose to make a series of parameter changes to the Ethereum Aave v2 Liquidity Pool
 author: Llamaxyz & Chaos Labs (defijesus, Matthew Graham, Omer Arie Goldberg)
 discussions: https://governance.aave.com/t/risk-parameter-updates-for-aave-v2-ethereum-liquidity-pool-2022-11-25/10824
 created: 2022-11-25
