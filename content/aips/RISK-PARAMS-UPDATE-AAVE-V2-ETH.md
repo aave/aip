@@ -1,6 +1,7 @@
 ---
 title: Risk Parameter Updates for Aave v2 Ethereum Liquidty Pool 
 author: Llamaxyz & Chaos Labs (defijesus, Matthew Graham, Omer Arie Goldberg)
+discussions: https://governance.aave.com/t/arc-risk-parameter-recommendations-for-aave-v2-eth-2022-11-22/10757
 created: 2022-11-25
 ---
 
