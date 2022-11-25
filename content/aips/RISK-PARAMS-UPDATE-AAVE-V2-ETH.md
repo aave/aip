@@ -1,7 +1,7 @@
 ---
-Title: Risk Parameter Updates for Aave v2 Ethereum Liquidty Pool 
-Author: Llamaxyz & Chaos Labs (defijesus, Matthew Graham, Omer Arie Goldberg)
-Dated: 2022-11-25
+title: Risk Parameter Updates for Aave v2 Ethereum Liquidty Pool 
+author: Llamaxyz & Chaos Labs (defijesus, Matthew Graham, Omer Arie Goldberg)
+created: 2022-11-25
 ---
 
 # Simple Summary
