@@ -47,6 +47,9 @@ To achieve this, `freezeReserve(address asset)`, `unfreezeReserve(address asset)
 `POOL_CONFIGURATOR.unfreezeReserve(address asset)`
 `POOL_CONFIGURATOR.disableBorrowingOnReserve(address asset)`
 
+
+Implementation can be found [here](https://github.com/defijesus/risk-params-update-v2-polygon)
+
 # Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
