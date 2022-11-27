@@ -18,7 +18,7 @@ We specifically recommend freezing for GHST, BAL and SUSHI as a risk-off approac
 
 In response to recent market events and the continued contraction of liquidity across markets, this proposal seeks to reduce the risk profile across many higher volatile assets.
 
-It is likely, LTV and LT thresholds for highly liquidity assets will also require amending in the near future. This will be managed via a separate submission.
+It is likely, LTV and Liquidation Threshold (LT) for highly liquid assets will also require amending in the near future. This will be managed via a separate submission.
 
 # Specification
 
