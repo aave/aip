@@ -1,6 +1,6 @@
 ---
 title: Set SD Emission_Admin for Polygon v3 Liquidity Pool
-author: llamaxyz - Matthew Graham & defijesus
+author: Llama - Matthew Graham & defijesus
 discussion: https://governance.aave.com/t/arc-sd-emission-admin-for-polygon-v3-liquidity-pool/10658
 shortDescription: Enable Stader Labs to distribute SD rewards across the Polygon v3 Liqudity Pool
 created: 2022-11-30
