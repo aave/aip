@@ -15,9 +15,9 @@ This governance proposal deploys and activates the different smart contract comp
 
 All the information regarding the project is explained on [https://governance.aave.com/t/aave-starknet-phase-i-release/10428](https://governance.aave.com/t/aave-starknet-phase-i-release/10428). 
 
-In summary, with the previous approval of the project via governance, the Aave community have decide to start its expansion to StarkNet, a validity rollup, starting with smart contracts for bridging infrastructure of Aave v2 Ethereum aTokens.
+In summary, with the previous approval of the project via governance, the Aave community has decided to start its expansion to StarkNet, a validity rollup, starting with smart contracts for bridging infrastructure of Aave v2 Ethereum aTokens.
 
-This also sets the foundation for the connection of instances of Aave in other networks (e.g. Polygon, Avalanche) with StarkNet.
+Additionally, this also sets the foundation for the connection of instances of Aave in other networks (e.g. Polygon, Avalanche) with StarkNet.
 
 
 # Specification
@@ -39,9 +39,9 @@ The payload smart contract for Ethereum can be found [HERE](https://etherscan.io
 
 The payload smart contract for StarkNet can be found [HERE](https://starkscan.co/class/0x00be3e7fe64939ef463bc80b76703b93c10a61944de34df5bb2dbc7b734e3159#code).
 
-All the other components are also present in the [same repository](https://github.com/aave-starknet-project/aave-starknet-bridge).
+All the other components are also present in the [same repository](https://github.com/aave-starknet-project/aave-starknet-bridge#deployed-contracts).
 
-After/if this proposal gets approved and executed, the `Bridge` will be fully operative on [https://etherscan.io/address/0x25c0667E46a704AfCF5305B0A586CC24c171E94D](https://etherscan.io/address/0x25c0667E46a704AfCF5305B0A586CC24c171E94D) (no code at the moment, being a counterfactual/create2 deployment).
+After this proposal gets approved and executed, the `Bridge` will be fully operative on [https://etherscan.io/address/0x25c0667E46a704AfCF5305B0A586CC24c171E94D](https://etherscan.io/address/0x25c0667E46a704AfCF5305B0A586CC24c171E94D) (no code at the moment, being a counterfactual/CREATE2 deployment).
 
 ## Security procedures
 
@@ -54,7 +54,7 @@ In addition, all the components apart from the payload had gone through the secu
 
 ## Deployed Contracts
 
-[TBA LINK TO README]()
+[https://github.com/aave-starknet-project/aave-starknet-bridge#deployed-contracts](https://github.com/aave-starknet-project/aave-starknet-bridge#deployed-contracts)
 
 # Copyright
 
