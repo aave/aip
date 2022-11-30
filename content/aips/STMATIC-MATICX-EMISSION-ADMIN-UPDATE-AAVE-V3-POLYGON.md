@@ -1,6 +1,6 @@
 ---
 title: Set stMATIC & MaticX Emission_Admin for Polygon v3 Liquidity Pool
-author: Lamaxyz - Matthew Graham & defijesus
+author: Llama - Matthew Graham & defijesus
 discussion: https://governance.aave.com/t/arc-stmatic-maticx-emission-admin-for-polygon-v3-liquidity-pool/10632
 shortDescription: Enable Polygon Foundation to distribute stMATIC & MaticX rewards across the Polygon v3 Liqudity Pool
 created: 2022-11-30
