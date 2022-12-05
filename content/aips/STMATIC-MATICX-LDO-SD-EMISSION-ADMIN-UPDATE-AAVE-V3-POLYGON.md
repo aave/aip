@@ -58,11 +58,11 @@ stMATIC Address Admin: `matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263`
 MaticX Address Reward: `matic:0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6`
 MaticX Address Admin: `matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263`
 
-Test cases can be found [here]**(defijesus Link to be added)**
+Test cases can be found [here](https://github.com/defijesus/stMATIC-update-emissions-admin-aave-v3/blob/main/tests/ChangeEmissionAdminTest.sol)
 
-Payload Implementation can be found [here]**(defijesus Link to be added)**
+Payload Implementation can be found [here](https://github.com/defijesus/stMATIC-update-emissions-admin-aave-v3/blob/main/src/contracts/ChangeEmissionAdminPayload.sol)
 
-Proposal Payload = **</> defijesus address added here>**
+Proposal Payload = [0x7E8f833D23e19E88e3781Ca913d674a2D5178FA1](https://polygonscan.com/address/0x7E8f833D23e19E88e3781Ca913d674a2D5178FA1)
 
 # Copyright
 
