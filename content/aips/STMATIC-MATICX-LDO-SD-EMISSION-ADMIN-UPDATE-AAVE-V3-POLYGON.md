@@ -1,11 +1,9 @@
 ---
 title: Set LDO, stMATIC, MaticX and SD Emission_Admin for Polygon v3 Liquidity Pool
 author: Llamax - Matthew Graham & defijesus
-discussion: https://governance.aave.com/t/arc-ldo-emission-admin-for-polygon-v3-liquidity-pool/10575
-https://governance.aave.com/t/arc-sd-emission-admin-for-polygon-v3-liquidity-pool/10658
-https://governance.aave.com/t/arc-stmatic-maticx-emission-admin-for-polygon-v3-liquidity-pool/10632
+discussion: https://governance.aave.com/t/arc-stmatic-maticx-emission-admin-for-polygon-v3-liquidity-pool/10632
 shortDescription: Enable Lido Commununity, Stader Labs and Polygon Foundation to distribute rewards across the Polygon v3 Liquidity Pool
-created: 2022-12-05
+created: 2022-12-06
 ---
 
 # Summary
@@ -33,6 +31,12 @@ The Stader Labs team will determine the emission rate and duration SD rewards ar
 The Polygon Foundation team will determine the emission rate and duration at which stMATIC and MaticX rewards are offered. This will likely be influenced by Aave DAO’s ability to adjust the wMATIC, stMATIC and MaticX risk parameters that enable users to generate a return from leverage the stMATIC / wMATIC and MaticX/wMATIC loop.
 
 The Emission_Admin is not limited to a specified Reserve and is linked to the token being distributed across the Liquidity Pool. The EmissionManager determines the Emission_Admin. The Emission_Admin can distribute said token anywhere across the Aave v3 Polygon Liquidity Pool.
+
+The respective governance forum discussion is linked below:
+
+* [stMATIC & MaticX Emission Admin for Polygon v3 Liquidity Pool](https://governance.aave.com/t/arc-stmatic-maticx-emission-admin-for-polygon-v3-liquidity-pool/10632)
+* [LDO Emission Admin for Polygon v3 Liquidity Pool](https://governance.aave.com/t/arc-ldo-emission-admin-for-polygon-v3-liquidity-pool/10575)
+* [SD Emission Admin for Polygon v3 Liquidity Pool](https://governance.aave.com/t/arc-sd-emission-admin-for-polygon-v3-liquidity-pool/10658)
 
 # Specification
 
