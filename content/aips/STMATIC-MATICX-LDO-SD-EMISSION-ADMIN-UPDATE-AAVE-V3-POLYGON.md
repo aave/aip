@@ -38,25 +38,25 @@ The Emission_Admin is not limited to a specified Reserve and is linked to the to
 
 This proposal assigns the Emission_Admin:
 
-LDO Emission Admin: `matic:0x87D93d9B2C672bf9c9642d853a8682546a5012B5`
-SD Emission Admin: `matic:0x51358004cFe135E64453d7F6a0dC433CAba09A2a`
-stMATIC & MaticX Emission Admin: `matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263`
+LDO Emission Admin: [matic:0x87D93d9B2C672bf9c9642d853a8682546a5012B5](https://polygonscan.com/address/0x87D93d9B2C672bf9c9642d853a8682546a5012B5)
+SD Emission Admin: [matic:0x51358004cFe135E64453d7F6a0dC433CAba09A2a](https://polygonscan.com/address/0x51358004cFe135E64453d7F6a0dC433CAba09A2a)
+stMATIC & MaticX Emission Admin: [matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263](https://polygonscan.com/address/0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263)
 
 # Implementation
 
 setEmissionAdmin(address reward, address admin)
 
-LDO Address Reward: `matic:0xC3C7d422809852031b44ab29EEC9F1EfF2A58756`
-LDO Address Admin: `matic:0x87D93d9B2C672bf9c9642d853a8682546a5012B5`
+LDO Address Reward: [matic:0xC3C7d422809852031b44ab29EEC9F1EfF2A58756](https://polygonscan.com/address/0xC3C7d422809852031b44ab29EEC9F1EfF2A58756)
+LDO Address Admin: [matic:0x87D93d9B2C672bf9c9642d853a8682546a5012B5](https://polygonscan.com/address/0x87D93d9B2C672bf9c9642d853a8682546a5012B5)
 
-SD Address Reward: `matic:0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94`
-SD Address Admin: `matic:0x51358004cFe135E64453d7F6a0dC433CAba09A2a`
+SD Address Reward: [matic:0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94](https://polygonscan.com/address/0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94)
+SD Address Admin: [matic:0x51358004cFe135E64453d7F6a0dC433CAba09A2a](https://polygonscan.com/address/0x51358004cFe135E64453d7F6a0dC433CAba09A2a)
 
-stMATIC Address Reward: `matic:0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4`
-stMATIC Address Admin: `matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263`
+stMATIC Address Reward: [matic:0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4](https://polygonscan.com/address/0x3A58a54C066FdC0f2D55FC9C89F0415C92eBf3C4)
+stMATIC Address Admin: [matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263](https://polygonscan.com/address/0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263)
 
-MaticX Address Reward: `matic:0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6`
-MaticX Address Admin: `matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263`
+MaticX Address Reward: [matic:0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6](https://polygonscan.com/address/0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6)
+MaticX Address Admin: [matic:0x0c54a0BCCF5079478a144dBae1AFcb4FEdf7b263](https://polygonscan.com/address/0x0c54a0bccf5079478a144dbae1afcb4fedf7b263)
 
 Test cases can be found [here](https://github.com/defijesus/stMATIC-update-emissions-admin-aave-v3/blob/main/tests/ChangeEmissionAdminTest.sol)
 
