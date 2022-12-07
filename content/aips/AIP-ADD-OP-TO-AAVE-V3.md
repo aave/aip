@@ -1,10 +1,10 @@
 ---
 title: Add OP to Aave V3 on Optimism
-status: Proposed
 author: Ben Jones
 shortDescription: Add OP as collateral asset to Aave V3 on Optimism
 discussions: https://governance.aave.com/t/arc-add-op-as-collateral-to-aave-v3/9087
 created: 2022-10-04
+updated: 2022-12-07
 ---
 
 ## Author
@@ -24,8 +24,8 @@ The Optimism Foundation could also seed incentives while the initial liquidity o
 
 The complete technical and risk parameters:
 
-- Loan-to-value: 50.00%
-- Liquidation threshold: 65.00%
+- Loan-to-value: 30.00%
+- Liquidation threshold: 40.00%
 - Liquidation bonus: 10.00%
 - Price feed: OP/USD | Chainlink
 - A/S/V tokens (aToken/Variable/Stable): Standard implementation
@@ -33,10 +33,10 @@ The complete technical and risk parameters:
 - Borrowing enabled: No
 - Stable borrowing Enabled: No
 - Reserve Factor: 20.00%
-- Liquidation Protocol Fee:
-- Debt Ceiling: None
+- Liquidation Protocol Fee: 10.00%
+- Debt Ceiling: 2M
 - Borrowable in Isolation: No
-- Supply Cap: 40M
+- Supply Cap: 20M
 - Borrow Cap: N/A
 - eMode (efficiency mode): No
 - Unbacked Mint Cap: 0
@@ -117,6 +117,6 @@ Chainlink Oracle: [0x0D276FC14719f9292D5C1eA2198673d1f4269246](https://optimisti
 
 This asset listing will be executed via Aave's cross-chain governance module, described here: [https://github.com/aave/governance-crosschain-bridges](https://github.com/aave/governance-crosschain-bridges).
 
-Proposal Payload on Optimism: [0x5f5c02875a8e9b5a26fbd09040abcfdeb2aa6711](https://optimistic.etherscan.io/address/0x5f5c02875a8e9b5a26fbd09040abcfdeb2aa6711#code)
+Proposal Payload on Optimism: [0x6f76EeDCB386fef8FC57BEE9d3eb46147e488eEF](https://optimistic.etherscan.io/address/0x6f76EeDCB386fef8FC57BEE9d3eb46147e488eEF#code)
 
 BGD Labs has provided support on the technical aspects of the listing and Certora has reviewed the proposal's payload.
