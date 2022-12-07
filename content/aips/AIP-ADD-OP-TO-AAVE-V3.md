@@ -13,7 +13,7 @@ Founder of OP Labs and a director at Optimism Foundation
 
 ## Forum post
 
-[Proposal to add OP as collateral on Aave V3 (On Optimism)](https://governance.aave.com/t/add-mai-on-aave-v3/7630)
+[Proposal to add OP as collateral on Aave V3 (On Optimism)](https://governance.aave.com/t/arc-add-op-as-collateral-to-aave-v3/9087)
 
 ## Summary
 
