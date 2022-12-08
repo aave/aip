@@ -32,31 +32,29 @@ Given that the community has approved a new Aave v3 Ethereum, we have used the o
 
 This proposal executes `PoolAddressesProvider.setAddressAsProxy(keccak256("INCENTIVES_CONTROLLER"), rewardsControllerImpl)` on `Polygon V3 pool`.
 
-If this proposal succeeds, this will be seen as positive signaling to upgrade implementations on networks controlled by guardians as well.
+If this proposal succeeds, this will be seen as positive signaling to upgrade implementations for v3 pools on networks controlled by guardians as well.
 
 The `RewardsController` contracts are deployed and initialized already:
 
-- [Polygon:RewardsController](https://polygonscan.com/address/0x723a9d120ed2cd90ac550d779375f6178bfd86e3#code)
-- [Polygon:UpgradeRewardsControllerPayload](https://polygonscan.com/address/0x6f02253c80A041a773efa35c98D4bc14A0f6EF9e)
-- [Avalanche:RewardsController](https://snowtrace.io/address/0x723A9d120Ed2CD90AC550d779375F6178BFD86E3#code)
-- [Optimism:RewardsController](https://optimistic.etherscan.io/address/0x723A9d120Ed2CD90AC550d779375F6178BFD86E3#code)
-- [Arbitrum:RewardsController](https://arbiscan.io/address/0x723a9d120ed2cd90ac550d779375f6178bfd86e3#code)
-- [Fantom:RewardsController](https://ftmscan.com/address/0x723a9d120ed2cd90ac550d779375f6178bfd86e3#code)
-- [Harmony:RewardsController](https://explorer.harmony.one/address/0x5f5c02875a8e9b5a26fbd09040abcfdeb2aa6711?activeTab=7) (note: harmony has a different address as it not supported on the `create2` factory that we rely on as it's enforcing EIP-155, also verification does not work)
+- [Polygon:RewardsController](https://polygonscan.com/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code)
+- [Avalanche:RewardsController](https://snowtrace.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code)
+- [Optimism:RewardsController](https://optimistic.etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code)
+- [Arbitrum:RewardsController](https://arbiscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code)
+- [Fantom:RewardsController](https://ftmscan.com/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code) verification does not work properly
+- [Harmony:RewardsController](https://explorer.harmony.one/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731?activeTab=7) verification does not work properly
+
+Verification on harmony & fantom does not work due to bugs in the respective explorers.
+You can verify though that bytecode & `initialize` calls are 100% the same between the different networks.
 
 For guardian controlled pools the transactions are executed via gnosis, so instead of deploying a payload the guardians will just sign the `setAddressAsProxy(keccak256("INCENTIVES_CONTROLLER"), rewardsControllerImpl)` transactions.
 
-The calldata for all pools except harmony:
+The pre-encoded calldata to be executed by guardians on the respective `PoolAddressesProvider`:
 
-- `0x5dcc528c000000000000000000000000723a9d120ed2cd90ac550d779375f6178bfd86e3`
-
-The calldata for harmony:
-
-- `0x5dcc528c0000000000000000000000005f5c02875a8e9b5a26fbd09040abcfdeb2aa6711`
+- `0x5dcc528c0000000000000000000000005f4d15d761528c57a5c30c43c1dab26fc5452731`
 
 ## References
 
-- [Deployed Polygon payload](https://polygonscan.com/address/0x6f02253c80A041a773efa35c98D4bc14A0f6EF9e)
+- [Polygon:UpgradeRewardsControllerPayload](https://polygonscan.com/address/0xf50a080aC535e531EC33cC05b227E910De2fb1fA)
 - [Test suite](https://github.com/bgd-labs/rewards-controller-update/tree/main/tests)
 - [UpgradeRewardsControllerPayload](https://github.com/bgd-labs/rewards-controller-update/blob/main/src/contracts/UpgradeRewardsControllerPayload.sol)
 - [Original discussion](https://governance.aave.com/t/bgd-upgrade-of-aave-v3-periphery-to-3-0-1-across-networks/10744)
