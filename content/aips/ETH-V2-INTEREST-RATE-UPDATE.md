@@ -1,9 +1,9 @@
 ---
 title: Aave v2 ETH Interest Rate Curve Update
 author: [Llama](https://twitter.com/llama) [Matthew Graham](https://twitter.com/Matthew_Graham_) [Dydymoon](https://twitter.com/dydymoon1) 
-discussion: https://governance.aave.com/t/arc-eth-interest-rate-curve-update/10580
 shortDescription: Amend Aave v2 Ethereum ETH Interest Rate Curve
-dated: 2022-12-13
+discussions: https://governance.aave.com/t/arc-eth-interest-rate-curve-update/10580
+created: 2022-12-13
 ---
 
 # Simple Summary
@@ -46,18 +46,18 @@ The below table shows the current and proposed changes to the ETH Reserve on Eth
 | Parameter      | Current Variable (%) | Proposed Variable (%) | Current Stable (%) | Proposed Stable (%)   |
 | -------------- | ----------- | ------------ | -- | -- |
 | Uoptimal       | 70          | 80           | 70 | 80 |
-| Base           | 0           | 0            | 3  | 3  |
-| Slope1         | 3.0         | 5.75         | 4  | 4  |
+| Base           | 0           | 0            | 3.0| 3.0|
+| Slope1         | 3.0         | 5.75         | 4.0| 4.0|
 | Slope2         | 100         | 80           |100 | 80 |
 | Reserve Factor | 10          | 15           | 10 | 15 |
 
 # Implementation
 
-Test cases can be found [here]**(developer to add link)**
+Test cases can be found [here](https://github.com/llama-community/aave-interest-rate-update/blob/main/src/test/ProposalPayloadE2E.t.sol)
 
-Payload Implementation can be found [here]**(developer to add link)**
+Payload Implementation can be found [here](https://github.com/llama-community/aave-interest-rate-update/blob/main/src/ProposalPayload.sol)
 
-Proposal Payload = **</> developer to add link>**
+Proposal Payload = []()
 
 # Copyright
 
