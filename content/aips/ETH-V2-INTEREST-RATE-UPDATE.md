@@ -1,10 +1,4 @@
 ---
-title: AAVE v2 ETH Interest Rate Curve Update
-author: [Llama](https://twitter.com/llama)
----
-
-
----
 title: Aave v2 ETH Interest Rate Curve Update
 author: [Llama](https://twitter.com/llama), [Matthew Graham](https://twitter.com/Matthew_Graham_) and [Dydymoon](https://twitter.com/dydymoon1) 
 shortDescription: Amend Aave v2 Ethereum ETH Interest Rate Curve
