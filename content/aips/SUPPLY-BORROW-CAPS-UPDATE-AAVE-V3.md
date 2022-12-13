@@ -31,18 +31,23 @@ The respective governance forum discussion is linked below:
 The following risk parameter proposal is presented below:
 
 Borrow Caps:
+- Arbitrum
 
 ![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/ARBITRUM-BORROW-CAP-RECS.png)
+- Polygon
 
 ![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/POLYGON-BORROW-CAP-RECS.jpeg)
+- Optimism
 
 ![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/OPTIMISM-BORROW-CAP-RECS.png)
 
 Supply Caps:
+- Arbitrum
 
-![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/ARBITRUM-SUPPLY-CAP-RECS.webp)
+![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/ARBITRUM-SUPPLY-CAP-RECS.jpg)
+- Optimism
 
-![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/OPTIMISM-SUPPLY-CAP-RECS.webp)
+![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/OPTIMISM-SUPPLY-CAP-RECS.jpg)
 
 # Implementation
 Payload implemendations can be found below:
