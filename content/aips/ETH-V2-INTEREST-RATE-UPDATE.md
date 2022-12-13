@@ -1,6 +1,6 @@
 ---
 title: Aave v2 ETH Interest Rate Curve Update
-author: Llama, Matthew Graham and Dydymoon
+author: Llama, Matthew Graham, Fermin Carranza and Dydymoon
 shortDescription: Amend Aave v2 Ethereum ETH Interest Rate Curve
 discussions: https://governance.aave.com/t/arc-eth-interest-rate-curve-update/10580
 created: 2022-12-13
@@ -57,7 +57,7 @@ Test cases can be found [here](https://github.com/llama-community/aave-interest-
 
 Payload Implementation can be found [here](https://github.com/llama-community/aave-interest-rate-update/blob/main/src/ProposalPayload.sol)
 
-Proposal Payload = []()
+Proposal Payload = [0x98bc9dfa3cecb37f1bdeadc6e774d39082756b19](https://etherscan.io/address/0x98bc9dfa3cecb37f1bdeadc6e774d39082756b19#code)
 
 # Copyright
 
