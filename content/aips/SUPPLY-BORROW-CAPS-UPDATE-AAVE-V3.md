@@ -45,7 +45,12 @@ Supply Caps:
 ![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/OPTIMISM-SUPPLY-CAP-RECS.webp)
 
 # Implementation
-Proposal payloads can be found here: 
+Payload implemendations can be found below:
+Proposal payloads can be found below: 
+- Borrow Caps ([Polygon](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/polygon/AaveV3PolBorrowCapsPayload.sol), [Arbitrum](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/arbitrum/AaveV3ArbBorrowCapsPayload.sol), [Optimism](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/optimism/AaveV3OptBorrowCapsPayload.sol))
+- Supply Caps ([Arbitrum](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/arbitrum/AaveV3ArbCapsPayload.sol), [Optimism](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/optimism/AaveV3OptCapsPayload.sol))
+
+Proposal payloads can be found below: 
 - Borrow Caps ([Polygon](https://polygonscan.com/address/0x691b41805f7ef2d7de6165bc42295b035a31600d#code), [Arbitrum](https://arbiscan.io/address/0x691b41805f7ef2d7de6165bc42295b035a31600d#code), [Optimism](https://optimistic.etherscan.io/address/0x280e404338d9d8e50b11d6677b9c91ba86e0fd22#code))
 - Supply Caps ([Arbitrum](https://arbiscan.io/address/0xc9df68edcb0c8fb7ced82e5836b75c002c723e17#code), [Optimism](https://optimistic.etherscan.io/address/0x691b41805f7ef2d7de6165bc42295b035a31600d#code))
 
