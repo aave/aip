@@ -38,21 +38,23 @@ The respective data can be found in the governance forum discussion linked below
 
 The following risk parameter proposal is presented below:
 
-- DAI:
 
-[Need to add images]
-![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/ARBITRUM-BORROW-CAP-RECS.png)
+![](../assets/LT-LTV-UPDATES-V2-STABLES-12-14-2022/DAI-LT-LTV-RECS.png)
 
-- USDC
+
+![](../assets/LT-LTV-UPDATES-V2-STABLES-12-14-2022/USDC-LT-LTV-RECS.png)
+
 
 # Implementation
 Payload implemendations can be found below:
+- USDC - [LINK](https://github.com/ChaosLabsInc/aave-v2-payloads/blob/main/src/payloads/DaiLTDecemberPayload.sol)
+- DAI - [LINK](https://github.com/ChaosLabsInc/aave-v2-payloads/blob/main/src/payloads/UsdcLTDecemberPayload.sol)
 
-[add]
 
 Proposal payloads can be found below: 
+- USDC - [0xeca5bdf0C2b352cBE2D9A19b555E1EC269d4765C](https://etherscan.io/address/0xeca5bdf0c2b352cbe2d9a19b555e1ec269d4765c#code)
+- DAI - [0x60bCd1CaF97c3fCbC35Bf92A8852728420C34FB5](https://etherscan.io/address/0x60bcd1caf97c3fcbc35bf92a8852728420c34fb5#code)
 
-[add]
 
 
 # Copyright

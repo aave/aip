@@ -30,20 +30,14 @@ The respective data can be found in the governance forum discussion linked below
 
 The following risk parameter proposal is presented below:
 
-- DAI:
-
-[Need to add images]
-![](../assets/SUPPLY-BORROW-CAPS-UPDATE-AAVE-V3/ARBITRUM-BORROW-CAP-RECS.png)
+![](../assets/LT-LTV-UPDATES-V2-LONGTAIL-ASSETS-12-14-2022/LONGTAIL-ASSETS-LT-LTVLRECS.png)
 
 
 # Implementation
-Payload implemendations can be found below:
+Payload implemendations can be found [here](https://github.com/ChaosLabsInc/aave-v2-payloads/blob/main/src/payloads/LTTailDecemberPayload.sol)
 
-[add]
+Proposal payload - [0x33d7385B2BF82b2183aFc66dC84EA5f3F2D240D5](https://etherscan.io/address/0x33d7385b2bf82b2183afc66dc84ea5f3f2d240d5#code)
 
-Proposal payloads can be found below: 
-
-[add]
 
 
 # Copyright
