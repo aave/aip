@@ -51,7 +51,6 @@ Supply Caps:
 
 # Implementation
 Payload implemendations can be found below:
-Proposal payloads can be found below: 
 - Borrow Caps ([Polygon](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/polygon/AaveV3PolBorrowCapsPayload.sol), [Arbitrum](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/arbitrum/AaveV3ArbBorrowCapsPayload.sol), [Optimism](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/optimism/AaveV3OptBorrowCapsPayload.sol))
 - Supply Caps ([Arbitrum](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/arbitrum/AaveV3ArbCapsPayload.sol), [Optimism](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/optimism/AaveV3OptCapsPayload.sol))
 
