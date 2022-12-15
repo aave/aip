@@ -30,6 +30,10 @@ The respective data can be found in the governance forum discussion linked below
 
 The following risk parameter proposal is presented below:
 
+*Data from Mainnet snapshot captured on December 15th, 2022, 14:30 GMT
+
+
+
 ![](../assets/LT-LTV-UPDATES-V2-LONGTAIL-ASSETS-12-14-2022/LONGTAIL-ASSETS-LT-LTVLRECS.png)
 
 
