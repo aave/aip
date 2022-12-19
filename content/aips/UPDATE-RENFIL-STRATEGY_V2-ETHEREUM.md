@@ -26,8 +26,8 @@ From a technical standpoint, the proposal payload only calls `setReserveInterest
 
 - [Aave v2 Zero rate strategy](https://github.com/bgd-labs/aave-v2-zero-rate-strategy/blob/main/src/contracts/AaveV2ZeroInterestRateStrategy.sol)
 - [Proposal payload implementation](https://github.com/bgd-labs/aave-v2-zero-rate-strategy/blob/main/src/contracts/RENFILZeroStrategyPayload.sol)
-- [Deployed proposal payload]()
-- [Deployed rate strategy]()
+- [Deployed proposal payload](https://etherscan.io/address/0xbfcf7a2d4a91e91c72cdcf07ec65de6bf507daab#code)
+- [Deployed rate strategy](https://etherscan.io/address/0x311c866d55456e465e314a3e9830276b438a73f0#code)
 
 ## Copyright
 
