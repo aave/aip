@@ -15,7 +15,9 @@ Proposal to replace the rate strategy smart contract of renFIL on Aave v2 Ethere
 ## Motivation
 
 As explained on [https://medium.com/renproject/moving-on-from-alameda-da62a823ce93](https://medium.com/renproject/moving-on-from-alameda-da62a823ce93), the mint/burn dynamics of renTokens have been affected, with minting already disabled, and burning to be disabled on the following days.
+
 Even if renFIL is only listed as borrowing asset on Aave v2 Ethereum (not collateral), fundamental changes on the creation/destruction of the asset creates a situation where the variable borrow and liquidity rate are not meaningful anymore, and should probably be set as constant 0.
+
 Additional information can be found on the [Aave governance forum](https://governance.aave.com/t/update-renfil-interest-rate-strategy-on-aave-v2-ethereum/11049).
 
 ## Specification
