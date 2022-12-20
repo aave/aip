@@ -10,7 +10,7 @@ async function generateReadme() {
   for (const aip of aips) {
     if (aip !== "all-aips.json") {
       const aipContent = require(path.join(__dirname, "../", aipsFolder, aip))
-      reportsTable += `| [${aipContent.name}](${aipsFolder}/${aip}) | ${aipContent.hash} | ${aipContent.encodedHash} | <a href="https://app.aave.com/governance/ipfs-preview/?ipfsHash=${aipContent.encodedHash}" target="_blank">preview</a> | \n`
+      reportsTable += `| [${aipContent.name}](${aipsFolder}/${aip}) | ${aipContent.hash} | ${aipContent.encodedHash} | [preview](https://app.aave.com/governance/ipfs-preview/?ipfsHash=${aipContent.encodedHash}) | \n`
     }
   }
   reportsTable += `\n`
