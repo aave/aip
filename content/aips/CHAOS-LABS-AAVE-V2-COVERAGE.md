@@ -30,13 +30,13 @@ This includes topics and considerations such as:
 
 This work will be in conjunction with our existing v3 responsibilities and should not materially impact timelines for delivery during the coming months.
 
-Duration: We propose this engagement to align with the 6-month anniversary of our original engagement, thus covering the remaining 5-month period. The intent is to bridge the transition from v2 to v3 during this period with a finite end date and not continue on indefinitely. If there is still material TVL on v2 at the end of this period, we will discuss the appropriate next steps and maintenance/monitoring expectations with the community.
+Duration: We propose this engagement to start immediately after the proposal execution, for a 5-month period. The intent is to bridge the transition from v2 to v3 during this period with a finite end date and not continue on indefinitely. If there is still material TVL on v2 at the end of this period, we will discuss the appropriate next steps and maintenance/monitoring expectations with the community.
 
 ## Specification
 
 A full specification of the payload contract and tests enabling this mandate can be found on the Chaos Labs Github [here](https://github.com/ChaosLabsInc/aave-v2-payloads).
 
-In summary, the proposal creates a 5-month stream of 175,000 aUSDC and 1242 AAVE ($75,000 using 30 day TWAP, calculated on day of proposal) to the Chaos-controlled address.
+In summary, the proposal creates a 5-month stream of 175,000 aUSDC and 1242 AAVE ($75,000 using 30 day TWAP, calculated on day of proposal) starting on proposal execution to the Chaos-controlled address.
 
 ## Test Cases
 
