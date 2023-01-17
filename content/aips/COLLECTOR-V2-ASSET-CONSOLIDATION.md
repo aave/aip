@@ -1,3 +1,4 @@
+---
 title: Ethereum v2 Collector Contract Consolidation
 author: Llama, DeFi_Consulting, efecarranza, dydymoon
 discussion: https://governance.aave.com/t/arfc-ethereum-v2-collector-contract-consolidation/10909
@@ -5,6 +6,7 @@ shortDescription: Consolidate the assets held within the v2 Collector Contract.
 created: 2023-01-17
 Summary
 @llamaxyz proposes consolidating the Aave v2 Collector Contract holdings by swapping a portion of the long tail assets to USDC and redeeming assets from the Aave AMM deployment.
+---
 
 Abstract
 The Aave v2 Collector Contract has accumulated a holding in several assets over time. Assets from the v1, v2, RWA, ARC, and AMM depoloyments all accumulate in the Ethereum v2 Collector Contract. This proposal is the first of several intended to consolidate the various Collector Contracts and Treasury holdings.
@@ -37,7 +39,7 @@ Test cases can be found [here](https://github.com/llama-community/aave-v2-collec
 
 Payload Implementation can be found [here](https://github.com/llama-community/aave-v2-collector-consolidation/blob/main/src/ProposalPayload.sol)
 
-Proposal Payload = []()
+Proposal Payload = [0xBefcd01681224555b74eAC87207eaF9Bc3361F59](https://etherscan.io/address/0xBefcd01681224555b74eAC87207eaF9Bc3361F59)
 
 Copyright
 Copyright and related rights waived via CC0.
