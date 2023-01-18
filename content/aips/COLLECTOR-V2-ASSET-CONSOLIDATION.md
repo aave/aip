@@ -22,7 +22,7 @@ The AMM Liquidity Pool, v2, attracts very little capital and usage relative to o
 # Specification
 Thie following assets held within the Ethereum v2 Collector Contract are to be converted to USDC via swap contract.
 
-![long-tail asssets](https://i.imgur.com/stgxHak.png)
+![long-tail asssets](https://i.imgur.com/2WY7n0o.png)
 
 Users will be able to deposit USDC and receive the tokens mentioned in the table above, plus a small premium. The premium is expected to reimburse the cost incurred from swapping the applicable token to USDC along with associated gas costs. The methodology enables actors to support Aave in swapping one asset for another by creating an arbitrage opportunity in a decentralized manner.
 
