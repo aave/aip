@@ -22,9 +22,9 @@ The proposal payload simply executes `setReserveFreeze()` on the [Aave v3 Polygo
 
 ## References
 
-- [Proposal payload implementation](TBA)
-- [Tests](TBA)
-- [Deployed payload](TBA)
+- [Proposal payload implementation](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/polygon/AaveV3PolFreezeAGEUR.sol)
+- [Tests](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/test/polygon/AaveV3PolJEURAGEURFreeze.t.sol)
+- [Deployed payload](https://polygonscan.com/address/0x7b8fa4540246554e77fcff140f9114de00f8bb8d#code)
 
 ## Copyright
 
