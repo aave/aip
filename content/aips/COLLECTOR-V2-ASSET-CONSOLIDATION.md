@@ -4,6 +4,7 @@ author: Llama, DeFi_Consulting, efecarranza, dydymoon
 shortDescription: Consolidate the assets held within the v2 Collector Contract
 discussion: https://governance.aave.com/t/arfc-ethereum-v2-collector-contract-consolidation/10909
 created: 2023-01-17
+updated: 2023-01-18
 ---
 
 # Summary
