@@ -6,6 +6,9 @@ discussion: https://governance.aave.com/t/arfc-ethereum-v2-collector-contract-co
 created: 2023-01-17
 ---
 
+# Summary
+@llamaxyz proposes consolidating the Aave v2 Collector Contract holdings by swapping a portion of the long tail assets to USDC and redeeming assets from the Aave AMM deployment.
+
 # Abstract
 The Aave v2 Collector Contract has accumulated a holding in several assets over time. Assets from the v1, v2, RWA, ARC, and AMM depoloyments all accumulate in the Ethereum v2 Collector Contract. This proposal is the first of several intended to consolidate the various Collector Contracts and Treasury holdings.
 
