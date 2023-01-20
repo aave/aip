@@ -34,15 +34,15 @@ You can find the full snapshot in the proposal [repository](https://github.com/b
 
 ### Reserve Configurations
 
-| symbol                                                                                 |        |    ltv | liqThreshold | liqBonus | liqProtocolFee | reserveFactor |   borrowingEnabled |          supplyCap |      borrowCap | eModeCategory | isFlashloanable |
-| -------------------------------------------------------------------------------------- | -----: | -----: | -----------: | -------: | -------------: | ------------: | -----------------: | -----------------: | -------------: | ------------- | --------------- |
-| [WBTC](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599#code)   | 70.00% | 75.00% |        6.25% |      10% |            20% |          true |         43'000 BTC |         28'000 BTC |              - | true          |
-| [WETH](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code)   | 80.00% | 82.50% |        5.00% |      10% |            15% |          true |     1'800'000 WETH |     1'400'000 WETH | ETH correlated | true          |
-| [wstETH](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0#code) | 68.50% | 79.50% |        7.00% |      10% |            15% |          true |     200'000 wstETH |       3'000 wstETH | ETH correlated | true          |
-| [USDC](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48#code)   | 74.00% | 76.00% |        4.50% |      20% |            10% |          true | 1'760'000'000 USDC | 1'580'000'000 USDC |              - | true          |
-| [DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F#code)    | 64.00% | 77.00% |        4.00% |      20% |            10% |          true |    338'000'000 DAI |    271'000'000 DAI |              - | true          |
-| [LINK](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA#code)   | 50.00% | 65.00% |        7.50% |      10% |            20% |          true |    24'000'000 LINK |    13'000'000 LINK |              - | true          |
-| [AAVE](https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9#code)   | 60.00% | 70.00% |        7.50% |      10% |             0% |         false |     1'850'000 AAVE |                  - |              - | false         |
+| symbol                                                                                 |    ltv | liqThreshold | liqBonus | liqProtocolFee | reserveFactor | borrowingEnabled |          supplyCap |          borrowCap |  eModeCategory | isFlashloanable |
+| -------------------------------------------------------------------------------------- | -----: | -----------: | -------: | -------------: | ------------: | ---------------: | -----------------: | -----------------: | -------------: | --------------- |
+| [WBTC](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599#code)   | 70.00% |       75.00% |    6.25% |            10% |           20% |             true |         43'000 BTC |         28'000 BTC |              - | true            |
+| [WETH](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code)   | 80.00% |       82.50% |    5.00% |            10% |           15% |             true |     1'800'000 WETH |     1'400'000 WETH | ETH correlated | true            |
+| [wstETH](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0#code) | 68.50% |       79.50% |    7.00% |            10% |           15% |             true |     200'000 wstETH |       3'000 wstETH | ETH correlated | true            |
+| [USDC](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48#code)   | 74.00% |       76.00% |    4.50% |            20% |           10% |             true | 1'760'000'000 USDC | 1'580'000'000 USDC |              - | true            |
+| [DAI](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F#code)    | 64.00% |       77.00% |    4.00% |            20% |           10% |             true |    338'000'000 DAI |    271'000'000 DAI |              - | true            |
+| [LINK](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA#code)   | 50.00% |       65.00% |    7.50% |            10% |           20% |             true |    24'000'000 LINK |    13'000'000 LINK |              - | true            |
+| [AAVE](https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9#code)   | 60.00% |       70.00% |    7.50% |            10% |            0% |            false |     1'850'000 AAVE |                  - |              - | false           |
 
 ### InterestRateStrategies
 
