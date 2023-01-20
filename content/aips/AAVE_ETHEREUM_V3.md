@@ -1,7 +1,7 @@
 ---
 title: Aave Ethereum V3
 author: BGD Labs (@bgdlabs)
-shortDescription: Listing WBTC, WETH, wstETH, USDC, DAI, LINK, AAVE and activating Ethereum V3 Pool
+shortDescription: Activation of Aave v3 Ethereum
 discussions: https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/16
 created: 2023-01-20
 ---
