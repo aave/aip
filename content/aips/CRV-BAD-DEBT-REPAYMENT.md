@@ -1,9 +1,9 @@
 ---
-Title: Repay Excess CRV Debt on Ethereum v2
-Author: Llama, DeFi_Consulting, efecarranza, dydymoon
-Discussion: https://governance.aave.com/t/arfc-repay-excess-crv-debt-on-ethereum-v2/10955
-Short Description: Purchase CRV and recapitalise CRV Reserve
-Dated: 2023-01-20
+title: Repay Excess CRV Debt on Ethereum v2
+author: Llama, DeFi_Consulting, efecarranza, dydymoon
+discussion: https://governance.aave.com/t/arfc-repay-excess-crv-debt-on-ethereum-v2/10955
+shortDescription: Purchase CRV and recapitalise CRV Reserve
+created: 2023-01-20
 ---
 
 # Simple Summary
