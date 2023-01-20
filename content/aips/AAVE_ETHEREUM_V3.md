@@ -8,7 +8,8 @@ created: 2023-01-20
 
 # Simple Summary
 
-This governance proposal activates the Aave v3 Ethereum pool (3.0.1), by completing all the initial setup and listing WBTC, WETH, wstETH, USDC, DAI, LINK, and AAVE, already pre-approved by the community.
+This governance proposal activates the Aave V3 Ethereum pool (3.0.1), by completing all the initial setup and listing WBTC, WETH, wstETH, USDC, DAI, LINK, and AAVE, already pre-approved by the community.
+All the Aave Ethereum V3 addresses can be found in the [aave-address-book](https://github.com/bgd-labs/aave-address-book/blob/main/src/AaveV3Ethereum.sol).
 
 # Motivation
 
@@ -24,7 +25,7 @@ This proposal's payload does the following:
 2. Swap of emergency admin to Aave Guardian via `ACL_MANAGER.removeEmergencyAdmin(AaveGovernanceV2.SHORT_EXECUTOR)` followed by `ACL_MANAGER.addEmergencyAdmin(GUARDIAN_ETHEREUM)`
 3. grant `POOL_ADMIN` permissions to all the asset listing stewards created inside the `constructor()` via `ACL_MANAGER.addPoolAdmin(stewards[i])`
 
-The Steward pattern used in [v3-listing stewards](https://github.com/bgd-labs/aave-v3-listing-stewards/blob/feat/v3-ethereum-tests/src/contracts/common/StewardBase.sol#L8). Each Steward will handle the listing of one specific asset and then renounce to the granted POOL_ADMIN role. This process is needed as otherwise, the proposal's gas limit would be really gas-expensive.
+The Steward pattern used in [V3-listing stewards](https://github.com/bgd-labs/aave-v3-listing-stewards/blob/feat/v3-ethereum-tests/src/contracts/common/StewardBase.sol#L8). Each Steward will handle the listing of one specific asset and then renounce to the granted POOL_ADMIN role. This process is needed as otherwise, the proposal's gas limit would be really gas-expensive.
 
 ## Configuration snapshot
 
