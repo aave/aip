@@ -71,13 +71,14 @@ Aave Companies have reviewed the proposal code.
 ## Deployed Contracts
 
 - [GenericV3ListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code)
+- [ProposalPayload](https://etherscan.io/address/0xaafe30517363036e10785dd6ba73de80eb582ba0#code)
 
 ## References
 
 - [Discussion: upgrade vs fresh deployment](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990)
 - [Discussion: asset listings & parameters](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238)
 - [Code: ListingEngine](https://github.com/bgd-labs/aave-helpers/tree/master/src/v3-listing-engine)
-- [Code: Proposal](https://github.com/bgd-labs/aave-v3-ethereum-proposal)
+- [Code: ProposalPayload](https://github.com/bgd-labs/aave-v3-ethereum-proposal)
 
 # Copyright
 
