@@ -4,7 +4,6 @@ status: Proposed
 author: Bill (0xbilll) and Llama
 shortDescription: Provide funding to expand the budget and scope of Aave Grants DAO
 discussions: https://governance.aave.com/t/aave-grants-dao-update-renewal/11118
-forumPost: https://governance.aave.com/t/updated-proposal-aave-grants-dao-renewal/11289
 created: 2023-01-18
 updated: 2023-01-19
 ---
@@ -23,7 +22,7 @@ Aave Grants DAO is a community-led grants program, focused on growing a thriving
 
 ## Test Cases
 
-The full test of this proposal can be found here: https://github.com/llama-community/aave-proposals/blob/main/src/test/proposals/aave-grants-dao-renewal/ProposalPayloadE2E.t.sol
+The full test of this proposal can be found [here.](https://github.com/llama-community/aave-proposals/blob/main/src/test/proposals/aave-grants-dao-renewal/ProposalPayloadE2E.t.sol)
 
 ## Implementation
 
@@ -32,6 +31,12 @@ The funds are divided as follows:
 
 
 This will allow the grants DAO to withdraw funds as needed and let the V2Collector to continue to earn interest in the meantime. The proposal payload will target the contract AaveEcosystemReserveController and call the function `function transfer(address collector, IERC20 token, address recipient, uint256 amount)` and `approve(address collector, IERC20 token, address recipient, uint256 amount)`.
+
+## References
+
+Forum Post: [https://governance.aave.com/t/updated-proposal-aave-grants-dao-renewal/11289](https://governance.aave.com/t/updated-proposal-aave-grants-dao-renewal/11289)
+
+Snapshot: [https://snapshot.org/#/aave.eth/proposal/0x194b68a5319b074065e38fcb0bd96e8e8b6ce15870844593e79750605a609109](https://snapshot.org/#/aave.eth/proposal/0x194b68a5319b074065e38fcb0bd96e8e8b6ce15870844593e79750605a609109)
 
 **Target Contracts**
 
