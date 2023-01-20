@@ -56,9 +56,9 @@ You can find the full snapshot in the proposal [repository](https://github.com/b
 
 ### EMode categories
 
-| label          | ltv    | liqThreshold | liqBonus |
-| -------------- | ------ | ------------ | -------- |
-| ETH correlated | 90.00% | 93.00%       | 1.00%    |
+| label          |    ltv | liqThreshold | liqBonus |
+| -------------- | -----: | -----------: | -------: |
+| ETH correlated | 90.00% |       93.00% |    1.00% |
 
 ## Security procedures
 
