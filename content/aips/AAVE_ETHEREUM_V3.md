@@ -34,31 +34,31 @@ You can find the full snapshot in the proposal [repository](https://github.com/b
 
 ### Reserve Configurations
 
-| symbol | underlying                                 |    ltv | liqThreshold | liqBonus | liqProtocolFee | reserveFactor | borrowingEnabled |          supplyCap |          borrowCap | eModeCategory | interestRateStrategy                       | isFlashloanable |
-| ------ | ------------------------------------------ | -----: | -----------: | -------: | -------------: | ------------: | ---------------: | -----------------: | -----------------: | ------------: | ------------------------------------------ | --------------- |
-| WBTC   | 0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599 | 70.00% |       75.00% |    6.25% |            10% |           20% |             true |         43'000 BTC |         28'000 BTC |             0 | 0x24701A6368Ff6D2874d6b8cDadd461552B8A5283 | true            |
-| WETH   | 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2 | 80.00% |       82.50% |    5.00% |            10% |           15% |             true |     1'800'000 WETH |     1'400'000 WETH |             1 | 0x165e90Bd0a41d08fA1891CcDCEe315D7b83B3419 | true            |
-| wstETH | 0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0 | 68.50% |       79.50% |    7.00% |            10% |           15% |             true |     200'000 wstETH |       3'000 wstETH |             1 | 0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D | true            |
-| USDC   | 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 | 74.00% |       76.00% |    4.50% |            20% |           10% |             true | 1'760'000'000 USDC | 1'580'000'000 USDC |             0 | 0xD6293edBB2E5E0687a79F01BEcd51A778d59D1c5 | true            |
-| DAI    | 0x6B175474E89094C44Da98b954EedeAC495271d0F | 64.00% |       77.00% |    4.00% |            20% |           10% |             true |    338'000'000 DAI |    271'000'000 DAI |             0 | 0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2 | true            |
-| LINK   | 0x514910771AF9Ca656af840dff83E8264EcF986CA | 50.00% |       65.00% |    7.50% |            10% |           20% |             true |    24'000'000 LINK |    13'000'000 LINK |             0 | 0x24701A6368Ff6D2874d6b8cDadd461552B8A5283 | true            |
-| AAVE   | 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 | 60.00% |       70.00% |    7.50% |            10% |            0% |            false |     1'850'000 AAVE |             0 AAVE |             0 | 0x24701A6368Ff6D2874d6b8cDadd461552B8A5283 | false           |
+| symbol | underlying                                                                                                                 |    ltv | liqThreshold | liqBonus | liqProtocolFee | reserveFactor | borrowingEnabled |          supplyCap |          borrowCap |  eModeCategory | isFlashloanable |
+| ------ | -------------------------------------------------------------------------------------------------------------------------- | -----: | -----------: | -------: | -------------: | ------------: | ---------------: | -----------------: | -----------------: | -------------: | --------------- |
+| WBTC   | [0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599](https://etherscan.io/address/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599#code) | 70.00% |       75.00% |    6.25% |            10% |           20% |             true |         43'000 BTC |         28'000 BTC |              - | true            |
+| WETH   | [0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2](https://etherscan.io/address/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2#code) | 80.00% |       82.50% |    5.00% |            10% |           15% |             true |     1'800'000 WETH |     1'400'000 WETH | ETH correlated | true            |
+| wstETH | [0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0](https://etherscan.io/address/0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0#code) | 68.50% |       79.50% |    7.00% |            10% |           15% |             true |     200'000 wstETH |       3'000 wstETH | ETH correlated | true            |
+| USDC   | [0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48](https://etherscan.io/address/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48#code) | 74.00% |       76.00% |    4.50% |            20% |           10% |             true | 1'760'000'000 USDC | 1'580'000'000 USDC |              - | true            |
+| DAI    | [0x6B175474E89094C44Da98b954EedeAC495271d0F](https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F#code) | 64.00% |       77.00% |    4.00% |            20% |           10% |             true |    338'000'000 DAI |    271'000'000 DAI |              - | true            |
+| LINK   | [0x514910771AF9Ca656af840dff83E8264EcF986CA](https://etherscan.io/address/0x514910771AF9Ca656af840dff83E8264EcF986CA#code) | 50.00% |       65.00% |    7.50% |            10% |           20% |             true |    24'000'000 LINK |    13'000'000 LINK |              - | true            |
+| AAVE   | [0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9](https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9#code) | 60.00% |       70.00% |    7.50% |            10% |            0% |            false |     1'850'000 AAVE |                  - |              - | false           |
 
 ### InterestRateStrategies
 
-| strategy                                   | BaseVariableBorrowRate | VariableRateSlope1 | VariableRateSlope2 | optimalUsageRatio | maxExcessUsageRatio |
-| ------------------------------------------ | ---------------------: | -----------------: | -----------------: | ----------------: | ------------------: |
-| 0x24701A6368Ff6D2874d6b8cDadd461552B8A5283 |                     0% |              7.00% |            300.00% |            45.00% |              55.00% |
-| 0x165e90Bd0a41d08fA1891CcDCEe315D7b83B3419 |                  1.00% |              4.80% |             80.00% |            80.00% |              20.00% |
-| 0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D |                   2.5% |              4.50% |             80.00% |            45.00% |              55.00% |
-| 0xD6293edBB2E5E0687a79F01BEcd51A778d59D1c5 |                     0% |              4.00% |             60.00% |            90.00% |              10.00% |
-| 0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2 |                     0% |              4.00% |             75.00% |            80.00% |              20.00% |
+| strategy                                                                                                                   | BaseVariableBorrowRate | VariableRateSlope1 | VariableRateSlope2 | optimalUsageRatio | maxExcessUsageRatio | assets           |
+| -------------------------------------------------------------------------------------------------------------------------- | ---------------------: | -----------------: | -----------------: | ----------------: | ------------------: | ---------------- |
+| [0x24701A6368Ff6D2874d6b8cDadd461552B8A5283](https://etherscan.io/address/0x24701A6368Ff6D2874d6b8cDadd461552B8A5283#code) |                     0% |              7.00% |            300.00% |            45.00% |              55.00% | WBTC, LINK, AAVE |
+| [0x165e90Bd0a41d08fA1891CcDCEe315D7b83B3419](https://etherscan.io/address/0x165e90Bd0a41d08fA1891CcDCEe315D7b83B3419#code) |                  1.00% |              4.80% |             80.00% |            80.00% |              20.00% | WETH             |
+| [0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D](https://etherscan.io/address/0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D#code) |                   2.5% |              4.50% |             80.00% |            45.00% |              55.00% | wstETH           |
+| [0xD6293edBB2E5E0687a79F01BEcd51A778d59D1c5](https://etherscan.io/address/0xD6293edBB2E5E0687a79F01BEcd51A778d59D1c5#code) |                     0% |              4.00% |             60.00% |            90.00% |              10.00% | USDC             |
+| [0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2](https://etherscan.io/address/0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2#code) |                     0% |              4.00% |             75.00% |            80.00% |              20.00% | DAI              |
 
 ### EMode categories
 
-| id  | label          | ltv    | liqThreshold | liqBonus |
-| --- | -------------- | ------ | ------------ | -------- |
-| 1   | ETH correlated | 90.00% | 93.00%       | 1.00%    |
+| label          | ltv    | liqThreshold | liqBonus |
+| -------------- | ------ | ------------ | -------- |
+| ETH correlated | 90.00% | 93.00%       | 1.00%    |
 
 ## Security procedures
 
@@ -66,7 +66,7 @@ The proposal execution is simulated [within the tests](https://github.com/bgd-la
 
 In addition this proposal has been tested one the [aave interface](https://github.com/aave/interface) using forks.
 
-AaveCompanies have reviewed the proposal code.
+Aave Companies have reviewed the proposal code.
 
 ## Deployed Contracts
 
