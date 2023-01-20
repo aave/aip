@@ -55,9 +55,9 @@ Each of these addresses follows the Steward pattern used in [v3-listing stewards
 
 ### EMode categories
 
-| id  | label          | ltv  | liquidationThreshold | liquidationBonus | priceSource                                |
-| --- | -------------- | ---- | -------------------- | ---------------- | ------------------------------------------ |
-| 1   | ETH correlated | 9000 | 9300                 | 10100            | 0x0000000000000000000000000000000000000000 |
+| id  | label          | ltv  | liquidationThreshold | liquidationBonus |
+| --- | -------------- | ---- | -------------------- | ---------------- |
+| 1   | ETH correlated | 9000 | 9300                 | 10100            |
 
 ## Security procedures
 
