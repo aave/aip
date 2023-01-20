@@ -8,13 +8,13 @@ created: 2023-01-20
 
 # Simple Summary
 
-This governance proposal executes the listing og WBTC, WETH, wstETH, USDC, DAI, LINK, AAVE on AAVE Ethereum V3.0.1 pool. It also creates an `ETH correlated` eMode category and activates the pool.
+This governance proposal activates the Aave v3 Ethereum pool (3.0.1), by completing all the initial setup and listing WBTC, WETH, wstETH, USDC, DAI, LINK, and AAVE, already pre-approved by the community.
 
 # Motivation
 
 While AAVE V3 was deployed to various networks right after the release, the Ethereum pool was still running V2.
-After careful considerations, the community decided to deploy a fresh V3 instead of upgrading the V2 pool for increased compatibility between the V3 pools.
-The assets to be listed & respective configurations have been discussed in [the governance forum](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238) and been decided in the following [snapshot](https://governance.aave.com/t/arc-aave-ethereum-v3-market-initial-onboarded-assets/11318/5).
+After careful consideration, the community [decided to deploy a fresh V3](https://snapshot.org/#/aave.eth/proposal/0x584eb4e0f79e1d9dcdd99b3a0c831bfc3c654af3f8f619d5f68eae23cd9cb149) instead of upgrading the V2 pool, for increased compatibility between the V3 pools and less general complexity.
+The assets to be listed & respective configurations have been discussed in [the governance forum](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238) and been decided in the following [snapshot](https://snapshot.org/#/aave.eth/proposal/0xc31254fac1369090cea7c0105cbc6381b72189c038391996f855708ff2e0c02e).
 
 # Specification
 
@@ -22,12 +22,12 @@ This proposal's payload does the following:
 
 1. activate the pool via `POOL_CONFIGURATOR.setPoolPause(false)`
 2. create the eMode category via `POOL_CONFIGURATOR.setEModeCategory(1, 90_00, 93_00, 10_100, address(0), 'ETH correlated')`
-3. pass admin permissions to the following contracts:
+3. Grant POOL_ADMIN permissions to the following contracts:
    - TBA
    - TBA
    - TBA
 
-Each of these addresses follows the steward pattern used in [v3-listing stewards](https://github.com/bgd-labs/aave-v3-listing-stewards/blob/feat/v3-ethereum-tests/src/contracts/common/StewardBase.sol#L8). Each stewards will handle the listing of one specific asset and then renounce all it's roles. This process is needed as otherwise the proposal would not fit within a single transaction.
+Each of these addresses follows the Steward pattern used in [v3-listing stewards](https://github.com/bgd-labs/aave-v3-listing-stewards/blob/feat/v3-ethereum-tests/src/contracts/common/StewardBase.sol#L8). Each Steward will handle the listing of one specific asset and then renounce to the granted POOL_ADMIN role. This process is needed as otherwise, the proposal's gas limit would be really gas-expensive.
 
 ## Configuration snapshot
 
