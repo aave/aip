@@ -55,13 +55,11 @@ You can find the full snapshot in the proposal [repository](https://github.com/b
 
 ### EMode categories
 
-| id  | label          | ltv  | liquidationThreshold | liquidationBonus |
-| --- | -------------- | ---- | -------------------- | ---------------- |
-| 1   | ETH correlated | 9000 | 9300                 | 10100            |
+| id  | label          | ltv    | liqThreshold | liqBonus |
+| --- | -------------- | ------ | ------------ | -------- |
+| 1   | ETH correlated | 90.00% | 93.00%       | 1.00%    |
 
 ## Security procedures
-
-<!-- TODO: replace with repo link when pr is merged -->
 
 The proposal execution is simulated [within the tests](https://github.com/bgd-labs/aave-v3-ethereum-proposal/blob/main/tests/AaveV3EthereumActivation.t.sol) and the resulting pool configuration is tested for correctness.
 
