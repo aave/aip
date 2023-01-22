@@ -49,7 +49,7 @@ You can find the full snapshot in the proposal [repository](https://github.com/b
 | strategy                                                                                                                   | BaseVariableBorrowRate | VariableRateSlope1 | VariableRateSlope2 | optimalUsageRatio | maxExcessUsageRatio | assets           |
 | -------------------------------------------------------------------------------------------------------------------------- | ---------------------: | -----------------: | -----------------: | ----------------: | ------------------: | ---------------- |
 | [0x24701A6368Ff6D2874d6b8cDadd461552B8A5283](https://etherscan.io/address/0x24701A6368Ff6D2874d6b8cDadd461552B8A5283#code) |                     0% |              7.00% |            300.00% |            45.00% |              55.00% | WBTC, LINK, AAVE |
-| [0x165e90Bd0a41d08fA1891CcDCEe315D7b83B3419](https://etherscan.io/address/0x165e90Bd0a41d08fA1891CcDCEe315D7b83B3419#code) |                  1.00% |              4.80% |             80.00% |            80.00% |              20.00% | WETH             |
+| [0x53F57eAAD604307889D87b747Fc67ea9DE430B01](https://etherscan.io/address/0x53F57eAAD604307889D87b747Fc67ea9DE430B01#code) |                  1.00% |              3.80% |             80.00% |            80.00% |              20.00% | WETH             |
 | [0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D](https://etherscan.io/address/0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D#code) |                  0.25% |              4.50% |             80.00% |            45.00% |              55.00% | wstETH           |
 | [0xD6293edBB2E5E0687a79F01BEcd51A778d59D1c5](https://etherscan.io/address/0xD6293edBB2E5E0687a79F01BEcd51A778d59D1c5#code) |                     0% |              4.00% |             60.00% |            90.00% |              10.00% | USDC             |
 | [0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2](https://etherscan.io/address/0x694d4cFdaeE639239df949b6E24Ff8576A00d1f2#code) |                     0% |              4.00% |             75.00% |            80.00% |              20.00% | DAI              |
@@ -71,7 +71,7 @@ Aave Companies have reviewed the proposal code.
 ## Deployed Contracts
 
 - [GenericV3ListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code)
-- [ProposalPayload](https://etherscan.io/address/0xaafe30517363036e10785dd6ba73de80eb582ba0#code)
+- [ProposalPayload](https://etherscan.io/address/0xc5a0ba13a3749c5d4a21934df8fd64821ac3fce7#code)
 
 ## References
 
