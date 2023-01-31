@@ -56,7 +56,7 @@ The complete technical and risk parameters:
 
 ## Security Considerations
 
- The [CLSynchronicityPriceAdapterPegToBase: cbETH/USD feed](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code) was deployed by Bored Ghost Developing as an adaptor of the [Chainlink cbETH/ETH price feed](https://etherscan.io/address/0xf017fcb346a1885194689ba23eff2fe6fa5c483b#code).
+ The [CLSynchronicityPriceAdapterPegToBase: cbETH/USD feed](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code) was deployed by Bored Ghost Developing as an adapter of the [Chainlink cbETH/ETH price feed](https://etherscan.io/address/0xf017fcb346a1885194689ba23eff2fe6fa5c483b#code).
 
 
 ## Proposal's Technical Implementation
