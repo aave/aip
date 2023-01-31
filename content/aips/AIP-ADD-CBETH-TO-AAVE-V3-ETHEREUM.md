@@ -33,20 +33,21 @@ A/S/V tokens (aToken/Variable/Stable): Standard implementation
 
 Interest rate strategy: [0x24701A6368Ff6D2874d6b8cDadd461552B8A5283](https://etherscan.io/address/0x24701A6368Ff6D2874d6b8cDadd461552B8A5283#readContract)
 
-Borrowing enabled: Yes
 
-Stable borrowing Enabled: No
+|Parameter|Value|
+|---------|-----|
+|Borrowing enabled|Yes|
+|Stable borrowing Enabled|No|
+|Reserve Factor|15%|
+|Liquidation Protocol Fee|10%|
+|Debt Ceiling|N/A|
+|Borrowable in Isolation|No|
+|Supply Cap|10,000|
+|Borrow Cap|1,200|
+|eMode (efficiency mode)|No|
+|Unbacked Mint Cap|0|
+|Siloed Borrowing|N/A|
 
-Reserve Factor: 15.00%
-
-Liquidation Protocol Fee: 10.00%
-Debt Ceiling: N/A 
-Borrowable in Isolation: No 
-Supply Cap: 10,000 
-Borrow Cap: 1,200 
-eMode (efficiency mode): No  
-Unbacked Mint Cap: 0 
-Siloed Borrowing: N/A 
 
 ## References 
 
