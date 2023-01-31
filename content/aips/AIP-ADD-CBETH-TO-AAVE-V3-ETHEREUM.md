@@ -1,5 +1,5 @@
 ---  
-title: [AIP] Add cbETH to Aave V3 Ethereum
+title: Add cbETH to Aave V3 Ethereum
 discussions: https://governance.aave.com/t/arc-add-support-for-cbeth/10425
 author: Flipside Crypto (@Fig)
 shortDescription: Integrate cbETH (Coinbase Wrapped Staked ETH) to the recently deployed Aave Ethereum V3 pool
