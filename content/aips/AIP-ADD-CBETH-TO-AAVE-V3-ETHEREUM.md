@@ -40,6 +40,31 @@ The complete technical and risk parameters:
 |Unbacked Mint Cap|0|
 |Siloed Borrowing|N/A|
 
+# Specification
+
+The proposal payload uses the [GenericListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code) to perform a new asset listing with the following parameters:
+
+```solidity
+IGenericV3ListingEngine.Listing({
+      asset: 0xBe9895146f7AF43049ca1c1AE358B0541Ea49704,
+      assetSymbol: 'cbETH',
+      priceFeed: 0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731,
+      rateStrategy: 0x24701A6368Ff6D2874d6b8cDadd461552B8A5283,
+      enabledToBorrow: true,
+      stableRateModeEnabled: false,
+      borrowableInIsolation: false,
+      withSiloedBorrowing: false,
+      flashloanable: true,
+      ltv: 67_00,
+      liqThreshold: 74_00,
+      liqBonus: 7_50,
+      reserveFactor: 15_00,
+      supplyCap: 10_000,
+      borrowCap: 1_200,
+      debtCeiling: 0,
+      liqProtocolFee: 10_00,
+      eModeCategory: 0
+});
 
 ## References 
 
