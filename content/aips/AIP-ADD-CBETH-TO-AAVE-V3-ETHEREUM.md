@@ -40,20 +40,13 @@ Stable borrowing Enabled: No
 Reserve Factor: 15.00%
 
 Liquidation Protocol Fee: 10.00%
-
-Debt Ceiling: N/A
-
-Borrowable in Isolation: No
-
-Supply Cap: 10,000
-
-Borrow Cap: 1,200
-
-eMode (efficiency mode): No
-
-Unbacked Mint Cap: 0
-
-Siloed Borrowing: N/A
+Debt Ceiling: N/A 
+Borrowable in Isolation: No 
+Supply Cap: 10,000 
+Borrow Cap: 1,200 
+eMode (efficiency mode): No  
+Unbacked Mint Cap: 0 
+Siloed Borrowing: N/A 
 
 ## References 
 
