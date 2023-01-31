@@ -49,7 +49,7 @@ The complete technical and risk parameters:
 
 ## Deployed Contracts
 
-[CLSynchronicityPriceAdapterPegToBase: cbETH/USD feed](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code)
+- [CLSynchronicityPriceAdapterPegToBase: cbETH/USD feed](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code)
 
 - [AaveV3EthcbETHPayload: ProposalPayload](https://etherscan.io/address/0xd91d1331db4f436daf47ec9dd86decb8eef946b4#code)
 
