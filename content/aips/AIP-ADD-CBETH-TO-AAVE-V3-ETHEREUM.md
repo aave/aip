@@ -25,7 +25,7 @@ The complete technical and risk parameters:
 |Loan-to-value|67%|
 |Liquidation threshold|74%|
 |Liquidation bonus|7.5%|
-|Price feed|[0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code) adaptor of [cbETH/ETH Chainlink](https://data.chain.link/ethereum/mainnet/crypto-eth/cbeth-eth)|
+|Price feed|[0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731](https://etherscan.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731#code) adapter of [cbETH/ETH Chainlink](https://data.chain.link/ethereum/mainnet/crypto-eth/cbeth-eth)|
 |A/S/V tokens (aToken/Variable/Stable)|Standard implementation|
 |Interest rate strategy|[0x24701A6368Ff6D2874d6b8cDadd461552B8A5283](https://etherscan.io/address/0x24701A6368Ff6D2874d6b8cDadd461552B8A5283#readContract)|
 |Borrowing enabled|Yes|
