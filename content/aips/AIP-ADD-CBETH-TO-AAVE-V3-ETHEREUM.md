@@ -6,7 +6,6 @@ shortDescription: Integrate cbETH (Coinbase Wrapped Staked ETH) to the recently 
 created: 2023-01-31
 --- 
 
-
 ## Summary
 
 Flipside Crypto presents a proposal to onboard cbETH to Aave's Ethereum V3 pool. cbETH (Coinbase Wrapped Staked ETH) is an ERC-20 compliant token on Ethereum that represents underlying staked ETH on the Coinbase platform.
@@ -16,7 +15,6 @@ Flipside Crypto presents a proposal to onboard cbETH to Aave's Ethereum V3 pool.
 cbETH adds greater functionality to the recently deployed V3 pool, using robust risk controls. cbETH allows Aave to attract new users and deposits, pre-Shanghai upgrade. We are excited to add new, quality assets - bringing valuable liquidity to the latest Aave pool.
 
 ## Risk Parameters
-
 
 The complete technical and risk parameters:
 
