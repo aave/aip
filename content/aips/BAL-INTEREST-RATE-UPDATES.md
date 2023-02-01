@@ -1,14 +1,14 @@
 ---
-title: [ARC] BAL Interest Rate Curve Upgrade
+title: BAL Interest Rate Curve Upgrades
 discussion: https://governance.aave.com/t/arfc-bal-interest-rate-curve-upgrade/10484
 shortDescription: Upgrade the BAL interest rate curve across Ethereum v2, Polygon v3, and Polygon v2 Liquidity Pools
-author: [Llama](https://twitter.com/llama) [DeFi_Consulting](https://twitter.com/DeFi_Consulting) [scottincrypto](https://twitter.com/scottincrypto)
+author: Llama, DeFi_Consulting, scottincrypto
 created: 2023-02-01
-—
+—--
 
 # Summary
 
-@Llama presents a proposal to amend BAL interest rate parameters on the Aave Ethereum v2, Polygon v3 and Polygon v2 Liquidity Pools.
+[Llama](https://twitter.com/llama) presents a proposal to amend BAL interest rate parameters on the Aave Ethereum v2, Polygon v3 and Polygon v2 Liquidity Pools.
 
 # Abstract
 
@@ -39,7 +39,7 @@ In addition to the interest rate curve changes, this proposal will also increase
 The below table shows the current and proposed changes to the BAL Interest Rate on Ethereum v2, Polygon v2 and Polygon v3.
 
 |Parameter|Current (%)|Proposed (%)|
-| --- | --- | --- |
+| --- | ---: | ---: |
 |Uoptimal|45|80|
 |Base|0|3|
 |Slope1|7|14|
@@ -72,5 +72,5 @@ Interest Rate Strategy deployed address for Polygon v3 can be found [here](https
 
 # Copyright
 
-Copyright and related rights waived via [CC0\(https://creativecommons.org/publicdomain/zero/1.0/).
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
 
