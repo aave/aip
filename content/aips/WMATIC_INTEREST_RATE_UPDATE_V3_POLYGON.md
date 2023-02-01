@@ -2,7 +2,7 @@
 title: Aave v3 Polygon wMATIC Interest Rate Update
 discussions: https://governance.aave.com/t/arfc-aave-v3-polygon-wmatic-interest-rate-update/10290
 shortDescription: Increase wMATIC Supply Cap, Borrow Cap and upgrade the interest rate curve.
-author: [Llama](https://twitter.com/llama), [Defi_Constulting](https://twitter.com/DeFi_Consulting)
+author: Llama, Defi_Consulting
 created: 2022-10-17
 updated: 2023-02-01
 ---
