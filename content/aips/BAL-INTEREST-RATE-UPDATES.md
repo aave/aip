@@ -4,7 +4,7 @@ discussion: https://governance.aave.com/t/arfc-bal-interest-rate-curve-upgrade/1
 shortDescription: Upgrade the BAL interest rate curve across Ethereum v2, Polygon v3, and Polygon v2 Liquidity Pools
 author: Llama, DeFi_Consulting, scottincrypto
 created: 2023-02-01
-—--
+---
 
 # Summary
 
