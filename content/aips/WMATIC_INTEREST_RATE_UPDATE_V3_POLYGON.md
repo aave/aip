@@ -54,7 +54,7 @@ The below table shows the current and proposed changes to the wMATIC Reserve.
 
 Test cases can be found [here](https://github.com/defijesus/aave-v3-wmatic-interest-rate-upgrade/blob/master/src/test/polygon/PolygonWmaticE2E.t.sol)
 
-Payload Implementation can be found [here](https://github.com/defijesus/aave-v3-wmatic-interest-rate-upgrade/blob/master/src/test/polygon/PolygonWmaticE2E.t.sol)
+Payload Implementation can be found [here](https://github.com/defijesus/aave-v3-wmatic-interest-rate-upgrade/blob/master/src/contracts/polygon/WmaticPayload.sol)
 
 New Interest Rate Strategy deployment script can be found [here](https://github.com/defijesus/wmatic-interest-rate-strategy-deployer-v3/blob/main/script/DeployContract.s.sol)
 
