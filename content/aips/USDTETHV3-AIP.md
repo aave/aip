@@ -1,5 +1,5 @@
 ---
-title: USDTethV3-AIP
+Add USDT to Aave Ethereum V3 pool
 author: Marc Zeller (@marczeller), Aave-Chan Inititative
 shortDescription: Onboard USDT Aave Eth V3
 discussions: https://governance.aave.com/t/arfc-add-usdt-to-ethereum-v3-market/11536
