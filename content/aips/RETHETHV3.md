@@ -40,8 +40,8 @@ Contract Address: [0xae78736Cd615f374D3085123A210448E74Fc6393](https://etherscan
 |Debt Ceiling|N/A|
 |Base|0%|
 |Slope1|7%|
-|Uoptimal|0.45|
-|Slope2|30%|
+|Uoptimal|45%|
+|Slope2|300%|
 
 The proposal payload uses the [GenericListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code) to perform a new asset listing with the following parameters:
 
