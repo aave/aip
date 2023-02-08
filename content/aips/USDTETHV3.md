@@ -1,5 +1,5 @@
 ---
-Add USDT to Aave Ethereum V3 pool
+title: Add USDT to Aave Ethereum V3 pool
 author: Marc Zeller (@marczeller), Aave-Chan Inititative
 shortDescription: Onboard USDT Aave Eth V3
 discussions: https://governance.aave.com/t/arfc-add-usdt-to-ethereum-v3-market/11536
@@ -37,10 +37,10 @@ Contract Address: [0xdAC17F958D2ee523a2206206994597C13D831ec7](https://etherscan
 |Liquidation Threshold|N/A|
 |Liquidation Bonus|N/A|
 |Reserve Factor|10%|
-|Liquidation Protocol Fee|0.1|
+|Liquidation Protocol Fee|10%|
 |Borrow Cap|185M|
 |Supply Cap|200M|
-|Debt Ceiling|185M|
+|Debt Ceiling|N/A|
 |Base|0%|
 |Slope1|4%|
 |Uoptimal|90%|
@@ -81,11 +81,11 @@ A list of relevant links like for this proposal e.g.
 
 ## Security Considerations
 
-The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.com/).
+The proposal Payload was reviewed by[Bored Ghost Developing](https://bgdlabs.com/).
 
 ## Deployed Contracts
 
-- [AaveV3EthUSDTPayload: ProposalPayload](https://etherscan.io/address/FILL_THIS#code)
+- [AaveV3EthUSDTPayload: ProposalPayload](https://etherscan.io/address/0x3b45bbc2b69fafab95fd91b10f39ccb5dd92facb#code)
 
 ## Copyright
 
