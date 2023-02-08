@@ -26,7 +26,7 @@ Also, supply and borrow caps are suggested for this asset to limit risk exposure
 
 Ticker: USDT
 
-Contract Address: 0xdAC17F958D2ee523a2206206994597C13D831ec7
+Contract Address: [0xdAC17F958D2ee523a2206206994597C13D831ec7](https://etherscan.io/address/0xdAC17F958D2ee523a2206206994597C13D831ec7)
 
 |Risk Parameter|Value|
 | --- | --- |
