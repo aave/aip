@@ -75,7 +75,7 @@ IGenericV3ListingEngine.Listing({
 
 A list of relevant links like for this proposal e.g.
 
-- [forum discussion]([forumlink](https://governance.aave.com/t/arfc-add-usdt-to-ethereum-v3-market/11536))
+- [forum discussion](https://governance.aave.com/t/arfc-add-usdt-to-ethereum-v3-market/11536)
 - [tests](githublink)("https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/test/mainnet/AaveV3USDTETHPayloadTest.t.sol")
 - [proposalCode](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/mainnet/AaveV3EthUSDTPayload.sol)
 
