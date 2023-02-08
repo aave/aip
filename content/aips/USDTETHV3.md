@@ -11,7 +11,7 @@ updated: 2023-02-07
 This AIP proposal presents Aave with the opportunity to onboard USDT to the Ethereum v3 Liquidity Pool.
 
 ## Motivation
-Supporting stablecoin diversity is part of the Aave-Chan Initiative (ACI) delegate platform.cd ..
+Supporting stablecoin diversity is part of the Aave-Chan Initiative (ACI) delegate platform.
 
 The ACI does not have any link nor is paid by Tether or any entity to present this ARC.
 
