@@ -81,7 +81,7 @@ A list of relevant links like for this proposal e.g.
 
 ## Security Considerations
 
-The proposal Payload was reviewed by Bored Ghost Developpers.
+The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.com/).
 
 ## Deployed Contracts
 
