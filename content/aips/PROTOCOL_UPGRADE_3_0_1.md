@@ -1,0 +1,66 @@
+---
+title: Upgrade Aave V3 pools to Aave V3.0.1
+author: BGD Labs (@bgdlabs)
+shortDescription: Upgrade various contracts to V3.0.1 to align Aave Deployments
+discussions: TBA
+created: 2023-02-10
+---
+
+## Simple Summary
+
+This proposal upgrades the Aave v3 instances on Polygon, Avalanche, Optimism and Arbitrum to the v3.0.1 version, already running on the new Aave v3 Ethereum pool.
+If this proposal succeeds the success will be seen as signal to also upgrade the V3 pools on Fantom, and Harmony via a delegatecall from the guardians.
+
+The upgrade will upgrade the implementations of
+
+1. Pool
+2. PoolConfigurator
+3. aToken/variableDebtToken/stableDebtToken
+
+And replace the `AaveProtocolDataProvider` on the PoolAddressesProvider with it's next iteration.
+
+## Motivation
+
+Aave v3 Ethereum has been activated via Aave governance 2 weeks ago. But in reality, as described [HERE](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13), the smart contracts on Ethereum are a slightly improved version of v3, the so-called v3.0.1.
+
+In an ecosystem like Aave, with liquidity pool instances spread across multiple networks, it is fundamental to try to keep version consistency, which is not the case at moment, with Polygon, Avalanche, Optimism, Arbitrum, Fantom, and Harmony running still on v3.0.0.
+
+## Specification
+
+Upon execution on the respective network the proposal will:
+
+- call `POOL_ADDRESSES_PROVIDER.setPoolImpl(NEW_POOL_IMPL)` to replace the Pool implementation
+- call `POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(NEW_POOL_CONFIGURATOR_IMPL)` to replace the PoolConfigurator implementation
+- call `POOL_ADDRESSES_PROVIDER.setPoolDataProvider(NEW_PROTOCOL_DATA_PROVIDER)` to replace the AaveProtocolDataProvider
+- iterate trough all currently listed tokens on the pool (fetched via `POOL.getReservesList()`)
+  - call `POOL_CONFIGURATOR.updateAToken(inputAToken)` to replace the aToken implementation
+  - call `POOL_CONFIGURATOR.updateVariableDebtToken(inputVToken)` to replace the vToken implementation
+  - call `POOL_CONFIGURATOR.updateStableDebtToken(inputSToken)` to replace the sToken implementation
+  - call `POOL_CONFIGURATOR.setReserveFlashLoaning(reserve, true)` to enable flashloaning on the reserve
+
+## Security and additional considerations
+
+We applied the following security procedures for this upgrade:
+
+- **Code diffing**: Comparing the codebase of all v3.0.0 with the one of v3.0.1, more specifically the one on Aave v3 Ethereum, to not have any unexpected logic included.
+- **Storage diffing**: Comparing the storage layout of both versions, to verify that there is no misalignment between them, which could create important problems.
+- **Assets configurations pre/post upgrade**: In a simulation environment, validating the configurations of the assets pre-upgrade are the same as post-upgrade, only with those changes that are intended (e.g. enabling the new `flashloanable` flag only present on v3.0.1, later explained).
+- **Additional E2E tests**: Also in a simulation environment, checking that the main actions available on the pool can be performed (e.g. supply, borrow) on all pools with non-frozen assets.
+- **Extra review**: Given their involvement in the development of Aave v3, we have requested AaveCompanies to take a look at the procedure, in order to have multiple parties validating it.
+
+The decision to enable `flashloanable` for all the assets has been taken in order to have the highest possible consistency with the current state of the assets in the pools: currently, all are flashloanable, so by enabling the new flag, they will continue to be so.
+
+## References
+
+- [Polygon:V301UpgradePayload](TBA)
+- [Avalanche:V301UpgradePayload](TBA)
+- [Arbitrum:V301UpgradePayload](TBA)
+- [Optimism:V301UpgradePayload](TBA)
+- [Fantom:V301UpgradePayload](TBA)
+- [Harmony:V301UpgradePayload](TBA)
+- [Test suite](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/tests/V301UpgradePayloadTest.t.sol)
+- [Update diffs](https://github.com/bgd-labs/proposal-3.0.1-upgrade/tree/main/diffs)
+
+## Copyright
+
+Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
