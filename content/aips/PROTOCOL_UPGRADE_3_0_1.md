@@ -8,10 +8,10 @@ created: 2023-02-10
 
 ## Simple Summary
 
-This proposal upgrades the Aave v3 instances on Polygon, Avalanche, Optimism and Arbitrum to the v3.0.1 version, already running on the new Aave v3 Ethereum pool.
-If this proposal succeeds the success will be seen as signal to also upgrade the V3 pools on Fantom, and Harmony via a delegatecall from the guardians.
+This proposal upgrades the Aave v3 instances on Polygon, Optimism and Arbitrum to the v3.0.1 version, already running on the new Aave v3 Ethereum pool.
+If this proposal succeeds, it will also authorize the upgrade of the V3 pools on Avalanche, Fantom, and Harmony via a delegatecall by the Aave Guardian.
 
-The upgrade will upgrade the implementations of
+The upgrades to be performed will affect the following contracts:
 
 1. Pool
 2. PoolConfigurator
@@ -21,7 +21,7 @@ And replace the `AaveProtocolDataProvider` on the PoolAddressesProvider with it'
 
 ## Motivation
 
-Aave v3 Ethereum has been activated via Aave governance 2 weeks ago. But in reality, as described [HERE](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13), the smart contracts on Ethereum are a slightly improved version of v3, the so-called v3.0.1.
+Aave v3 Ethereum has been activated via Aave governance at the end of january. But in reality, as described [HERE](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13), the smart contracts on Ethereum are a slightly improved version of v3, the so-called v3.0.1.
 
 In an ecosystem like Aave, with liquidity pool instances spread across multiple networks, it is fundamental to try to keep version consistency, which is not the case at moment, with Polygon, Avalanche, Optimism, Arbitrum, Fantom, and Harmony running still on v3.0.0.
 
