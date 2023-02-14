@@ -34,7 +34,7 @@ Contract Address: [0x5f98805A4E8be255a32880FDeC7F6728C6568bA0](https://etherscan
 |Liquidation Threshold|N/A|
 |Liquidation Bonus|N/A|
 |Reserve Factor|10%|
-|Liquidation Protocol Fee|N/A|
+|Liquidation Protocol Fee|10%|
 |Borrow Cap|1,210k|
 |Supply Cap|3,000K|
 |Debt Ceiling|N/A|
