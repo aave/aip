@@ -22,7 +22,7 @@ Upon execution the proposal will:
 
 ## Security and additional considerations
 
-We applied the following security procedures for this upgrade:
+To have extra assurances on the feed swap, we did the following:
 
 - **Historical Feeds Comparison**: Comparing the answers from the current feed with the new one for the last year with a 2-hour step gave the following results:
   - 24.88% of results differ for less than 0.1%
