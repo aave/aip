@@ -74,7 +74,7 @@ A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arc-add-lusd-to-ethereum-v3-market/11522)
 - [tests](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/test/mainnet/AaveV3EthLUSDPayloadTest.t.sol)
-- [proposalCode](https://etherscan.io/address/0x9d4948be10dce66c0f584a6c42fd7d985786b439#readContract)
+- [proposalCode](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/mainnet/AaveV3EthLusdPayload.sol)
 
 ## Security Considerations
 
