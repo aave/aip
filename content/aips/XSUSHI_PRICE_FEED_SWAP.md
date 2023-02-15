@@ -12,7 +12,7 @@ This proposal changes the current price feed for xSushi to ChainLink's oracle fo
 
 ## Motivation
 
-Currently, the custom [price feed](https://etherscan.io/address/0x9b26214bEC078E68a394AaEbfbffF406Ce14893F) is used for xSushi, which calculates the price based on `SUSHI / ETH` oracle and `SUSHI / xSUSHI` ratio on-chain. It would be way more effective in terms of technical support and gas cost to use the [feed](https://etherscan.io/address/0xF05D9B6C08757EAcb1fbec18e36A1B7566a13DEB) deployed by Chainlink, which does this calculations off-chain.
+Currently, a custom [price feed](https://etherscan.io/address/0x9b26214bEC078E68a394AaEbfbffF406Ce14893F) is used for xSushi, which calculates the price based on `SUSHI / ETH` oracle and `SUSHI / xSUSHI` ratio on-chain. It is more effective in terms of technical support and gas cost to use the [feed](https://etherscan.io/address/0xF05D9B6C08757EAcb1fbec18e36A1B7566a13DEB) deployed by Chainlink, which does this calculations off-chain. In addition, any risk of on-chain manipulation, even if not applicable at the moment with the asset not enabled for borrowing, gets removed.
 
 ## Specification
 
