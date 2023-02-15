@@ -86,8 +86,4 @@ The proposal Payload was reviewed by[Bored Ghost Developing](https://bgdlabs.com
 
 ## Copyright
 
-<<<<<<< HEAD
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
-=======
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
->>>>>>> e88b0265da2ed00d9735470e9ce8ef979cfcab73
