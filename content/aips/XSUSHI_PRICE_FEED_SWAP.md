@@ -8,7 +8,7 @@ created: 2023-02-10
 
 ## Simple Summary
 
-This proposal changes the current price feed for xSushi to ChainLink's oracle for Aave V2 on Mainnet.
+This proposal changes the current price feed for xSushi (adapter) to a Chainlink calculated oracle, on Aave V2 Ethereum.
 
 ## Motivation
 
