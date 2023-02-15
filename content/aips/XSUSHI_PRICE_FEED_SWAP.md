@@ -29,6 +29,8 @@ To have extra assurances on the feed swap, we did the following:
   - 55.63% have between 0.1% and 1% difference
   - 19.49% is between 1% and 2%
 
+Price deviation for both feeds is 2%, which means that the price difference is withing the norm.
+
 ## References
 
 - [AaveV2SwapxSushiPriceFeedPayload](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/mainnet/AaveV2SwapxSushiPriceFeedPayload.sol)
