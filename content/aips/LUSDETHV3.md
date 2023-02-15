@@ -4,7 +4,7 @@ author: Marc Zeller (@marczeller), Aave-Chan initiative
 shortDescription: Onboard LUSD on Aave Eth V3
 discussions: https://governance.aave.com/t/arc-add-lusd-to-ethereum-v3-market/11522
 created: 2023-02-14
-updated: 2023-02-14
+updated: 2023-02-15
 ---
 
 ## Simple Summary
@@ -73,8 +73,8 @@ IGenericV3ListingEngine.Listing({
 A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arc-add-lusd-to-ethereum-v3-market/11522)
-- [tests]() // TBA
-- [proposalCode]() // TBA
+- [tests](https://github.com/marczeller/aave-v3-crosschain-listing-template/blob/master/src/test/mainnet/AaveV3EthLUSDPayloadTest.t.sol)
+- [proposalCode](https://etherscan.io/address/0x9d4948be10dce66c0f584a6c42fd7d985786b439#readContract)
 
 ## Security Considerations
 
@@ -82,7 +82,7 @@ The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.co
 
 ## Deployed Contracts
 
-- [AaveV3EthLUSDPayload: ProposalPayload]() // TBA
+- [AaveV3EthLUSDPayload: ProposalPayload](https://etherscan.io/address/0x9d4948be10dce66c0f584a6c42fd7d985786b439#code)
 
 ## Copyright
 
