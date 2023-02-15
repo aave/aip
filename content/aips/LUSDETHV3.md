@@ -50,7 +50,7 @@ IGenericV3ListingEngine.Listing({
       asset: LUSD,
       assetSymbol: 'LUSD',
       priceFeed: LUSD_USD_FEED,
-      rateStrategy: 0xE57f9295043b9429Ac4F042232E1E29C1AFc1800,
+      rateStrategy: 0x349684Da30f8c9Affeaf21AfAB3a1Ad51f5d95A3,
       enabledToBorrow: true,
       stableRateModeEnabled: false,
       borrowableInIsolation: false,
