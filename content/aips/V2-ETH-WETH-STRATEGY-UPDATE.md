@@ -1,5 +1,5 @@
 ---
-title: Ethereum v2 - wETH Interest Rate Curve
+title: Ethereum v2 - wETH Interest Rate Curve Upgrade
 shortDescription: Upgrade wETH interest rate on Ethereum v2 to match Ethereum v3 Liquidity Pool
 discussion: https://governance.aave.com/t/arfc-weth-wsteth-interest-rate-curve-ethereum-network/11372
 author: Llama, DeFi_Consulting, defijesus & efecarranza
