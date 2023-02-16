@@ -53,7 +53,7 @@ A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arfc-increase-borrow-cap-for-mai-aave-polygon-v3/11547)
 - [tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/MaiV3PolCapsPayloadTest.t.sol)
-- [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolBorrowCapsPayload.sol)
+- [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/MaiV3PolCapsPayload.sol)
 
 ## Security Considerations
 
