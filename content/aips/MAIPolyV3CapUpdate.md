@@ -32,7 +32,7 @@ Contract Address: [0xa3Fa99A148fA48D14Ed51d610c367C61876997F1](https://polygonsc
 
 
 ```solidity
-IProposalGenericExecutor {
+contract MAIV3PolCapsPayload is IProposalGenericExecutor {
   address public constant MAI = 0xa3Fa99A148fA48D14Ed51d610c367C61876997F1;
 
   uint256 public constant MAI_SUPPLY_CAP = 1_100_000;
