@@ -39,16 +39,16 @@ The `Emission_Admin` can distribute LDO anywhere across the Aave v3 Ethereum, Ar
 Set `Emission_Admin` permission for LDO to the following Lido address: 
 
 **Aave v3 Ethereum**
-LDO Address Reward: `0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32`
-LDO Address Admin: `0x87D93d9B2C672bf9c9642d853a8682546a5012B5`
+- LDO Address Reward: [0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32](https://etherscan.io/address/0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32)
+- LDO Address Admin: [0x87D93d9B2C672bf9c9642d853a8682546a5012B5](https://etherscan.io/address/0x87D93d9B2C672bf9c9642d853a8682546a5012B5)
 
 **Aave v3 Arbitrum**
-LDO Address Reward: `0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60`
-LDO Address Admin: `0x8C2b8595eA1b627427EFE4f29A64b145DF439d16`
+- LDO Address Reward: [0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60](https://arbiscan.io/address/0x13Ad51ed4F1B7e9Dc168d8a00cB3f4dDD85EfA60)
+- LDO Address Admin: [0x8C2b8595eA1b627427EFE4f29A64b145DF439d16](https://arbiscan.io/address/0x8C2b8595eA1b627427EFE4f29A64b145DF439d16)
 
 **Aave v3 Optimism**
-LDO Address Reward: `0xFdb794692724153d1488CcdBE0C56c252596735F`
-LDO Address Admin: `0x5033823F27c5f977707B58F0351adcD732C955Dd`
+- LDO Address Reward: [0xFdb794692724153d1488CcdBE0C56c252596735F](https://optimistic.etherscan.io/address/0xFdb794692724153d1488CcdBE0C56c252596735F)
+- LDO Address Admin: [0x5033823F27c5f977707B58F0351adcD732C955Dd](https://optimistic.etherscan.io/address/0x5033823F27c5f977707B58F0351adcD732C955Dd)
 
 **Test Cases**
 
@@ -84,9 +84,9 @@ Aave [governance forum discussion](https://governance.aave.com/t/arfc-ldo-emissi
 
 # References
 
-[1] https://docs.aave.com/developers/guides/governance-guide/rewards#create-proposal
-[2] https://github.com/aave/aave-v3-periphery/blob/master/contracts/rewards/interfaces/IEmissionManager.sol
-[3] https://creativecommons.org/publicdomain/zero/1.0/
+1. https://docs.aave.com/developers/guides/governance-guide/rewards#create-proposal
+2. https://github.com/aave/aave-v3-periphery/blob/master/contracts/rewards/interfaces/IEmissionManager.sol
+3. https://creativecommons.org/publicdomain/zero/1.0/
 
 # Copyright
 
