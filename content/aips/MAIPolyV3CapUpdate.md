@@ -62,7 +62,7 @@ The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.co
 
 ## Deployed Contracts
 
-- [MaiV3PolCapsPayload: ProposalPayload]() // TBA
+- [MaiV3PolCapsPayload: ProposalPayload]() // TBA.
 
 ## Copyright
 
