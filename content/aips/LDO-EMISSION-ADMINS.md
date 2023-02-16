@@ -68,7 +68,7 @@ Optimism Payload Implementation can be found [here](https://optimistic.etherscan
 
 **Deployed Payloads**
 
-Arbitrum Proposal Payload deployed address can be found [here](XXX).
+Arbitrum Proposal Payload deployed address can be found [here](https://arbiscan.io/address/0x2cbf7856f51660aae066afababf9c854fa6bd11f).
 
 Mainnet Proposal Payload deployed address can be found [here](https://etherscan.io/address/0x26366920975b24a89cd991a495d0d70cb8e1ba1f).
 
