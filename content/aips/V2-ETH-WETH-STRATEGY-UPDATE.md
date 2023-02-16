@@ -64,9 +64,9 @@ The below table shows the current and proposed wETH interest rate curve for the 
 
 # Implementation
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV2wETHIRPayloadTest.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV2wETHIRPayload.sol)
 
 New Interest Rate Strategy deployment script can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer/tree/main/script)
 
