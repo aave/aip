@@ -52,8 +52,8 @@ contract MAIV3PolCapsPayload is IProposalGenericExecutor {
 A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arfc-increase-borrow-cap-for-mai-aave-polygon-v3/11547)
-- [tests]() // TBA
-- [proposalCode]() // TBA
+- [tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/MaiV3PolCapsPayloadTest.t.sol)
+- [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolBorrowCapsPayload.sol)
 
 ## Security Considerations
 
@@ -61,7 +61,7 @@ The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.co
 
 ## Deployed Contracts
 
-- [MaiV3PolCapsPayload: ProposalPayload]() // TBA.
+- [MaiV3PolCapsPayload: ProposalPayload](https://polygonscan.com/address/0xe6e2e24643581c7118f6cf8fc30a8e236efb493e)
 
 ## Copyright
 
