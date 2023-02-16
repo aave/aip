@@ -30,7 +30,6 @@ Contract Address: [0xa3Fa99A148fA48D14Ed51d610c367C61876997F1](https://polygonsc
 |Borrow Cap|600k|
 
 
-The proposal payload uses the [GenericListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code) to perform a new asset listing with the following parameters:
 
 ```solidity
 IProposalGenericExecutor {
