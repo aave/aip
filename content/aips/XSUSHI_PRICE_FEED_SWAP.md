@@ -2,7 +2,7 @@
 title: Update xSushi price feed on Aave V2
 author: BGD Labs (@bgdlabs)
 shortDescription: Swap xSushi price feed on Aave V2 pool on Mainnet
-discussions: TBA
+discussions: https://governance.aave.com/t/bgd-swap-of-price-feed-of-xsushi-on-aave-v2-ethereum/11901
 created: 2023-02-10
 ---
 
@@ -41,7 +41,7 @@ Price deviation for both feeds is 2%, which means that the price difference is w
 - [xSushi](https://etherscan.io/token/0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272)
 - [Current price feed](https://etherscan.io/address/0x9b26214bEC078E68a394AaEbfbffF406Ce14893F)
 - [Chainlink's price feed](https://etherscan.io/address/0xF05D9B6C08757EAcb1fbec18e36A1B7566a13DEB)
-- [AaveV2SwapxSushiPriceFeedPayload: ProposalPayload](TBA)
+- [AaveV2SwapxSushiPriceFeedPayload: ProposalPayload](https://etherscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211)
 
 ## Copyright
 
