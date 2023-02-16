@@ -27,7 +27,7 @@ Typically, the LMC meets and determines the next 30 days of LDO rewards on a rol
 
 # Specification
 
-The `EmissionManager`, a governance controlled function, assigns the `Emission_Admin` role for a specified token, LDO on each respective network. 
+The `EmissionManager`, a governance controlled contract, assigns the `Emission_Admin` role for a specified token, LDO on each respective network. 
 
 The `Emission_Admin` role controls the distribution of the specified token, LDO, across the specified Aave deployment.
 
@@ -52,19 +52,19 @@ LDO Address Admin: `0x5033823F27c5f977707B58F0351adcD732C955Dd`
 
 **Test Cases**
 
-Arbitrum test cases can be found [here](XXX).
+Arbitrum test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/arbitrum/AaveV3ArbLDOEmissionAdminPayloadTest.t.sol).
 
-Mainnet test cases can be found [here](XXX).
+Mainnet test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV3EthLDOEmissionAdminPayloadTest.t.sol).
 
-Optimism test cases can be found [here](XXX).
+Optimism test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/optimism/AaveV3OptLDOEmissionAdminPayloadTest.t.sol).
 
 **Payload Implementations**
 
-Arbitrum Payload Implementation can be found [here](xxx).
+Arbitrum Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbLDOEmissionAdminPayload.sol).
 
-Mainnet Payload Implementation can be found [here](xxx).
+Mainnet Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV3EthLDOEmissionAdminPayload.sol).
 
-Optimism Payload Implementation can be found [here](https://optimistic.etherscan.io/address/0x2cbf7856f51660aae066afababf9c854fa6bd11f).
+Optimism Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/optimism/AaveV3OptLDOEmissionAdminPayload.sol).
 
 **Deployed Payloads**
 
