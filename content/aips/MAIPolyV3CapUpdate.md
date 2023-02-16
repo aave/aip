@@ -2,7 +2,7 @@
 title: Update MAI Caps Aave Polygon V3 pool
 author: Marc Zeller (@marczeller), Aave-Chan initiative
 shortDescription: Update MAI Caps Aave Polygon V3 pool
-discussions: https://governance.aave.com/t/arc-add-lusd-to-ethereum-v3-market/11522
+discussions: https://governance.aave.com/t/arfc-increase-borrow-cap-for-mai-aave-polygon-v3/11547
 created: 2023-02-16
 updated: 2023-02-16
 ---
@@ -62,7 +62,7 @@ The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.co
 
 ## Deployed Contracts
 
-- [AaveV3EthLUSDPayload: ProposalPayload](https://etherscan.io/address/0x9d4948be10dce66c0f584a6c42fd7d985786b439#code)
+- [MaiV3PolCapsPayload: ProposalPayload]() // TBA
 
 ## Copyright
 
