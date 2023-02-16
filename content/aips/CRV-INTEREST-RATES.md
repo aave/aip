@@ -136,9 +136,9 @@ Aave [governance forum discussion](https://governance.aave.com/t/arfc-crv-intere
 
 # References
 
-[1] https://app.aave.com/reserve-overview/?underlyingAsset=0x172370d5cd63279efa6d502dab29171933a610af&marketName=proto_polygon_v3
-[2] https://governance.aave.com/t/aave-v3-borrow-caps-methodology/10925
-[3] https://creativecommons.org/publicdomain/zero/1.0/
+1. https://app.aave.com/reserve-overview/?underlyingAsset=0x172370d5cd63279efa6d502dab29171933a610af&marketName=proto_polygon_v3
+2. https://governance.aave.com/t/aave-v3-borrow-caps-methodology/10925
+3. https://creativecommons.org/publicdomain/zero/1.0/
 
 # Copyright
 
