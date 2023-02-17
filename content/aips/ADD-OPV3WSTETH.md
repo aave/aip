@@ -73,8 +73,8 @@ IGenericV3ListingEngine.Listing({
 A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arc-add-wsteth-to-aave-v3-on-optimism/10932)
-- [tests]() // TODO: add test link
-- [proposalCode]() // TODO: add proposal code link
+- [tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/optimism/AaveV3OPWSTETHPayloadTest.t.sol)
+- [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/optimism/AaveV3OPWSTETHPayload.sol)
 
 ## Security Considerations
 
