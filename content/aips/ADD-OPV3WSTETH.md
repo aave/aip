@@ -43,23 +43,23 @@ Contract Address: [0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb](https://optimisti
 |Uoptimal|45%|
 |Slope2|80%|
 
-The proposal payload uses the [GenericListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code) to perform a new asset listing with the following parameters:
+The proposal payload uses the [GenericListingEngine](https://optimistic.etherscan.io/address/0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D#code) to perform a new asset listing with the following parameters:
 
 ```solidity
 IGenericV3ListingEngine.Listing({
       asset: WSTETH,
       assetSymbol: 'wstETH',
       priceFeed: WSTETH_USD_FEED,
-      rateStrategy: address(0), // TODO: deploy rate strategy
+      rateStrategy: https://optimistic.etherscan.io/address/0x6ba97468e2e6a3711a6dd05f0075d48e878c910e,
       enabledToBorrow: true,
       stableRateModeEnabled: false,
       borrowableInIsolation: false,
       withSiloedBorrowing: false,
-      flashloanable: true,
+      flashloanable: false,
       ltv: 70_00,
       liqThreshold: 79_00,
       liqBonus: 7_20,
-      reserveFactor: 10_00,
+      reserveFactor: 15_00,
       supplyCap: 6_000,
       borrowCap: 940,
       debtCeiling: 0,
