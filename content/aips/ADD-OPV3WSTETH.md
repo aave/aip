@@ -1,5 +1,5 @@
 ---
-title: onboard WSTETH to Aave Optimism V3 pool
+title: Add WSTETH to Aave Optimism V3 pool
 author: Marc Zeller (@marczeller), Aave-Chan initiative
 shortDescription: add WSTETH to Aave Op V3 pool
 discussions: https://governance.aave.com/t/arc-add-wsteth-to-aave-v3-on-optimism/10932
