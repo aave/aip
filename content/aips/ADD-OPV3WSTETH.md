@@ -43,7 +43,7 @@ Contract Address: [0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb](https://optimisti
 |Uoptimal|45%|
 |Slope2|80%|
 
-The proposal payload uses the [GenericListingEngine](https://etherscan.io/address/0xC51e6E38d406F98049622Ca54a6096a23826B426#code) to perform a new asset listing with the following parameters:
+The proposal payload uses the [GenericListingEngine](https://optimistic.etherscan.io/address/0x7b8Fa4540246554e77FCFf140f9114de00F8bB8D#code) to perform a new asset listing with the following parameters:
 
 ```solidity
 IGenericV3ListingEngine.Listing({
