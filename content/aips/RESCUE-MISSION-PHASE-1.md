@@ -37,18 +37,18 @@ With the roots and amounts, every wallet will be able to claim by calling the Aa
 For the token rescue to be executed, there has been a need to create two Proposal payloads:
 
 - ProposalPayloadShort: This proposal payload will deploy the AaveMerkleDistributor contract and add the AAVE, USDT, UNI and stkAAVE distributions. It will also deploy the new implementation of the LendToAaveMigrator. The LendToAaveMigrator will be initialized with the deployed AaveMerkleDistributor and with the LEND amount calculated by adding:
-    - LEND amount sent to LendToAaveMigrator: 8007719287288096435418 LEND in WEI.
-    - LEND amount sent to LEND contract: 841600717506653731350931 LEND in WEI.<p>
+    - LEND amount sent to LendToAaveMigrator: 8007719287288096435418 LEND in WEI (~8007,72 LEND).
+    - LEND amount sent to LEND contract: 841600717506653731350931 LEND in WEI (~841600,72 LEND).<p>
   This amount will directly be accounted by rescuing AAVE, as the LEND contract will not be updated, but as the LendToAaveMigrator has all remaining AAVE, we can assume that it was sent there, and so it can be migrated with the rest of the LEND amount sent.
 - ProposalPayloadLong: This proposal payload will deploy and initialize the new implementations for the AAVE token and the stkAAVE token with appropriate amounts:
     - AaveTokenV2: from this new implementations the following tokens will be rescued:
-        - LEND: 19845132947543342156792 LEND in WEI (19845,132947543342156792).
-        - AAVE: 28420317154904044370842 AAVE in WEI (28420,317154904044370842).
-        - UNI: 110947986090000000000 UNI in WEI (110,94798609).
-        - USDT: 15631946764 USDT in WEI (15631,946764).
+        - LEND: 19845132947543342156792 LEND in WEI (~19845,13 LEND).
+        - AAVE: 28420317154904044370842 AAVE in WEI (~28420,32 AAVE).
+        - UNI: 110947986090000000000 UNI in WEI (~110,95 UNI).
+        - USDT: 15631946764 USDT in WEI (~15631,95 USDT).
     - StakedTokenV2Rev4: from this new implementation the following tokens will be rescued:
-        - AAVE: 768271398516378775101 AAVE in WEI (768,271398516378775101).
-        - stkAAVE: 107412975567454603565 stkAAVE in WEI (107,412975567454603565).
+        - AAVE: 768271398516378775101 AAVE in WEI (~768,27 AAVE).
+        - stkAAVE: 107412975567454603565 stkAAVE in WEI (~107,41 stkAAVE).
 
 ## References
 
