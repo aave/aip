@@ -82,7 +82,7 @@ The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.co
 
 ## Deployed Contracts
 
-- [AaveV3OPWSTETHPayload: ProposalPayload]() // TODO: add deployed contract link
+- [AaveV3OPWSTETHPayload: ProposalPayload](https://optimistic.etherscan.io/address/0x84893ee84e773e4a7a5738bd903dbe2a6e636b9e)
 
 ## Copyright
 
