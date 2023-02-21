@@ -9,7 +9,7 @@ updated: 2022-02-21
 
 ## Simple Summary
 
-This AIP  proposes to freeze the BUSD reserve on the Aave V2 Ethereum market 
+This AIP proposes to freeze the BUSD reserve on the Aave V2 Ethereum pool 
 
 ## Motivation
 
