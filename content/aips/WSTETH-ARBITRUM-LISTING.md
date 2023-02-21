@@ -66,13 +66,13 @@ Gauntlet’s and Chaos Lab's Risk Assessment can be found [here](https://governa
 
 # Implementation
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/arbitrum/AaveV3ArbWSTETHListingPayloadTest.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbWSTETHListingPayload.sol)
 
 New Interest Rate Strategy deployment script can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer-v3/blob/main/script/DeployContract.s.sol)
 
-Proposal Payload deployed address can be found [here](XXX)
+Proposal Payload deployed address can be found [here](https://arbiscan.io/address/0x80cb7e9e015c5331bf34e06de62443d070fd6654)
 
 Interest Rate Strategy deployed address can be found [here](https://arbiscan.io/address/0x4b8D3277d49E114C8F2D6E0B2eD310e29226fe16)
 
