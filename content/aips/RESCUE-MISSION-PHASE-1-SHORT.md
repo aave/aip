@@ -35,9 +35,9 @@ For wallets to be able to claim the tokens they sent to the contracts specified 
 
 With the roots and amounts, every wallet will be able to claim by calling the AaveMerkleDistributor contract.
 
-This Rescue Short Proposal will be in charge of deploying the AaveMerkleDistributor contract and rescue the LEND sent to the LendToAaveMigrator and to LEND contracts.
+This Rescue Short Proposal will be in charge of the activation of the AaveMerkleDistributor contract and the rescue of LEND sent to the LendToAaveMigrator and to LEND contracts.
 
-- ProposalPayloadShort: This proposal payload will deploy the AaveMerkleDistributor contract and add the AAVE, USDT, UNI and stkAAVE distributions. It will also deploy the new implementation of the LendToAaveMigrator. The LendToAaveMigrator will be initialized with the deployed AaveMerkleDistributor and with the LEND amount calculated by adding:
+- ProposalPayloadShort: This proposal payload will deploy the AaveMerkleDistributor contract and add the AAVE, USDT, UNI and stkAAVE distributions. It will also connect the new implementation of the LendToAaveMigrator. The LendToAaveMigrator will be initialized with the deployed AaveMerkleDistributor and with the LEND amount calculated by adding:
     - LEND amount sent to LendToAaveMigrator: 8007719287288096435418 LEND in WEI (~8007,72 LEND).
     - LEND amount sent to LEND contract: 841600717506653731350931 LEND in WEI (~841600,72 LEND).<p>
 This amount will directly be accounted by rescuing AAVE, as the LEND contract will not be updated, but as the LendToAaveMigrator has all remaining AAVE, we can assume that it was sent there, and so it can be migrated with the rest of the LEND amount sent.
