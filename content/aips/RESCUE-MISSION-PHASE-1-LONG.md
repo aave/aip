@@ -1,7 +1,7 @@
 ---
 title: Rescue Mission Phase 1 Long Executor
 author: BGD Labs (@bgdlabs), proposer ACI (@aavechan)
-shortDescription: Deploy contracts for the phase 1 of the rescue mission that need the Long Executor
+shortDescription: Activation of Aave rescue mission Phase 1, Level 2 (Long) Executor part
 discussions: https://governance.aave.com/t/bgd-rescue-of-tokens-locked-on-aave-overview-and-phase-1/8150/1
 created: 2023-02-22
 ---
