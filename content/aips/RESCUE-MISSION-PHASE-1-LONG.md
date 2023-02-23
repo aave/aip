@@ -11,7 +11,7 @@ created: 2023-02-22
 A Proposal that implements and deploys the necessary smart contracts to execute Phase 1 of the rescue mission.
 
 ## Motivation
-Since the birth of the Aave ecosystem (even on LEND times) as it usually happens on crypto, a lot of people have sent tokens by mistake to incorrect addresses.
+Since the birth of the Aave ecosystem, multiple people have sent tokens by mistake to incorrect addresses.
 
 In some cases, when the transfer is to another unknown wallet, the tokens are usually locked and lost forever, as it is factually impossible to prove that the transfer was a mistake.
 
