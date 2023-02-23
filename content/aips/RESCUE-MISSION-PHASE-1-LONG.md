@@ -31,7 +31,8 @@ The LEND sent to the specified contracts will be claimed already as AAVE tokens 
 
 ## Specification
 
-To rescue the tokens specified on Phase 1 that are on AAVE and stkAAVE token contracts, the payload will deploy and initialize the new implementations for the AAVE token and the stkAAVE token with appropriate amounts and send them to the AaveMerkleDistributor specified on the Rescue Short Executor Proposal.
+To rescue the tokens specified on Phase 1 that are on AAVE and stkAAVE token contracts, the payload will connect and initialize the new implementations for the AAVE token and the stkAAVE token with appropriate amounts and send them to the AaveMerkleDistributor specified on the Rescue Short Executor Proposal.
+To be as less invasive as possible, these new implementations only include that extra logic on their `initialize()` function, with everything else remaining the same.
 - AaveTokenV2: from this new implementations the following tokens will be rescued:
     - LEND: 19845132947543342156792 LEND in WEI (~19845,13 LEND).
     - AAVE: 28420317154904044370842 AAVE in WEI (~28420,32 AAVE).
