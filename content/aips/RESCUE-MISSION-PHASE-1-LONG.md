@@ -4,7 +4,7 @@ author: BGD Labs (@bgdlabs), proposer ACI (@aavechan)
 shortDescription: Activation of Aave rescue mission Phase 1, Level 2 (Long) Executor part
 discussions: https://governance.aave.com/t/bgd-rescue-of-tokens-locked-on-aave-overview-and-phase-1/8150/1
 created: 2023-02-22
-created: 2023-02-23
+updated: 2023-02-23
 ---
 
 
