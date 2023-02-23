@@ -66,12 +66,9 @@ Storage layouts diffs have also been generated for the contracts where the imple
 - StkAave Token storage layout [Diff](https://github.com/bgd-labs/rescue-mission-phase-1/blob/master/diffs/StakedTokenV2Rev3_layout_diff.md)
 
 ## Deployed Contracts
-- [ProposalPayloadShort](https://etherscan.io/address/0x4A4c73d563395ad827511F70097d4Ef82E653805)
 - [ProposalPayloadLong](https://etherscan.io/address/0x889c0cc3283DB588A34E89Ad1E8F25B0fc827b4b)
 - [AaveTokenV2 Implementation](https://etherscan.io/address/0x96F68837877fd0414B55050c9e794AECdBcfCA59)
 - [StkAaveTokenV2Rev4 Implementation](https://etherscan.io/address/0xE2E8Badc5d50f8a6188577B89f50701cDE2D4e19)
-- [LendToAaveMigrator Implementation](https://etherscan.io/address/0x7b62461a3570c6AC8a9f8330421576e417B71EE7)
-- [AaveMerkleDistributor](https://etherscan.io/address/0xa88c6D90eAe942291325f9ae3c66f3563B93FE10)
 
 ## Copyright
 
