@@ -1,18 +1,18 @@
 ---
 title: Rescue Mission Phase 1 Short Executor
-author: BGD Labs (@bgdlabs)
-shortDescription: Deploy contracts for the phase 1 of the rescue mission that need the Short Executor
+author: BGD Labs (@bgdlabs), proposer ACI (@aavechan)
+shortDescription: Activation of Aave rescue mission Phase 1, Level 1 (Short) Executor part
 discussions: https://governance.aave.com/t/bgd-rescue-of-tokens-locked-on-aave-overview-and-phase-1/8150/1
 created: 2023-02-17
-updated: 2023-02-22
+updated: 2023-02-23
 ---
 
 
 ## Simple Summary
-A Proposal that implements and deploys the necessary smart contracts to execute Phase 1 of the rescue mission.
+Activation of Aave rescue mission Phase 1, Level 1 (Short) Executor part
 
 ## Motivation
-Since the birth of the Aave ecosystem (even on LEND times) as it usually happens on crypto, a lot of people have sent tokens by mistake to incorrect addresses.
+Since the birth of the Aave ecosystem, multiple people have sent tokens by mistake to incorrect addresses.
 
 In some cases, when the transfer is to another unknown wallet, the tokens are usually locked and lost forever, as it is factually impossible to prove that the transfer was a mistake.
 

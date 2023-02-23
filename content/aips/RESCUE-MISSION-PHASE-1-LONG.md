@@ -4,11 +4,12 @@ author: BGD Labs (@bgdlabs), proposer ACI (@aavechan)
 shortDescription: Activation of Aave rescue mission Phase 1, Level 2 (Long) Executor part
 discussions: https://governance.aave.com/t/bgd-rescue-of-tokens-locked-on-aave-overview-and-phase-1/8150/1
 created: 2023-02-22
+created: 2023-02-23
 ---
 
 
 ## Simple Summary
-A Proposal that implements and deploys the necessary smart contracts to execute Phase 1 of the rescue mission.
+Activation of Aave rescue mission Phase 1, Level 2 (Long) Executor part
 
 ## Motivation
 Since the birth of the Aave ecosystem, multiple people have sent tokens by mistake to incorrect addresses.
