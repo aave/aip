@@ -8,10 +8,7 @@ created: 2023-2-24
 
 # Simple Summary
 
-A proposal to adjust:
-
-- Twenty-five (25) total risk parameters, including Supply Cap and Borrow Cap, across thirteen (13) stablecoins on Aave V3 Polygon, Arbitrum, Avalanche, and Optimism assets.
-- Four (4) supply caps across four (4) assets on Aave V3 Polygon and Avalanche
+A proposal to adjust seventeen (17) total risk parameters, including Supply Cap and Borrow Cap, across ten (10) assets on Aave V3 Polygon, Arbitrum,and Optimism.
 
 # Motivation
 
