@@ -67,15 +67,15 @@ With borrowing to be enabled, the following interest rate parameters have been r
 
 # Implementation
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolMaticXRiskParamsUpdatePayloadTest.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolMaticXRiskParamsUpdatePayload.sol)
 
-New Interest Rate Strategy deployment script can be found [here](XXX)
+New Interest Rate Strategy deployment script can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer/tree/main/script)
 
-Proposal Payload deployed address can be found [here](XXX)
+Proposal Payload deployed address can be found [here](https://polygonscan.com/address/0x46a1b7d4a2920270c7eb2c2db4df2259a109bcb4)
 
-Interest Rate Strategy deployed address can be found [here](XXX)
+Interest Rate Strategy deployed address can be found [here](https://polygonscan.com/address/0x6B434652E4C4e3e972f9F267982F05ae0fcc24b6)
 
 # Security Considerations
 
