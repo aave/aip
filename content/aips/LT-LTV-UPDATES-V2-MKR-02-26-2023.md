@@ -1,4 +1,4 @@
----
+gi---
 title: Risk Parameter Updates for MKR - Aave V2 Ethereum
 shortDescription: Update Liquidation Threshold (LT) and Loan-To-Value (LTV) of MKR on AAVE v2 Ethereum 
 author: Chaos Labs (@ori-chaoslabs, @yhayun)
