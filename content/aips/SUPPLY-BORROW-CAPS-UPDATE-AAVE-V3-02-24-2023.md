@@ -45,7 +45,7 @@ The following risk parameter proposal is presented below:
 | EURS | 36,590 | N/A | 60,000 | 24,242 | N/A | 45,000 | 60% of the circulating supply |
 | USDC | 34,700,000 | 2,000,000,000 | 150,000,000 | 17,410,000 | N/A | 100,000,000 | 16% of the circulating supply |
 | USDT | 3,720,000 | 2,000,000,000 | 50,000,000 | 3,060,000 | N/A | 35,000,000 | 20% of the circulating supply |
-|AAVE | 1,910 | 2,500 | 3,660 | 1,850 | N/A | N/A |freezes supply|
+| AAVE | 1,910 | 2,500 | 1,850 | N/A | N/A | N/A |freezes supply|
 
 
 
