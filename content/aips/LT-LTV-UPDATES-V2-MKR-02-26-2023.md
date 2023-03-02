@@ -1,4 +1,4 @@
-gi---
+gig---
 title: Risk Parameter Updates for MKR - Aave V2 Ethereum
 shortDescription: Update Liquidation Threshold (LT) and Loan-To-Value (LTV) of MKR on AAVE v2 Ethereum 
 author: Chaos Labs (@ori-chaoslabs, @yhayun)
@@ -41,11 +41,11 @@ The following risk parameter proposal is presented below:
 # References
 [Forum Post](https://governance.aave.com/t/arc-chaos-labs-risk-parameter-updates-mkr-on-aave-v2-ethereum-2023-02-17/11948)
 
-[Tests](TO BE ADDED)
+[Tests](https://github.com/ChaosLabsInc/aave-v2-payloads/blob/main/src/tests/MKRPayload-Feb26.t.sol)
 
-[Proposal payload implementation](TO BE ADDED)
+[Proposal payload implementation](https://github.com/ChaosLabsInc/aave-v2-payloads/blob/main/src/payloads/MKRPayload-Feb26.sol)
 
-[Deployed proposal payload](TO BE ADDED) 
+[Deployed proposal payload](https://etherscan.io/address/0x014b2fc091cad41f5d6a8eeb2fef27852f4a97e7#code) 
 
 
 # Copyright
