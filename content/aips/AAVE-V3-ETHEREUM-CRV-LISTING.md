@@ -73,15 +73,13 @@ Contract Address: [0xD533a949740bb3306d119CC777fa900bA034cd52](https://etherscan
 
 # Implementation
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV3EthAddCRVPoolPayloadTest.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV3EthAddCRVPoolPayload.sol)
 
-New Interest Rate Strategy deployment script can be found [here](XXX)
+Proposal Payload deployed address can be found [here](https://etherscan.io/address/0x5594475f068f814bdeb2d21b1676431a376322f5)
 
-Proposal Payload deployed address can be found [here](XXX)
-
-Interest Rate Strategy deployed address can be found [here](XXX)
+Interest Rate Strategy deployed address can be found [here](https://etherscan.io/address/0x76884cAFeCf1f7d4146DA6C4053B18B76bf6ED14)
 
 # Security Considerations
 
