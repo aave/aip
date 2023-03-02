@@ -1,6 +1,6 @@
 ---
 title: Add CRV to Ethereum v3
-discussion: https://governance.aave.com/t/arfc-add-crv-to-ethereum-v3/11532
+discussions: https://governance.aave.com/t/arfc-add-crv-to-ethereum-v3/11532
 shortDescription: Add CRV to Ethereum v3, as collateral, with borrowing enabled and in isolation mode.
 author: Llama, DeFi_Consulting & efecarranza
 created: 2023-02-27
