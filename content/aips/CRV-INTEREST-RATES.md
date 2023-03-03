@@ -2,7 +2,7 @@
 title: CRV Interest Rate Curve Upgrade
 discussions: https://governance.aave.com/t/arfc-crv-interest-rate-curve-upgrade/11337
 shortDescription: Upgrade the CRV interest rate curve across Ethereum v2, Polygon v3, and Polygon v2 Liquidity Pools
-author: Llama, DeFi_Consulting & efecarranza
+author: Llama
 created: 2023-02-27
 ---
 
