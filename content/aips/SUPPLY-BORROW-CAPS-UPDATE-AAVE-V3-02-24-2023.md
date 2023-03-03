@@ -68,6 +68,7 @@ The following risk parameter proposal is presented below:
 | --- | --- | --- | --- | --- | 
 | WETH |  26,900 | 50,000 |  14,795 | No Change |
 | AAVE |  36,820 | 70,000 |  N/A | N/A |
+| stMATIC | 7,500,000 | 15,000,000 | N/A | N/A|
 
 
 
