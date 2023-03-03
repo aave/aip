@@ -48,7 +48,7 @@ The following risk parameter proposal is presented below:
 
 [Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbRiskParamsPayload-Feb27.sol)
 
-[Deployed proposal payload](v3_arbitrum_02_28_2023) 
+[Deployed proposal payload](https://arbiscan.io/address/0x3a4f2a6c7e1e641afad6300553a0bb82d6c46a2e#code) 
 
 
 # Copyright
