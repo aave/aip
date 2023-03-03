@@ -75,12 +75,11 @@ The following risk parameter proposal is presented below:
 # References
 [Forum Post](https://governance.aave.com/t/arc-chaos-labs-supply-and-borrow-cap-updates-aave-v3-2023-02-24/12048)
 
-Tests: [Arbitrum](TO BE ADDED, [Polygon](TO BE ADDED, [Optimism](TO BE ADDED)
+Tests: [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/arbitrum/AaveV3ArbBorrowCapsPayload-Feb26.t.sol), [Polygon](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolCapsPayload-Feb26.t.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/optimism/AaveV3OptCapsPayload-Feb26.t.sol)
 
 
-Proposal payload implementation: [Arbitrum](TO BE ADDED, [Polygon](TO BE ADDED, [Optimism](TO BE ADDED)
+Proposal payload implementation: [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbBorrowCapsPayload-Feb26.sol), [Polygon](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolCapsPayload-Feb26.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/optimism/AaveV3OptCapsPayload-Feb26.sol)
 
-Deployed proposal payload: [Arbitrum](TO BE ADDED, [Polygon](TO BE ADDED, [Optimism](TO BE ADDED)
 
 
 # Copyright
