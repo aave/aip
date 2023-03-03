@@ -44,11 +44,11 @@ The following risk parameter proposal is presented below:
 # References
 [Forum Post](https://governance.aave.com/t/arc-chaos-labs-risk-parameter-updates-aave-v3-arbitrum-2023-02-20/11986)
 
-[Tests](TO BE ADDED)
+[Tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/arbitrum/AaveV3ArbRiskParamsPayload-Feb27.t.sol)
 
-[Proposal payload implementation](TO BE ADDED)
+[Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbRiskParamsPayload-Feb27.sol)
 
-[Deployed proposal payload](TO BE ADDED) 
+[Deployed proposal payload](v3_arbitrum_02_28_2023) 
 
 
 # Copyright
