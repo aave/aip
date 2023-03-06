@@ -54,9 +54,9 @@ Contract: [`polygon: 0x3a58a54c066fdc0f2d55fc9c89f0415c92ebf3c4`](https://polygo
 A list of relevant links like for this proposal:
 
 * [Governance Forum Discussion](https://governance.aave.com/t/arfc-increase-stmatic-supply-cap/12038)
-* [Test Cases](XXX)
-* [Payload Implementation](XXX)
-* [Deployed Contracts](XXX)
+* [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolSTMATICCapUpdatePayloadTest.t.sol)
+* [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolSTMATICCapUpdatePayload.sol)
+* [Deployed Contracts](https://polygonscan.com/address/0xaa7ef2f9b31fa26e802ca9b3e33990ada4143fb9#code)
 
 Chaos Labs and Gauntlet both contributed to the development of the ARFC forum post. 
 
