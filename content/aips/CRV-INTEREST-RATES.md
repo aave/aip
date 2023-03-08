@@ -88,7 +88,7 @@ The below table shows the current and proposed changes to the CRV Reserve on Pol
 
 **Ethereum v2 - Frozen**
 
-|Parameter|Current (%)|Proposed (%)|
+|Parameter|Current|Proposed|
 | --- | --- | --- |
 |Uoptimal|45.00%|45.00%|
 |Base|0.00%|3.00%|
@@ -102,37 +102,37 @@ The below table shows the current and proposed changes to the CRV Reserve on Pol
 
 **Polygon v3**
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/llama-community/aave-crv-interest-rate-updates/blob/main/src/test/ProposalPayloadV3E2E.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/llama-community/aave-crv-interest-rate-updates/blob/main/src/ProposalPayloadPolygon.sol)
 
 New Interest Rate Strategy deployment script can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer-v3/tree/main/script)
 
-Proposal Payload deployed address can be found [here](XXX)
+Proposal Payload deployed address can be found [here](https://polygonscan.com/address/0x3b6532efb7a60711f8f3fa77a589a726c836f4cf)
 
 Interest Rate Strategy deployed address can be found [here](https://polygonscan.com/address/0xBefcd01681224555b74eAC87207eaF9Bc3361F59)
 
 **Polygon v2**
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/llama-community/aave-crv-interest-rate-updates/blob/main/src/test/ProposalPayloadV2E2E.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/llama-community/aave-crv-interest-rate-updates/blob/main/src/ProposalPayloadPolygon.sol)
 
 New Interest Rate Strategy deployment script can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer/tree/main/script)
 
-Proposal Payload deployed address can be found [here](XXX)
+Proposal Payload deployed address can be found [here](https://polygonscan.com/address/0x3b6532efb7a60711f8f3fa77a589a726c836f4cf)
 
 Interest Rate Strategy deployed address can be found [here](https://polygonscan.com/address/0x334c59E5a50932a3C34AC39AB12131C648Cc1aE8)
 
 **Ethereum v2**
 
-Test cases can be found [here](XXX)
+Test cases can be found [here](https://github.com/llama-community/aave-crv-interest-rate-updates/blob/main/src/test/ProposalPayloadV2E2E.t.sol)
 
-Payload Implementation can be found [here](xxx)
+Payload Implementation can be found [here](https://github.com/llama-community/aave-crv-interest-rate-updates/blob/main/src/ProposalPayload.sol)
 
 New Interest Rate Strategy deployment script can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer/tree/main/script)
 
-Proposal Payload deployed address can be found [here](XXX)
+Proposal Payload deployed address can be found [here](https://etherscan.io/address/0xbacbe678e2c59343024fd5755262c7b0f77867d1)
 
 Interest Rate Strategy deployed address can be found [here](https://etherscan.io/address/0x5E6EFF5bEFe97c8b87BEa94F6e9940156CC47027)
 
