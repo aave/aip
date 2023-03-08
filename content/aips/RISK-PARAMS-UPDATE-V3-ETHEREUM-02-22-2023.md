@@ -43,11 +43,10 @@ The following risk parameter proposal is presented below:
 # References
 [Forum Post](https://governance.aave.com/t/arc-chaos-labs-risk-parameter-updates-aave-v3-ethereum-2023-02-22/12015)
 
-[Tests](TO BE ADDED)
+[Tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV3EthParamsPayload-Mar02Test.t.sol)
 
-[Proposal payload implementation](TO BE ADDED)
+[Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV3EthParamsPayload-Mar02.sol)
 
-[Deployed proposal payload](TO BE ADDED) 
 
 
 # Copyright
