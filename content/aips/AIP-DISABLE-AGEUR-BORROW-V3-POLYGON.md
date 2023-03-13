@@ -10,7 +10,6 @@ created: 2023-03-13
 
 A proposal to to disable borrows of agEUR on the Aave V3 Polygon market.
 
-
 # Motivation
 
 Following the recent exploit on Euler, Angle Protocol has announced [having $17.6M of USDC deposited into the protocol](https://twitter.com/AngleProtocol/status/1635293731082612738), leading them to pause the protocol and to uncertainty around the collateralization of agEUR.
@@ -19,15 +18,13 @@ Following the recent exploit on Euler, Angle Protocol has announced [having $17.
 
 We continue to follow the situation closely as it develops and will update recommendations and actions accordingly.
 
-
 # Specification
 
 Ticker: agEUR
 
 Contract Address: 0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4
 
-The proposal payload simply executes setReserveBorrowing() on the [Aave V3 Polygon LendingPoolConfigurator](https://polygonscan.com/address/0x8145edddf43f50276641b55bd3ad95944510021e) for agEUR.
-
+The proposal payload simply executes setReserveBorrowing(false) on the [Aave V3 Polygon LendingPoolConfigurator](https://polygonscan.com/address/0x8145edddf43f50276641b55bd3ad95944510021e) for agEUR.
 
 # References
 
@@ -36,7 +33,6 @@ The proposal payload simply executes setReserveBorrowing() on the [Aave V3 Polyg
 - [Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolFreezeAGEURBorrow.sol)
 
 - [Tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolFreezeAGEURborrow.t.sol)
-
 
 # Copyright
 
