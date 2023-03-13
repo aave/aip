@@ -1,7 +1,7 @@
 ---
 title: Disable agEUR borrows on Aave v3 Polygon
-author: Chaos Labs (@ori-chaoslabs, @yhayun, @yonikesel)
 shortDescription: Following the recent exploit on Euler, temporarily disable agEUR borrows on aave v3 polygon
+author: Chaos Labs (@ori-chaoslabs, @yhayun, @yonikesel)
 discussions: https://governance.aave.com/t/arfc-disable-borrow-of-ageur-on-aave-v3-polygon/12275
 created: 2023-03-13
 ---
