@@ -4,16 +4,14 @@ author: Chaos Labs (@ori-chaoslabs, @yhayun, @yonikesel)
 shortDescription: Following the recent exploit on Euler, temporarily disable agEUR borrows on aave v3 polygon
 discussions: https://governance.aave.com/t/arfc-disable-borrow-of-ageur-on-aave-v3-polygon/12275
 created: 2023-03-13
-updated: 2023-03-13
 ---
 
-# [ARFC] Disable Borrow of agEUR on Aave V3 Polygon
+# Simple Summary
 
-## **Summary**
+A proposal to to disable borrows of agEUR on the Aave V3 Polygon market.
 
-This ARFC proposes to disable borrows of agEUR on the Aave V3 Polygon market.
 
-## **Motivation**
+# Motivation
 
 Following the recent exploit on Euler, Angle Protocol has announced [having $17.6M of USDC deposited into the protocol](https://twitter.com/AngleProtocol/status/1635293731082612738), leading them to pause the protocol and to uncertainty around the collateralization of agEUR.
 
@@ -21,18 +19,25 @@ Following the recent exploit on Euler, Angle Protocol has announced [having $17.
 
 We continue to follow the situation closely as it develops and will update recommendations and actions accordingly.
 
-## **Specification**
+
+# Specification
 
 Ticker: agEUR
 
 Contract Address: 0xE0B52e49357Fd4DAf2c15e02058DCE6BC0057db4
 
-## References
+The proposal payload simply executes setReserveBorrowing() on the [Aave V3 Polygon LendingPoolConfigurator](https://polygonscan.com/address/0x8145edddf43f50276641b55bd3ad95944510021e) for agEUR.
+
+
+# References
 
 - [Forum Post](https://governance.aave.com/t/arfc-disable-borrow-of-ageur-on-aave-v3-polygon/12275)
+
 - [Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolFreezeAGEURBorrow.sol)
+
 - [Tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolFreezeAGEURborrow.t.sol)
 
-## **Copyright**
+
+# Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
