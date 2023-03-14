@@ -57,9 +57,9 @@ Contract: [`polygon: 0xfa68FB4628DFF1028CFEc22b4162FCcd0d45efb6`](https://polygo
 A list of relevant links like for this proposal:
 
 * [Governance Forum Discussion](https://governance.aave.com/t/arfc-maticx-supplycap-increase-polygon-v3/12217)
-* [Test Cases](XXX)
-* [Payload Implementation](XXX)
-* [Deployed Contracts](XXX)
+* [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolMaticXSupplyCap03132023PayloadTest.t.sol)
+* [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolMaticXSupplyCap03132023Payload.sol)
+* [Deployed Contracts](https://polygonscan.com/address/0x6b5af634e20eaa5fc85f9943913aa46a088ac29e)
 
 The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.com/).
 
