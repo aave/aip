@@ -40,8 +40,9 @@ Emission Admin: `0x5033823F27c5f977707B58F0351adcD732C955Dd`
 
 setEmissionAdmin(address reward, address admin)
 
-OP Address Reward: `0x4200000000000000000000000000000000000042`
-OP Address Admin: `0x5033823F27c5f977707B58F0351adcD732C955Dd`
+OP Address Reward: [0x4200000000000000000000000000000000000042](https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000042)
+
+OP Address Admin: [0x5033823F27c5f977707B58F0351adcD732C955Dd](https://optimistic.etherscan.io/address/0x5033823F27c5f977707B58F0351adcD732C955Dd)
 
 The relevant links for this proposal are shown:
 
