@@ -22,7 +22,7 @@ The proposal represents a 100% increase from the current caps, making this ARFC 
 
 Ticker: LUSD (LUSD)
 
-Contract Address: 0x5f98805A4E8be255a32880FDeC7F6728C6568bA0
+Contract Address: [0x5f98805A4E8be255a32880FDeC7F6728C6568bA0](https://etherscan.io/address/0x5f98805A4E8be255a32880FDeC7F6728C6568bA0)
 
 | Parameter  | Current | Proposed |
 | ---------- | ------- | -------- |
