@@ -45,9 +45,8 @@ OP Address Admin: `0x5033823F27c5f977707B58F0351adcD732C955Dd`
 
 The relevant links for this proposal are shown:
 
-  * [Test Cases](XXX)
-  * [Payload Implementation](XXX)
-  * [Deployed Contracts](XXX)
+  * [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/optimism/AaveV3OptOPEmissionAdminPayloadTest.t.sol)
+  * [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/optimism/AaveV3OptOPEmissionAdminPayload.sol)
 
 The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.com/).
 
