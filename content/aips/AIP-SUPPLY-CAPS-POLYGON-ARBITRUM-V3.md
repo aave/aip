@@ -8,7 +8,7 @@ created: 2023-3-17
 
 # Simple Summary
 
-A proposal to adjust four (4) total risk parameters, including Supply Cap and Borrow Cap, across three (3) Aave V3 Polygon and Arbitrum assets.
+A proposal to adjust five (5) total risk parameters, including Supply Cap and Borrow Cap, across three (3) Aave V3 Polygon and Arbitrum assets.
 
 # Motivation
 
