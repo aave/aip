@@ -27,7 +27,7 @@ The following risk parameter proposal is presented below:
 
 | Asset  | Current Supply Cap | Recommended Supply Cap | Current Borrow Cap | Recommended Borrow Cap |
 | ------ | ------------------ | ---------------------- | ------------------ | ---------------------- |
-| wstETH | 2,400              | 4,650                  | 190                | No Change              |
+| wstETH | 2,400              | 4,650                  | 190                | 400                    |
 
 ### Polygon
 
