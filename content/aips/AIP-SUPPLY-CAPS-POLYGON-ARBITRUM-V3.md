@@ -40,9 +40,9 @@ The following risk parameter proposal is presented below:
 
 Forum Posts: [Arbitrum](https://governance.aave.com/t/arfc-supply-and-borrow-caps-update-wsteth-v3-arbitrum/12309), [Polygon](https://governance.aave.com/t/arfc-chaos-labs-supply-and-borrow-cap-updates-aave-v3-polygon-2023-03-16/12310)
 
-Tests: [Arbitrum-stETH](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/arbitrum/AaveV3ArbwstETHSupplyCapsPayloadTest-Mar16.t.sol), [Polygon-MAI](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolMAICapsPayloadTest-Mar16.t.sol), [Polygon-stMATIC](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolSTMATICCapPayloadTest-Mar17.t.sol)
+Tests: [Arbitrum-stETH](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/arbitrum/AaveV3ArbwstETHSupplyCapsPayloadTest-Mar16.t.sol), [Polygon-MAI](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolCapsPayloadTest-Mar17.t.sol), [Polygon-stMATIC](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/polygon/AaveV3PolCapsPayloadTest-Mar17.t.sol)
 
-Proposal payload implementation: [Arbitrum-stETH](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbwstETHSupplyCapsPayload-Mar16.sol), [Polygon-MAI](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolMAICapsPayload-Mar16.sol), [Polygon-stMATIC](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolSTMATICCapPayload-Mar17.sol)
+Proposal payload implementation: [Arbitrum-stETH](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/arbitrum/AaveV3ArbwstETHSupplyCapsPayload-Mar16.sol), [Polygon-MAI](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolCapsPayload-Mar17.sol), [Polygon-stMATIC](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/polygon/AaveV3PolCapsPayload-Mar17.sol)
 
 # Copyright
 
