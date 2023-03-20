@@ -2,7 +2,7 @@
 title: Supply/Borrow Cap Updates V3 Polygon and Arbitrum
 shortDescription: Update Supply and Borrow Caps on Aave V3 Polygon and Arbitrum
 author: Chaos Labs (@ori-chaoslabs, @yonikesel)
-discussions: https://governance.aave.com/t/arfc-supply-and-borrow-caps-update-wsteth-v3-arbitrum/12309, https://governance.aave.com/t/arfc-chaos-labs-supply-and-borrow-cap-updates-aave-v3-polygon-2023-03-16/12310
+discussions: https://governance.aave.com/t/arfc-supply-and-borrow-caps-update-wsteth-v3-arbitrum/12309
 created: 2023-3-17
 ---
 
