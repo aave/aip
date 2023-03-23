@@ -1,14 +1,15 @@
 ---
-title: Upgrade Aave V3 pools to Aave V3.0.1
+title: Upgrade Aave V3 pools to Aave V3.0.2
 author: BGD Labs (@bgdlabs)
-shortDescription: Upgrade various contracts to V3.0.1 to align Aave Deployments
-discussions: TBA
+shortDescription: Upgrade various contracts to V3.0.2 to align Aave Deployments
+discussions: https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13
 created: 2023-02-10
 ---
 
 ## Simple Summary
 
-This proposal upgrades the Aave v3 instances on Polygon, Optimism and Arbitrum to the v3.0.1 version, already running on the new Aave v3 Ethereum pool.
+This proposal upgrades the Aave v3 instances on Ethereum, Polygon, Optimism and Arbitrum to the v3.0.2 version.
+The v3.0.2 is an upgrade based on the v3.0.1 version already running on the new Aave v3 Ethereum pool which comes with improvements to the handling of isolation, ltv0 and flashBorrower initiated flashloans.
 If this proposal succeeds, it will also authorize the upgrade of the V3 pools on Avalanche, Fantom, and Harmony via a delegatecall by the Aave Guardian.
 
 The upgrades to be performed will affect the following contracts:
@@ -23,7 +24,7 @@ And replace the `AaveProtocolDataProvider` on the PoolAddressesProvider with it'
 
 Aave v3 Ethereum has been activated via Aave governance at the end of january. But in reality, as described [HERE](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13), the smart contracts on Ethereum are a slightly improved version of v3, the so-called v3.0.1.
 
-In an ecosystem like Aave, with liquidity pool instances spread across multiple networks, it is fundamental to try to keep version consistency, which is not the case at moment, with Polygon, Avalanche, Optimism, Arbitrum, Fantom, and Harmony running still on v3.0.0.
+In an ecosystem like Aave, with liquidity pool instances spread across multiple networks, it is fundamental to try to keep version consistency, which is not the case at moment, with Polygon, Avalanche, Optimism, Arbitrum, Fantom, and Harmony running still on v3.0.0. Therefore this proposal aligns all pools at v3.0.2.
 
 ## Specification
 
