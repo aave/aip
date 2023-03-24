@@ -30,11 +30,11 @@ The links below detail the individual governance forum posts and respective Snap
 * **MKR**
   * [MKR Governance Forum Discussion](https://governance.aave.com/t/arfc-add-mkr-to-ethereum-v3/11954)
   * [MKR Snapshot Vote](https://snapshot.org/#/aave.eth/proposal/0xf4aec3fbab5096752be96f0e5b522f37318c1902cf8b897b049b7a94d478de73)
- * **SNX**
+* **SNX**
    * [SNX Governance Forum Discussion](https://governance.aave.com/t/arfc-add-snx-to-ethereum-v3/11956)
    * [SNX Snapshot Vote](https://snapshot.org/#/aave.eth/proposal/0x5f232a89e10d67df3aad2907e8dce3bec9708596929b3254055cf37499969b89)
 
- * **BAL**
+* **BAL**
    * [BAL Governance Forum Discussion](https://governance.aave.com/t/arfc-add-bal-ethereum-v3/11523)
    * [BAL Snapshot Vote](https://snapshot.org/#/aave.eth/proposal/0xe394799e4d006c15e0cb13155701de495888b7e7dad8f917a6b5dd1c8106cea5)
 
@@ -43,7 +43,7 @@ The links below detail the individual governance forum posts and respective Snap
 Ticker: **UNI**
 Contract Address: [`0x1f9840a85d5af5bf1d1762f925bdaddc4201f984`](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)
 
-Oracle: `0x553303d460EE0afB37EdFf9bE42922D8FF63220e`
+Oracle: [`0x553303d460EE0afB37EdFf9bE42922D8FF63220e`](https://etherscan.io/address/0x553303d460EE0afB37EdFf9bE42922D8FF63220e)
 
 |Risk Parameter|Value|
 | --- | --- |
@@ -72,7 +72,7 @@ Oracle: `0x553303d460EE0afB37EdFf9bE42922D8FF63220e`
 Ticker: **MKR**
 Contract Address: [`0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2`](https://etherscan.io/address/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2)
 
-Oracle: `0xec1D1B3b0443256cc3860e24a46F108e699484Aa`
+Oracle: [`0xec1D1B3b0443256cc3860e24a46F108e699484Aa`](https://etherscan.io/address/0xec1D1B3b0443256cc3860e24a46F108e699484Aa)
 
 |Risk Parameter|Value|
 | --- | --- |
@@ -101,7 +101,7 @@ Oracle: `0xec1D1B3b0443256cc3860e24a46F108e699484Aa`
 Ticker: **SNX**
 Contract Address: [`0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f`](https://etherscan.io/address/0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f)
 
-Oracle: `0xDC3EA94CD0AC27d9A86C180091e7f78C683d3699`
+Oracle: [`0xDC3EA94CD0AC27d9A86C180091e7f78C683d3699`](https://etherscan.io/address/0xDC3EA94CD0AC27d9A86C180091e7f78C683d3699)
 
 |Risk Parameter|Value|
 | --- | --- |
@@ -130,7 +130,7 @@ Oracle: `0xDC3EA94CD0AC27d9A86C180091e7f78C683d3699`
 Ticker: **BAL**
 Contract Address: [`0xba100000625a3754423978a60c9317c58a424e3D`](https://etherscan.io/address/0xba100000625a3754423978a60c9317c58a424e3d)
 
-Oracle: `0xdF2917806E30300537aEB49A7663062F4d1F2b5F`
+Oracle: [`0xdF2917806E30300537aEB49A7663062F4d1F2b5F`](https://etherscan.io/address/0xdF2917806E30300537aEB49A7663062F4d1F2b5F)
 
 |Risk Parameter|Value|
 | --- | --- |
@@ -160,9 +160,9 @@ Oracle: `0xdF2917806E30300537aEB49A7663062F4d1F2b5F`
 
 A list of relevant links like for this proposal:
 
-  * [Test Cases](XXX)
-  * [Payload Implementation](XXX)
-  * [Deployed Contracts](XXX)
+  * [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3NewListings_20230321/AaveV3EthNewListings_20230321_test.t.sol)
+  * [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3NewListings_20230321/AaveV3EthNewListings_20230321.sol)
+  * [Deployed Contracts](https://etherscan.io/address/0xf146c735f39281d35fffee1a99e65b5307305a4f)
 
 The risk paramters detailed within this proposal have been jointly provided by [Chaos Labs](https://twitter.com/chaos_labs) and [Gauntlet](https://twitter.com/gauntletnetwork).
 
