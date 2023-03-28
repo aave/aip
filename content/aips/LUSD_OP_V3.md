@@ -73,7 +73,7 @@ IEngine.Listing({
       supplyCap: 3_000_000,
       borrowCap: 1_210_000,
       debtCeiling: 0,
-      liqProtocolFee: 10_00,
+      liqProtocolFee: 0,
       eModeCategory: 0
     });
 ```
