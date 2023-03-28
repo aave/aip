@@ -3,8 +3,8 @@ title: Add LUSD to Aave Optimism V3 pool
 author: Marc Zeller (@marczeller), Aave-Chan initiative, Alyra Promo Satoshi
 shortDescription: Onboard LUSD on Aave OP V3
 discussions: https://governance.aave.com/t/arfc-add-lusd-to-optimism-v3-market/12113
-created: 2023-03-25
-updated: 2023-03-25
+created: 2023-03-28
+updated: 2023-03-28
 ---
 
 ## Simple Summary
@@ -43,19 +43,29 @@ Contract Address: [0xc40f949f8a4e094d1b49a23ea9241d289b7b2819](https://optimisti
 |Uoptimal|80%|
 |Slope2|87%|
 
-The proposal payload uses the GenericListingEngine to perform a new asset listing with the following parameters:
+The proposal payload uses the IEngine to perform a new asset listing with the following parameters:
 
 ```solidity
-IGenericV3ListingEngine.Listing({
+IEngine.Listing({
       asset: LUSD,
       assetSymbol: 'LUSD',
       priceFeed: LUSD_USD_FEED,
-      rateStrategy: 0x15C1638A1e674Af9957F3de2E7bF140278Ee51B7,
-      enabledToBorrow: true,
-      stableRateModeEnabled: false,
-      borrowableInIsolation: false,
-      withSiloedBorrowing: false,
-      flashloanable: false,
+      rateStrategyParams: Rates.RateStrategyParams({
+        optimalUsageRatio: _bpsToRay(80_00),
+        baseVariableBorrowRate: 0,
+        variableRateSlope1: _bpsToRay(4_00),
+        variableRateSlope2: _bpsToRay(87_00),
+        stableRateSlope1: _bpsToRay(4_00),
+        stableRateSlope2: _bpsToRay(87_00),
+        baseStableRateOffset: _bpsToRay(1_00),
+        stableRateExcessOffset: _bpsToRay(8_00),
+        optimalStableToTotalDebtRatio: _bpsToRay(20_00)
+      }),
+      enabledToBorrow: EngineFlags.ENABLED,
+      stableRateModeEnabled: EngineFlags.DISABLED,
+      borrowableInIsolation: EngineFlags.DISABLED,
+      withSiloedBorrowing: EngineFlags.DISABLED,
+      flashloanable: EngineFlags.DISABLED,
       ltv: 0,
       liqThreshold: 0,
       liqBonus: 0,
@@ -73,8 +83,8 @@ IGenericV3ListingEngine.Listing({
 A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arfc-add-lusd-to-optimism-v3-market/12113)
-- [tests](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/test/optimism/AaveV3OPLUSDPayloadTest.t.sol)
-- [proposalCode](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/master/src/contracts/optimism/AaveV3OptLUSDPayload.sol)
+- [tests](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/main/src/AaveV3OPNewListings_20230327/AaveV3OPNewListings_20230327_test.t.sol)
+- [proposalCode](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/main/src/AaveV3OPNewListings_20230327/AaveV3OPNewListings_20230327.sol)
 
 ## Security Considerations
 
