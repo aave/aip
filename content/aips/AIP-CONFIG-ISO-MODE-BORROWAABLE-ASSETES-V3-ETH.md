@@ -27,9 +27,9 @@ This proposal aims to implement a single AIP, which will simply call setBorrowab
 
 [Forum Post](https://governance.aave.com/t/arfc-configure-isolation-mode-borrowable-assets-v3-ethereum/12420/1)
 
-[Tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV3EthIsoModeMar28Test.t.sol)
+[Tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV3EthIsoModeMar29Test.t.sol)
 
-[Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV3EthIsoModeMar28.sol)
+[Proposal payload implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV3EthIsoModeMar29.sol)
 
 # Copyright
 
