@@ -4,7 +4,6 @@ author: Marc Zeller (@marczeller), Aave-Chan initiative
 shortDescription: increase supply cap for cbETH Aave Ethereum V3
 discussions: https://governance.aave.com/t/arfc-increase-cbeth-supply-cap-03-26/12480
 created: 2023-03-29
-updated: 2023-03-29
 ---
 
 ## Simple Summary
