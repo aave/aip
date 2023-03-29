@@ -21,7 +21,7 @@ Supply cap is suggested for this asset to limit risk exposure, the caps have bee
 
 Ticker: cbETH
 
-Contract Address: 0xbe9895146f7af43049ca1c1ae358b0541ea49704
+Contract Address: [0xbe9895146f7af43049ca1c1ae358b0541ea49704](https://etherscan.io/address/0xbe9895146f7af43049ca1c1ae358b0541ea49704)
 
 |Risk Parameter| Current Value| Proposed Value|
 | --- | --- | --- |
