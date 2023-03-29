@@ -30,15 +30,17 @@ Contract Address: [0xbe9895146f7af43049ca1c1ae358b0541ea49704](https://etherscan
 
 
 ```solidity
-contract AaveV3EthCbETHCapsPayload is IProposalGenericExecutor {
-  address public constant CBETH = AaveV3EthereumAssets.cbETH_UNDERLYING;
+contract AaveV3EthCBETHSupplyCapUpdate_20230328 is AaveV3PayloadEthereum {
+  function capsUpdates() public pure override returns (IEngine.CapsUpdate[] memory) {
+    IEngine.CapsUpdate[] memory capsUpdate = new IEngine.CapsUpdate[](1);
 
-  uint256 public constant CBETH_SUPPLY_CAP = 60_000;
+    capsUpdate[0] = IEngine.CapsUpdate({
+      asset: AaveV3EthereumAssets.cbETH_UNDERLYING,
+      supplyCap: 60_000,
+      borrowCap: EngineFlags.KEEP_CURRENT
+    });
 
-  function execute() external {
-    IPoolConfigurator configurator = AaveV3Ethereum.POOL_CONFIGURATOR;
-
-    configurator.setSupplyCap(CBETH, CBETH_SUPPLY_CAP);
+    return capsUpdate;
   }
 }
 ```
@@ -48,8 +50,8 @@ contract AaveV3EthCbETHCapsPayload is IProposalGenericExecutor {
 A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arfc-increase-cbeth-supply-cap-03-26/12480)
-- [tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/test/mainnet/AaveV3ETHCapUpdate_20230328Test.t.sol)
-- [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/master/src/contracts/mainnet/AaveV3EthCBETHSupplyCapsPayload_29032023.sol)
+- [tests](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3ETHCBETHSupplyCapUpdate_20230328/AaveV3EthCBETHSupplyCapUpdate_20230328_test.t.sol)
+- [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3ETHCBETHSupplyCapUpdate_20230328/AaveV3EthCBETHSupplyCapUpdate_20230328.sol)
 
 ## Security Considerations
 
