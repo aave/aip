@@ -1,6 +1,6 @@
 ---
 title: Risk Parameter Updates Aave V3 Optimism
-shortDescription: Update risk parameters on AAVE V3 Optimism
+shortDescription: Update risk parameters on Aave V3 Optimism
 author: Chaos Labs (@ori-chaoslabs, @yonikesel)
 discussions: https://governance.aave.com/t/arfc-chaos-labs-risk-parameter-updates-aave-v3-optimism-2023-03-22/12421
 created: 2023-02-30
