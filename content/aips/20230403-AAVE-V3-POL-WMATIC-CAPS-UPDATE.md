@@ -39,6 +39,11 @@ Contract: [`0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270`](https://polygonscan.com
 | --- | --- | --- |
 |SupplyCap|47M units| 66M units|
 
+# Implementation
+
+Tests can be found [here]()
+Payload implementation can be found [here]()
+
 # Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
