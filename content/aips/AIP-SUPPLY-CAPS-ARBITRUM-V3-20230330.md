@@ -8,7 +8,7 @@ created: 2023-3-30
 
 # Simple Summary
 
-A proposal to adjust three (3) total risk parameters, including Supply Cap and Borrow Cap, across two (2) Aave V3 Arbitrum assets.
+A proposal to adjust four (4) total risk parameters, including Supply Cap and Borrow Cap, across three (3) Aave V3 Arbitrum assets.
 
 # Motivation
 
@@ -24,10 +24,11 @@ The following risk parameter proposal is presented below:
 
 ### Arbitrum
 
-| Asset | Current Supply Cap | Recommended Supply Cap | Current Borrow Cap | Recommended Borrow Cap |
-| ----- | ------------------ | ---------------------- | ------------------ | ---------------------- |
-| WBTC  | 2,100              | 4,200                  | 1,115              | No Change              |
-| WETH  | 45,000             | 70,000                 | 11,165             | 22,000                 |
+| Asset  | Current Supply Cap | Recommended Supply Cap | Current Borrow Cap | Recommended Borrow Cap |
+| ------ | ------------------ | ---------------------- | ------------------ | ---------------------- |
+| WBTC   | 2,100              | 4,200                  | 1,115              | No Change              |
+| WETH   | 45,000             | 70,000                 | 11,165             | 22,000                 |
+| WSTETH | 4,650              | 9,300                  | 400                | No Change              |
 
 # References
 
