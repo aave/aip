@@ -32,7 +32,7 @@ The following risk parameter proposal is presented below:
 | ----- | --------------------- | ------- | ----------- | ------ |
 | WBTC  | Liquidation Threshold | 75%     | 78%         | +3%    |
 | WBTC  | Loan-to-Value         | 70%     | 73%         | +3%    |
-| WBTC  | Liquidation Penalty   | 9.4%    | 8.5%        | -1.5%  |
+| WBTC  | Liquidation Penalty   | 9.4%    | 8.5%        | -0.9%  |
 | DAI   | Liquidation Threshold | 80%     | 83%         | +3%    |
 | DAI   | Loan-to-Value         | 75%     | 78%         | +3%    |
 
