@@ -1,6 +1,6 @@
 ---
-title: Supply/Borrow Cap Updates V3 Arbitrum
-shortDescription: Update Supply and Borrow Caps on Aave V3 Arbitrum
+title: Supply/Borrow Cap Updates V3 Arbitrum and Optimism
+shortDescription: Update Supply and Borrow Caps on Aave V3 Arbitrum and Optimism
 author: Chaos Labs (@ori-chaoslabs, @yonikesel)
 discussions: https://governance.aave.com/t/arfc-chaos-labs-supply-and-borrow-cap-updates-03-30-2023/12532
 created: 2023-3-30
@@ -8,7 +8,7 @@ created: 2023-3-30
 
 # Simple Summary
 
-A proposal to adjust four (4) total risk parameters, including Supply Cap and Borrow Cap, across three (3) Aave V3 Arbitrum assets.
+A proposal to adjust five (5) total risk parameters, including Supply Cap and Borrow Cap, across four (4) Aave V3 Arbitrum and Optimism assets.
 
 # Motivation
 
@@ -30,13 +30,19 @@ The following risk parameter proposal is presented below:
 | WETH   | 45,000             | 70,000                 | 11,165             | 22,000                 |
 | WSTETH | 4,650              | 9,300                  | 400                | No Change              |
 
+### Optimism
+
+| Asset  | Current Supply Cap | Recommended Supply Cap | Current Borrow Cap | Recommended Borrow Cap |
+| ------ | ------------------ | ---------------------- | ------------------ | ---------------------- |
+| WSTETH | 6,000              | 12,000                 | 940                | No Change              |
+
 # References
 
-Forum Post: [Arbitrum Post](https://governance.aave.com/t/arfc-chaos-labs-supply-and-borrow-cap-updates-03-30-2023/12532)
+Forum Post: [Forum Post](https://governance.aave.com/t/arfc-chaos-labs-supply-and-borrow-cap-updates-03-30-2023/12532)
 
-Test: [Arbitrum Test](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3ArbSupplyCapsUpdate_20230330/AaveV3ArbSupplyCapsUpdate_20230330_test.t.sol)
+Test: [Test](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3SupplyCapsUpdate_20230330/AaveV3SupplyCapsUpdate_20230330_test.t.sol)
 
-Proposal payload implementation: [Arbitrum Payload](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3ArbSupplyCapsUpdate_20230330/AaveV3ArbSupplyCapsUpdate_20230330.sol)
+Proposal payload implementation: [Arbitrum-Payload](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3SupplyCapsUpdate_20230330/AaveV3ArbSupplyCapsUpdate_20230330.sol) [Optimism-Payload](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3SupplyCapsUpdate_20230330/AaveV3OptSupplyCapsUpdate_20230330.sol)
 
 # Copyright
 
