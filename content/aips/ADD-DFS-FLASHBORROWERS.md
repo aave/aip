@@ -7,7 +7,7 @@ created: 2023-04-04
 ---
 
 ## Simple Summary
-this proposal presents Aave governance with the opportunity to whitelist DeFi Saver as part of FlashBorrowers of Aave V3 on Ethereum, Arbitrum & Optimism liquidity pools.
+This proposal presents Aave governance with the opportunity to whitelist DeFi Saver as part of FlashBorrowers of Aave V3 on Ethereum, Arbitrum & Optimism liquidity pools.
 
 ## Motivation
 DeFi Saver has a long-standing history of synergies with the Aave Protocol, being one of the first third-party integrations of Aave V1 in 2020.
