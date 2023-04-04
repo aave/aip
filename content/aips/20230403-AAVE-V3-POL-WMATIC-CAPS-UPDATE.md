@@ -66,9 +66,9 @@ A list of relevant links like for this proposal:
 
 * [wMATIC Supply Cap Governance Forum Discussion](https://governance.aave.com/t/arfc-wmatic-supply-cap-increase/12046)
 * [BAL Borrow Cap Governance Forum Discussion](https://governance.aave.com/t/arfc-polygon-v3-bal-supply-borrow-cap-increase/12505/3)
-* [Test Cases](XXX)
-* [Payload Implementation](XXX)
-* [Deployed Contracts](XXX)
+* [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230328/AaveV3PolCapsUpdates_20230328Test.t.sol)
+* [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230328/AaveV3PolCapsUpdates_20230328.sol)
+* [Deployed Contracts](https://polygonscan.com/address/0x47938b58f104b4e06a5572faa9cb3c3cd53f15a4)
 
 Chaos Labs and Gauntlet are both supportive of the risk parameters presented above. 
 
