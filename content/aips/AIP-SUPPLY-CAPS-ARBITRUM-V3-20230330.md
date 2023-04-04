@@ -26,7 +26,7 @@ The following risk parameter proposal is presented below:
 
 | Asset | Current Supply Cap | Recommended Supply Cap | Current Borrow Cap | Recommended Borrow Cap |
 | ----- | ------------------ | ---------------------- | ------------------ | ---------------------- |
-| WBTC  | 2,100              | 3,200                  | 1,115              | No Change              |
+| WBTC  | 2,100              | 4,200                  | 1,115              | No Change              |
 | WETH  | 45,000             | 70,000                 | 11,165             | 22,000                 |
 
 # References
