@@ -13,7 +13,7 @@ Technical upgrade to align the implementation and architecture of Aave’s ecosy
 
 ## Motivation
 
-The Aave ecosystem, and more precisely its liquidity protocol (v1/v2/v3) collect fees in a decentralized way, which later on are used for example to fund grants, pay different service providers (us included), or pursue different other strategies.
+The Aave ecosystem, and more precisely its liquidity protocol (v1/v2/v3) collect fees in a decentralized way, which later on are used for example to fund grants, pay different service providers, or pursue different other strategies.
 
 All these actions are controlled by the Aave Governance V2 smart contracts (or cross-chain governance), and due to technical reasons regarding upgradeable contracts, usually they are triggered by interacting with another contract called Controller of Collector, which simply acts as a layer of indirection with the Collector itself.
 
@@ -33,6 +33,8 @@ The smart contract used as the implementation of the Aave v2 & v3 Collector (a c
 Currently, apart from Ethereum, Polygon, and Avalanche are the only networks with both instances of Aave v2 and v3.
 
 - MigrateV2CollectorPayload: This proposal will redirect all future fee collection of the v2 pools to v3’s Collector by updating the AToken implementation. For both Polygon and Avalanche v2, instances, before redirecting fee collection to the v3’s Collector, the proposal will send there all the accrued fees plus rewards incentives on those.
+
+This proposal will be an approval for the Avalanche part, and both payloads will be executed there separately by the Aave Guardian. For other networks, the execution will happen through this proposal.
 
 ## References
 
