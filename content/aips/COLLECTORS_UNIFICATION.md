@@ -60,6 +60,8 @@ The previous upgrade of the Collector contract, which is currently active on Mai
   - [Arbitrum Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/arbitrum_layout_diff.md)
   - [Avalanche Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/avalanche_layout_diff.md)
 
+- **E2E tests**: we are checking that the main actions available on the Collector can be performed (e.g. transfer, approve) on networks, and additionally we check that updated permissions are set correctly.
+
 ## Deployed Contracts
 
 Collector Unification
