@@ -53,12 +53,13 @@ The decision to enable `flashloanable` for all the assets has been taken in orde
 
 ## References
 
-- [Polygon:V301UpgradePayload](TBA)
-- [Avalanche:V301UpgradePayload](TBA)
-- [Arbitrum:V301UpgradePayload](TBA)
-- [Optimism:V301UpgradePayload](TBA)
-- [Fantom:V301UpgradePayload](TBA)
-- [Harmony:V301UpgradePayload](TBA)
+- [Payload:Mainnet](https://etherscan.io/address/0x31a239f3e39c5d8ba6b201ba81ed584492ae960f)
+- [Payload:Polygon](https://polygonscan.com/address/0xa603ad2b0258bdda94f3dfdb26859ef205ae9244)
+- [Payload:Arbitrum](https://arbiscan.io/address/0x209ad99bd808221293d03827b86cc544bca0023b)
+- [Payload:Optimism](https://optimistic.etherscan.io/address/0x7748d38a160eeef9559e2b043eaec5cfffce3e4c)
+- [Payload:Avalanche](https://snowtrace.io/address/0xd792a3779d3c80baee8cf3304d6aeac74bc432be)
+- [Payload:Fantom](TBA: insane gas atm)
+- [Payload:Harmony](TBA: not sure, due to lack of create2 and verification)
 - [Test suite](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/tests/V301UpgradePayloadTest.t.sol)
 - [Update diffs](https://github.com/bgd-labs/proposal-3.0.1-upgrade/tree/main/diffs)
 
