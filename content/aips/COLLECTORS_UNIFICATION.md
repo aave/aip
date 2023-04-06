@@ -49,13 +49,16 @@ A list of relevant links like for this proposal:
 
 ## Security Considerations
 
-Storage layouts diffs have been generated:
+The previous upgrade of the Collector contract, which is currently active on Mainnet, was [reviewed by Certora](https://github.com/bgd-labs/aave-ecosystem-reserve-v2/tree/release/final-proposal/certora). Our policy was to have minimum deviaton from this version.
 
-- [Mainnet Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/mainnet_layout_diff.md)
-- [Polygon Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/polygon_layout_diff.md)
-- [Optimism Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/optimism_layout_diff.md)
-- [Arbitrum Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/arbitrum_layout_diff.md)
-- [Avalanche Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/avalanche_layout_diff.md)
+- **Code diffing**: Comparing the codebase of all existing Collectors with the consolidated one, to not have any unexpected logic included or missing.
+
+- **Storage diffing**: Comparing the storage layout of versions, to verify that there is no misalignment between them, which could create important problems. Generated diffs:
+  - [Mainnet Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/mainnet_layout_diff.md)
+  - [Polygon Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/polygon_layout_diff.md)
+  - [Optimism Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/optimism_layout_diff.md)
+  - [Arbitrum Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/arbitrum_layout_diff.md)
+  - [Avalanche Collector](https://github.com/bgd-labs/aave-collector-unification/blob/main/diffs/avalanche_layout_diff.md)
 
 ## Deployed Contracts
 
