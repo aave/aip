@@ -30,14 +30,16 @@ In an ecosystem like Aave, with liquidity pool instances spread across multiple 
 
 Upon execution on the respective network the proposal will:
 
-- call `POOL_ADDRESSES_PROVIDER.setPoolImpl(NEW_POOL_IMPL)` to replace the Pool implementation
-- call `POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(NEW_POOL_CONFIGURATOR_IMPL)` to replace the PoolConfigurator implementation
-- call `POOL_ADDRESSES_PROVIDER.setPoolDataProvider(NEW_PROTOCOL_DATA_PROVIDER)` to replace the AaveProtocolDataProvider
-- iterate through all currently listed tokens on the pool (fetched via `POOL.getReservesList()`)
+- call `POOL_ADDRESSES_PROVIDER.setPoolImpl(NEW_POOL_IMPL)` to replace the Pool implementation (all networks)
+- call `POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(NEW_POOL_CONFIGURATOR_IMPL)` to replace the PoolConfigurator implementation (all networks, excluding mainnet)
+- call `POOL_ADDRESSES_PROVIDER.setPoolDataProvider(NEW_PROTOCOL_DATA_PROVIDER)` to replace the AaveProtocolDataProvider (all networks, excluding mainnet)
+- iterate through all currently listed tokens on the pool (fetched via `POOL.getReservesList()`) (all networks, excluding mainnet)
   - call `POOL_CONFIGURATOR.updateAToken(inputAToken)` to replace the aToken implementation
   - call `POOL_CONFIGURATOR.updateVariableDebtToken(inputVToken)` to replace the vToken implementation
   - call `POOL_CONFIGURATOR.updateStableDebtToken(inputSToken)` to replace the sToken implementation
   - call `POOL_CONFIGURATOR.setReserveFlashLoaning(reserve, true)` to enable flashloaning on the reserve
+- call `ACL_MANAGER.grantRole(ISOLATED_COLLATERAL_SUPPLIER_ROLE, SWAP_COLLATERAL_ADAPTER)` to maintain pre-upgrade behavior (all networks, excluding harmony)
+- call `ACL_MANAGER.grantRole(ISOLATED_COLLATERAL_SUPPLIER_ROLE, MIGRATION_HELPER)` to maintain pre-upgrade behavior (mainnet, avalanche, polygon)
 
 ## Security and additional considerations
 
@@ -48,6 +50,7 @@ We applied the following security procedures for this upgrade:
 - **Assets configurations pre/post upgrade**: In a simulation environment, validating the configurations of the assets pre-upgrade are the same as post-upgrade, only with those changes that are intended (e.g. enabling the new `flashloanable` flag only present on v3.0.1, later explained).
 - **Additional E2E tests**: Also in a simulation environment, checking that the main actions available on the pool can be performed (e.g. supply, borrow) on all pools with non-frozen assets.
 - **Extra review**: Given their involvement in the development of Aave v3, we have requested AaveCompanies to take a look at the procedure, in order to have multiple parties validating it.
+- **Audit**: Certora and SigmaPrime reviewed the v3.0.1 -> v3.0.2 changes
 
 The decision to enable `flashloanable` for all the assets has been taken in order to have the highest possible consistency with the current state of the assets in the pools: currently, all are flashloanable, so by enabling the new flag, they will continue to be so.
 
@@ -58,8 +61,8 @@ The decision to enable `flashloanable` for all the assets has been taken in orde
 - [Payload:Arbitrum](https://arbiscan.io/address/0x209ad99bd808221293d03827b86cc544bca0023b)
 - [Payload:Optimism](https://optimistic.etherscan.io/address/0x7748d38a160eeef9559e2b043eaec5cfffce3e4c)
 - [Payload:Avalanche](https://snowtrace.io/address/0xd792a3779d3c80baee8cf3304d6aeac74bc432be)
-- [Payload:Fantom](TBA: insane gas atm)
-- [Payload:Harmony](TBA: not sure, due to lack of create2 and verification)
+- [Payload:Fantom](https://ftmscan.com/address/0x04a8d477ee202adce1682f5902e1160455205b12)
+- [Payload:Harmony](https://explorer.harmony.one/address/0x90127a46207e97e4205db5ccc1ec9d6d43633fd4)
 - [Test suite](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/tests/V301UpgradePayloadTest.t.sol)
 - [Update diffs](https://github.com/bgd-labs/proposal-3.0.1-upgrade/tree/main/diffs)
 
