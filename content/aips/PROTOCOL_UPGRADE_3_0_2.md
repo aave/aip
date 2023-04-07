@@ -9,7 +9,7 @@ created: 2023-02-10
 ## Simple Summary
 
 This proposal upgrades the Aave v3 instances on Ethereum, Polygon, Optimism and Arbitrum to the v3.0.2 version.
-The v3.0.2 is an upgrade based on the v3.0.1 version already running on the new Aave v3 Ethereum pool which comes with improvements to the handling of isolation, ltv0 and flashBorrower initiated flashloans.
+The v3.0.2 is an upgrade based on the v3.0.1 version already running on the new Aave v3 Ethereum pool which comes with improvements to the handling of isolation mode, LTV0, and flashBorrower initiated flashloans.
 If this proposal succeeds, it will also authorize the upgrade of the V3 pools on Avalanche, Fantom, and Harmony via a delegatecall by the Aave Guardian.
 
 The upgrades to be performed will affect the following contracts:
@@ -22,7 +22,7 @@ And replace the `AaveProtocolDataProvider` on the PoolAddressesProvider with it'
 
 ## Motivation
 
-Aave v3 Ethereum has been activated via Aave governance at the end of january. But in reality, as described [HERE](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13), the smart contracts on Ethereum are a slightly improved version of v3, the so-called v3.0.1.
+Aave v3 Ethereum has been activated via Aave governance at the end of January. But in reality, as described [HERE](https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13), the smart contracts on Ethereum are a slightly improved version of v3, the so-called v3.0.1.
 
 In an ecosystem like Aave, with liquidity pool instances spread across multiple networks, it is fundamental to try to keep version consistency, which is not the case at moment, with Polygon, Avalanche, Optimism, Arbitrum, Fantom, and Harmony running still on v3.0.0. Therefore this proposal aligns all pools at v3.0.2.
 
@@ -33,7 +33,7 @@ Upon execution on the respective network the proposal will:
 - call `POOL_ADDRESSES_PROVIDER.setPoolImpl(NEW_POOL_IMPL)` to replace the Pool implementation
 - call `POOL_ADDRESSES_PROVIDER.setPoolConfiguratorImpl(NEW_POOL_CONFIGURATOR_IMPL)` to replace the PoolConfigurator implementation
 - call `POOL_ADDRESSES_PROVIDER.setPoolDataProvider(NEW_PROTOCOL_DATA_PROVIDER)` to replace the AaveProtocolDataProvider
-- iterate trough all currently listed tokens on the pool (fetched via `POOL.getReservesList()`)
+- iterate through all currently listed tokens on the pool (fetched via `POOL.getReservesList()`)
   - call `POOL_CONFIGURATOR.updateAToken(inputAToken)` to replace the aToken implementation
   - call `POOL_CONFIGURATOR.updateVariableDebtToken(inputVToken)` to replace the vToken implementation
   - call `POOL_CONFIGURATOR.updateStableDebtToken(inputSToken)` to replace the sToken implementation
