@@ -63,7 +63,6 @@ The decision to enable `flashloanable` for all the assets has been taken in orde
 - [Payload:Avalanche](https://snowtrace.io/address/0xd792a3779d3c80baee8cf3304d6aeac74bc432be)
 - [Payload:Fantom](https://ftmscan.com/address/0x04a8d477ee202adce1682f5902e1160455205b12)
 - [Payload:Harmony](https://explorer.harmony.one/address/0x90127a46207e97e4205db5ccc1ec9d6d43633fd4)
-- [Test suite](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/tests/V301UpgradePayloadTest.t.sol)
 - [Update diffs](https://github.com/bgd-labs/proposal-3.0.1-upgrade/tree/main/diffs)
 
 ## Copyright
