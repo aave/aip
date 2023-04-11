@@ -59,16 +59,16 @@ This is to be implemented across all BAL reserves, Polygon v2, v3, Ethereum v2 a
 
 # Implementation
 
-Payload for AAVE V3 Ethereum can be found [here]()
-Tests can be found [here]()
+Payload for AAVE V3 Ethereum can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV3EthRatesUpdates_20230328.sol)
+Tests can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV3MultiRatesUpdates_20230328Test.t.sol)
 
-Payload for AAVE V3 Polygon can be found [here]()
-Tests can be found [here]()
+Payload for AAVE V3 Polygon can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV3PolRatesUpdates_20230328.sol)
+Tests can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV3MultiRatesUpdates_20230328Test.t.sol)
 
 Deployment script for interest rate strategy can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer/blob/main/script/DeployContract.s.sol)
-Payload for AAVE V2 Polygon can be found [here]()
-Payload for AAVE V2 Ethereum can be found [here]()
-Tests can be found [here]()
+Payload for AAVE V2 Polygon can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV2PolRatesUpdates_20230328_Payload.sol)
+Payload for AAVE V2 Ethereum can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV2EthRatesUpdates_20230328_Payload.sol)
+Tests can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RatesUpdates_20230328/AaveV2MultiRatesUpdates_20230328_PayloadTest.t.sol)
 
 
 # Copyright
