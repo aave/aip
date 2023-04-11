@@ -29,7 +29,7 @@ Making LDO available on Aave v3 would make Aave v3 the first major lending marke
 
 # Specification
 
-The parameters shown below are the [combined recommendation](https://governance.aave.com/t/arfc-add-support-for-ldo-on-ethereum-v3/12045/5) of Gauntlet and Chaos Labs. It can be found here.
+The parameters shown below are the [combined recommendation](https://governance.aave.com/t/arfc-add-support-for-ldo-on-ethereum-v3/12045/5) of Gauntlet and Chaos Labs.
 
 Ticker: LDO
 
@@ -66,11 +66,11 @@ ETH/USD: [`0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419`](https://etherscan.io/add
 
 # Implementation
 
-Test cases can be found [here]()
+Test cases can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3Listings_20230403/AaveV3Listings_20230403_PayloadTest.t.sol)
 
-Payload implementation can be found [here]()
+Payload implementation can be found [here](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3Listings_20230403/AaveV3Listings_20230403_Payload.sol)
 
-Deployed Payload can be found [here]()
+Deployed Payload can be found [here](https://etherscan.io/address/0x7b766a02eba6d8651eeebdeb886323fc64bf1739)
 
 # Copyright
 
