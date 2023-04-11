@@ -57,6 +57,20 @@ Update the following parameters as per below table:
 
 This is to be implemented across all BAL reserves, Polygon v2, v3, Ethereum v2 and v3.
 
+# Implementation
+
+Payload for AAVE V3 Ethereum can be found [here]()
+Tests can be found [here]()
+
+Payload for AAVE V3 Polygon can be found [here]()
+Tests can be found [here]()
+
+Deployment script for interest rate strategy can be found [here](https://github.com/llama-community/aave-interest-rate-strategy-deployer/blob/main/script/DeployContract.s.sol)
+Payload for AAVE V2 Polygon can be found [here]()
+Payload for AAVE V2 Ethereum can be found [here]()
+Tests can be found [here]()
+
+
 # Copyright
 
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
