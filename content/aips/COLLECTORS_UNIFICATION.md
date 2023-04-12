@@ -78,8 +78,8 @@ V2 Funds Transfer
 
 | Chain | MigrationCollector | AToken | Payload |
 | --- | --- | --- | --- |
-| Polygon | https://polygonscan.com/address/0x05225cd708bca9253789c1374e4337a019e99d56 | https://polygonscan.com/address/0x80f2c02224a2e548fc67c0bf705ebfa825dd5439 | https://polygonscan.com/address/0x7fc3fcb14ef04a48bb0c12f0c39cd74c249c37d8 |
-| Avalanche | https://snowtrace.io/address/0x80a2f9a653d3990878cff8206588fd66699e7f2a | https://snowtrace.io/address/0x44b4221c950fcf23a40e68dea29fed0bb88893a9 | https://snowtrace.io/address/0x2f6dd00311cbedb3b8c979c307b9646aa23d54ac |
+| Polygon | https://polygonscan.com/address/0xfd858c8bc5ac5e10f01018bc78471bb0dc392247 | https://polygonscan.com/address/0x80f2c02224a2e548fc67c0bf705ebfa825dd5439 | https://polygonscan.com/address/0xc383aac4b3dc18d9ce08ab7f63b4632716f1e626 |
+| Avalanche | https://snowtrace.io/address/0x4752c92085db240e1d9d5653e663a6225d14fcc7 | https://snowtrace.io/address/0x44b4221c950fcf23a40e68dea29fed0bb88893a9 | https://snowtrace.io/address/0x9e9b953a3be8ca196fb7eee4660a5830da0d06de |
 
 ## Copyright
 
