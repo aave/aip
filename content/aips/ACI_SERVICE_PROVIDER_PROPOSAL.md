@@ -23,7 +23,7 @@ The proposed budget is 250k aUSDT for a period of 6 months.
 The proposal payload uses the `IProposalGenericExecutor` to create a 180 days stream with the following parameters:
 
 ```solidity
-IProposalGenericExecutor {
+contract ProposalPayload is IProposalGenericExecutor {
   address public constant ACI_TREASURY = 0x57ab7ee15cE5ECacB1aB84EE42D5A9d0d8112922;
   address public constant AUSDT = AaveV2EthereumAssets.USDT_A_TOKEN;
   address public constant COLLECTOR = AaveV2Ethereum.COLLECTOR;
