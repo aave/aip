@@ -20,7 +20,7 @@ This will allow the ACI to periodically claim a fraction of the budget for the d
 
 The proposed budget is 250k aUSDT for a period of 6 months.
 
-The proposal payload uses the `IProposalGenericExecutor` to create a 180 days stream with the following parameters:
+The proposal payload uses the delegatecall pattern with a pre-deployed payload. The payload creates a 180 days stream with the following parameters:
 
 ```solidity
 contract ProposalPayload is IProposalGenericExecutor {
