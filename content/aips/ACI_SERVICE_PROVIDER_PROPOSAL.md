@@ -11,7 +11,7 @@ created: 2023-04-12
 This AIP proposal presents Aave with the opportunity to onboard Aave-Chan Initiative (ACI) as a service provider for the Aave protocol.
 
 ## Motivation
-The Aave Chan Initiative has been a dedicated contributor to the Aave ecosystem. The 6-Month Budget Proposal aims to secure the necessary resources to continue the ACI's work, ensuring that we can maintain our level of commitment and contribution to the Aave ecosystem. For more details about the ACI proposal, please refers to the [TEMP CHECK](https://governance.aave.com/t/temp-check-aave-chan-initiative-6-month-budget-proposal/12344) version of the current proposal
+The Aave Chan Initiative has been a dedicated contributor to the Aave ecosystem. The 6-Month Budget Proposal aims to secure the necessary resources to continue the ACI's work, ensuring that we can maintain our level of commitment and contribution to the Aave ecosystem. For more details about the ACI proposal, please refer to the [TEMP CHECK](https://governance.aave.com/t/temp-check-aave-chan-initiative-6-month-budget-proposal/12344) version of the current proposal.
 
 ## Specification
 If this proposal is approved, a stream of the allocated budget will be activated, with [treasury.aavechan.eth](https://etherscan.io/address/0x57ab7ee15cE5ECacB1aB84EE42D5A9d0d8112922) as the recipient.
