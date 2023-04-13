@@ -50,7 +50,7 @@ contract ProposalPayload is IProposalGenericExecutor {
 
 ## References
 
-A list of relevant links like for this proposal e.g.
+A list of relevant links like for this proposal:
 
 - [forum discussion](https://governance.aave.com/t/arfc-aci-service-provider-6-month-proposal/12513)
 - [tests](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/main/src/AaveV3ACIProposal_20230411/AaveV3ACIProposal_20230411Test.t.sol)
