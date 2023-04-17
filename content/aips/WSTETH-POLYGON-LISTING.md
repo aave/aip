@@ -63,9 +63,8 @@ This section presents the risk parameters and interest rates parameters presente
 
 A list of relevant links like for this proposal:
 
-  * [Test Cases](XXX)
-  * [Payload Implementation](XXX)
-  * [Deployed Contracts](XXX)
+  * [Test Cases](https://github.com/bgd-labs/aave-proposals/tree/main/src/AaveV3Listings_20230413/AaveV3Listings_20230413_PayloadTest.t.sol)
+  * [Payload Implementation](https://github.com/bgd-labs/aave-proposals/tree/main/src/AaveV3Listings_20230413/AaveV3Listings_20230413_Payload.sol)
 
 The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.com/).
 
