@@ -2,7 +2,7 @@
 title: Upgrade Aave V3 pools to Aave V3.0.2
 author: BGD Labs (@bgdlabs)
 shortDescription: Upgrade various contracts to V3.0.2 to align Aave Deployments
-discussions: https://governance.aave.com/t/bgd-aave-v3-ethereum-new-deployment-vs-aave-v2-upgrade/9990/13
+discussions: https://governance.aave.com/t/bgd-upgrade-of-aave-v3-periphery-to-3-0-1-across-networks/10744/9
 created: 2023-02-10
 ---
 
@@ -56,6 +56,13 @@ The decision to enable `flashloanable` for all the assets has been taken in orde
 
 ## References
 
+- [Repository](https://github.com/bgd-labs/proposal-3.0.1-upgrade)
+- [Storage/code diffs](https://github.com/bgd-labs/proposal-3.0.1-upgrade/tree/main/diffs)
+- [sigma prime 3.0.1 audit report](https://github.com/aave/aave-v3-core/blob/master/audits/23-12-2022_SigmaPrime_AaveV3-0-1.pdf)
+- [PeckShield 3.0.1 audit report](https://github.com/aave/aave-v3-core/blob/master/audits/09-12-2022_PeckShield_AaveV3-0-1.pdf)
+- [Cerora 3.0.2 audit report](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/audits/Aave_V3.0.2_PR_820_Report_Mar2023.pdf)
+- [SigmaPrime 3.0.2 audit report](TBA)
+- [Forum discussion](https://governance.aave.com/t/bgd-upgrade-of-aave-v3-periphery-to-3-0-1-across-networks/10744/9)
 - [Payload:Mainnet](https://etherscan.io/address/0x31a239f3e39c5d8ba6b201ba81ed584492ae960f)
 - [Payload:Polygon](https://polygonscan.com/address/0xa603ad2b0258bdda94f3dfdb26859ef205ae9244)
 - [Payload:Arbitrum](https://arbiscan.io/address/0x209ad99bd808221293d03827b86cc544bca0023b)
