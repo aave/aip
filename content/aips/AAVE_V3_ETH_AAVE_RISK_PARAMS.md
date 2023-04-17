@@ -22,7 +22,6 @@ To make Aave V3 more attractive for migration and to match Aave V2 parameters, w
 - Liquidation Threshold (LT): Increase the LT from 70% to 73%.
 - Liquidation Penalty (LP): Maintain the current LP of 7.5%, as it is already in alignment with Aave V2.
 
-No changes to Aave V3 caps or interest rate strategies are proposed in this AIP.
 
 ## Specification
 
