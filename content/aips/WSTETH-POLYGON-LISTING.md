@@ -1,7 +1,7 @@
 ---
 title: Add wstETH to Polygon Aave v3
 discussions: https://governance.aave.com/t/arc-add-support-for-wsteth-on-polygon-v3/12266
-shortDescription: Add wstETH to Polygon Aave v3 deployment as collateral, with borrowing enabled and an Ethereum eMode.
+shortDescription: Add wstETH to Polygon Aave v3 deployment as collateral, with borrowing enabled and an Ethereum correlated eMode.
 author: Llama - TokenLogic & efecarranza
 created: 2023-04-17
 ---
@@ -12,7 +12,7 @@ This AIP presents the community with the opportunity to add wstETH to the Polygo
 
 # Abstract
 
-Across the Aave v3 Liquidity Pools, wstETH is listed on Ethereum, Arbitrum and Optimism. This proposal seeks to list wstETH on the Polygon Liquidity Pool as Collateral, with Borrowing enabled and an Ethereum eMode.
+Across the Aave v3 Liquidity Pools, wstETH is listed on Ethereum, Arbitrum and Optimism. This proposal seeks to list wstETH on the Polygon Liquidity Pool as Collateral, with Borrowing enabled and an Ethereum correlated eMode. wETH will also be added to this Ethereum correlated eMode. The parameters are listed below.
 
 The stETH/wETH rewards-maximising loop on Aave v2 Ethereum is the main source of borrowing demand for wETH. The wETH reserve generates a material portion of Aave’s revenue, more than [$294k](https://dune.com/llama/Aave-ETH-Market-Parameters-Simulation) during March 2023. 
 
