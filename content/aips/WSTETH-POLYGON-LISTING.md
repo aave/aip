@@ -59,6 +59,13 @@ This section presents the risk parameters and interest rates parameters presente
 |Stable Rate Excess Offset|8.00%|
 |Optimal Stable To Total Debt Ratio|20.00%|
 
+eMode category: ETH Correlated Strategy
+|Parameter|Value|
+| --- | --- |
+| LT | 93% |
+| LTV | 90% |
+| LB | 1% |
+
 # Implementation
 
 A list of relevant links like for this proposal:
