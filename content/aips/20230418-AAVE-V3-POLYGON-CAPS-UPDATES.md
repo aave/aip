@@ -62,10 +62,10 @@ A list of relevant links like for this proposal:
 
 * [stMATIC Governance Forum Discussion](https://governance.aave.com/t/arfc-stmatic-supply-cap-increase-polygon-v3/12606)
 * [wETH Governance Forum Discussion](https://governance.aave.com/t/arc-gauntlet-recommendations-for-aave-link-and-weth-on-v3-arbitrum-2023-03-21/12394?u=pauljlei)
-* [stMatic Test Cases](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3CapsUpdates_20230418/AaveV3PolCapsUpdates_20230418_PayloadTest.t.sol)
-* [stMatic Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3CapsUpdates_20230418/AaveV3PolCapsUpdates_20230418_Payload.sol)
-* [wETH Test Cases](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3CapsUpdate_20230327/AaveV3MultiCapsUpdate_20230327_Test.t.sol)
-* [wETH Implementation](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3CapsUpdate_20230327/AaveV3ArbCapsUpdate_20230327.sol)
+* [stMatic Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230418/AaveV3PolCapsUpdates_20230418_PayloadTest.t.sol)
+* [stMatic Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230418/AaveV3PolCapsUpdates_20230418_Payload.sol)
+* [wETH Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdate_20230327/AaveV3MultiCapsUpdate_20230327_Test.t.sol)
+* [wETH Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdate_20230327/AaveV3ArbCapsUpdate_20230327.sol)
 
 Risk Service providers have endorsed the contents of this proposal. 
 
