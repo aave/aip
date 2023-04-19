@@ -61,7 +61,7 @@ Contract: [`0x82aF49447D8a07e3bd95BD0d56f35241523fBab1`](https://arbiscan.io/tok
 A list of relevant links like for this proposal:
 
 * [stMATIC Governance Forum Discussion](https://governance.aave.com/t/arfc-stmatic-supply-cap-increase-polygon-v3/12606)
-* [wETH Governance Forum Discussion](https://governance.aave.com/t/arc-gauntlet-recommendations-for-aave-link-and-weth-on-v3-arbitrum-2023-03-21/12394?u=pauljlei)
+* [wETH Governance Forum Discussion](https://governance.aave.com/t/arc-gauntlet-recommendations-for-aave-link-and-weth-on-v3-arbitrum-2023-03-21/12394)
 * [stMatic Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230418/AaveV3PolCapsUpdates_20230418_PayloadTest.t.sol)
 * [stMatic Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230418/AaveV3PolCapsUpdates_20230418_Payload.sol)
 * [wETH Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdate_20230327/AaveV3MultiCapsUpdate_20230327_Test.t.sol)
