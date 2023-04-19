@@ -61,7 +61,7 @@ The decision to enable `flashloanable` for all the assets has been taken in orde
 - [sigma prime 3.0.1 audit report](https://github.com/aave/aave-v3-core/blob/master/audits/23-12-2022_SigmaPrime_AaveV3-0-1.pdf)
 - [PeckShield 3.0.1 audit report](https://github.com/aave/aave-v3-core/blob/master/audits/09-12-2022_PeckShield_AaveV3-0-1.pdf)
 - [Cerora 3.0.2 audit report](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/audits/Aave_V3.0.2_PR_820_Report_Mar2023.pdf)
-- [SigmaPrime 3.0.2 audit report](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/audits/19-04-2023_SigmaPrime_AaveV3-0-2.pdf)
+- [sigma prime 3.0.2 audit report](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/audits/19-04-2023_SigmaPrime_AaveV3-0-2.pdf)
 - [Forum discussion](https://governance.aave.com/t/bgd-upgrade-of-aave-v3-periphery-to-3-0-1-across-networks/10744/9)
 - [Payload:Mainnet](https://etherscan.io/address/0x31a239f3e39c5d8ba6b201ba81ed584492ae960f)
 - [Payload:Polygon](https://polygonscan.com/address/0xa603ad2b0258bdda94f3dfdb26859ef205ae9244)
