@@ -40,6 +40,7 @@ Upon execution on the respective network the proposal will:
   - call `POOL_CONFIGURATOR.setReserveFlashLoaning(reserve, true)` to enable flashloaning on the reserve
 - call `ACL_MANAGER.grantRole(ISOLATED_COLLATERAL_SUPPLIER_ROLE, SWAP_COLLATERAL_ADAPTER)` to maintain pre-upgrade behavior (all networks, excluding harmony)
 - call `ACL_MANAGER.grantRole(ISOLATED_COLLATERAL_SUPPLIER_ROLE, MIGRATION_HELPER)` to maintain pre-upgrade behavior (mainnet, avalanche, polygon)
+- call `POOL_CONFIGURATOR.updateFlashloanPremiumTotal(0.0005e4)` and `updateFlashloanPremiumToProtocol(0.0004e4)` to align flash loan fees with the currently configured.
 
 ## Security and additional considerations
 
@@ -63,12 +64,10 @@ The decision to enable `flashloanable` for all the assets has been taken in orde
 - [Cerora 3.0.2 audit report](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/audits/Aave_V3.0.2_PR_820_Report_Mar2023.pdf)
 - [sigma prime 3.0.2 audit report](https://github.com/bgd-labs/proposal-3.0.1-upgrade/blob/main/audits/19-04-2023_SigmaPrime_AaveV3-0-2.pdf)
 - [Forum discussion](https://governance.aave.com/t/bgd-upgrade-of-aave-v3-periphery-to-3-0-1-across-networks/10744/9)
-- [Payload:Mainnet](https://etherscan.io/address/0x31a239f3e39c5d8ba6b201ba81ed584492ae960f)
-- [Payload:Polygon](https://polygonscan.com/address/0xa603ad2b0258bdda94f3dfdb26859ef205ae9244)
-- [Payload:Arbitrum](https://arbiscan.io/address/0x209ad99bd808221293d03827b86cc544bca0023b)
-- [Payload:Optimism](https://optimistic.etherscan.io/address/0x7748d38a160eeef9559e2b043eaec5cfffce3e4c)
-- [Payload:Avalanche](https://snowtrace.io/address/0xd792a3779d3c80baee8cf3304d6aeac74bc432be)
-- [Payload:Fantom](https://ftmscan.com/address/0x04a8d477ee202adce1682f5902e1160455205b12)
+- [Payload:Mainnet](https://etherscan.io/address/0x6f6caee8348c10dc9441fbe28cb588566f1251d5#code#F17#L1)
+- [Payload:Polygon](https://polygonscan.com/address/0xb56c0688316c333bfaa20cd7d836e05d48939b58#code#F17#L78)
+- [Payload:Arbitrum](https://arbiscan.io/address/0xf876fa9a96ecd51c0bba8554ff2e397fe7f73bab#code#F17#L1)
+- [Payload:Optimism](https://optimistic.etherscan.io/address/0x45ce944c29a25aee0e135f8f89ab55dc9c5438e5#code#F17#L1)
 - [Update diffs](https://github.com/bgd-labs/proposal-3.0.1-upgrade/tree/main/diffs)
 - BorrowLogic: [Mainnet](https://etherscan.io/address/0x5d834EAD0a80CF3b88c06FeeD6e8E0Fcae2daEE5#code), [Polygon](https://polygonscan.com/address/0x5d834EAD0a80CF3b88c06FeeD6e8E0Fcae2daEE5#code), [Arbitrum](https://arbiscan.io/address/0x5d834EAD0a80CF3b88c06FeeD6e8E0Fcae2daEE5#code), [Optimism](https://optimistic.etherscan.io/address/0x5d834EAD0a80CF3b88c06FeeD6e8E0Fcae2daEE5#code), [Avalanche](https://snowtrace.io/address/0x5d834EAD0a80CF3b88c06FeeD6e8E0Fcae2daEE5#code), [Fantom](https://ftmscan.com/address/0x5d834ead0a80cf3b88c06feed6e8e0fcae2daee5#code)
 - BridgeLogic: [Mainnet](https://etherscan.io/address/0x57572C9e795F4B6A748EFBeAB7E0a1B9996A0A24#code), [Polygon](https://polygonscan.com/address/0x57572C9e795F4B6A748EFBeAB7E0a1B9996A0A24#code), [Arbitrum](https://arbiscan.io/address/0x57572C9e795F4B6A748EFBeAB7E0a1B9996A0A24#code), [Optimism](https://optimistic.etherscan.io/address/0x57572C9e795F4B6A748EFBeAB7E0a1B9996A0A24#code), [Avalanche](https://snowtrace.io/address/0x57572C9e795F4B6A748EFBeAB7E0a1B9996A0A24#code), [Fantom](https://ftmscan.com/address/0x57572C9e795F4B6A748EFBeAB7E0a1B9996A0A24#code)
