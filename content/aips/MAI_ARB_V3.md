@@ -36,9 +36,9 @@ Risk Parameter|Value|
 |Liquidation Bonus|7.5%|
 |Reserve Factor| 20%|
 |Liquidation Protocol Fee|10%|
-|Borrow Cap|1,000k|
-|Supply Cap|1,200k|
-|Debt Ceiling|2,000k|
+|Borrow Cap|2,400k|
+|Supply Cap|4,800k|
+|Debt Ceiling|1,200k|
 |Base|0%|
 |Slope1|4%|
 |Uoptimal|80%|
@@ -71,9 +71,9 @@ IEngine.Listing({
       liqThreshold: 80_00,
       liqBonus: 7_50,
       reserveFactor: 20_00,
-      supplyCap: 1_200_000,
-      borrowCap: 1_000_000,
-      debtCeiling: 2_000_000,
+      supplyCap: 4_800_000,
+      borrowCap: 2_400_000,
+      debtCeiling: 1_200_000,
       liqProtocolFee: 10_00,
       eModeCategory: 0
     });

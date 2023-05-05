@@ -36,9 +36,9 @@ Contract Address: [0xdFA46478F9e5EA86d57387849598dbFB2e964b02](https://optimisti
 |Liquidation Bonus|5%|
 |Reserve Factor|20%|
 |Liquidation Protocol Fee|10%|
-|Borrow Cap|1,200k|
-|Supply Cap|2,200k|
-|Debt Ceiling|2,000k|
+|Borrow Cap|2,500k|
+|Supply Cap|7,600k|
+|Debt Ceiling|1,900k|
 |Base|0%|
 |Slope1|4%|
 |Uoptimal|80%|
@@ -71,9 +71,9 @@ IEngine.Listing({
       liqThreshold: 80_00,
       liqBonus: 5_00,
       reserveFactor: 20_00,
-      supplyCap: 2_200_000,
-      borrowCap: 1_200_000,
-      debtCeiling: 2_000_000,
+      supplyCap: 7_600_000,
+      borrowCap: 2_500_000,
+      debtCeiling: 1_900_000,
       liqProtocolFee: 10_00,
       eModeCategory: 0
     });
