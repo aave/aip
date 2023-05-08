@@ -12,7 +12,7 @@ This publication proposes increasing the MaticX Supply Cap on Polygon v3 from 17
 
 # Abstract
 
-Aftera vote for increasing the communities counter party risk was passsed on Snapshot, the Supply Cap for MaticX can be increased from 50% to 75% of circulating supply.
+After a vote for increasing the communities counter party risk was passed on Snapshot, the Supply Cap for MaticX can be increased from 50% to 75% of circulating supply.
 
 The dominant use case for MaticX on Aave Protocol is as collateral to borrow wMATIC. Since the MaticX oracle, a calculated price feed provided by Chainlink based upon the underlying asset's (MATIC) price, the risk of liquidation is minimal. As a result, the primary risk of increasing aave Protocol's exposure to MaticX is the assocaited counterparty risk which is expressed as concentration risk with up to 75% of supply on the Polygon network.
 
