@@ -33,7 +33,7 @@ Risk Parameter|Value|
 |Enable Collateral|YES (in isolation mode)|
 |Loan To Value|75%|
 |Liquidation Threshold|80%|
-|Liquidation Bonus|7.5%|
+|Liquidation Bonus|5%|
 |Reserve Factor| 20%|
 |Liquidation Protocol Fee|10%|
 |Borrow Cap|2,400k|
