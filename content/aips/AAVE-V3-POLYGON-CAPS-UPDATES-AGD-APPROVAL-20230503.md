@@ -1,7 +1,7 @@
 ---
-title: MaticX Supply Cap Increase Polygon v3
+title: MaticX Supply Cap Increase Polygon v3 and AGD Approval
 discussions: https://governance.aave.com/t/arfc-maticx-supply-cap-increase-polygon-v3/12657
-shortDescription: Increase Supply Cap MaticX on Polygon v3 to 29.3M units. 
+shortDescription: Increase Supply Cap MaticX on Polygon v3 to 29.3M units and AGD approval.
 author: Llama - TokenLogic
 created: 2023-05-03
 ---
