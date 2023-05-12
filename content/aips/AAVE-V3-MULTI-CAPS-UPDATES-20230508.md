@@ -10,7 +10,7 @@ created: 2023-05-10
 
 This AIP increasing the following Supply Caps:
 
-* stMATIC Supply Cap on Polygon from 21.0M to 30M units
+* stMATIC Supply Cap on Polygon from 25.0M to 30M units
 * wstETH on Polygon v3 from 1,800 units to 2,400 units
 * wstETH on Abritrum from 4.65k unit to 9,300 units
 
@@ -28,13 +28,13 @@ Each of the parameter changes presented have been reviewed and are endorsed by a
 
 Recently, the Supply Cap of stMATIC was increased from 21M units to 25M units. Within a few days, the Supply Cap was reached.
 
-![](https://i.imgur.com/SvXZEm2.png)
+![](../assets/AAVE-V3-MULTI-CAPS-UPDATES-20230508/supplycapreached.png)
 
 The above chart shows the pent up demand awaiting Supply Cap increases. The right most part of the chart shows a rapid increase in utilisation as soon as the Supply Cap was lifted.
 
 The recent increase in stMATIC deposits is from users entering the yield maximising strategy. This type of interaction with Aave Protocol is deemed lower risk than borrowing less price correlated assets.
 
-![](https://i.imgur.com/l3XpgqV.png)
+![](../assets/AAVE-V3-MULTI-CAPS-UPDATES-20230508/tokensupply.png)
 
 The chart above shows that the supply of stMATIC on Polygon has only increased notably over the last few days. 50% of supply is 25,825,944 which can be rounded to 25.8M units. This AIP presents a stMATIC Supply Cap of 30M units, or 58.08% of supply.
 
@@ -91,13 +91,12 @@ A list of relevant links like for this proposal:
 **Polygon stMATIC**
 
 * [stMATIC Governance Forum Discussion](https://governance.aave.com/t/arfc-stmatic-supply-cap-increase-polygon-v3/12606)
-* [wETH Governance Forum Discussion](https://governance.aave.com/t/arc-gauntlet-recommendations-for-aave-link-and-weth-on-v3-arbitrum-2023-03-21/12394)
 * [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230508/AaveV3MultiCapsUpdate_20230508_PayloadTest.t.sol)
 * [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230508/AaveV3PolCapsUpdates_20230508_Payload.sol)
 
 **Polygon wstETH**
 
-* [stMATIC Governance Forum Discussion](https://governance.aave.com/t/arfc-increase-wsteth-supply-cap-on-polygon-v3/12971)
+* [wstETH Governance Forum Discussion](https://governance.aave.com/t/arfc-increase-wsteth-supply-cap-on-polygon-v3/12971)
 * [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230508/AaveV3MultiCapsUpdate_20230508_PayloadTest.t.sol)
 * [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3CapsUpdates_20230508/AaveV3PolCapsUpdates_20230508_Payload.sol)
 
