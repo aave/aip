@@ -2,7 +2,7 @@
 title: Add 1INCH to Aave V3 Ethereum
 shortDescription: Add 1INCH to Aave V3 Ethereum
 author: Chaos Labs (@ori-chaoslabs, @yonikesel)
-discussions: https://governance.aave.com/t/arfc-add-ens-to-aave-v3-ethereum/13044
+discussions: https://governance.aave.com/t/arfc-add-1inch-to-aave-v3-ethereum/13043
 created: 2023-5-17
 ---
 
