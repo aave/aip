@@ -14,7 +14,7 @@ This proposal changes the current price feed for WBTC to the custom WBTC / BTC /
 
 The current price feeds for wstETH on Aave V3 Optimism and Arbitrum (`wstETH/USD`) can result in artificial volatility due to de-synchronization between different asset/ETH feeds. To address this problem and enhance the stability of the Aave platform, we propose to change the price feeds for wstETH to a [custom price adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol) that calculates the `wstETH / ETH / USD` price and is based on Chainlink's feeds under the hood. The same issue applies to the `WBTC` on Aave v2.
 
-This approach is already used for the wstETH on Polygon and WBTC on Aave V3. 
+This approach is already used for the wstETH on Polygon and WBTC on Aave V3.
 
 As the Chainlink sequencer feed is available for Optimism, it also makes sense to configure the price oracle sentinel for Aave V3 Optimism, so that all L2 Aave V3 markets where the the Chainlink feed is available, are in sync.
 
@@ -35,7 +35,7 @@ Custom price adapters are already widely used in the system for price-correlated
 
 Tests: [Ethereum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism Oracle Sentinel](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceOracleSentinel_20230511_PayloadTest.t.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_PayloadTest.t.sol)
 
-Proposal payload implementation: [Ethereum](AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_Payload.sol), [Optimism](AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_Payload.sol), [Optimism Oracle Sentinel](AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceOracleSentinel_20230511_Payload.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_Payload.sol)
+Proposal payload implementation: [Ethereum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_Payload.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsSentinelUpdate_20230504_Payload.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_Payload.sol)
 
 Price Adapters: [WBTC](https://etherscan.io/address/0xFD858c8bC5ac5e10f01018bC78471bb0DC392247), [wstETH Optimism](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56), [wstETH Arbitrum](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211)
 
