@@ -33,7 +33,7 @@ Custom price adapters are already widely used in the system for price-correlated
 
 ## References
 
-Tests: [Ethereum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism Oracle Sentinel](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceOracleSentinel_20230511_PayloadTest.t.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_PayloadTest.t.sol)
+Tests: [Ethereum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_PayloadTest.t.sol)
 
 Proposal payload implementation: [Ethereum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_Payload.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsSentinelUpdate_20230504_Payload.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_Payload.sol)
 
