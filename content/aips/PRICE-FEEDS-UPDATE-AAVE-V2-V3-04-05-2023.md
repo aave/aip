@@ -22,7 +22,7 @@ As the Chainlink sequencer feed is available for Optimism, it also makes sense t
 
 Upon execution, the proposal will:
 
-- call `ORACLE.setAssetSources([0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599], [xxx])` to replace the price source for `WBTC` on Aave v2
+- call `ORACLE.setAssetSources([0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599], [0xFD858c8bC5ac5e10f01018bC78471bb0DC392247])` to replace the price source for `WBTC` on Aave v2
 - call `AaveV3Optimism.POOL_ADDRESSES_PROVIDER.setPriceOracleSentinel(0xB1ba0787Ca0A45f086F8CA03c97E7593636E47D5)` to set the price oracle sentinel on the pool addresses provider
 - use Config Engine to update `wstETH` price feed to [0x05225Cd708bCa9253789C1374e4337a019e99D56](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56) on Optimism
 - use Config Engine to update `wstETH` price feed to [0x3105C276558Dd4cf7E7be71d73Be8D33bD18F211](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211) on Arbitrum
