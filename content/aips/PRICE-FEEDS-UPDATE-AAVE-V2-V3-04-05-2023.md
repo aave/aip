@@ -37,7 +37,7 @@ Tests: [Ethereum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV
 
 Proposal payload implementation: [Ethereum](AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_Payload.sol), [Optimism](AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_Payload.sol), [Optimism Oracle Sentinel](AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceOracleSentinel_20230511_Payload.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_Payload.sol)
 
-Price Adapters: [WBTC](), [wstETH Optimism](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56), [wstETH Arbitrum](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211)
+Price Adapters: [WBTC](https://etherscan.io/address/0xFD858c8bC5ac5e10f01018bC78471bb0DC392247), [wstETH Optimism](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56), [wstETH Arbitrum](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211)
 
 ## Copyright
 
