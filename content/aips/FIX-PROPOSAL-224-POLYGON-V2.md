@@ -46,7 +46,6 @@ function calculateInterestRates(
 ```
 
 - Post-execution actions tests, more specifically supplying liquidity on WETH, WBTC, WMATIC and USDT. The revert() caused by proposal 224 boils down to `ReserveLogic.updateInterestRates()`, function used on all pool actions to retrieve the current rate from the rate strategy. `deposit()` working implies the logic of calling the new rate strategy works for all actions.
-- 
 
 ## References
 
