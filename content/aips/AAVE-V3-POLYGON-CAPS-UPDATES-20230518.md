@@ -1,5 +1,5 @@
 ---
-title: [ARFC] wMATIC Supply & Borrow Cap Increase Polygon v3
+title: wMATIC Supply & Borrow Cap Increase Polygon v3
 discussions: https://governance.aave.com/t/arfc-wmatic-supply-borrow-cap-increase-polygon-v3/13095
 shortDescription: Increase Supply & Borrow Cap wMATIC on Polygon v3
 author: Llama (Fermin Carranza, TokenLogic)
@@ -28,11 +28,7 @@ There is also [15.13M](https://app.aave.com/markets/?marketName=proto_polygon) u
 
 Collectively, this represents around 21.65M units of wMATIC relative to a Supply Cap. This AIP intends to provide sufficent capacity for the 21.65M units to be deposited into the wMATIC reserve by increasing the Supply Cap from 66M units to 90M units, a 24M unit increase. The utilisation of the pool will be 73.33% after the Supply Cap is implemented.
 
-![](../assets/AAVE-V3-POLYGON-CAPS-UPDATES-20230518/utilization.png)
-
 With many teams are offering yield maximising strategies, there is continued strong demand for borrowing wMATIC. The current Borrow Cap has reached 74.50% utilisation. The newly proposed Borrow Cap 50M units is equivalent to 25% increase and represents 62.5% of the Supply Cap.
-
-![](../assets/AAVE-V3-POLYGON-CAPS-UPDATES-20230518/borrowinfo.png)
 
 With reference to the new [ARFC Aave V3 Caps update Framework](https://governance.aave.com/t/arfc-aave-v3-caps-update-framework/11937/1) it is possible to ship several upgrades to gradually increasing Aave's exposure to wMATIC over time.
 
