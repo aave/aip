@@ -30,7 +30,7 @@ The following verification/test have been made on this proposal:
 
 - Diff reports on configuration parameters of all Aave v2 Polygon listed assets: everything should be exactly the same as before, as parameters don't change; only the Solidity code of the interest rate strategies.
 
-- Diff reports on the Solidity code of the 3 new interest rate strategies, to check that compared with the current interest rate strategies of the affected assets (wrong), the new ones have an extra function, which is the required by the LendingPool:
+- Diff reports on the Solidity code of the new interest rate strategies, to check that compared with the current interest rate strategies of the affected assets (wrong), the new ones have an extra function, which is the required by the LendingPool:
 
 ```
 function calculateInterestRates(
@@ -64,7 +64,7 @@ function calculateInterestRates(
 
 **Diffs**
 
-[]()
+[https://github.com/bgd-labs/aave-proposals/tree/main/src/AaveV2PolygonIR_20230519/current-new.md](https://github.com/bgd-labs/aave-proposals/tree/main/src/AaveV2PolygonIR_20230519/current-new.md)
 
 
 **Proposal payload (Polygon)**
