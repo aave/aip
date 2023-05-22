@@ -65,7 +65,7 @@ At the time of Writing, Marc Zeller, ACI's founder, does not hold any rETH but o
 A list of relevant links like for this proposal e.g.
 
 - [forum discussion](https://governance.aave.com/t/arfc-activate-emode-for-reth-aave-ethereum-v3-pool/13034)
-- [tests](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3EthrETHEmode_20230522/AaveV3ETHrETHEmode_20230522test.t.sol)
+- [tests](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3EthrETHEmode_20230522/AaveV3ETHrETHEmode_20230522test.t.sol)
 - [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/master/src/AaveV3EthrETHEmode_20230522/AaveV3ETHrETHEmode_20230522.sol)
 
 ## Security Considerations
