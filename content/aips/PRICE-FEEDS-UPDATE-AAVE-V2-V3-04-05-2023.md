@@ -22,7 +22,7 @@ To address this problem and enhance the stability of the Aave platform, we propo
 
 This approach is already used for the wstETH on Polygon and WBTC on Aave V3.
 
-MaticX and stMatic price feeds will be swapped for a [special adapter](), which utilizes on-chain rate.
+MaticX and stMatic price feeds will be swapped for a [special adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/MaticSynchronicityPriceAdapter.sol), which utilizes on-chain rate.
 
 As the Chainlink sequencer feed is available for Optimism, it also makes sense to configure the price oracle sentinel for Aave V3 Optimism, so that all L2 Aave V3 markets where the the Chainlink feed is available, are in sync.
 
