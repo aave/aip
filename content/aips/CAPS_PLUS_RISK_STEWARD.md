@@ -20,7 +20,7 @@ As both providers have historically been in agreement with the updates proposed,
 Therefore, it seems that the community has important voting overhead in this scenario, which could be almost completely automated and simplified. It is quite common to have a proposal with unanimous support on day 1 of voting but given all other time considerations, execution is 5 days after.
 
 This proposal gives the necessary `RISK_ADMIN` rol to the `CapsPlusRiskSteward` introduced in this [governance forum thread](https://governance.aave.com/t/bgd-risk-steward-phase-1-capsplusrisksteward/12602).
-After execution the proposal the `RISK_COUNCIL` will be able to perform cap increases trough the `CapsPlusRiskStewards` under the following conditions:
+After execution, the `RISK_COUNCIL` will be able to perform cap increases through the `CapsPlusRiskStewards` under the following conditions for each asset listed:
 
 - the cap can only be adjusted upwards
 - the cap can never be increased by more than 100%
