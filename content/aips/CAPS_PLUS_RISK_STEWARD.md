@@ -46,7 +46,7 @@ The proposal execution is simulated [within the tests](https://github.com/bgd-la
   [optimism](https://optimistic.etherscan.io/address/0x5E76E98E0963EcDC6A065d1435F84065b7523f39#code#F1#L1),
   [polygon](https://polygonscan.com/address/0xc5de989E0D1BF605d19478Fdd32Aa827a10b464f#code#F1#L1)
 - Payloads:
-  [arbitrum](https://arbiscan.io/address/TBA#code),
+  [arbitrum](https://arbiscan.io/address/0xe79ca44408dae5a57ea2a9594532f1e84d2edaa4#code#F1#L1),
   [avalanche](https://snowtrace.io/address/0x7e1f23bdfc7287af276f77b5a867e85cf0377a31#code#F1#L1),
   [mainnet](https://etherscan.io/address/TBA#code),
   [metis](https://andromeda-explorer.metis.io/address/0xd91d1331db4F436DaF47Ec9Dd86deCb8EEF946B4/contracts#address-tabs),
