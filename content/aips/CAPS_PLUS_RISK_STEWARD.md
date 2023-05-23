@@ -39,19 +39,19 @@ The proposal execution is simulated [within the tests](https://github.com/bgd-la
 ## Deployed Contracts
 
 - CapsPlusRiskSteward:
-  [arbitrum](https://arbiscan.io/address/0xADf86b537eF08591c2777E144322E8b0Ca7E82a7#code),
-  [avalanche](https://snowtrace.io/address/0xd2c92b5a793e196ab11dbefbe3af6bdded6c3dd5#code),
-  [mainnet](https://etherscan.io/address/0x82dcCF206Ae2Ab46E2099e663F70DeE77caE7778#code),
+  [arbitrum](https://arbiscan.io/address/0xADf86b537eF08591c2777E144322E8b0Ca7E82a7#code#F1#L1),
+  [avalanche](https://snowtrace.io/address/0xd2c92b5a793e196ab11dbefbe3af6bdded6c3dd5#code#F1#L1),
+  [mainnet](https://etherscan.io/address/0x82dcCF206Ae2Ab46E2099e663F70DeE77caE7778#code#F1#L1),
   [metis](https://andromeda-explorer.metis.io/address/0x5f4d15d761528c57a5C30c43c1DAb26Fc5452731/contracts#address-tabs),
-  [optimism](https://optimistic.etherscan.io/address/0x5E76E98E0963EcDC6A065d1435F84065b7523f39),
-  [polygon](https://polygonscan.com/address/0xc5de989E0D1BF605d19478Fdd32Aa827a10b464f#code)
+  [optimism](https://optimistic.etherscan.io/address/0x5E76E98E0963EcDC6A065d1435F84065b7523f39#code#F1#L1),
+  [polygon](https://polygonscan.com/address/0xc5de989E0D1BF605d19478Fdd32Aa827a10b464f#code#F1#L1)
 - Payloads:
   [arbitrum](https://arbiscan.io/address/TBA#code),
-  [avalanche](https://snowtrace.io/address/TBA#code),
+  [avalanche](https://snowtrace.io/address/0x7e1f23bdfc7287af276f77b5a867e85cf0377a31#code#F1#L1),
   [mainnet](https://etherscan.io/address/TBA#code),
   [metis](https://andromeda-explorer.metis.io/address/0xd91d1331db4F436DaF47Ec9Dd86deCb8EEF946B4/contracts#address-tabs),
-  [optimism](https://optimistic.etherscan.io/address/0xA3e44d830440dF5098520F62Ebec285B1198c51E),
-  [polygon](https://polygonscan.com/address/0x4C0633Bf70fB2bB984A9eEC5d9052BdEA451C70A#code)
+  [optimism](https://optimistic.etherscan.io/address/0xA3e44d830440dF5098520F62Ebec285B1198c51E#code#F1#L1),
+  [polygon](https://polygonscan.com/address/0x4C0633Bf70fB2bB984A9eEC5d9052BdEA451C70A#code#F1#L1)
 
 ## References
 
