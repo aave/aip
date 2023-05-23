@@ -8,7 +8,7 @@ created: 2023-05-23
 
 ## Simple Summary
 
-This governance proposal grants the `RISK_ADMIN` role to a `CapsPlusRiskStewards smart contract on each network with an active instance of Aave v3`.
+This governance proposal grants the `RISK_ADMIN` role to a `CapsPlusRiskStewards` smart contract on each network with an active instance of Aave v3.
 Once the `CapsPlusRiskStewards` has received the `RISK_ADMIN` role, the `RISK_COUNCIL` can adjust asset borrow/supply caps upwards without voting overhead. The `RISK_COUNCIL` is a Gnosis Safe controlled by the DAOs risk-providers (Gauntlet, Chaos Labs).
 
 ## Motivation
@@ -19,7 +19,7 @@ As both providers have historically been in agreement with the updates proposed,
 
 Therefore, it seems that the community has important voting overhead in this scenario, which could be almost completely automated and simplified. It is quite common to have a proposal with unanimous support on day 1 of voting but given all other time considerations, execution is 5 days after.
 
-This proposal gives the necessary `RISK_ADMIN` rol to the `CapsPlusRiskSteward` introduced in this [governance forum thread](https://governance.aave.com/t/bgd-risk-steward-phase-1-capsplusrisksteward/12602).
+This proposal gives the necessary `RISK_ADMIN` role to the `CapsPlusRiskSteward` introduced in this [governance forum thread](https://governance.aave.com/t/bgd-risk-steward-phase-1-capsplusrisksteward/12602).
 After execution, the `RISK_COUNCIL` will be able to perform cap increases through the `CapsPlusRiskStewards` under the following conditions for each asset listed:
 
 - the cap can only be adjusted upwards
