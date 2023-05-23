@@ -17,7 +17,7 @@ During the last months, for the broad majority of proposals regarding caps updat
 The rationale of this is pretty clear: caps updates usually simply depend on the “green light” from the risk providers (Gauntlet, Chaos Labs)
 As both providers have historically been in agreement with the updates proposed, the community has just followed that recommendation by supporting on-chain.
 
-Therefore, it seems that the community has important voting overhead in this scenario, which could be almost completely automated and simplified. It is quite common to have a proposal with unanimous support on day 1 of voting but given all other time considerations, execution is 5 days after.
+Therefore, it seems that the community has important voting overhead in this scenario, which could be almost completely automated and simplified. It is quite common to have a proposal with unanimous support on day 1 of voting but given all other time considerations, execution is 3 to 5 days after.
 
 This proposal gives the necessary `RISK_ADMIN` role to the `CapsPlusRiskSteward` introduced in this [governance forum thread](https://governance.aave.com/t/bgd-risk-steward-phase-1-capsplusrisksteward/12602).
 After execution, the `RISK_COUNCIL` will be able to perform cap increases through the `CapsPlusRiskStewards` under the following conditions for each asset listed:
