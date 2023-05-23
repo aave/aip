@@ -32,6 +32,8 @@ This proposal's payload executes `ACL_MANAGER.addRiskAdmin(STEWARD)` where `STEW
 
 ## Security procedures
 
+The `CapsPlusRiskStewards` is [unit tested](https://github.com/bgd-labs/aave-helpers/blob/master/src/test/riskstewards/CapsPlusRiskSteward.t.sol).
+
 The proposal execution is simulated [within the tests](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3RiskSteward_20230404/AaveV3RiskSteward_20230404_Test.t.sol).
 
 ## Deployed Contracts
