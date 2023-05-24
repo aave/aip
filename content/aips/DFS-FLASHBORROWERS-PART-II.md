@@ -45,7 +45,7 @@ contract AaveV3OptDFSFlashBorrowActivation is IProposalGenericExecutor {
 A list of relevant links like for this proposal:
 
 - [forum discussion](https://governance.aave.com/t/arfc-add-defi-saver-to-flashborrowers-on-aave-v3/12410)
-- [tests](https://github.com/bgd-labs/aave-v3-crosschain-listing-template/blob/main/src/aave-proposals/AaveV3ETHDFSFlashBorrowActivation_20230403_test.t.sol)
+- [tests](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3DFSFlashBorrow_20230524/AaveV3ETHDFSFlashBorrowActivation_20230403_test.t.sol)
 - [proposalCode](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3DFSFlashBorrow_20230524/AaveV3DFSFlashBorrow_20230524.sol)
 
 ## Security Considerations
