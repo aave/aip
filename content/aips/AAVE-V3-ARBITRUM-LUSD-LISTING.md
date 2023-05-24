@@ -28,7 +28,7 @@ LUSD is currently listed on the following Aave deployments:
 
 This publication seeks to list LUSD on Aave v3 Arbitrum.
 
-Past publications, which can be found here[here](https://governance.aave.com/t/arc-add-lusd-to-ethereum-v3-market/11522) and [here](https://governance.aave.com/t/arc-add-support-for-lusd-liquity/8443), provide insight and context.
+Past publications, which can be found [here](https://governance.aave.com/t/arc-add-lusd-to-ethereum-v3-market/11522) and [here](https://governance.aave.com/t/arc-add-support-for-lusd-liquity/8443), provide insight and context.
 
 LUSD brings more stable coin diversity to the Aave Protocol and will further empower the support for decentralized stablecoins. The LUSD stable coin mechanism is relatively simple and is in line with the risk averse ethos of the Aave Community.
 
