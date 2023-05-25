@@ -23,7 +23,7 @@ To address this problem and enhance the stability of the Aave platform, we propo
 
 WBTC price feed will use the same [adapter implementatin](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol), but with the `WBTC / BTC / ETH` inside.
 
-cbETH price feed will be swapped for an [special](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CbEthSynchronicityPriceAdapter.sol), which uses on-chain `cbETH / ETH` rate.
+cbETH price feed will be swapped for an [special adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CbEthSynchronicityPriceAdapter.sol), which uses on-chain `cbETH / ETH` rate.
 
 MaticX and stMatic price feeds will be swapped for a [special adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/MaticSynchronicityPriceAdapter.sol), which utilizes on-chain rate.
 
