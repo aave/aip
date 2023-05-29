@@ -1,30 +1,31 @@
 ---
 title: Price feeds operational update
 author: BGD Labs (@bgdlabs)
-shortDescription: Swap price adapters for wbtc and LSTs
+shortDescription: Swap price adapters for wbtc and LSTs, and activation of optimism price oracle sentinel
 discussions: https://governance.aave.com/t/bgd-operational-oracles-update/13213
 created: 2023-05-04
 ---
 
 ## Simple Summary
 
-This proposal changes the following price adapters:
+This proposal changes the following price adapters and price oracle sentinel:
 
 - WBTC on Ethereum v2 to the custom `WBTC / BTC / ETH`
 - wstETH on Optimism and Arbitrum v3 to `wstETH / ETH / USD`
 - MATICX on Polygon v3 to the custom adapter, which uses `MATIC / USD` CL feed and `MATICX / MATIC` on-chain rate
 - stMATIC on Polygon v3 to the custom adapter, which utilizes `MATIC / USD` CL feed and `stMATIC / MATIC` on-chain rate
+- price oracle sentinel is configured for Optimism V3
 
 ## Motivation
 
-The current price feeds for the LSTs can result in artificial volatility due to de-synchronization between different asset/PEG feeds. The same issue applies to the `WBTC` on Aave v2.
-To address this problem and enhance the stability of the Aave platform, we propose to change the price feeds for wstETH to a [custom price adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol) that calculates the `wstETH / ETH / USD` price and is based on Chainlink's feeds under the hood.
+The current price feeds for certain ETH and MATIC LSTs can result in artificial volatility due to de-synchronization between different asset/PEG feeds.
+Additionally, the Aave community already pre-approved pricing `WBTC` on Aave v2 based on a WBTC feed, and not assuming that its price is the one provided by BTC/ETH.
 
-WBTC price feed will use the same [adapter implementatin](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol), but with the `WBTC / BTC / ETH` inside.
+To address this problem and enhance the stability of the Aave platform, we propose to change the price feeds for wstETH on Optimism and Arbitrum to a [custom price adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol) that calculates the `wstETH / ETH / USD` price and is based on Chainlink's feeds under the hood. The same approach is already used for the wstETH on Polygon and WBTC on Aave V3.
+
+WBTC price feed will use the same [adapter implementation](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol), but with the `WBTC / BTC / ETH` inside.
 
 MaticX and stMatic price feeds will be swapped for a [special adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/MaticSynchronicityPriceAdapter.sol), which utilizes on-chain rate.
-
-The same approach is already used for the wstETH on Polygon and WBTC on Aave V3.
 
 As the Chainlink sequencer feed is available for Optimism, it also makes sense to configure the price oracle sentinel for Aave V3 Optimism, so that all L2 Aave V3 markets where the the Chainlink feed is available, are in sync.
 
@@ -49,10 +50,14 @@ Custom price adapters are already widely used in the system for price-correlated
   - 62.06% have between 0.1% and 0.5% difference
   - 2.03% is between 0.5% and 1%
 
+We also additionally double-checked all points of centralisation of MaticX to be sure that no on-chain manipulation of rates is possible.
+
 - **stMatic Historical Feeds Comparison**: Comparing the answers from the current feed with the new one for the last 327 days (since CL feed was deployed) with a 4-hour step gave the following results:
   - 95.39% of results differ for less than 0.1%
   - 4.5% have between 0.1% and 0.5% difference
   - 0.11% is between 0.5% and 1%
+
+All points of centralisation of stMatic were also checked to be sure that on-chain manipulation of rates is impossible.
 
 ## References
 
