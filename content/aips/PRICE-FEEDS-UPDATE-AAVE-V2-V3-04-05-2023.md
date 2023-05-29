@@ -2,7 +2,7 @@
 title: Price feeds operational update
 author: BGD Labs (@bgdlabs)
 shortDescription: Swap price adapters for wbtc and LSTs
-discussions: https://governance.aave.com/t/bgd-generalised-price-sync-adapters/11416
+discussions: https://governance.aave.com/t/bgd-operational-oracles-update/13213
 created: 2023-05-04
 ---
 
@@ -11,7 +11,6 @@ created: 2023-05-04
 This proposal changes the following price adapters:
 
 - WBTC on Ethereum v2 to the custom `WBTC / BTC / ETH`
-- cbETH on Ethereum v3 to the custom adapter, which uses `ETH / USD` feed and `cbETH / ETh` on-chain rate.
 - wstETH on Optimism and Arbitrum v3 to `wstETH / ETH / USD`
 - MATICX on Polygon v3 to the custom adapter, which uses `MATIC / USD` CL feed and `MATICX / MATIC` on-chain rate
 - stMATIC on Polygon v3 to the custom adapter, which utilizes `MATIC / USD` CL feed and `stMATIC / MATIC` on-chain rate
@@ -22,8 +21,6 @@ The current price feeds for the LSTs can result in artificial volatility due to 
 To address this problem and enhance the stability of the Aave platform, we propose to change the price feeds for wstETH to a [custom price adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol) that calculates the `wstETH / ETH / USD` price and is based on Chainlink's feeds under the hood.
 
 WBTC price feed will use the same [adapter implementatin](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CLSynchronicityPriceAdapterPegToBase.sol), but with the `WBTC / BTC / ETH` inside.
-
-cbETH price feed will be swapped for an [special adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/CbEthSynchronicityPriceAdapter.sol), which uses on-chain `cbETH / ETH` rate.
 
 MaticX and stMatic price feeds will be swapped for a [special adapter](https://github.com/bgd-labs/cl-synchronicity-price-adapter/blob/main/src/contracts/MaticSynchronicityPriceAdapter.sol), which utilizes on-chain rate.
 
@@ -37,7 +34,6 @@ Upon execution, the proposal will:
 
 - call `ORACLE.setAssetSources([0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599], [0xFD858c8bC5ac5e10f01018bC78471bb0DC392247])` to replace the price source for `WBTC` on Aave v2
 - call `AaveV3Optimism.POOL_ADDRESSES_PROVIDER.setPriceOracleSentinel(0xB1ba0787Ca0A45f086F8CA03c97E7593636E47D5)` to set the price oracle sentinel on the pool addresses provider
-- use Config Engine to update `cbETH` price feed to [0x7aE2930B50CFEbc99FE6DB16CE5B9C7D8d09332C](https://etherscan.io/address/0x7ae2930b50cfebc99fe6db16ce5b9c7d8d09332c) on Ethereum
 - use Config Engine to update `wstETH` price feed to [0x05225Cd708bCa9253789C1374e4337a019e99D56](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56) on Optimism
 - use Config Engine to update `wstETH` price feed to [0x3105C276558Dd4cf7E7be71d73Be8D33bD18F211](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211) on Arbitrum
 - use Config Engine to update `MATICX` price feed to [0x0e1120524e14Bd7aD96Ea76A1b1dD699913e2a45](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211) on Polygon
@@ -60,11 +56,11 @@ Custom price adapters are already widely used in the system for price-correlated
 
 ## References
 
-Tests: [Ethereum V2](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_PayloadTest.t.sol), [Ethereum V3](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3EthPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Polygon](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3PolPriceFeedsUpdate_20230504_PayloadTest.t.sol)
+Tests: [Ethereum V2](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_PayloadTest.t.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_PayloadTest.t.sol), [Polygon](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3PolPriceFeedsUpdate_20230504_PayloadTest.t.sol)
 
-Proposal payload implementation: [Ethereum V2](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_Payload.sol), [Ethereum V3](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3EthPriceFeedsUpdate_20230504_Payload.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsSentinelUpdate_20230504_Payload.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_Payload.sol), [Polygon](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3PolPriceFeedsUpdate_20230504_Payload.sol)
+Proposal payload implementation: [Ethereum V2](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV2PriceFeedsUpdate_20230504_Payload.sol), [Optimism](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3OptPriceFeedsSentinelUpdate_20230504_Payload.sol), [Arbitrum](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3ArbPriceFeedsUpdate_20230504_Payload.sol), [Polygon](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV2-V3PriceFeedsUpdate_20230504/AaveV3PolPriceFeedsUpdate_20230504_Payload.sol)
 
-Price Adapters: [WBTC](https://etherscan.io/address/0xFD858c8bC5ac5e10f01018bC78471bb0DC392247), [cbETH](https://etherscan.io/address/0x7ae2930b50cfebc99fe6db16ce5b9c7d8d09332c), [wstETH Optimism](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56), [wstETH Arbitrum](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211), [MaticX](https://polygonscan.com/address/0x0e1120524e14bd7ad96ea76a1b1dd699913e2a45), [stMATIC](https://polygonscan.com/address/0xee96b77129cf54581b5a8fecccc50a6a067034a1)
+Price Adapters: [WBTC](https://etherscan.io/address/0xFD858c8bC5ac5e10f01018bC78471bb0DC392247), [wstETH Optimism](https://optimistic.etherscan.io/address/0x05225cd708bca9253789c1374e4337a019e99d56), [wstETH Arbitrum](https://arbiscan.io/address/0x3105c276558dd4cf7e7be71d73be8d33bd18f211), [MaticX](https://polygonscan.com/address/0x0e1120524e14bd7ad96ea76a1b1dd699913e2a45), [stMATIC](https://polygonscan.com/address/0xee96b77129cf54581b5a8fecccc50a6a067034a1)
 
 ## Copyright
 
