@@ -34,7 +34,7 @@ Contract Address: [`arbitrum: 0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8`](https
 
 Chainlink Oracle rETH/ETH [`0xF3272CAfe65b190e76caAF483db13424a3e23dD2`](https://arbiscan.io/address/0x0411D28c94d85A36bC72Cb0f875dfA8371D8fFfF)
 
-Newly deployed Oracle rETH/ETH/USD [`0x853844459106feefd8C7C4cC34066bFBC0531722`](https://arbiscan.com/address/0x853844459106feefd8C7C4cC34066bFBC0531722)
+Newly deployed Oracle rETH/ETH/USD [`0x853844459106feefd8C7C4cC34066bFBC0531722`](https://arbiscan.io/address/0x853844459106feefd8C7C4cC34066bFBC0531722)
 
 
 |Parameter|Value|
