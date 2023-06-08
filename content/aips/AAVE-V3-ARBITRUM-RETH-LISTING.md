@@ -72,7 +72,7 @@ A list of relevant links like for this proposal:
 * [Test Cases](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3Listings_20230524/AaveV3ArbListings_20230524_PayloadTest.t.sol)
 * [Payload Implementation](https://github.com/bgd-labs/aave-proposals/blob/main/src/AaveV3Listings_20230524/AaveV3ArbListings_20230524_Payload.sol)
 
-Chaos Labs and Gauntlet both contributed to the developming the risk parameters presented above. 
+Chaos Labs and Gauntlet both contributed to the development of the risk parameters presented above. 
 
 The proposal Payload was reviewed by [Bored Ghost Developing](https://bgdlabs.com/).
 
